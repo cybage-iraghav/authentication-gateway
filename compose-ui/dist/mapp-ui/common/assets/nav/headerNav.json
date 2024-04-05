@@ -1,0 +1,171 @@
+{
+  "brand": [
+    {
+      "title": "Mapp",
+      "href": "/start.jsp${sessionToken}",
+      "appName": "Engage",
+      "brandClass": "mapp"
+    }
+  ],
+  "topNav": [
+    {
+      "type": "search",
+      "href": "/search/entity/entity_search_result.jsp${sessionToken}?srch_expr="
+    },
+    {
+      "type": "notification"
+    },
+    {
+      "type": "appSwitcher",
+      "menu": [
+        {
+          "id": "tn-appswitcher-dmp",
+          "name": "Acquire (DMP)",
+          "href": "/dmp/?token=${sbAuthToken}"
+        },
+        {
+          "id": "tn-appswitcher-social",
+          "name": "Engage (Social)",
+          "href": "/social/${sessionToken}"
+        }
+      ]
+    },
+    {
+      "type": "help",
+      "menu": [
+        {
+          "id": "tn-help-onlinehelp",
+          "name": "Help",
+          "href": "http://help.mapp.com/Help.en_GB/Help_CSH.htm",
+          "blank": true
+        },
+        {
+          "id": "tn-help-supportlink",
+          "name": "Support",
+          "href": "https://mapp.service-now.com/csm",
+          "blank": true
+        },
+        {
+          "id": "tn-help-story",
+          "name": "Our Story",
+          "href": "${storyLink}",
+          "blank": true
+        },
+        {
+          "id": "tn-help-service",
+          "name": "Our Services",
+          "href": "${serviceLink}",
+          "blank": true
+        },
+        {
+          "id": "tn-help-blog",
+          "name": "Blog",
+          "href": "https://mapp.com/blog/?ICID=CEP_footer&utm_medium=product&utm_source=CEP_footer",
+          "blank": true
+        },
+        {
+          "id": "tn-help-developerapi",
+          "name": "Developer API",
+          "href": "http://developers.mapp.com/",
+          "blank": true
+        },
+        {
+          "id": "tn-help-about",
+          "name": "About",
+          "href": "/assets/about-cep.html",
+          "modal": {
+            "title": "about-modal-title",
+            "class": "modal-m"
+          }
+        }
+      ]
+    },
+    {
+      "type": "langSwitcher",
+      "name": "EN",
+      "locale": "",
+      "menu": [
+        {
+          "id": "tn-langswitcher-en-gb",
+          "name": "GB - English",
+          "href": "/start.jsp${sessionToken}?locale=en_GB&action=saveUISettings&uisettings_key=ui.language&uisettings_value=en_GB",
+          "locale": "en-GB"
+        },
+        {
+          "id": "tn-langswitcher-en-us",
+          "name": "US - English",
+          "href": "/start.jsp${sessionToken}?locale=en_US&action=saveUISettings&uisettings_key=ui.language&uisettings_value=en_US",
+          "locale": "en-US"
+        },
+        {
+          "id": "tn-langswitcher-de",
+          "name": "DE - German",
+          "href": "/start.jsp${sessionToken}?locale=de&action=saveUISettings&uisettings_key=ui.language&uisettings_value=de",
+          "locale": "de-DE"
+        },
+        {
+          "id": "tn-langswitcher-fr",
+          "name": "FR - French",
+          "href": "/start.jsp${sessionToken}?locale=fr&action=saveUISettings&uisettings_key=ui.language&uisettings_value=fr",
+          "locale": "fr-FR"
+        },
+        {
+          "id": "tn-langswitcher-it",
+          "name": "IT - Italian",
+          "href": "/start.jsp${sessionToken}?locale=it&action=saveUISettings&uisettings_key=ui.language&uisettings_value=it",
+          "locale": "it-IT"
+        },
+        {
+          "id": "tn-langswitcher-es",
+          "name": "ES - Spanish",
+          "href": "/start.jsp${sessionToken}?locale=es&action=saveUISettings&uisettings_key=ui.language&uisettings_value=es",
+          "locale": "es-ES"
+        }
+      ]
+    },
+    {
+      "type": "sessionTimer",
+      "timeout": 1800000,
+      "keepAlive": true,
+      "idleMode": false,
+      "href": "/assets/nav/session-refresh.json",
+      "expiredHref": "/home/login.jsp?action=logout"
+    },
+    {
+      "type": "user",
+      "userName": "",
+      "menu": [
+        {
+          "id": "tn-usermenu-editprofile",
+          "name": "Edit Profile",
+          "href": "/admin/user_mgmt/save.jsp${sessionToken}?systemUser.PK=${uid}&globalEdit=true",
+          "modal": {
+            "title": "editprofile-modal-title",
+            "class": "modal-xl",
+            "iframe": true
+          }
+        },
+        {
+          "id": "tn-usermenu-newpassword",
+          "name": "Change Password",
+          "href": "/admin/user_mgmt/set_password.jsp${sessionToken}?suid=${uid}&globalEdit=true",
+          "modal": {
+            "title": "change-password-modal-title",
+            "class": "modal-mdl",
+            "iframe": true
+          }
+        },
+        {
+          "id": "tn-usermenu-supportlink",
+          "name": "Support",
+          "href": "${supportLink}"
+        },
+        {
+          "id": "tn-usermenu-logout",
+          "name": "Logout",
+          "href": "/home/login.jsp${sessionToken}?action=logout"
+        }
+      ]
+    }
+  ]
+}

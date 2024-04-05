@@ -1,0 +1,39 @@
+import { ChangeDetectionStrategy, Component, HostBinding, Input, ViewChild, ViewEncapsulation } from '@angular/core';
+import * as i0 from "@angular/core";
+import * as i1 from "@angular/material/tooltip";
+/** Component for showing additional contextual info like errors or warnings adjacent to a mui-form-field. */
+export class MuiFormFieldInfoComponent {
+    constructor() {
+        this.hostClassNames = ['mui-form-field-info'];
+        /** Defines the type of the info element. Defaults to error. */
+        this.type = 'error';
+        /** Defines how the info text is displayed. Either inline, next to the icon (default) or as tooltip */
+        this.display = 'inline';
+        this.tooltipMessage = '';
+    }
+    ngOnInit() {
+        const infoTypeClass = 'mui-state-' + this.type;
+        this.hostClassNames = [
+            ...this.hostClassNames,
+            infoTypeClass
+        ];
+        this.tooltipMessage = this.textContent.nativeElement.textContent ?? '';
+    }
+}
+MuiFormFieldInfoComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: MuiFormFieldInfoComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+MuiFormFieldInfoComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.10", type: MuiFormFieldInfoComponent, selector: "mui-form-field-info", inputs: { type: "type", display: "display" }, host: { properties: { "class": "this.hostClassNames" } }, viewQueries: [{ propertyName: "textContent", first: true, predicate: ["content"], descendants: true, static: true }], exportAs: ["muiFormFieldInfo"], ngImport: i0, template: "<span class=\"mui-icons mui-form-field-info-{{ type }}\"\r\n    [matTooltip]=\"tooltipMessage\"\r\n    [matTooltipDisabled]=\"display === 'inline'\"\r\n    matTooltipClass=\"mui-form-field-info-tooltip\"\r\n    matTooltipHideDelay=\"3000\"\r\n>{{ type }}</span>\r\n<span #content\r\n    [hidden]=\"display === 'tooltip'\"\r\n    class=\"mui-form-field-info-message\"\r\n><ng-content></ng-content></span>\r\n\r\n", styles: [".mui-form-field-info-wrapper{display:inline-flex;position:relative;align-items:center;gap:8px}.mui-form-field-info .mui-icons{-webkit-user-select:none;user-select:none}\n"], dependencies: [{ kind: "directive", type: i1.MatTooltip, selector: "[matTooltip]", exportAs: ["matTooltip"] }], changeDetection: i0.ChangeDetectionStrategy.OnPush, encapsulation: i0.ViewEncapsulation.None });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: MuiFormFieldInfoComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'mui-form-field-info', exportAs: 'muiFormFieldInfo', changeDetection: ChangeDetectionStrategy.OnPush, encapsulation: ViewEncapsulation.None, template: "<span class=\"mui-icons mui-form-field-info-{{ type }}\"\r\n    [matTooltip]=\"tooltipMessage\"\r\n    [matTooltipDisabled]=\"display === 'inline'\"\r\n    matTooltipClass=\"mui-form-field-info-tooltip\"\r\n    matTooltipHideDelay=\"3000\"\r\n>{{ type }}</span>\r\n<span #content\r\n    [hidden]=\"display === 'tooltip'\"\r\n    class=\"mui-form-field-info-message\"\r\n><ng-content></ng-content></span>\r\n\r\n", styles: [".mui-form-field-info-wrapper{display:inline-flex;position:relative;align-items:center;gap:8px}.mui-form-field-info .mui-icons{-webkit-user-select:none;user-select:none}\n"] }]
+        }], propDecorators: { hostClassNames: [{
+                type: HostBinding,
+                args: ['class']
+            }], type: [{
+                type: Input
+            }], display: [{
+                type: Input
+            }], textContent: [{
+                type: ViewChild,
+                args: ['content', { static: true }]
+            }] } });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibXVpLWZvcm0tZmllbGQtaW5mby5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9tYXBwLXVpL3VuaWZ5L3NyYy9saWIvZm9ybS1maWVsZC9mb3JtLWZpZWxkLWluZm8vbXVpLWZvcm0tZmllbGQtaW5mby5jb21wb25lbnQudHMiLCIuLi8uLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9tYXBwLXVpL3VuaWZ5L3NyYy9saWIvZm9ybS1maWVsZC9mb3JtLWZpZWxkLWluZm8vbXVpLWZvcm0tZmllbGQtaW5mby5jb21wb25lbnQuaHRtbCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQ0wsdUJBQXVCLEVBQ3ZCLFNBQVMsRUFFVCxXQUFXLEVBQ1gsS0FBSyxFQUVMLFNBQVMsRUFDVCxpQkFBaUIsRUFDbEIsTUFBTSxlQUFlLENBQUM7OztBQUV2Qiw2R0FBNkc7QUFTN0csTUFBTSxPQUFPLHlCQUF5QjtJQVJ0QztRQVN3QixtQkFBYyxHQUFHLENBQUMscUJBQXFCLENBQUMsQ0FBQztRQUUvRCwrREFBK0Q7UUFFL0QsU0FBSSxHQUE2QyxPQUFPLENBQUM7UUFFekQsc0dBQXNHO1FBRXRHLFlBQU8sR0FBeUIsUUFBUSxDQUFDO1FBS3pDLG1CQUFjLEdBQUcsRUFBRSxDQUFDO0tBV3JCO0lBVEMsUUFBUTtRQUNOLE1BQU0sYUFBYSxHQUFHLFlBQVksR0FBRyxJQUFJLENBQUMsSUFBSSxDQUFDO1FBQy9DLElBQUksQ0FBQyxjQUFjLEdBQUc7WUFDcEIsR0FBRyxJQUFJLENBQUMsY0FBYztZQUN0QixhQUFhO1NBQ2QsQ0FBQTtRQUNELElBQUksQ0FBQyxjQUFjLEdBQUcsSUFBSSxDQUFDLFdBQVcsQ0FBQyxhQUFhLENBQUMsV0FBVyxJQUFJLEVBQUUsQ0FBQztJQUN6RSxDQUFDOzt1SEF2QlUseUJBQXlCOzJHQUF6Qix5QkFBeUIseVRDcEJ0Qyw2WkFXQTs0RkRTYSx5QkFBeUI7a0JBUnJDLFNBQVM7K0JBQ0UscUJBQXFCLFlBQ3JCLGtCQUFrQixtQkFHWCx1QkFBdUIsQ0FBQyxNQUFNLGlCQUNoQyxpQkFBaUIsQ0FBQyxJQUFJOzhCQUdmLGNBQWM7c0JBQW5DLFdBQVc7dUJBQUMsT0FBTztnQkFJcEIsSUFBSTtzQkFESCxLQUFLO2dCQUtOLE9BQU87c0JBRE4sS0FBSztnQkFJTixXQUFXO3NCQURWLFNBQVM7dUJBQUMsU0FBUyxFQUFFLEVBQUUsTUFBTSxFQUFFLElBQUksRUFBRSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7XHJcbiAgQ2hhbmdlRGV0ZWN0aW9uU3RyYXRlZ3ksXHJcbiAgQ29tcG9uZW50LFxyXG4gIEVsZW1lbnRSZWYsXHJcbiAgSG9zdEJpbmRpbmcsXHJcbiAgSW5wdXQsXHJcbiAgT25Jbml0LFxyXG4gIFZpZXdDaGlsZCxcclxuICBWaWV3RW5jYXBzdWxhdGlvblxyXG59IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xyXG5cclxuLyoqIENvbXBvbmVudCBmb3Igc2hvd2luZyBhZGRpdGlvbmFsIGNvbnRleHR1YWwgaW5mbyBsaWtlIGVycm9ycyBvciB3YXJuaW5ncyBhZGphY2VudCB0byBhIG11aS1mb3JtLWZpZWxkLiAqL1xyXG5AQ29tcG9uZW50KHtcclxuICBzZWxlY3RvcjogJ211aS1mb3JtLWZpZWxkLWluZm8nLFxyXG4gIGV4cG9ydEFzOiAnbXVpRm9ybUZpZWxkSW5mbycsXHJcbiAgdGVtcGxhdGVVcmw6ICcuL211aS1mb3JtLWZpZWxkLWluZm8uY29tcG9uZW50Lmh0bWwnLFxyXG4gIHN0eWxlVXJsczogWycuL211aS1mb3JtLWZpZWxkLWluZm8uY29tcG9uZW50LnNjc3MnXSxcclxuICBjaGFuZ2VEZXRlY3Rpb246IENoYW5nZURldGVjdGlvblN0cmF0ZWd5Lk9uUHVzaCxcclxuICBlbmNhcHN1bGF0aW9uOiBWaWV3RW5jYXBzdWxhdGlvbi5Ob25lXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBNdWlGb3JtRmllbGRJbmZvQ29tcG9uZW50IGltcGxlbWVudHMgT25Jbml0IHtcclxuICBASG9zdEJpbmRpbmcoJ2NsYXNzJykgaG9zdENsYXNzTmFtZXMgPSBbJ211aS1mb3JtLWZpZWxkLWluZm8nXTtcclxuXHJcbiAgLyoqIERlZmluZXMgdGhlIHR5cGUgb2YgdGhlIGluZm8gZWxlbWVudC4gRGVmYXVsdHMgdG8gZXJyb3IuICovXHJcbiAgQElucHV0KClcclxuICB0eXBlOiAnaW5mbycgfCAnd2FybmluZycgfCAnZXJyb3InIHwgJ3N1Y2Nlc3MnID0gJ2Vycm9yJztcclxuXHJcbiAgLyoqIERlZmluZXMgaG93IHRoZSBpbmZvIHRleHQgaXMgZGlzcGxheWVkLiBFaXRoZXIgaW5saW5lLCBuZXh0IHRvIHRoZSBpY29uIChkZWZhdWx0KSBvciBhcyB0b29sdGlwICovXHJcbiAgQElucHV0KClcclxuICBkaXNwbGF5OiAnaW5saW5lJyB8ICd0b29sdGlwJyA9ICdpbmxpbmUnO1xyXG5cclxuICBAVmlld0NoaWxkKCdjb250ZW50JywgeyBzdGF0aWM6IHRydWUgfSlcclxuICB0ZXh0Q29udGVudDogRWxlbWVudFJlZjxIVE1MRWxlbWVudD47XHJcblxyXG4gIHRvb2x0aXBNZXNzYWdlID0gJyc7XHJcblxyXG4gIG5nT25Jbml0KCk6IHZvaWQge1xyXG4gICAgY29uc3QgaW5mb1R5cGVDbGFzcyA9ICdtdWktc3RhdGUtJyArIHRoaXMudHlwZTtcclxuICAgIHRoaXMuaG9zdENsYXNzTmFtZXMgPSBbXHJcbiAgICAgIC4uLnRoaXMuaG9zdENsYXNzTmFtZXMsXHJcbiAgICAgIGluZm9UeXBlQ2xhc3NcclxuICAgIF1cclxuICAgIHRoaXMudG9vbHRpcE1lc3NhZ2UgPSB0aGlzLnRleHRDb250ZW50Lm5hdGl2ZUVsZW1lbnQudGV4dENvbnRlbnQgPz8gJyc7XHJcbiAgfVxyXG5cclxufVxyXG4iLCI8c3BhbiBjbGFzcz1cIm11aS1pY29ucyBtdWktZm9ybS1maWVsZC1pbmZvLXt7IHR5cGUgfX1cIlxyXG4gICAgW21hdFRvb2x0aXBdPVwidG9vbHRpcE1lc3NhZ2VcIlxyXG4gICAgW21hdFRvb2x0aXBEaXNhYmxlZF09XCJkaXNwbGF5ID09PSAnaW5saW5lJ1wiXHJcbiAgICBtYXRUb29sdGlwQ2xhc3M9XCJtdWktZm9ybS1maWVsZC1pbmZvLXRvb2x0aXBcIlxyXG4gICAgbWF0VG9vbHRpcEhpZGVEZWxheT1cIjMwMDBcIlxyXG4+e3sgdHlwZSB9fTwvc3Bhbj5cclxuPHNwYW4gI2NvbnRlbnRcclxuICAgIFtoaWRkZW5dPVwiZGlzcGxheSA9PT0gJ3Rvb2x0aXAnXCJcclxuICAgIGNsYXNzPVwibXVpLWZvcm0tZmllbGQtaW5mby1tZXNzYWdlXCJcclxuPjxuZy1jb250ZW50PjwvbmctY29udGVudD48L3NwYW4+XHJcblxyXG4iXX0=

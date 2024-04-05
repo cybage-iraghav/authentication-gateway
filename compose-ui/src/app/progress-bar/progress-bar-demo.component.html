@@ -1,0 +1,70 @@
+<form [formGroup]="form"
+    class="mui-progress-bar-form">
+  <mui-progress-bar stepperTitle="Title">
+    <mui-progress-step [stepControl]="step1Form"
+        label="Step 1">
+
+      <app-step1></app-step1>
+      <mui-step-actions>
+        <button color="primary"
+            mat-stroked-button
+            type="button"
+        >Cancel
+        </button>
+        <button color="primary"
+            mat-flat-button
+            type="button">Save as Draft
+        </button>
+
+        <button color="primary"
+            mat-flat-button
+            muiNextStep
+            type="button">Next Step
+        </button>
+      </mui-step-actions>
+
+    </mui-progress-step>
+    <mui-progress-step [stepControl]="step2Form"
+        label="Step 2">
+      <app-step2></app-step2>
+      <mui-step-actions>
+        <button color="primary"
+            mat-stroked-button
+            type="button"
+        >Cancel
+        </button>
+        <button color="primary"
+            mat-flat-button
+            type="button">Save as Draft
+        </button>
+        <button color="primary"
+            mat-flat-button
+            muiNextStep
+            type="button">Next Step
+        </button>
+
+      </mui-step-actions>
+
+    </mui-progress-step>
+    <mui-progress-step label="Step 3">
+      That's it!
+      <mui-step-actions>
+        <button color="primary"
+            mat-stroked-button
+            type="button"
+        >Cancel
+        </button>
+        <button color="primary"
+            mat-flat-button
+            type="button">Save as Draft
+        </button>
+
+        <button color="primary"
+            mat-flat-button
+            type="button">Activate
+        </button>
+      </mui-step-actions>
+
+    </mui-progress-step>
+  </mui-progress-bar>
+</form>

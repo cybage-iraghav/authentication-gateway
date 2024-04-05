@@ -1,0 +1,206 @@
+@use "sass:map";
+@use "sass:string";
+@use "@angular/material" as mat;
+@use "../core/theming/unify-colors" as c;
+
+@mixin mui-notifications-theme($mui-theme, $mat-theme, $legacy: false) {
+  $colors: map.get($mui-theme, "colors");
+  $mat-colors: mat.get-color-config($mat-theme);
+  $foreground: map.get($mat-colors, "foreground");
+  $primary: map.get($mat-colors, "primary");
+  $primary-text: mat.get-color-from-palette($primary, 800);
+  $secondary-text: map.get(c.$on_surface, "medium-emphasis");
+  @if $legacy {
+    $primary-text: mat.get-color-from-palette($foreground, "text");
+    $secondary-text: mat.get-color-from-palette($foreground, "secondary-text");
+
+  }
+
+  .mui-notification-center {
+
+    .mui-nc-panel-header {
+      @if $legacy {
+        background-color: #30333e;
+      } @else {
+        background-color: mat.get-color-from-palette($primary, 500);
+      }
+    }
+
+    .mui-nc-panel-title {
+      color: #fff;
+      @if $legacy {
+        line-height: 2.8em;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 13px;
+      } @else {
+        line-height: 32px;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: string.unquote(map-get($mui-theme, "font-family"));
+        letter-spacing: 0.02px;
+      }
+    }
+
+    .mui-nc-panel-actions {
+      border-top: 1px solid map.get($colors, "other", "border-main");
+      background-color: white;
+    }
+
+    .mui-notification-tabs {
+      // TODO consider moving the next rule to general tab styles
+      .mat-mdc-tab-header {
+        padding: 0 8px;
+      }
+
+      .mat-mdc-tab-body-wrapper {
+        height: calc(100% - 49px); //make tab body cover full remaining height. 49 px is height of tab header bar
+      }
+    }
+
+    /* Alerts */
+    .mui-nc-panel-body {
+      font-size: 14px;
+    }
+
+    /* Message */
+    .mui-message-container {
+      border-bottom: 1px solid map.get($colors, "other", "border-main");
+      background-color: #fff;
+    }
+
+    .mui-message-actions {
+      a {
+        color: mat.get-color-from-palette($primary, 500);
+        text-decoration: underline;
+
+        &:hover {
+          color: mat.get-color-from-palette($primary, 400);
+        }
+      }
+    }
+
+    .mui-title {
+      @if $legacy {
+        color: $primary-text;
+      } @else {
+        color: mat.get-color-from-palette($primary, 600);
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+    }
+
+    .mui-title-time {
+      @if $legacy {
+        color: $secondary-text;
+        line-height: 20px;
+        font-size: 12px;
+      } @else {
+        color: $secondary-text;
+        font-size: 14px;
+      }
+    }
+
+    .mui-message {
+      color: $primary-text;
+
+      // override styles for messages with html content enabled (some Engage errors)
+      .htmlcontent p {
+        margin: 0 0 10px 0;
+
+        em {
+          font-style: normal;
+        }
+      }
+    }
+
+    .mui-expand {
+      @if $legacy {
+        font-size: 18px;
+        color: $primary-text;
+      } @else {
+        color: mat.get-color-from-palette($primary, 500);
+      }
+
+    }
+
+    .mui-timestamp {
+      @if $legacy {
+        font-size: 12px;
+        color: $secondary-text;
+      } @else {
+        font-size: 14px;
+        color: $secondary-text;
+      }
+    }
+
+
+    /* Sticky messages */
+    .sticky-countdown {
+      color: map.get($colors, "info", "warning");
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+  }
+
+  .mui-snackbar-notification-container {
+    font-family: string.unquote(map-get($mui-theme, "font-family"));
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  /* Icons */
+  .mui-notification-center,
+  .mui-snackbar-notification-container {
+    .mui-message-icon.warning::before,
+    .sticky-message-icon.warning::before {
+      color: map.get($colors, "info", "warning");
+      content: get-icon-code("warning", $legacy);
+    }
+
+    .mui-message-icon.error::before {
+      color: map.get($colors, "info", "error");
+      content: get-icon-code("error", $legacy);
+    }
+
+    .mui-message-icon.info::before {
+      color: map.get($colors, "info", "info");
+      content: get-icon-code("info", $legacy);
+    }
+
+    .mui-message-icon.success::before {
+      color: map.get($colors, "info", "success");
+      content: get-icon-code("success", $legacy);
+    }
+
+    .mui-message-container .mui-message-icon:hover::before {
+      color: $primary-text;
+      content: get-icon-code("close", $legacy);
+    }
+
+  }
+}
+
+@function get-icon-code($iconType, $is_legacy) {
+  $legacy-icons: (
+      "warning": "warning",
+      "error": "error_outline",
+      "info": "info",
+      "success": "check",
+      "close": "close"
+  );
+  $unify-icons: (
+      "warning": "warning",
+      "error": "error",
+      "info": "info",
+      "success": "success",
+      "close": "close"
+  );
+  @if ($is_legacy) {
+    @return map.get($legacy-icons, $iconType);
+  } @else {
+    @return map.get($unify-icons, $iconType);
+  }
+}

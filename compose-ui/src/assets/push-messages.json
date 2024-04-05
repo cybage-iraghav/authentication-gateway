@@ -1,0 +1,305 @@
+[
+  {
+    "tenantId": 1,
+    "id": 3,
+    "name": "msg 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
+    "owner": {
+      "id": 1,
+      "firstName": "Amaster",
+      "lastName": "Badmin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:24:46.546Z",
+    "type": "Push",
+    "appId": "3121",
+    "appName": "App Test Lorem Ipsum is simply dummy text of the printing  sadsasdas sdfsfsdf",
+    "status": "DELIVERY",
+    "selectionPlanId": 1,
+    "selectionPlanName": "name 0",
+    "sendoutsCount": 1,
+    "archived": false,
+    "processInfo": {
+      "entityId": 1,
+      "activityType": "PUSH_SENDOUT",
+      "startDate": "2018-07-26T07:24:46.546Z",
+      "endDate": "2018-07-26T07:24:46.546Z",
+      "progress": 55,
+      "estimatedFinish": 1564649297318
+    }
+  },
+  {
+    "tenantId": 1,
+    "id": 4,
+    "name": "msg 23 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
+    "owner": {
+      "id": 1,
+      "firstName": "MasterMaster Master Master",
+      "lastName": "AdminAdmin Admin AdminAdmin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:33:39.024Z",
+    "type": "Push",
+    "appId": "",
+    "appName": "Lorem Ipsum is simply dummy text of the printing and tsdfsdfdf asdfdfg",
+    "status": "ACTIVE",
+    "selectionPlanId": "",
+    "messageTemplateId": 7,
+    "selectionPlanName": "name1name1 name1name1 name1name1 name1name1 name1",
+    "sendoutsCount": 0,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 5,
+    "name": "test 11 - Lorem Ipsum is simply dummy text of the printing dsffsffsdf",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "CANCELED",
+    "selectionPlanId": "",
+    "messageTemplateId": 8,
+    "sendoutsCount": 0,
+    "archived": false,
+    "processInfo": {
+      "entityId": 2,
+      "activityType": "PUSH_SENDOUT",
+      "startDate": "2018-07-26T07:24:46.546Z",
+      "endDate": "2018-07-26T07:24:46.546Z",
+      "progress": 0,
+      "estimatedFinish": 1564649297318
+    }
+  },
+  {
+    "tenantId": 1,
+    "id": 6,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "DELIVERY",
+    "selectionPlanId": "",
+    "messageTemplateId": 8,
+    "selectionPlanName": "name 3",
+    "sendoutsCount": 1,
+    "archived": false,
+    "processInfo": {
+      "entityId": 3,
+      "activityType": "PUSH_SENDOUT",
+      "startDate": "2018-07-26T07:24:46.546Z",
+      "endDate": "2018-07-26T07:24:46.546Z",
+      "progress": 75,
+      "estimatedFinish": 1564649297318
+    }
+  },
+  {
+    "tenantId": 1,
+    "id": 7,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "DRAFT",
+    "selectionPlanId": "",
+    "messageTemplateId": 8,
+    "selectionPlanName": "name 4",
+    "sendoutsCount": 0,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 8,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "PAUSED",
+    "selectionPlanId": "",
+    "messageTemplateId": 8,
+    "selectionPlanName": "name 6",
+    "sendoutsCount": 0,
+    "archived": false,
+    "processInfo": {
+      "entityId": 4,
+      "activityType": "PUSH_SENDOUT",
+      "startDate": "2018-07-26T07:24:46.546Z",
+      "endDate": "2018-07-26T07:24:46.546Z",
+      "progress": 20,
+      "estimatedFinish": 1564649297318
+    }
+  },
+  {
+    "tenantId": 1,
+    "id": 9,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "ACTIVE",
+    "selectionPlanId": "",
+    "messageTemplateId": 8,
+    "selectionPlanName": "name 7",
+    "sendoutsCount": 23,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 10,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "SCHEDULED",
+    "selectionPlanId": "",
+    "selectionPlanName": "name 9",
+    "messageTemplateId": 8,
+    "sendoutsCount": 0,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 11,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-07-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "SCHEDULED",
+    "selectionPlanId": "",
+    "selectionPlanName": "name 8",
+    "messageTemplateId": 8,
+    "sendoutsCount": 0,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 12,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-06-23T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "SCHEDULED",
+    "selectionPlanId": "",
+    "selectionPlanName": "name 8",
+    "messageTemplateId": 8,
+    "sendoutsCount": 0,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 13,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-06-24T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "SCHEDULED",
+    "selectionPlanId": "",
+    "selectionPlanName": "name 8",
+    "messageTemplateId": 8,
+    "sendoutsCount": 0,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 14,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-06-20T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "DELIVERY",
+    "selectionPlanId": "",
+    "selectionPlanName": "name 8",
+    "messageTemplateId": 8,
+    "sendoutsCount": 0,
+    "archived": false
+  },
+  {
+    "tenantId": 1,
+    "id": 15,
+    "name": "test 11",
+    "owner": {
+      "id": 1,
+      "firstName": "Master",
+      "lastName": "Admin",
+      "email": "master@engmail.muc.ecircle.de"
+    },
+    "lastModified": "2018-05-26T07:37:10.256Z",
+    "type": "Push",
+    "appId": "1251",
+    "appName": "Demo App",
+    "status": "SCHEDULED",
+    "selectionPlanId": "",
+    "selectionPlanName": "name 8",
+    "messageTemplateId": 8,
+    "sendoutsCount": 0,
+    "archived": false
+  }
+]

@@ -1,0 +1,14 @@
+<!-- <div *ngIf="!isAuthenticated">
+  <p>Redirecting...</p>
+</div> -->
+<!--<div *ngIf="isAuthenticated">-->
+<div>
+<header class="mui-header-container" *ngIf="isAuthenticated">
+  <mui-top-navigation [apiUrl]="topNavUrl"></mui-top-navigation>
+
+  <!-- <mui-notification-center #nc></mui-notification-center> -->
+</header>
+<main class="mui-main-app-outlet">
+  <router-outlet></router-outlet>
+</main>
+</div>

@@ -1,0 +1,51 @@
+.mui-dialog {
+
+  display: block;
+  position: relative;
+
+  .mui-dialog-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 2;
+  }
+
+  .dialog-title-icon-centered {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .mat-mdc-dialog-content {
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .dialog-content-centered {
+    text-align: center;
+  }
+
+  .mat-mdc-dialog-actions {
+    padding: 4px 0 24px 0;
+
+    button:nth-child(n+2) {
+      margin-left: 24px;
+    }
+  }
+
+}
+
+.mui-dialog-small {
+  width: 432px;
+}
+.mui-dialog-medium {
+  width: 800px;
+}
+.mui-dialog-large {
+  width: 1112px;
+}
+
+

@@ -1,0 +1,5021 @@
+{
+  "timezones": [
+    {
+      "name": "Europe/Berlin",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Europe/Berlin",
+      "id": "Europe/Berlin",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "id": "Europe/London",
+      "timezone_offset": "+01:00",
+      "timezone_name": "Greenwich Zeit",
+      "timezone": "Europe/London",
+      "name": "Europe/London"
+    },
+    {
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Europe/Paris",
+      "timezone": "Europe/Paris",
+      "name": "Europe/Paris",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "name": "Europe/Rome",
+      "timezone_raw_offset": "+01:00",
+      "id": "Europe/Rome",
+      "timezone": "Europe/Rome",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone": "CET",
+      "timezone_offset": "+02:00",
+      "name": "CET",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_raw_offset": "+01:00",
+      "id": "CET"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "id": "Etc/UTC",
+      "timezone_name": "Koordinierte Universalzeit",
+      "name": "Etc/UTC",
+      "timezone": "Etc/UTC",
+      "timezone_offset": "+00:00"
+    },
+    {
+      "name": "Europe/Vienna",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Europe/Vienna",
+      "timezone": "Europe/Vienna",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit (Northern Territory)",
+      "name": "ACT",
+      "timezone_raw_offset": "+09:30",
+      "timezone_offset": "+09:30",
+      "id": "ACT",
+      "timezone": "ACT"
+    },
+    {
+      "timezone": "AET",
+      "timezone_raw_offset": "+10:00",
+      "timezone_name": "Östliche Normalzeit (New South Wales)",
+      "name": "AET",
+      "timezone_offset": "+10:00",
+      "id": "AET"
+    },
+    {
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00",
+      "name": "Africa/Abidjan",
+      "timezone": "Africa/Abidjan",
+      "timezone_offset": "+00:00",
+      "id": "Africa/Abidjan"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Africa/Accra",
+      "id": "Africa/Accra",
+      "timezone_name": "Ghanaische Normalzeit",
+      "timezone_offset": "+00:00",
+      "name": "Africa/Accra"
+    },
+    {
+      "name": "Africa/Addis_Ababa",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone_raw_offset": "+03:00",
+      "timezone": "Africa/Addis_Ababa",
+      "timezone_offset": "+03:00",
+      "id": "Africa/Addis_Ababa"
+    },
+    {
+      "timezone_name": "Mitteleuropäische Zeit",
+      "name": "Africa/Algiers",
+      "timezone": "Africa/Algiers",
+      "id": "Africa/Algiers",
+      "timezone_raw_offset": "+01:00",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "name": "Africa/Asmara",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone_raw_offset": "+03:00",
+      "id": "Africa/Asmara",
+      "timezone": "Africa/Asmara",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "timezone_raw_offset": "+03:00",
+      "id": "Africa/Asmera",
+      "name": "Africa/Asmera",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone": "Africa/Asmera"
+    },
+    {
+      "timezone_name": "Greenwich Zeit",
+      "timezone": "Africa/Bamako",
+      "timezone_raw_offset": "+00:00",
+      "timezone_offset": "+00:00",
+      "name": "Africa/Bamako",
+      "id": "Africa/Bamako"
+    },
+    {
+      "timezone_raw_offset": "+01:00",
+      "name": "Africa/Bangui",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_offset": "+01:00",
+      "timezone": "Africa/Bangui",
+      "id": "Africa/Bangui"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "id": "Africa/Banjul",
+      "timezone_offset": "+00:00",
+      "timezone": "Africa/Banjul",
+      "name": "Africa/Banjul",
+      "timezone_name": "Greenwich Zeit"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "name": "Africa/Bissau",
+      "timezone_offset": "+00:00",
+      "timezone": "Africa/Bissau",
+      "timezone_name": "Greenwich Zeit",
+      "id": "Africa/Bissau"
+    },
+    {
+      "timezone_name": "Zentralafrikanische Zeit",
+      "timezone_raw_offset": "+02:00",
+      "timezone_offset": "+02:00",
+      "name": "Africa/Blantyre",
+      "id": "Africa/Blantyre",
+      "timezone": "Africa/Blantyre"
+    },
+    {
+      "timezone": "Africa/Brazzaville",
+      "id": "Africa/Brazzaville",
+      "timezone_raw_offset": "+01:00",
+      "name": "Africa/Brazzaville",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "id": "Africa/Bujumbura",
+      "timezone": "Africa/Bujumbura",
+      "timezone_name": "Zentralafrikanische Zeit",
+      "name": "Africa/Bujumbura",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone": "Africa/Cairo",
+      "timezone_offset": "+02:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "name": "Africa/Cairo",
+      "timezone_raw_offset": "+02:00",
+      "id": "Africa/Cairo"
+    },
+    {
+      "name": "Africa/Casablanca",
+      "timezone": "Africa/Casablanca",
+      "id": "Africa/Casablanca",
+      "timezone_offset": "+01:00",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Westeuropäische Zeit"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone": "Africa/Ceuta",
+      "name": "Africa/Ceuta",
+      "id": "Africa/Ceuta",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "timezone": "Africa/Conakry",
+      "timezone_raw_offset": "+00:00",
+      "timezone_offset": "+00:00",
+      "name": "Africa/Conakry",
+      "id": "Africa/Conakry",
+      "timezone_name": "Greenwich Zeit"
+    },
+    {
+      "name": "Africa/Dakar",
+      "timezone": "Africa/Dakar",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_offset": "+00:00",
+      "timezone_raw_offset": "+00:00",
+      "id": "Africa/Dakar"
+    },
+    {
+      "name": "Africa/Dar_es_Salaam",
+      "timezone": "Africa/Dar_es_Salaam",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone_offset": "+03:00",
+      "id": "Africa/Dar_es_Salaam",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "timezone": "Africa/Djibouti",
+      "id": "Africa/Djibouti",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+03:00",
+      "name": "Africa/Djibouti"
+    },
+    {
+      "name": "Africa/Douala",
+      "id": "Africa/Douala",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_raw_offset": "+01:00",
+      "timezone_offset": "+01:00",
+      "timezone": "Africa/Douala"
+    },
+    {
+      "timezone_offset": "+01:00",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Africa/El_Aaiun",
+      "id": "Africa/El_Aaiun",
+      "name": "Africa/El_Aaiun",
+      "timezone_name": "Westeuropäische Zeit"
+    },
+    {
+      "timezone_name": "Greenwich Zeit",
+      "timezone": "Africa/Freetown",
+      "id": "Africa/Freetown",
+      "timezone_offset": "+00:00",
+      "name": "Africa/Freetown",
+      "timezone_raw_offset": "+00:00"
+    },
+    {
+      "timezone_name": "Zentralafrikanische Zeit",
+      "timezone": "Africa/Gaborone",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+02:00",
+      "name": "Africa/Gaborone",
+      "id": "Africa/Gaborone"
+    },
+    {
+      "name": "Africa/Harare",
+      "timezone": "Africa/Harare",
+      "id": "Africa/Harare",
+      "timezone_name": "Zentralafrikanische Zeit",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone": "Africa/Johannesburg",
+      "id": "Africa/Johannesburg",
+      "timezone_name": "Südafrikanische Normalzeit",
+      "timezone_offset": "+02:00",
+      "name": "Africa/Johannesburg",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone_name": "Ostafrikanische Zeit",
+      "id": "Africa/Juba",
+      "timezone_offset": "+03:00",
+      "name": "Africa/Juba",
+      "timezone": "Africa/Juba",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "id": "Africa/Kampala",
+      "name": "Africa/Kampala",
+      "timezone": "Africa/Kampala",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone_raw_offset": "+03:00",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "id": "Africa/Khartoum",
+      "timezone": "Africa/Khartoum",
+      "timezone_name": "Zentralafrikanische Zeit",
+      "timezone_offset": "+02:00",
+      "name": "Africa/Khartoum",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone": "Africa/Kigali",
+      "timezone_offset": "+02:00",
+      "name": "Africa/Kigali",
+      "timezone_raw_offset": "+02:00",
+      "id": "Africa/Kigali",
+      "timezone_name": "Zentralafrikanische Zeit"
+    },
+    {
+      "name": "Africa/Kinshasa",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_offset": "+01:00",
+      "id": "Africa/Kinshasa",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Africa/Kinshasa"
+    },
+    {
+      "timezone_offset": "+01:00",
+      "name": "Africa/Lagos",
+      "timezone_name": "Westafrikanische Zeit",
+      "id": "Africa/Lagos",
+      "timezone": "Africa/Lagos",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "id": "Africa/Libreville",
+      "timezone_offset": "+01:00",
+      "name": "Africa/Libreville",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Africa/Libreville"
+    },
+    {
+      "timezone_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "timezone": "Africa/Lome",
+      "name": "Africa/Lome",
+      "id": "Africa/Lome",
+      "timezone_raw_offset": "+00:00"
+    },
+    {
+      "name": "Africa/Luanda",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_offset": "+01:00",
+      "timezone": "Africa/Luanda",
+      "timezone_raw_offset": "+01:00",
+      "id": "Africa/Luanda"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone_offset": "+02:00",
+      "timezone": "Africa/Lubumbashi",
+      "name": "Africa/Lubumbashi",
+      "timezone_name": "Zentralafrikanische Zeit",
+      "id": "Africa/Lubumbashi"
+    },
+    {
+      "name": "Africa/Lusaka",
+      "id": "Africa/Lusaka",
+      "timezone_raw_offset": "+02:00",
+      "timezone_offset": "+02:00",
+      "timezone_name": "Zentralafrikanische Zeit",
+      "timezone": "Africa/Lusaka"
+    },
+    {
+      "name": "Africa/Malabo",
+      "timezone_raw_offset": "+01:00",
+      "id": "Africa/Malabo",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_offset": "+01:00",
+      "timezone": "Africa/Malabo"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "Zentralafrikanische Zeit",
+      "timezone": "Africa/Maputo",
+      "id": "Africa/Maputo",
+      "name": "Africa/Maputo",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "timezone": "Africa/Maseru",
+      "name": "Africa/Maseru",
+      "timezone_name": "Südafrikanische Normalzeit",
+      "id": "Africa/Maseru",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "name": "Africa/Mbabane",
+      "timezone": "Africa/Mbabane",
+      "id": "Africa/Mbabane",
+      "timezone_name": "Südafrikanische Normalzeit",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "id": "Africa/Mogadishu",
+      "timezone_raw_offset": "+03:00",
+      "timezone": "Africa/Mogadishu",
+      "name": "Africa/Mogadishu",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Ostafrikanische Zeit"
+    },
+    {
+      "id": "Africa/Monrovia",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00",
+      "name": "Africa/Monrovia",
+      "timezone": "Africa/Monrovia",
+      "timezone_offset": "+00:00"
+    },
+    {
+      "name": "Africa/Nairobi",
+      "id": "Africa/Nairobi",
+      "timezone": "Africa/Nairobi",
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+03:00",
+      "timezone_name": "Ostafrikanische Zeit"
+    },
+    {
+      "id": "Africa/Ndjamena",
+      "name": "Africa/Ndjamena",
+      "timezone_offset": "+01:00",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone": "Africa/Ndjamena"
+    },
+    {
+      "name": "Africa/Niamey",
+      "id": "Africa/Niamey",
+      "timezone": "Africa/Niamey",
+      "timezone_offset": "+01:00",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "name": "Africa/Nouakchott",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_offset": "+00:00",
+      "id": "Africa/Nouakchott",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Africa/Nouakchott"
+    },
+    {
+      "timezone": "Africa/Ouagadougou",
+      "timezone_offset": "+00:00",
+      "id": "Africa/Ouagadougou",
+      "name": "Africa/Ouagadougou",
+      "timezone_raw_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit"
+    },
+    {
+      "timezone_raw_offset": "+01:00",
+      "timezone_offset": "+01:00",
+      "timezone_name": "Westafrikanische Zeit",
+      "id": "Africa/Porto-Novo",
+      "timezone": "Africa/Porto-Novo",
+      "name": "Africa/Porto-Novo"
+    },
+    {
+      "timezone_offset": "+01:00",
+      "name": "Africa/Sao_Tome",
+      "timezone_name": "Westafrikanische Zeit",
+      "timezone": "Africa/Sao_Tome",
+      "timezone_raw_offset": "+01:00",
+      "id": "Africa/Sao_Tome"
+    },
+    {
+      "name": "Africa/Timbuktu",
+      "timezone_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "id": "Africa/Timbuktu",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Africa/Timbuktu"
+    },
+    {
+      "timezone": "Africa/Tripoli",
+      "name": "Africa/Tripoli",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+02:00",
+      "id": "Africa/Tripoli"
+    },
+    {
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_raw_offset": "+01:00",
+      "name": "Africa/Tunis",
+      "timezone": "Africa/Tunis",
+      "id": "Africa/Tunis",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "timezone": "Africa/Windhoek",
+      "id": "Africa/Windhoek",
+      "timezone_raw_offset": "+02:00",
+      "timezone_offset": "+02:00",
+      "name": "Africa/Windhoek",
+      "timezone_name": "Zentralafrikanische Zeit"
+    },
+    {
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit",
+      "name": "AGT",
+      "id": "AGT",
+      "timezone_offset": "-03:00",
+      "timezone": "AGT"
+    },
+    {
+      "timezone_offset": "-09:00",
+      "id": "America/Adak",
+      "timezone_raw_offset": "-10:00",
+      "timezone": "America/Adak",
+      "name": "America/Adak",
+      "timezone_name": "Hawaii Normalzeit"
+    },
+    {
+      "timezone_offset": "-08:00",
+      "timezone_raw_offset": "-09:00",
+      "id": "America/Anchorage",
+      "timezone": "America/Anchorage",
+      "timezone_name": "Alaska Normalzeit",
+      "name": "America/Anchorage"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "name": "America/Anguilla",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Anguilla",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Anguilla"
+    },
+    {
+      "timezone_raw_offset": "-04:00",
+      "id": "America/Antigua",
+      "timezone": "America/Antigua",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "America/Antigua"
+    },
+    {
+      "timezone_name": "Brasilianische Zeit",
+      "id": "America/Araguaina",
+      "timezone": "America/Araguaina",
+      "timezone_offset": "-03:00",
+      "name": "America/Araguaina",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "id": "America/Argentina/Buenos_Aires",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "timezone_offset": "-03:00",
+      "name": "America/Argentina/Buenos_Aires",
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit"
+    },
+    {
+      "timezone_name": "Argentinische Zeit",
+      "name": "America/Argentina/Catamarca",
+      "id": "America/Argentina/Catamarca",
+      "timezone_raw_offset": "-03:00",
+      "timezone": "America/Argentina/Catamarca",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "timezone_name": "Argentinische Zeit",
+      "name": "America/Argentina/ComodRivadavia",
+      "timezone": "America/Argentina/ComodRivadavia",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-03:00",
+      "id": "America/Argentina/ComodRivadavia"
+    },
+    {
+      "timezone_raw_offset": "-03:00",
+      "timezone": "America/Argentina/Cordoba",
+      "timezone_name": "Argentinische Zeit",
+      "id": "America/Argentina/Cordoba",
+      "timezone_offset": "-03:00",
+      "name": "America/Argentina/Cordoba"
+    },
+    {
+      "timezone": "America/Argentina/Jujuy",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-03:00",
+      "name": "America/Argentina/Jujuy",
+      "timezone_name": "Argentinische Zeit",
+      "id": "America/Argentina/Jujuy"
+    },
+    {
+      "name": "America/Argentina/La_Rioja",
+      "timezone": "America/Argentina/La_Rioja",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit",
+      "id": "America/Argentina/La_Rioja"
+    },
+    {
+      "timezone": "America/Argentina/Mendoza",
+      "id": "America/Argentina/Mendoza",
+      "timezone_name": "Argentinische Zeit",
+      "name": "America/Argentina/Mendoza",
+      "timezone_offset": "-03:00",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "name": "America/Argentina/Rio_Gallegos",
+      "id": "America/Argentina/Rio_Gallegos",
+      "timezone": "America/Argentina/Rio_Gallegos",
+      "timezone_name": "Argentinische Zeit",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "timezone_raw_offset": "-03:00",
+      "id": "America/Argentina/Salta",
+      "timezone_name": "Argentinische Zeit",
+      "timezone": "America/Argentina/Salta",
+      "name": "America/Argentina/Salta",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "timezone_offset": "-03:00",
+      "name": "America/Argentina/San_Juan",
+      "id": "America/Argentina/San_Juan",
+      "timezone": "America/Argentina/San_Juan",
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit"
+    },
+    {
+      "timezone_raw_offset": "-03:00",
+      "id": "America/Argentina/San_Luis",
+      "name": "America/Argentina/San_Luis",
+      "timezone": "America/Argentina/San_Luis",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit"
+    },
+    {
+      "timezone_offset": "-03:00",
+      "id": "America/Argentina/Tucuman",
+      "timezone_name": "Argentinische Zeit",
+      "timezone": "America/Argentina/Tucuman",
+      "name": "America/Argentina/Tucuman",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "timezone_offset": "-03:00",
+      "name": "America/Argentina/Ushuaia",
+      "timezone_raw_offset": "-03:00",
+      "id": "America/Argentina/Ushuaia",
+      "timezone_name": "Argentinische Zeit",
+      "timezone": "America/Argentina/Ushuaia"
+    },
+    {
+      "timezone_raw_offset": "-04:00",
+      "id": "America/Aruba",
+      "timezone": "America/Aruba",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone_offset": "-04:00",
+      "name": "America/Aruba"
+    },
+    {
+      "timezone": "America/Asuncion",
+      "timezone_name": "Paraguay Zeit",
+      "timezone_raw_offset": "-04:00",
+      "timezone_offset": "-04:00",
+      "id": "America/Asuncion",
+      "name": "America/Asuncion"
+    },
+    {
+      "timezone": "America/Atikokan",
+      "timezone_name": "Östliche Normalzeit",
+      "name": "America/Atikokan",
+      "id": "America/Atikokan",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "timezone_name": "Hawaii Normalzeit",
+      "id": "America/Atka",
+      "timezone_offset": "-09:00",
+      "timezone": "America/Atka",
+      "timezone_raw_offset": "-10:00",
+      "name": "America/Atka"
+    },
+    {
+      "timezone_name": "Brasilianische Zeit",
+      "timezone_offset": "-03:00",
+      "timezone": "America/Bahia",
+      "name": "America/Bahia",
+      "id": "America/Bahia",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "timezone": "America/Bahia_Banderas",
+      "id": "America/Bahia_Banderas",
+      "name": "America/Bahia_Banderas",
+      "timezone_raw_offset": "-06:00",
+      "timezone_offset": "-05:00",
+      "timezone_name": "Zentrale Normalzeit"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone": "America/Barbados",
+      "timezone_raw_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "America/Barbados",
+      "id": "America/Barbados"
+    },
+    {
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Brasilianische Zeit",
+      "timezone_offset": "-03:00",
+      "timezone": "America/Belem",
+      "name": "America/Belem",
+      "id": "America/Belem"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_raw_offset": "-06:00",
+      "id": "America/Belize",
+      "name": "America/Belize",
+      "timezone": "America/Belize"
+    },
+    {
+      "id": "America/Blanc-Sablon",
+      "name": "America/Blanc-Sablon",
+      "timezone": "America/Blanc-Sablon",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "name": "America/Boa_Vista",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Boa_Vista",
+      "timezone_name": "Amazonas Normalzeit",
+      "id": "America/Boa_Vista"
+    },
+    {
+      "timezone_name": "Kolumbianische Zeit",
+      "timezone": "America/Bogota",
+      "id": "America/Bogota",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-05:00",
+      "name": "America/Bogota"
+    },
+    {
+      "timezone_raw_offset": "-07:00",
+      "id": "America/Boise",
+      "timezone_offset": "-06:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone": "America/Boise",
+      "name": "America/Boise"
+    },
+    {
+      "name": "America/Buenos_Aires",
+      "id": "America/Buenos_Aires",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit",
+      "timezone_raw_offset": "-03:00",
+      "timezone": "America/Buenos_Aires"
+    },
+    {
+      "timezone": "America/Cambridge_Bay",
+      "timezone_raw_offset": "-07:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "name": "America/Cambridge_Bay",
+      "timezone_offset": "-06:00",
+      "id": "America/Cambridge_Bay"
+    },
+    {
+      "id": "America/Campo_Grande",
+      "timezone": "America/Campo_Grande",
+      "timezone_raw_offset": "-04:00",
+      "name": "America/Campo_Grande",
+      "timezone_name": "Amazonas Normalzeit",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "timezone": "America/Cancun",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Cancun",
+      "timezone_offset": "-05:00",
+      "name": "America/Cancun",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "name": "America/Caracas",
+      "id": "America/Caracas",
+      "timezone_name": "Venezuelanische Zeit",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Caracas"
+    },
+    {
+      "id": "America/Catamarca",
+      "timezone_name": "Argentinische Zeit",
+      "name": "America/Catamarca",
+      "timezone": "America/Catamarca",
+      "timezone_offset": "-03:00",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "name": "America/Cayenne",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Französisch-Guiana Zeit",
+      "id": "America/Cayenne",
+      "timezone": "America/Cayenne",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "id": "America/Cayman",
+      "name": "America/Cayman",
+      "timezone_offset": "-05:00",
+      "timezone": "America/Cayman"
+    },
+    {
+      "id": "America/Chicago",
+      "name": "America/Chicago",
+      "timezone_offset": "-05:00",
+      "timezone": "America/Chicago",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_raw_offset": "-06:00"
+    },
+    {
+      "id": "America/Chihuahua",
+      "timezone_raw_offset": "-07:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_offset": "-06:00",
+      "timezone": "America/Chihuahua",
+      "name": "America/Chihuahua"
+    },
+    {
+      "timezone_raw_offset": "-05:00",
+      "name": "America/Coral_Harbour",
+      "timezone": "America/Coral_Harbour",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Coral_Harbour",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "id": "America/Cordoba",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit",
+      "timezone": "America/Cordoba",
+      "name": "America/Cordoba",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_raw_offset": "-06:00",
+      "name": "America/Costa_Rica",
+      "timezone_offset": "-06:00",
+      "id": "America/Costa_Rica",
+      "timezone": "America/Costa_Rica"
+    },
+    {
+      "name": "America/Creston",
+      "timezone": "America/Creston",
+      "id": "America/Creston",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_raw_offset": "-07:00",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone": "America/Cuiaba",
+      "name": "America/Cuiaba",
+      "timezone_name": "Amazonas Normalzeit",
+      "id": "America/Cuiaba",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "id": "America/Curacao",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Curacao",
+      "name": "America/Curacao",
+      "timezone_name": "Atlantik Normalzeit"
+    },
+    {
+      "timezone_offset": "+00:00",
+      "id": "America/Danmarkshavn",
+      "timezone": "America/Danmarkshavn",
+      "timezone_raw_offset": "+00:00",
+      "name": "America/Danmarkshavn",
+      "timezone_name": "Greenwich Zeit"
+    },
+    {
+      "name": "America/Dawson",
+      "timezone": "America/Dawson",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_raw_offset": "-08:00",
+      "timezone_offset": "-07:00",
+      "id": "America/Dawson"
+    },
+    {
+      "timezone": "America/Dawson_Creek",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_raw_offset": "-07:00",
+      "name": "America/Dawson_Creek",
+      "id": "America/Dawson_Creek",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "name": "America/Denver",
+      "timezone_offset": "-06:00",
+      "id": "America/Denver",
+      "timezone": "America/Denver",
+      "timezone_raw_offset": "-07:00"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "name": "America/Detroit",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "America/Detroit",
+      "id": "America/Detroit",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "timezone_raw_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone": "America/Dominica",
+      "id": "America/Dominica",
+      "name": "America/Dominica",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "timezone": "America/Edmonton",
+      "name": "America/Edmonton",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_offset": "-06:00",
+      "timezone_raw_offset": "-07:00",
+      "id": "America/Edmonton"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "id": "America/Eirunepe",
+      "timezone_raw_offset": "-05:00",
+      "name": "America/Eirunepe",
+      "timezone_name": "Acre Normalzeit",
+      "timezone": "America/Eirunepe"
+    },
+    {
+      "timezone": "America/El_Salvador",
+      "timezone_offset": "-06:00",
+      "timezone_raw_offset": "-06:00",
+      "name": "America/El_Salvador",
+      "id": "America/El_Salvador",
+      "timezone_name": "Zentrale Normalzeit"
+    },
+    {
+      "timezone_offset": "-07:00",
+      "name": "America/Ensenada",
+      "timezone_raw_offset": "-08:00",
+      "timezone": "America/Ensenada",
+      "timezone_name": "Pazifische Normalzeit",
+      "id": "America/Ensenada"
+    },
+    {
+      "name": "America/Fort_Nelson",
+      "timezone_raw_offset": "-07:00",
+      "timezone_offset": "-07:00",
+      "timezone": "America/Fort_Nelson",
+      "id": "America/Fort_Nelson",
+      "timezone_name": "Rocky Mountains Normalzeit"
+    },
+    {
+      "timezone": "America/Fort_Wayne",
+      "name": "America/Fort_Wayne",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "id": "America/Fort_Wayne"
+    },
+    {
+      "name": "America/Fortaleza",
+      "timezone_raw_offset": "-03:00",
+      "timezone": "America/Fortaleza",
+      "timezone_name": "Brasilianische Zeit",
+      "id": "America/Fortaleza",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "timezone_offset": "-03:00",
+      "timezone": "America/Glace_Bay",
+      "name": "America/Glace_Bay",
+      "timezone_raw_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Glace_Bay"
+    },
+    {
+      "name": "America/Godthab",
+      "timezone": "America/Godthab",
+      "timezone_name": "Westgrönländische Zeit",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-02:00",
+      "id": "America/Godthab"
+    },
+    {
+      "id": "America/Goose_Bay",
+      "timezone_offset": "-03:00",
+      "name": "America/Goose_Bay",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone": "America/Goose_Bay",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "name": "America/Grand_Turk",
+      "id": "America/Grand_Turk",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "America/Grand_Turk"
+    },
+    {
+      "name": "America/Grenada",
+      "timezone_raw_offset": "-04:00",
+      "id": "America/Grenada",
+      "timezone": "America/Grenada",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "id": "America/Guadeloupe",
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "America/Guadeloupe",
+      "timezone": "America/Guadeloupe",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "timezone": "America/Guatemala",
+      "timezone_name": "Zentrale Normalzeit",
+      "id": "America/Guatemala",
+      "timezone_offset": "-06:00",
+      "timezone_raw_offset": "-06:00",
+      "name": "America/Guatemala"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "timezone": "America/Guayaquil",
+      "name": "America/Guayaquil",
+      "id": "America/Guayaquil",
+      "timezone_name": "Ecuadorianische Zeit",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "id": "America/Guyana",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Guyana",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Guyanische Zeit",
+      "name": "America/Guyana"
+    },
+    {
+      "timezone_offset": "-03:00",
+      "id": "America/Halifax",
+      "timezone": "America/Halifax",
+      "timezone_raw_offset": "-04:00",
+      "name": "America/Halifax",
+      "timezone_name": "Atlantik Normalzeit"
+    },
+    {
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-04:00",
+      "name": "America/Havana",
+      "id": "America/Havana",
+      "timezone": "America/Havana",
+      "timezone_name": "Kubanische Normalzeit"
+    },
+    {
+      "timezone_offset": "-07:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_raw_offset": "-07:00",
+      "id": "America/Hermosillo",
+      "timezone": "America/Hermosillo",
+      "name": "America/Hermosillo"
+    },
+    {
+      "timezone_raw_offset": "-05:00",
+      "name": "America/Indiana/Indianapolis",
+      "id": "America/Indiana/Indianapolis",
+      "timezone": "America/Indiana/Indianapolis",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "name": "America/Indiana/Knox",
+      "id": "America/Indiana/Knox",
+      "timezone_raw_offset": "-06:00",
+      "timezone": "America/Indiana/Knox",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "id": "America/Indiana/Marengo",
+      "timezone": "America/Indiana/Marengo",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-05:00",
+      "name": "America/Indiana/Marengo"
+    },
+    {
+      "timezone": "America/Indiana/Petersburg",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Indiana/Petersburg",
+      "timezone_raw_offset": "-05:00",
+      "name": "America/Indiana/Petersburg",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone": "America/Indiana/Tell_City",
+      "name": "America/Indiana/Tell_City",
+      "timezone_offset": "-05:00",
+      "id": "America/Indiana/Tell_City",
+      "timezone_raw_offset": "-06:00"
+    },
+    {
+      "timezone": "America/Indiana/Vevay",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-04:00",
+      "id": "America/Indiana/Vevay",
+      "name": "America/Indiana/Vevay"
+    },
+    {
+      "id": "America/Indiana/Vincennes",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "name": "America/Indiana/Vincennes",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "America/Indiana/Vincennes"
+    },
+    {
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "America/Indiana/Winamac",
+      "timezone_offset": "-04:00",
+      "name": "America/Indiana/Winamac",
+      "timezone_raw_offset": "-05:00",
+      "id": "America/Indiana/Winamac"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone": "America/Indianapolis",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Indianapolis",
+      "name": "America/Indianapolis",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "timezone": "America/Inuvik",
+      "timezone_raw_offset": "-07:00",
+      "name": "America/Inuvik",
+      "timezone_offset": "-06:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "id": "America/Inuvik"
+    },
+    {
+      "timezone_raw_offset": "-05:00",
+      "timezone": "America/Iqaluit",
+      "timezone_offset": "-04:00",
+      "name": "America/Iqaluit",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Iqaluit"
+    },
+    {
+      "timezone": "America/Jamaica",
+      "timezone_raw_offset": "-05:00",
+      "name": "America/Jamaica",
+      "timezone_offset": "-05:00",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Jamaica"
+    },
+    {
+      "timezone": "America/Jujuy",
+      "timezone_name": "Argentinische Zeit",
+      "timezone_raw_offset": "-03:00",
+      "name": "America/Jujuy",
+      "id": "America/Jujuy",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "name": "America/Juneau",
+      "timezone_name": "Alaska Normalzeit",
+      "timezone_raw_offset": "-09:00",
+      "timezone_offset": "-08:00",
+      "timezone": "America/Juneau",
+      "id": "America/Juneau"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-05:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "America/Kentucky/Louisville",
+      "id": "America/Kentucky/Louisville",
+      "name": "America/Kentucky/Louisville"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "America/Kentucky/Monticello",
+      "name": "America/Kentucky/Monticello",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Kentucky/Monticello"
+    },
+    {
+      "name": "America/Knox_IN",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_raw_offset": "-06:00",
+      "timezone": "America/Knox_IN",
+      "timezone_offset": "-05:00",
+      "id": "America/Knox_IN"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "name": "America/Kralendijk",
+      "timezone": "America/Kralendijk",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone_raw_offset": "-04:00",
+      "id": "America/Kralendijk"
+    },
+    {
+      "name": "America/La_Paz",
+      "timezone_raw_offset": "-04:00",
+      "timezone_name": "Bolivianische Zeit",
+      "id": "America/La_Paz",
+      "timezone_offset": "-04:00",
+      "timezone": "America/La_Paz"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "timezone_raw_offset": "-05:00",
+      "id": "America/Lima",
+      "name": "America/Lima",
+      "timezone": "America/Lima",
+      "timezone_name": "Peruanische Zeit"
+    },
+    {
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_raw_offset": "-08:00",
+      "name": "America/Los_Angeles",
+      "id": "America/Los_Angeles",
+      "timezone": "America/Los_Angeles",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "name": "America/Louisville",
+      "timezone": "America/Louisville",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "id": "America/Louisville",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Lower_Princes",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Lower_Princes",
+      "timezone_offset": "-04:00",
+      "name": "America/Lower_Princes"
+    },
+    {
+      "name": "America/Maceio",
+      "timezone_name": "Brasilianische Zeit",
+      "id": "America/Maceio",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-03:00",
+      "timezone": "America/Maceio"
+    },
+    {
+      "timezone_raw_offset": "-06:00",
+      "timezone_offset": "-06:00",
+      "name": "America/Managua",
+      "timezone": "America/Managua",
+      "id": "America/Managua",
+      "timezone_name": "Zentrale Normalzeit"
+    },
+    {
+      "timezone": "America/Manaus",
+      "id": "America/Manaus",
+      "timezone_name": "Amazonas Normalzeit",
+      "timezone_raw_offset": "-04:00",
+      "name": "America/Manaus",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "timezone": "America/Marigot",
+      "name": "America/Marigot",
+      "id": "America/Marigot",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone_raw_offset": "-04:00",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "id": "America/Martinique",
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "America/Martinique",
+      "timezone_raw_offset": "-04:00",
+      "timezone_offset": "-04:00",
+      "timezone": "America/Martinique"
+    },
+    {
+      "timezone": "America/Matamoros",
+      "timezone_offset": "-05:00",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_raw_offset": "-06:00",
+      "name": "America/Matamoros",
+      "id": "America/Matamoros"
+    },
+    {
+      "id": "America/Mazatlan",
+      "timezone_raw_offset": "-07:00",
+      "timezone": "America/Mazatlan",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_offset": "-06:00",
+      "name": "America/Mazatlan"
+    },
+    {
+      "timezone_raw_offset": "-03:00",
+      "name": "America/Mendoza",
+      "timezone_name": "Argentinische Zeit",
+      "timezone": "America/Mendoza",
+      "timezone_offset": "-03:00",
+      "id": "America/Mendoza"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "name": "America/Menominee",
+      "timezone": "America/Menominee",
+      "timezone_name": "Zentrale Normalzeit",
+      "id": "America/Menominee",
+      "timezone_raw_offset": "-06:00"
+    },
+    {
+      "timezone": "America/Merida",
+      "timezone_offset": "-05:00",
+      "name": "America/Merida",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_raw_offset": "-06:00",
+      "id": "America/Merida"
+    },
+    {
+      "id": "America/Metlakatla",
+      "timezone_name": "Alaska Normalzeit",
+      "timezone_raw_offset": "-09:00",
+      "timezone": "America/Metlakatla",
+      "name": "America/Metlakatla",
+      "timezone_offset": "-08:00"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_offset": "-05:00",
+      "name": "America/Mexico_City",
+      "timezone_raw_offset": "-06:00",
+      "id": "America/Mexico_City",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "timezone_offset": "-02:00",
+      "timezone": "America/Miquelon",
+      "name": "America/Miquelon",
+      "timezone_name": "Pierre & Miquelon Normalzeit",
+      "timezone_raw_offset": "-03:00",
+      "id": "America/Miquelon"
+    },
+    {
+      "timezone": "America/Moncton",
+      "timezone_offset": "-03:00",
+      "name": "America/Moncton",
+      "timezone_raw_offset": "-04:00",
+      "id": "America/Moncton",
+      "timezone_name": "Atlantik Normalzeit"
+    },
+    {
+      "id": "America/Monterrey",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone": "America/Monterrey",
+      "timezone_offset": "-05:00",
+      "timezone_raw_offset": "-06:00",
+      "name": "America/Monterrey"
+    },
+    {
+      "id": "America/Montevideo",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Uruguayische Zeit",
+      "timezone": "America/Montevideo",
+      "name": "America/Montevideo"
+    },
+    {
+      "timezone": "America/Montreal",
+      "timezone_raw_offset": "-05:00",
+      "id": "America/Montreal",
+      "name": "America/Montreal",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "name": "America/Montserrat",
+      "timezone": "America/Montserrat",
+      "id": "America/Montserrat",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit"
+    },
+    {
+      "id": "America/Nassau",
+      "timezone": "America/Nassau",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "name": "America/Nassau"
+    },
+    {
+      "timezone": "America/New_York",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-04:00",
+      "name": "America/New_York",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/New_York"
+    },
+    {
+      "name": "America/Nipigon",
+      "id": "America/Nipigon",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "America/Nipigon",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "timezone_name": "Alaska Normalzeit",
+      "name": "America/Nome",
+      "timezone_raw_offset": "-09:00",
+      "timezone_offset": "-08:00",
+      "id": "America/Nome",
+      "timezone": "America/Nome"
+    },
+    {
+      "timezone_raw_offset": "-02:00",
+      "name": "America/Noronha",
+      "timezone": "America/Noronha",
+      "timezone_offset": "-02:00",
+      "id": "America/Noronha",
+      "timezone_name": "Fernando de Noronha Zeit"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "timezone": "America/North_Dakota/Beulah",
+      "name": "America/North_Dakota/Beulah",
+      "id": "America/North_Dakota/Beulah",
+      "timezone_raw_offset": "-06:00",
+      "timezone_name": "Zentrale Normalzeit"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "name": "America/North_Dakota/Center",
+      "timezone_name": "Zentrale Normalzeit",
+      "id": "America/North_Dakota/Center",
+      "timezone_raw_offset": "-06:00",
+      "timezone": "America/North_Dakota/Center"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone": "America/North_Dakota/New_Salem",
+      "name": "America/North_Dakota/New_Salem",
+      "timezone_raw_offset": "-06:00",
+      "id": "America/North_Dakota/New_Salem"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "name": "America/Ojinaga",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone": "America/Ojinaga",
+      "timezone_raw_offset": "-07:00",
+      "id": "America/Ojinaga"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "id": "America/Panama",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "America/Panama",
+      "name": "America/Panama",
+      "timezone_name": "Östliche Normalzeit"
+    },
+    {
+      "id": "America/Pangnirtung",
+      "name": "America/Pangnirtung",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "America/Pangnirtung"
+    },
+    {
+      "name": "America/Paramaribo",
+      "timezone_name": "Suriname Zeit",
+      "timezone_offset": "-03:00",
+      "id": "America/Paramaribo",
+      "timezone_raw_offset": "-03:00",
+      "timezone": "America/Paramaribo"
+    },
+    {
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone": "America/Phoenix",
+      "name": "America/Phoenix",
+      "timezone_offset": "-07:00",
+      "timezone_raw_offset": "-07:00",
+      "id": "America/Phoenix"
+    },
+    {
+      "timezone": "America/Port_of_Spain",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Port_of_Spain",
+      "timezone_raw_offset": "-04:00",
+      "name": "America/Port_of_Spain"
+    },
+    {
+      "name": "America/Port-au-Prince",
+      "id": "America/Port-au-Prince",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "America/Port-au-Prince",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "timezone_name": "Acre Normalzeit",
+      "timezone": "America/Porto_Acre",
+      "timezone_offset": "-05:00",
+      "timezone_raw_offset": "-05:00",
+      "id": "America/Porto_Acre",
+      "name": "America/Porto_Acre"
+    },
+    {
+      "timezone_raw_offset": "-04:00",
+      "name": "America/Porto_Velho",
+      "id": "America/Porto_Velho",
+      "timezone_offset": "-04:00",
+      "timezone": "America/Porto_Velho",
+      "timezone_name": "Amazonas Normalzeit"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Puerto_Rico",
+      "name": "America/Puerto_Rico",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Puerto_Rico"
+    },
+    {
+      "timezone_name": "GMT-03:00",
+      "timezone_offset": "-03:00",
+      "id": "America/Punta_Arenas",
+      "timezone": "America/Punta_Arenas",
+      "timezone_raw_offset": "-03:00",
+      "name": "America/Punta_Arenas"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "name": "America/Rainy_River",
+      "id": "America/Rainy_River",
+      "timezone_raw_offset": "-06:00",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone": "America/Rainy_River"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_offset": "-05:00",
+      "name": "America/Rankin_Inlet",
+      "timezone": "America/Rankin_Inlet",
+      "id": "America/Rankin_Inlet",
+      "timezone_raw_offset": "-06:00"
+    },
+    {
+      "timezone_offset": "-03:00",
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Brasilianische Zeit",
+      "id": "America/Recife",
+      "timezone": "America/Recife",
+      "name": "America/Recife"
+    },
+    {
+      "name": "America/Regina",
+      "timezone_offset": "-06:00",
+      "timezone": "America/Regina",
+      "id": "America/Regina",
+      "timezone_raw_offset": "-06:00",
+      "timezone_name": "Zentrale Normalzeit"
+    },
+    {
+      "name": "America/Resolute",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_offset": "-05:00",
+      "timezone_raw_offset": "-06:00",
+      "timezone": "America/Resolute",
+      "id": "America/Resolute"
+    },
+    {
+      "timezone": "America/Rio_Branco",
+      "timezone_raw_offset": "-05:00",
+      "timezone_name": "Acre Normalzeit",
+      "timezone_offset": "-05:00",
+      "name": "America/Rio_Branco",
+      "id": "America/Rio_Branco"
+    },
+    {
+      "timezone": "America/Rosario",
+      "name": "America/Rosario",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Argentinische Zeit",
+      "timezone_raw_offset": "-03:00",
+      "id": "America/Rosario"
+    },
+    {
+      "id": "America/Santa_Isabel",
+      "timezone_offset": "-07:00",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_raw_offset": "-08:00",
+      "timezone": "America/Santa_Isabel",
+      "name": "America/Santa_Isabel"
+    },
+    {
+      "id": "America/Santarem",
+      "name": "America/Santarem",
+      "timezone": "America/Santarem",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Brasilianische Zeit",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Santiago",
+      "timezone_name": "Chilenische Zeit",
+      "timezone_offset": "-04:00",
+      "name": "America/Santiago",
+      "id": "America/Santiago"
+    },
+    {
+      "timezone": "America/Santo_Domingo",
+      "timezone_raw_offset": "-04:00",
+      "id": "America/Santo_Domingo",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone_offset": "-04:00",
+      "name": "America/Santo_Domingo"
+    },
+    {
+      "timezone": "America/Sao_Paulo",
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Brasilianische Zeit",
+      "timezone_offset": "-03:00",
+      "name": "America/Sao_Paulo",
+      "id": "America/Sao_Paulo"
+    },
+    {
+      "timezone_offset": "+00:00",
+      "timezone_name": "Ostgrönländische Zeit",
+      "timezone": "America/Scoresbysund",
+      "timezone_raw_offset": "-01:00",
+      "name": "America/Scoresbysund",
+      "id": "America/Scoresbysund"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "timezone_raw_offset": "-07:00",
+      "name": "America/Shiprock",
+      "timezone": "America/Shiprock",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "id": "America/Shiprock"
+    },
+    {
+      "timezone_raw_offset": "-09:00",
+      "timezone": "America/Sitka",
+      "name": "America/Sitka",
+      "id": "America/Sitka",
+      "timezone_offset": "-08:00",
+      "timezone_name": "Alaska Normalzeit"
+    },
+    {
+      "timezone": "America/St_Barthelemy",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone_raw_offset": "-04:00",
+      "id": "America/St_Barthelemy",
+      "timezone_offset": "-04:00",
+      "name": "America/St_Barthelemy"
+    },
+    {
+      "id": "America/St_Johns",
+      "name": "America/St_Johns",
+      "timezone_offset": "-02:30",
+      "timezone_name": "Neufundland Normalzeit",
+      "timezone_raw_offset": "-03:30",
+      "timezone": "America/St_Johns"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone": "America/St_Kitts",
+      "name": "America/St_Kitts",
+      "id": "America/St_Kitts"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "America/St_Lucia",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/St_Lucia",
+      "id": "America/St_Lucia"
+    },
+    {
+      "id": "America/St_Thomas",
+      "name": "America/St_Thomas",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/St_Thomas",
+      "timezone_name": "Atlantik Normalzeit"
+    },
+    {
+      "id": "America/St_Vincent",
+      "timezone_raw_offset": "-04:00",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone": "America/St_Vincent",
+      "name": "America/St_Vincent"
+    },
+    {
+      "timezone_raw_offset": "-06:00",
+      "id": "America/Swift_Current",
+      "timezone_offset": "-06:00",
+      "name": "America/Swift_Current",
+      "timezone": "America/Swift_Current",
+      "timezone_name": "Zentrale Normalzeit"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "id": "America/Tegucigalpa",
+      "name": "America/Tegucigalpa",
+      "timezone": "America/Tegucigalpa",
+      "timezone_raw_offset": "-06:00",
+      "timezone_name": "Zentrale Normalzeit"
+    },
+    {
+      "timezone": "America/Thule",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Thule",
+      "name": "America/Thule",
+      "timezone_offset": "-03:00",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "timezone": "America/Thunder_Bay",
+      "name": "America/Thunder_Bay",
+      "id": "America/Thunder_Bay",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "timezone_raw_offset": "-08:00",
+      "timezone_name": "Pazifische Normalzeit",
+      "id": "America/Tijuana",
+      "name": "America/Tijuana",
+      "timezone_offset": "-07:00",
+      "timezone": "America/Tijuana"
+    },
+    {
+      "name": "America/Toronto",
+      "timezone_name": "Östliche Normalzeit",
+      "id": "America/Toronto",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-04:00",
+      "timezone": "America/Toronto"
+    },
+    {
+      "timezone": "America/Tortola",
+      "name": "America/Tortola",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Tortola",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_raw_offset": "-08:00",
+      "timezone_offset": "-07:00",
+      "name": "America/Vancouver",
+      "id": "America/Vancouver",
+      "timezone": "America/Vancouver"
+    },
+    {
+      "timezone_raw_offset": "-04:00",
+      "timezone": "America/Virgin",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "America/Virgin",
+      "timezone_offset": "-04:00",
+      "name": "America/Virgin"
+    },
+    {
+      "id": "America/Whitehorse",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_raw_offset": "-08:00",
+      "name": "America/Whitehorse",
+      "timezone": "America/Whitehorse",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "name": "America/Winnipeg",
+      "timezone_offset": "-05:00",
+      "timezone_name": "Zentrale Normalzeit",
+      "id": "America/Winnipeg",
+      "timezone_raw_offset": "-06:00",
+      "timezone": "America/Winnipeg"
+    },
+    {
+      "name": "America/Yakutat",
+      "timezone_name": "Alaska Normalzeit",
+      "timezone": "America/Yakutat",
+      "id": "America/Yakutat",
+      "timezone_offset": "-08:00",
+      "timezone_raw_offset": "-09:00"
+    },
+    {
+      "id": "America/Yellowknife",
+      "name": "America/Yellowknife",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone": "America/Yellowknife",
+      "timezone_offset": "-06:00",
+      "timezone_raw_offset": "-07:00"
+    },
+    {
+      "timezone_name": "Westliche Normalzeit (Australien)",
+      "timezone_offset": "+08:00",
+      "timezone": "Antarctica/Casey",
+      "name": "Antarctica/Casey",
+      "id": "Antarctica/Casey",
+      "timezone_raw_offset": "+08:00"
+    },
+    {
+      "id": "Antarctica/Davis",
+      "timezone_name": "Davis Zeit",
+      "timezone_offset": "+07:00",
+      "timezone": "Antarctica/Davis",
+      "name": "Antarctica/Davis",
+      "timezone_raw_offset": "+07:00"
+    },
+    {
+      "timezone_offset": "+10:00",
+      "timezone_name": "Dumont-d'Urville Zeit",
+      "name": "Antarctica/DumontDUrville",
+      "id": "Antarctica/DumontDUrville",
+      "timezone_raw_offset": "+10:00",
+      "timezone": "Antarctica/DumontDUrville"
+    },
+    {
+      "id": "Antarctica/Macquarie",
+      "name": "Antarctica/Macquarie",
+      "timezone_raw_offset": "+11:00",
+      "timezone": "Antarctica/Macquarie",
+      "timezone_offset": "+11:00",
+      "timezone_name": "Macquarieinsel Zeit"
+    },
+    {
+      "timezone": "Antarctica/Mawson",
+      "timezone_name": "Mawson Zeit",
+      "timezone_offset": "+05:00",
+      "name": "Antarctica/Mawson",
+      "id": "Antarctica/Mawson",
+      "timezone_raw_offset": "+05:00"
+    },
+    {
+      "timezone": "Antarctica/McMurdo",
+      "name": "Antarctica/McMurdo",
+      "id": "Antarctica/McMurdo",
+      "timezone_raw_offset": "+12:00",
+      "timezone_name": "Neuseeland Normalzeit",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Chilenische Zeit",
+      "name": "Antarctica/Palmer",
+      "timezone": "Antarctica/Palmer",
+      "id": "Antarctica/Palmer",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "name": "Antarctica/Rothera",
+      "timezone_raw_offset": "-03:00",
+      "timezone_name": "Rothera Zeit",
+      "timezone_offset": "-03:00",
+      "timezone": "Antarctica/Rothera",
+      "id": "Antarctica/Rothera"
+    },
+    {
+      "timezone_offset": "+12:00",
+      "id": "Antarctica/South_Pole",
+      "timezone": "Antarctica/South_Pole",
+      "timezone_name": "Neuseeland Normalzeit",
+      "name": "Antarctica/South_Pole",
+      "timezone_raw_offset": "+12:00"
+    },
+    {
+      "timezone": "Antarctica/Syowa",
+      "timezone_name": "Syowa Zeit",
+      "name": "Antarctica/Syowa",
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+03:00",
+      "id": "Antarctica/Syowa"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+00:00",
+      "id": "Antarctica/Troll",
+      "name": "Antarctica/Troll",
+      "timezone": "Antarctica/Troll",
+      "timezone_name": "Koordinierte Universalzeit"
+    },
+    {
+      "timezone_offset": "+06:00",
+      "name": "Antarctica/Vostok",
+      "timezone_raw_offset": "+06:00",
+      "id": "Antarctica/Vostok",
+      "timezone_name": "Vostok Zeit",
+      "timezone": "Antarctica/Vostok"
+    },
+    {
+      "id": "Arctic/Longyearbyen",
+      "timezone_offset": "+02:00",
+      "timezone": "Arctic/Longyearbyen",
+      "name": "Arctic/Longyearbyen",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone": "ART",
+      "timezone_offset": "+02:00",
+      "name": "ART",
+      "id": "ART",
+      "timezone_name": "Osteuropäische Zeit"
+    },
+    {
+      "name": "Asia/Aden",
+      "id": "Asia/Aden",
+      "timezone_offset": "+03:00",
+      "timezone": "Asia/Aden",
+      "timezone_raw_offset": "+03:00",
+      "timezone_name": "Arabische Normalzeit"
+    },
+    {
+      "timezone_offset": "+06:00",
+      "id": "Asia/Almaty",
+      "timezone_raw_offset": "+06:00",
+      "timezone_name": "Alma Ata Zeit",
+      "timezone": "Asia/Almaty",
+      "name": "Asia/Almaty"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Asia/Amman",
+      "timezone": "Asia/Amman",
+      "name": "Asia/Amman",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "timezone_name": "Anadyr Zeit",
+      "timezone_raw_offset": "+12:00",
+      "timezone_offset": "+12:00",
+      "id": "Asia/Anadyr",
+      "timezone": "Asia/Anadyr",
+      "name": "Asia/Anadyr"
+    },
+    {
+      "timezone_raw_offset": "+05:00",
+      "timezone_offset": "+05:00",
+      "timezone_name": "Aqtau Zeit",
+      "id": "Asia/Aqtau",
+      "timezone": "Asia/Aqtau",
+      "name": "Asia/Aqtau"
+    },
+    {
+      "timezone": "Asia/Aqtobe",
+      "timezone_offset": "+05:00",
+      "name": "Asia/Aqtobe",
+      "id": "Asia/Aqtobe",
+      "timezone_name": "Aqtobe Zeit",
+      "timezone_raw_offset": "+05:00"
+    },
+    {
+      "timezone_offset": "+05:00",
+      "name": "Asia/Ashgabat",
+      "timezone_name": "Turkmenische Zeit",
+      "id": "Asia/Ashgabat",
+      "timezone": "Asia/Ashgabat",
+      "timezone_raw_offset": "+05:00"
+    },
+    {
+      "timezone_name": "Turkmenische Zeit",
+      "timezone": "Asia/Ashkhabad",
+      "name": "Asia/Ashkhabad",
+      "timezone_offset": "+05:00",
+      "id": "Asia/Ashkhabad",
+      "timezone_raw_offset": "+05:00"
+    },
+    {
+      "id": "Asia/Atyrau",
+      "timezone_offset": "+05:00",
+      "timezone_name": "GMT+05:00",
+      "timezone": "Asia/Atyrau",
+      "timezone_raw_offset": "+05:00",
+      "name": "Asia/Atyrau"
+    },
+    {
+      "name": "Asia/Baghdad",
+      "id": "Asia/Baghdad",
+      "timezone_raw_offset": "+03:00",
+      "timezone": "Asia/Baghdad",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Arabische Normalzeit"
+    },
+    {
+      "name": "Asia/Bahrain",
+      "timezone": "Asia/Bahrain",
+      "id": "Asia/Bahrain",
+      "timezone_name": "Arabische Normalzeit",
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "id": "Asia/Baku",
+      "timezone": "Asia/Baku",
+      "timezone_raw_offset": "+04:00",
+      "name": "Asia/Baku",
+      "timezone_name": "Aserbaidschanische Zeit",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "timezone_raw_offset": "+07:00",
+      "timezone": "Asia/Bangkok",
+      "name": "Asia/Bangkok",
+      "timezone_offset": "+07:00",
+      "id": "Asia/Bangkok",
+      "timezone_name": "Indochina Zeit"
+    },
+    {
+      "name": "Asia/Barnaul",
+      "id": "Asia/Barnaul",
+      "timezone_offset": "+07:00",
+      "timezone_raw_offset": "+07:00",
+      "timezone_name": "GMT+07:00",
+      "timezone": "Asia/Barnaul"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "id": "Asia/Beirut",
+      "name": "Asia/Beirut",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone": "Asia/Beirut"
+    },
+    {
+      "name": "Asia/Bishkek",
+      "id": "Asia/Bishkek",
+      "timezone": "Asia/Bishkek",
+      "timezone_raw_offset": "+06:00",
+      "timezone_offset": "+06:00",
+      "timezone_name": "Kirgisische Zeit"
+    },
+    {
+      "timezone_offset": "+08:00",
+      "name": "Asia/Brunei",
+      "timezone": "Asia/Brunei",
+      "timezone_name": "Brunei Zeit",
+      "id": "Asia/Brunei",
+      "timezone_raw_offset": "+08:00"
+    },
+    {
+      "timezone": "Asia/Calcutta",
+      "id": "Asia/Calcutta",
+      "name": "Asia/Calcutta",
+      "timezone_offset": "+05:30",
+      "timezone_name": "Indische Normalzeit",
+      "timezone_raw_offset": "+05:30"
+    },
+    {
+      "name": "Asia/Chita",
+      "timezone": "Asia/Chita",
+      "timezone_raw_offset": "+09:00",
+      "timezone_name": "Jakutsk Zeit",
+      "id": "Asia/Chita",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "timezone_offset": "+08:00",
+      "timezone_name": "Choibalsan Zeit",
+      "name": "Asia/Choibalsan",
+      "timezone_raw_offset": "+08:00",
+      "id": "Asia/Choibalsan",
+      "timezone": "Asia/Choibalsan"
+    },
+    {
+      "timezone_offset": "+08:00",
+      "id": "Asia/Chongqing",
+      "name": "Asia/Chongqing",
+      "timezone_raw_offset": "+08:00",
+      "timezone_name": "Chinesische Normalzeit",
+      "timezone": "Asia/Chongqing"
+    },
+    {
+      "timezone_raw_offset": "+08:00",
+      "id": "Asia/Chungking",
+      "timezone_name": "Chinesische Normalzeit",
+      "timezone_offset": "+08:00",
+      "name": "Asia/Chungking",
+      "timezone": "Asia/Chungking"
+    },
+    {
+      "timezone": "Asia/Colombo",
+      "timezone_offset": "+05:30",
+      "id": "Asia/Colombo",
+      "timezone_raw_offset": "+05:30",
+      "timezone_name": "Indische Normalzeit",
+      "name": "Asia/Colombo"
+    },
+    {
+      "timezone_raw_offset": "+06:00",
+      "timezone": "Asia/Dacca",
+      "timezone_name": "Bangladesch Zeit",
+      "name": "Asia/Dacca",
+      "timezone_offset": "+06:00",
+      "id": "Asia/Dacca"
+    },
+    {
+      "id": "Asia/Damascus",
+      "timezone": "Asia/Damascus",
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone_offset": "+03:00",
+      "name": "Asia/Damascus"
+    },
+    {
+      "id": "Asia/Dhaka",
+      "timezone": "Asia/Dhaka",
+      "timezone_offset": "+06:00",
+      "name": "Asia/Dhaka",
+      "timezone_name": "Bangladesch Zeit",
+      "timezone_raw_offset": "+06:00"
+    },
+    {
+      "timezone_raw_offset": "+09:00",
+      "timezone_name": "Timor-Leste Normalzeit",
+      "id": "Asia/Dili",
+      "timezone": "Asia/Dili",
+      "name": "Asia/Dili",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "name": "Asia/Dubai",
+      "timezone_name": "Golf Normalzeit",
+      "timezone_offset": "+04:00",
+      "id": "Asia/Dubai",
+      "timezone_raw_offset": "+04:00",
+      "timezone": "Asia/Dubai"
+    },
+    {
+      "timezone_offset": "+05:00",
+      "timezone_raw_offset": "+05:00",
+      "timezone": "Asia/Dushanbe",
+      "id": "Asia/Dushanbe",
+      "name": "Asia/Dushanbe",
+      "timezone_name": "Tadschikische Zeit"
+    },
+    {
+      "timezone_name": "GMT+02:00",
+      "timezone_raw_offset": "+02:00",
+      "timezone": "Asia/Famagusta",
+      "timezone_offset": "+03:00",
+      "name": "Asia/Famagusta",
+      "id": "Asia/Famagusta"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+02:00",
+      "id": "Asia/Gaza",
+      "name": "Asia/Gaza",
+      "timezone": "Asia/Gaza",
+      "timezone_name": "Osteuropäische Zeit"
+    },
+    {
+      "name": "Asia/Harbin",
+      "timezone_name": "Chinesische Normalzeit",
+      "timezone": "Asia/Harbin",
+      "timezone_offset": "+08:00",
+      "id": "Asia/Harbin",
+      "timezone_raw_offset": "+08:00"
+    },
+    {
+      "name": "Asia/Hebron",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone": "Asia/Hebron",
+      "timezone_raw_offset": "+02:00",
+      "id": "Asia/Hebron"
+    },
+    {
+      "timezone": "Asia/Ho_Chi_Minh",
+      "timezone_name": "Indochina Zeit",
+      "timezone_offset": "+07:00",
+      "timezone_raw_offset": "+07:00",
+      "name": "Asia/Ho_Chi_Minh",
+      "id": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "timezone_name": "Hongkong Zeit",
+      "id": "Asia/Hong_Kong",
+      "timezone_raw_offset": "+08:00",
+      "timezone_offset": "+08:00",
+      "timezone": "Asia/Hong_Kong",
+      "name": "Asia/Hong_Kong"
+    },
+    {
+      "timezone_name": "Hovd Zeit",
+      "timezone": "Asia/Hovd",
+      "id": "Asia/Hovd",
+      "name": "Asia/Hovd",
+      "timezone_offset": "+07:00",
+      "timezone_raw_offset": "+07:00"
+    },
+    {
+      "timezone": "Asia/Irkutsk",
+      "timezone_offset": "+08:00",
+      "id": "Asia/Irkutsk",
+      "timezone_raw_offset": "+08:00",
+      "timezone_name": "Irkutsk Zeit",
+      "name": "Asia/Irkutsk"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "name": "Asia/Istanbul",
+      "id": "Asia/Istanbul",
+      "timezone_raw_offset": "+03:00",
+      "timezone": "Asia/Istanbul"
+    },
+    {
+      "name": "Asia/Jakarta",
+      "timezone_offset": "+07:00",
+      "timezone_name": "Westindonesische Zeit",
+      "id": "Asia/Jakarta",
+      "timezone": "Asia/Jakarta",
+      "timezone_raw_offset": "+07:00"
+    },
+    {
+      "name": "Asia/Jayapura",
+      "id": "Asia/Jayapura",
+      "timezone_raw_offset": "+09:00",
+      "timezone": "Asia/Jayapura",
+      "timezone_offset": "+09:00",
+      "timezone_name": "Ostindonesische Zeit"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+02:00",
+      "timezone": "Asia/Jerusalem",
+      "name": "Asia/Jerusalem",
+      "timezone_name": "Israelische Normalzeit",
+      "id": "Asia/Jerusalem"
+    },
+    {
+      "timezone_raw_offset": "+04:30",
+      "name": "Asia/Kabul",
+      "timezone_offset": "+04:30",
+      "timezone_name": "Afghanistanische Zeit",
+      "timezone": "Asia/Kabul",
+      "id": "Asia/Kabul"
+    },
+    {
+      "timezone_offset": "+12:00",
+      "timezone_raw_offset": "+12:00",
+      "timezone": "Asia/Kamchatka",
+      "name": "Asia/Kamchatka",
+      "timezone_name": "Petropawlowsk-Kamtschatkische Zeit",
+      "id": "Asia/Kamchatka"
+    },
+    {
+      "timezone": "Asia/Karachi",
+      "timezone_offset": "+05:00",
+      "id": "Asia/Karachi",
+      "timezone_raw_offset": "+05:00",
+      "name": "Asia/Karachi",
+      "timezone_name": "Pakistanische Zeit"
+    },
+    {
+      "timezone_offset": "+06:00",
+      "name": "Asia/Kashgar",
+      "id": "Asia/Kashgar",
+      "timezone": "Asia/Kashgar",
+      "timezone_raw_offset": "+06:00",
+      "timezone_name": "Chinesische Normalzeit"
+    },
+    {
+      "timezone_name": "Nepalesische Zeit",
+      "id": "Asia/Kathmandu",
+      "name": "Asia/Kathmandu",
+      "timezone_raw_offset": "+05:45",
+      "timezone": "Asia/Kathmandu",
+      "timezone_offset": "+05:45"
+    },
+    {
+      "timezone_offset": "+05:45",
+      "timezone_raw_offset": "+05:45",
+      "name": "Asia/Katmandu",
+      "id": "Asia/Katmandu",
+      "timezone_name": "Nepalesische Zeit",
+      "timezone": "Asia/Katmandu"
+    },
+    {
+      "id": "Asia/Khandyga",
+      "timezone_name": "Jakutsk Zeit",
+      "timezone_raw_offset": "+09:00",
+      "name": "Asia/Khandyga",
+      "timezone": "Asia/Khandyga",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "timezone": "Asia/Kolkata",
+      "timezone_name": "Indische Normalzeit",
+      "timezone_offset": "+05:30",
+      "name": "Asia/Kolkata",
+      "timezone_raw_offset": "+05:30",
+      "id": "Asia/Kolkata"
+    },
+    {
+      "timezone_offset": "+07:00",
+      "timezone_raw_offset": "+07:00",
+      "id": "Asia/Krasnoyarsk",
+      "timezone_name": "Krasnojarsker Zeit",
+      "timezone": "Asia/Krasnoyarsk",
+      "name": "Asia/Krasnoyarsk"
+    },
+    {
+      "id": "Asia/Kuala_Lumpur",
+      "timezone": "Asia/Kuala_Lumpur",
+      "timezone_name": "Malaysische Zeit",
+      "timezone_raw_offset": "+08:00",
+      "name": "Asia/Kuala_Lumpur",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "name": "Asia/Kuching",
+      "timezone_raw_offset": "+08:00",
+      "timezone": "Asia/Kuching",
+      "timezone_name": "Malaysische Zeit",
+      "timezone_offset": "+08:00",
+      "id": "Asia/Kuching"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "id": "Asia/Kuwait",
+      "name": "Asia/Kuwait",
+      "timezone": "Asia/Kuwait",
+      "timezone_name": "Arabische Normalzeit",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "timezone_raw_offset": "+08:00",
+      "id": "Asia/Macao",
+      "timezone_offset": "+08:00",
+      "timezone": "Asia/Macao",
+      "timezone_name": "Chinesische Normalzeit",
+      "name": "Asia/Macao"
+    },
+    {
+      "timezone_name": "Chinesische Normalzeit",
+      "id": "Asia/Macau",
+      "timezone_raw_offset": "+08:00",
+      "timezone": "Asia/Macau",
+      "name": "Asia/Macau",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "id": "Asia/Magadan",
+      "timezone_raw_offset": "+11:00",
+      "timezone": "Asia/Magadan",
+      "timezone_offset": "+11:00",
+      "timezone_name": "Magadanische Zeit",
+      "name": "Asia/Magadan"
+    },
+    {
+      "id": "Asia/Makassar",
+      "timezone_offset": "+08:00",
+      "timezone_name": "Zentralindonesische Zeit",
+      "name": "Asia/Makassar",
+      "timezone_raw_offset": "+08:00",
+      "timezone": "Asia/Makassar"
+    },
+    {
+      "timezone_name": "Philippines Standard Time",
+      "timezone": "Asia/Manila",
+      "timezone_offset": "+08:00",
+      "timezone_raw_offset": "+08:00",
+      "id": "Asia/Manila",
+      "name": "Asia/Manila"
+    },
+    {
+      "timezone_name": "Golf Normalzeit",
+      "timezone_raw_offset": "+04:00",
+      "timezone_offset": "+04:00",
+      "id": "Asia/Muscat",
+      "timezone": "Asia/Muscat",
+      "name": "Asia/Muscat"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "name": "Asia/Nicosia",
+      "timezone": "Asia/Nicosia",
+      "id": "Asia/Nicosia",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "name": "Asia/Novokuznetsk",
+      "id": "Asia/Novokuznetsk",
+      "timezone_raw_offset": "+07:00",
+      "timezone": "Asia/Novokuznetsk",
+      "timezone_offset": "+07:00",
+      "timezone_name": "Krasnojarsker Zeit"
+    },
+    {
+      "timezone_name": "Nowosibirsker Zeit",
+      "timezone_raw_offset": "+07:00",
+      "id": "Asia/Novosibirsk",
+      "name": "Asia/Novosibirsk",
+      "timezone_offset": "+07:00",
+      "timezone": "Asia/Novosibirsk"
+    },
+    {
+      "timezone": "Asia/Omsk",
+      "id": "Asia/Omsk",
+      "timezone_name": "Omsk Zeit",
+      "timezone_offset": "+06:00",
+      "name": "Asia/Omsk",
+      "timezone_raw_offset": "+06:00"
+    },
+    {
+      "timezone": "Asia/Oral",
+      "timezone_raw_offset": "+05:00",
+      "id": "Asia/Oral",
+      "name": "Asia/Oral",
+      "timezone_name": "Oral Zeit",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "timezone": "Asia/Phnom_Penh",
+      "timezone_offset": "+07:00",
+      "timezone_name": "Indochina Zeit",
+      "id": "Asia/Phnom_Penh",
+      "timezone_raw_offset": "+07:00",
+      "name": "Asia/Phnom_Penh"
+    },
+    {
+      "timezone_name": "Westindonesische Zeit",
+      "timezone_raw_offset": "+07:00",
+      "name": "Asia/Pontianak",
+      "timezone_offset": "+07:00",
+      "timezone": "Asia/Pontianak",
+      "id": "Asia/Pontianak"
+    },
+    {
+      "timezone": "Asia/Pyongyang",
+      "timezone_name": "Koreanische Normalzeit",
+      "id": "Asia/Pyongyang",
+      "timezone_raw_offset": "+09:00",
+      "name": "Asia/Pyongyang",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "timezone": "Asia/Qatar",
+      "timezone_raw_offset": "+03:00",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Arabische Normalzeit",
+      "name": "Asia/Qatar",
+      "id": "Asia/Qatar"
+    },
+    {
+      "id": "Asia/Qyzylorda",
+      "timezone_name": "Qyzylorda Zeit",
+      "timezone": "Asia/Qyzylorda",
+      "timezone_offset": "+06:00",
+      "timezone_raw_offset": "+06:00",
+      "name": "Asia/Qyzylorda"
+    },
+    {
+      "id": "Asia/Rangoon",
+      "timezone": "Asia/Rangoon",
+      "timezone_name": "Myanmar Zeit",
+      "name": "Asia/Rangoon",
+      "timezone_offset": "+06:30",
+      "timezone_raw_offset": "+06:30"
+    },
+    {
+      "timezone": "Asia/Riyadh",
+      "timezone_name": "Arabische Normalzeit",
+      "name": "Asia/Riyadh",
+      "id": "Asia/Riyadh",
+      "timezone_raw_offset": "+03:00",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "timezone": "Asia/Saigon",
+      "id": "Asia/Saigon",
+      "timezone_raw_offset": "+07:00",
+      "timezone_offset": "+07:00",
+      "name": "Asia/Saigon",
+      "timezone_name": "Indochina Zeit"
+    },
+    {
+      "name": "Asia/Sakhalin",
+      "timezone_offset": "+11:00",
+      "timezone": "Asia/Sakhalin",
+      "timezone_name": "Sakhalin Zeit",
+      "timezone_raw_offset": "+11:00",
+      "id": "Asia/Sakhalin"
+    },
+    {
+      "timezone_name": "Usbekistan Zeit",
+      "id": "Asia/Samarkand",
+      "timezone": "Asia/Samarkand",
+      "name": "Asia/Samarkand",
+      "timezone_offset": "+05:00",
+      "timezone_raw_offset": "+05:00"
+    },
+    {
+      "timezone_name": "Koreanische Normalzeit",
+      "id": "Asia/Seoul",
+      "timezone": "Asia/Seoul",
+      "timezone_offset": "+09:00",
+      "timezone_raw_offset": "+09:00",
+      "name": "Asia/Seoul"
+    },
+    {
+      "timezone_name": "Chinesische Normalzeit",
+      "timezone_raw_offset": "+08:00",
+      "id": "Asia/Shanghai",
+      "name": "Asia/Shanghai",
+      "timezone_offset": "+08:00",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "name": "Asia/Singapore",
+      "timezone": "Asia/Singapore",
+      "id": "Asia/Singapore",
+      "timezone_name": "Singapur Zeit",
+      "timezone_raw_offset": "+08:00",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "timezone_name": "Srednekolymsk Time",
+      "name": "Asia/Srednekolymsk",
+      "timezone": "Asia/Srednekolymsk",
+      "id": "Asia/Srednekolymsk",
+      "timezone_raw_offset": "+11:00",
+      "timezone_offset": "+11:00"
+    },
+    {
+      "id": "Asia/Taipei",
+      "timezone": "Asia/Taipei",
+      "timezone_raw_offset": "+08:00",
+      "timezone_offset": "+08:00",
+      "name": "Asia/Taipei",
+      "timezone_name": "Chinesische Normalzeit"
+    },
+    {
+      "timezone_offset": "+05:00",
+      "name": "Asia/Tashkent",
+      "timezone_name": "Usbekistan Zeit",
+      "timezone_raw_offset": "+05:00",
+      "id": "Asia/Tashkent",
+      "timezone": "Asia/Tashkent"
+    },
+    {
+      "timezone": "Asia/Tbilisi",
+      "timezone_offset": "+04:00",
+      "id": "Asia/Tbilisi",
+      "name": "Asia/Tbilisi",
+      "timezone_name": "Georgische Zeit",
+      "timezone_raw_offset": "+04:00"
+    },
+    {
+      "timezone_raw_offset": "+03:30",
+      "timezone_offset": "+04:30",
+      "timezone_name": "Iranische Normalzeit",
+      "timezone": "Asia/Tehran",
+      "name": "Asia/Tehran",
+      "id": "Asia/Tehran"
+    },
+    {
+      "timezone": "Asia/Tel_Aviv",
+      "timezone_offset": "+03:00",
+      "name": "Asia/Tel_Aviv",
+      "id": "Asia/Tel_Aviv",
+      "timezone_name": "Israelische Normalzeit",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone_offset": "+06:00",
+      "timezone_raw_offset": "+06:00",
+      "timezone_name": "Bhutanische Zeit",
+      "timezone": "Asia/Thimbu",
+      "name": "Asia/Thimbu",
+      "id": "Asia/Thimbu"
+    },
+    {
+      "timezone": "Asia/Thimphu",
+      "timezone_name": "Bhutanische Zeit",
+      "timezone_offset": "+06:00",
+      "id": "Asia/Thimphu",
+      "name": "Asia/Thimphu",
+      "timezone_raw_offset": "+06:00"
+    },
+    {
+      "id": "Asia/Tokyo",
+      "name": "Asia/Tokyo",
+      "timezone_name": "Japanische Normalzeit",
+      "timezone_offset": "+09:00",
+      "timezone": "Asia/Tokyo",
+      "timezone_raw_offset": "+09:00"
+    },
+    {
+      "name": "Asia/Tomsk",
+      "timezone_raw_offset": "+07:00",
+      "timezone": "Asia/Tomsk",
+      "id": "Asia/Tomsk",
+      "timezone_offset": "+07:00",
+      "timezone_name": "GMT+07:00"
+    },
+    {
+      "timezone_offset": "+08:00",
+      "timezone_name": "Zentralindonesische Zeit",
+      "timezone": "Asia/Ujung_Pandang",
+      "name": "Asia/Ujung_Pandang",
+      "timezone_raw_offset": "+08:00",
+      "id": "Asia/Ujung_Pandang"
+    },
+    {
+      "timezone": "Asia/Ulaanbaatar",
+      "id": "Asia/Ulaanbaatar",
+      "name": "Asia/Ulaanbaatar",
+      "timezone_raw_offset": "+08:00",
+      "timezone_offset": "+08:00",
+      "timezone_name": "Ulaanbaatar Zeit"
+    },
+    {
+      "timezone_offset": "+08:00",
+      "timezone_name": "Ulaanbaatar Zeit",
+      "timezone": "Asia/Ulan_Bator",
+      "timezone_raw_offset": "+08:00",
+      "name": "Asia/Ulan_Bator",
+      "id": "Asia/Ulan_Bator"
+    },
+    {
+      "timezone_name": "Chinesische Normalzeit",
+      "timezone_raw_offset": "+06:00",
+      "name": "Asia/Urumqi",
+      "id": "Asia/Urumqi",
+      "timezone_offset": "+06:00",
+      "timezone": "Asia/Urumqi"
+    },
+    {
+      "timezone_offset": "+10:00",
+      "timezone_raw_offset": "+10:00",
+      "name": "Asia/Ust-Nera",
+      "timezone": "Asia/Ust-Nera",
+      "id": "Asia/Ust-Nera",
+      "timezone_name": "Ust-Nera Zeit"
+    },
+    {
+      "timezone_offset": "+07:00",
+      "name": "Asia/Vientiane",
+      "timezone_name": "Indochina Zeit",
+      "id": "Asia/Vientiane",
+      "timezone": "Asia/Vientiane",
+      "timezone_raw_offset": "+07:00"
+    },
+    {
+      "name": "Asia/Vladivostok",
+      "timezone_name": "Wladiwostok Zeit",
+      "timezone_offset": "+10:00",
+      "timezone": "Asia/Vladivostok",
+      "timezone_raw_offset": "+10:00",
+      "id": "Asia/Vladivostok"
+    },
+    {
+      "timezone": "Asia/Yakutsk",
+      "name": "Asia/Yakutsk",
+      "id": "Asia/Yakutsk",
+      "timezone_raw_offset": "+09:00",
+      "timezone_offset": "+09:00",
+      "timezone_name": "Jakutsk Zeit"
+    },
+    {
+      "timezone_name": "Myanmar Zeit",
+      "name": "Asia/Yangon",
+      "timezone": "Asia/Yangon",
+      "timezone_raw_offset": "+06:30",
+      "timezone_offset": "+06:30",
+      "id": "Asia/Yangon"
+    },
+    {
+      "timezone_name": "Jekaterinburger Zeit",
+      "name": "Asia/Yekaterinburg",
+      "timezone": "Asia/Yekaterinburg",
+      "id": "Asia/Yekaterinburg",
+      "timezone_raw_offset": "+05:00",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "name": "Asia/Yerevan",
+      "timezone_offset": "+04:00",
+      "id": "Asia/Yerevan",
+      "timezone_name": "Armenische Zeit",
+      "timezone": "Asia/Yerevan",
+      "timezone_raw_offset": "+04:00"
+    },
+    {
+      "timezone": "AST",
+      "timezone_offset": "-08:00",
+      "name": "AST",
+      "timezone_raw_offset": "-09:00",
+      "id": "AST",
+      "timezone_name": "Alaska Normalzeit"
+    },
+    {
+      "timezone_name": "Azoren Zeit",
+      "timezone_raw_offset": "-01:00",
+      "timezone_offset": "+00:00",
+      "timezone": "Atlantic/Azores",
+      "name": "Atlantic/Azores",
+      "id": "Atlantic/Azores"
+    },
+    {
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "Atlantic/Bermuda",
+      "timezone": "Atlantic/Bermuda",
+      "timezone_offset": "-03:00",
+      "id": "Atlantic/Bermuda",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "timezone_offset": "+01:00",
+      "name": "Atlantic/Canary",
+      "timezone_raw_offset": "+00:00",
+      "timezone_name": "Westeuropäische Zeit",
+      "id": "Atlantic/Canary",
+      "timezone": "Atlantic/Canary"
+    },
+    {
+      "id": "Atlantic/Cape_Verde",
+      "timezone_raw_offset": "-01:00",
+      "timezone": "Atlantic/Cape_Verde",
+      "name": "Atlantic/Cape_Verde",
+      "timezone_name": "Kap Verde Zeit",
+      "timezone_offset": "-01:00"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Atlantic/Faeroe",
+      "timezone_offset": "+01:00",
+      "name": "Atlantic/Faeroe",
+      "timezone_name": "Westeuropäische Zeit",
+      "id": "Atlantic/Faeroe"
+    },
+    {
+      "name": "Atlantic/Faroe",
+      "timezone": "Atlantic/Faroe",
+      "timezone_raw_offset": "+00:00",
+      "timezone_offset": "+01:00",
+      "id": "Atlantic/Faroe",
+      "timezone_name": "Westeuropäische Zeit"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "name": "Atlantic/Jan_Mayen",
+      "id": "Atlantic/Jan_Mayen",
+      "timezone": "Atlantic/Jan_Mayen"
+    },
+    {
+      "timezone_name": "Westeuropäische Zeit",
+      "id": "Atlantic/Madeira",
+      "name": "Atlantic/Madeira",
+      "timezone_offset": "+01:00",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Atlantic/Madeira"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Atlantic/Reykjavik",
+      "timezone_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "id": "Atlantic/Reykjavik",
+      "name": "Atlantic/Reykjavik"
+    },
+    {
+      "timezone_name": "South Georgia Normalzeit",
+      "id": "Atlantic/South_Georgia",
+      "timezone_offset": "-02:00",
+      "timezone_raw_offset": "-02:00",
+      "timezone": "Atlantic/South_Georgia",
+      "name": "Atlantic/South_Georgia"
+    },
+    {
+      "name": "Atlantic/St_Helena",
+      "timezone": "Atlantic/St_Helena",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_offset": "+00:00",
+      "id": "Atlantic/St_Helena",
+      "timezone_raw_offset": "+00:00"
+    },
+    {
+      "timezone": "Atlantic/Stanley",
+      "id": "Atlantic/Stanley",
+      "name": "Atlantic/Stanley",
+      "timezone_name": "Falkland Inseln Zeit",
+      "timezone_raw_offset": "-03:00",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "timezone_raw_offset": "+10:00",
+      "timezone": "Australia/ACT",
+      "name": "Australia/ACT",
+      "timezone_offset": "+10:00",
+      "timezone_name": "Östliche Normalzeit (New South Wales)",
+      "id": "Australia/ACT"
+    },
+    {
+      "id": "Australia/Adelaide",
+      "timezone": "Australia/Adelaide",
+      "timezone_name": "Zentrale Normalzeit (Südaustralien)",
+      "name": "Australia/Adelaide",
+      "timezone_offset": "+09:30",
+      "timezone_raw_offset": "+09:30"
+    },
+    {
+      "id": "Australia/Brisbane",
+      "timezone_name": "Östliche Normalzeit (Queensland)",
+      "timezone_offset": "+10:00",
+      "name": "Australia/Brisbane",
+      "timezone_raw_offset": "+10:00",
+      "timezone": "Australia/Brisbane"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit (Südaustralien/New South Wales)",
+      "id": "Australia/Broken_Hill",
+      "timezone": "Australia/Broken_Hill",
+      "timezone_offset": "+09:30",
+      "name": "Australia/Broken_Hill",
+      "timezone_raw_offset": "+09:30"
+    },
+    {
+      "id": "Australia/Canberra",
+      "timezone_offset": "+10:00",
+      "timezone_name": "Östliche Normalzeit (New South Wales)",
+      "timezone": "Australia/Canberra",
+      "name": "Australia/Canberra",
+      "timezone_raw_offset": "+10:00"
+    },
+    {
+      "name": "Australia/Currie",
+      "timezone_name": "Östliche Normalzeit (New South Wales)",
+      "timezone_offset": "+10:00",
+      "timezone": "Australia/Currie",
+      "id": "Australia/Currie",
+      "timezone_raw_offset": "+10:00"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit (Northern Territory)",
+      "timezone_offset": "+09:30",
+      "id": "Australia/Darwin",
+      "timezone": "Australia/Darwin",
+      "timezone_raw_offset": "+09:30",
+      "name": "Australia/Darwin"
+    },
+    {
+      "timezone_name": "Zentral-Westliche Normalzeit (Australien)",
+      "timezone": "Australia/Eucla",
+      "id": "Australia/Eucla",
+      "timezone_raw_offset": "+08:45",
+      "timezone_offset": "+08:45",
+      "name": "Australia/Eucla"
+    },
+    {
+      "name": "Australia/Hobart",
+      "id": "Australia/Hobart",
+      "timezone": "Australia/Hobart",
+      "timezone_offset": "+10:00",
+      "timezone_raw_offset": "+10:00",
+      "timezone_name": "Östliche Normalzeit (Tasmanien)"
+    },
+    {
+      "timezone_name": "Lord Howe Normalzeit",
+      "timezone_offset": "+10:30",
+      "id": "Australia/LHI",
+      "timezone_raw_offset": "+10:30",
+      "timezone": "Australia/LHI",
+      "name": "Australia/LHI"
+    },
+    {
+      "timezone_raw_offset": "+10:00",
+      "timezone_offset": "+10:00",
+      "timezone_name": "Östliche Normalzeit (Queensland)",
+      "id": "Australia/Lindeman",
+      "timezone": "Australia/Lindeman",
+      "name": "Australia/Lindeman"
+    },
+    {
+      "timezone_raw_offset": "+10:30",
+      "id": "Australia/Lord_Howe",
+      "timezone_offset": "+10:30",
+      "timezone": "Australia/Lord_Howe",
+      "timezone_name": "Lord Howe Normalzeit",
+      "name": "Australia/Lord_Howe"
+    },
+    {
+      "timezone": "Australia/Melbourne",
+      "id": "Australia/Melbourne",
+      "timezone_offset": "+10:00",
+      "name": "Australia/Melbourne",
+      "timezone_name": "Östliche Normalzeit (Victoria)",
+      "timezone_raw_offset": "+10:00"
+    },
+    {
+      "id": "Australia/North",
+      "name": "Australia/North",
+      "timezone_raw_offset": "+09:30",
+      "timezone_name": "Zentrale Normalzeit (Northern Territory)",
+      "timezone": "Australia/North",
+      "timezone_offset": "+09:30"
+    },
+    {
+      "name": "Australia/NSW",
+      "timezone_offset": "+10:00",
+      "id": "Australia/NSW",
+      "timezone_name": "Östliche Normalzeit (New South Wales)",
+      "timezone_raw_offset": "+10:00",
+      "timezone": "Australia/NSW"
+    },
+    {
+      "timezone_offset": "+08:00",
+      "id": "Australia/Perth",
+      "timezone": "Australia/Perth",
+      "name": "Australia/Perth",
+      "timezone_name": "Westliche Normalzeit (Australien)",
+      "timezone_raw_offset": "+08:00"
+    },
+    {
+      "timezone_offset": "+10:00",
+      "name": "Australia/Queensland",
+      "timezone_raw_offset": "+10:00",
+      "timezone_name": "Östliche Normalzeit (Queensland)",
+      "id": "Australia/Queensland",
+      "timezone": "Australia/Queensland"
+    },
+    {
+      "timezone_raw_offset": "+09:30",
+      "timezone_offset": "+09:30",
+      "name": "Australia/South",
+      "timezone_name": "Zentrale Normalzeit (Südaustralien)",
+      "timezone": "Australia/South",
+      "id": "Australia/South"
+    },
+    {
+      "timezone": "Australia/Sydney",
+      "name": "Australia/Sydney",
+      "timezone_name": "Östliche Normalzeit (New South Wales)",
+      "timezone_raw_offset": "+10:00",
+      "timezone_offset": "+10:00",
+      "id": "Australia/Sydney"
+    },
+    {
+      "timezone": "Australia/Tasmania",
+      "timezone_offset": "+10:00",
+      "timezone_name": "Östliche Normalzeit (Tasmanien)",
+      "name": "Australia/Tasmania",
+      "id": "Australia/Tasmania",
+      "timezone_raw_offset": "+10:00"
+    },
+    {
+      "timezone_raw_offset": "+10:00",
+      "name": "Australia/Victoria",
+      "timezone_name": "Östliche Normalzeit (Victoria)",
+      "id": "Australia/Victoria",
+      "timezone_offset": "+10:00",
+      "timezone": "Australia/Victoria"
+    },
+    {
+      "timezone_name": "Westliche Normalzeit (Australien)",
+      "timezone_raw_offset": "+08:00",
+      "name": "Australia/West",
+      "timezone_offset": "+08:00",
+      "id": "Australia/West",
+      "timezone": "Australia/West"
+    },
+    {
+      "id": "Australia/Yancowinna",
+      "timezone_raw_offset": "+09:30",
+      "timezone": "Australia/Yancowinna",
+      "timezone_offset": "+09:30",
+      "name": "Australia/Yancowinna",
+      "timezone_name": "Zentrale Normalzeit (Südaustralien/New South Wales)"
+    },
+    {
+      "timezone": "BET",
+      "timezone_name": "Brasilianische Zeit",
+      "name": "BET",
+      "timezone_offset": "-03:00",
+      "id": "BET",
+      "timezone_raw_offset": "-03:00"
+    },
+    {
+      "name": "Brazil/Acre",
+      "timezone": "Brazil/Acre",
+      "timezone_offset": "-05:00",
+      "timezone_raw_offset": "-05:00",
+      "timezone_name": "Acre Normalzeit",
+      "id": "Brazil/Acre"
+    },
+    {
+      "id": "Brazil/DeNoronha",
+      "timezone_name": "Fernando de Noronha Zeit",
+      "timezone_offset": "-02:00",
+      "timezone": "Brazil/DeNoronha",
+      "name": "Brazil/DeNoronha",
+      "timezone_raw_offset": "-02:00"
+    },
+    {
+      "timezone_name": "Brasilianische Zeit",
+      "timezone_offset": "-03:00",
+      "name": "Brazil/East",
+      "id": "Brazil/East",
+      "timezone_raw_offset": "-03:00",
+      "timezone": "Brazil/East"
+    },
+    {
+      "timezone": "Brazil/West",
+      "timezone_raw_offset": "-04:00",
+      "id": "Brazil/West",
+      "name": "Brazil/West",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Amazonas Normalzeit"
+    },
+    {
+      "name": "BST",
+      "timezone": "BST",
+      "timezone_offset": "+06:00",
+      "id": "BST",
+      "timezone_name": "Bangladesch Zeit",
+      "timezone_raw_offset": "+06:00"
+    },
+    {
+      "timezone_raw_offset": "-04:00",
+      "timezone": "Canada/Atlantic",
+      "timezone_offset": "-03:00",
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "Canada/Atlantic",
+      "id": "Canada/Atlantic"
+    },
+    {
+      "name": "Canada/Central",
+      "id": "Canada/Central",
+      "timezone_raw_offset": "-06:00",
+      "timezone": "Canada/Central",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "id": "Canada/Eastern",
+      "name": "Canada/Eastern",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "Canada/Eastern",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "timezone": "Canada/Mountain",
+      "timezone_raw_offset": "-07:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "name": "Canada/Mountain",
+      "id": "Canada/Mountain"
+    },
+    {
+      "timezone_name": "Neufundland Normalzeit",
+      "id": "Canada/Newfoundland",
+      "timezone": "Canada/Newfoundland",
+      "name": "Canada/Newfoundland",
+      "timezone_offset": "-02:30",
+      "timezone_raw_offset": "-03:30"
+    },
+    {
+      "timezone_name": "Pazifische Normalzeit",
+      "id": "Canada/Pacific",
+      "timezone": "Canada/Pacific",
+      "name": "Canada/Pacific",
+      "timezone_offset": "-07:00",
+      "timezone_raw_offset": "-08:00"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_raw_offset": "-06:00",
+      "name": "Canada/Saskatchewan",
+      "timezone_offset": "-06:00",
+      "timezone": "Canada/Saskatchewan",
+      "id": "Canada/Saskatchewan"
+    },
+    {
+      "timezone": "Canada/Yukon",
+      "timezone_offset": "-07:00",
+      "timezone_raw_offset": "-08:00",
+      "id": "Canada/Yukon",
+      "timezone_name": "Pazifische Normalzeit",
+      "name": "Canada/Yukon"
+    },
+    {
+      "timezone": "CAT",
+      "id": "CAT",
+      "timezone_name": "Zentralafrikanische Zeit",
+      "name": "CAT",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone_name": "Chilenische Zeit",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "Chile/Continental",
+      "timezone_offset": "-04:00",
+      "id": "Chile/Continental",
+      "name": "Chile/Continental"
+    },
+    {
+      "timezone_raw_offset": "-06:00",
+      "timezone_offset": "-06:00",
+      "timezone": "Chile/EasterIsland",
+      "timezone_name": "Osterinseln Zeit",
+      "id": "Chile/EasterIsland",
+      "name": "Chile/EasterIsland"
+    },
+    {
+      "timezone_offset": "-02:30",
+      "id": "CNT",
+      "name": "CNT",
+      "timezone": "CNT",
+      "timezone_raw_offset": "-03:30",
+      "timezone_name": "Neufundland Normalzeit"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone": "CST",
+      "timezone_offset": "-05:00",
+      "name": "CST",
+      "id": "CST",
+      "timezone_raw_offset": "-06:00"
+    },
+    {
+      "timezone": "CST6CDT",
+      "timezone_raw_offset": "-06:00",
+      "name": "CST6CDT",
+      "timezone_name": "Zentrale Normalzeit",
+      "id": "CST6CDT",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "id": "CTT",
+      "timezone_offset": "+08:00",
+      "name": "CTT",
+      "timezone_raw_offset": "+08:00",
+      "timezone_name": "Chinesische Normalzeit",
+      "timezone": "CTT"
+    },
+    {
+      "timezone": "Cuba",
+      "timezone_raw_offset": "-05:00",
+      "id": "Cuba",
+      "timezone_offset": "-04:00",
+      "name": "Cuba",
+      "timezone_name": "Kubanische Normalzeit"
+    },
+    {
+      "name": "EAT",
+      "timezone": "EAT",
+      "timezone_offset": "+03:00",
+      "id": "EAT",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "timezone": "ECT",
+      "timezone_raw_offset": "+01:00",
+      "name": "ECT",
+      "id": "ECT",
+      "timezone_offset": "+02:00",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone": "EET",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone_offset": "+03:00",
+      "id": "EET",
+      "name": "EET",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "timezone": "Egypt",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+02:00",
+      "name": "Egypt",
+      "id": "Egypt"
+    },
+    {
+      "id": "Eire",
+      "timezone_offset": "+01:00",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00",
+      "name": "Eire",
+      "timezone": "Eire"
+    },
+    {
+      "timezone_raw_offset": "-05:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "EST",
+      "timezone_offset": "-05:00",
+      "name": "EST",
+      "id": "EST"
+    },
+    {
+      "id": "EST5EDT",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "EST5EDT",
+      "name": "EST5EDT"
+    },
+    {
+      "timezone_offset": "+00:00",
+      "id": "Etc/GMT",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Etc/GMT",
+      "name": "Etc/GMT"
+    },
+    {
+      "timezone": "Etc/GMT+0",
+      "timezone_offset": "+00:00",
+      "id": "Etc/GMT+0",
+      "timezone_raw_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "name": "Etc/GMT+0"
+    },
+    {
+      "timezone": "Etc/GMT+1",
+      "id": "Etc/GMT+1",
+      "timezone_offset": "-01:00",
+      "name": "Etc/GMT+1",
+      "timezone_name": "GMT-01:00",
+      "timezone_raw_offset": "-01:00"
+    },
+    {
+      "timezone_offset": "-10:00",
+      "timezone_name": "GMT-10:00",
+      "id": "Etc/GMT+10",
+      "name": "Etc/GMT+10",
+      "timezone": "Etc/GMT+10",
+      "timezone_raw_offset": "-10:00"
+    },
+    {
+      "id": "Etc/GMT+11",
+      "timezone": "Etc/GMT+11",
+      "timezone_raw_offset": "-11:00",
+      "timezone_offset": "-11:00",
+      "timezone_name": "GMT-11:00",
+      "name": "Etc/GMT+11"
+    },
+    {
+      "timezone_raw_offset": "-12:00",
+      "name": "Etc/GMT+12",
+      "timezone_name": "GMT-12:00",
+      "timezone_offset": "-12:00",
+      "timezone": "Etc/GMT+12",
+      "id": "Etc/GMT+12"
+    },
+    {
+      "name": "Etc/GMT+2",
+      "id": "Etc/GMT+2",
+      "timezone": "Etc/GMT+2",
+      "timezone_raw_offset": "-02:00",
+      "timezone_name": "GMT-02:00",
+      "timezone_offset": "-02:00"
+    },
+    {
+      "timezone": "Etc/GMT+3",
+      "timezone_offset": "-03:00",
+      "timezone_name": "GMT-03:00",
+      "timezone_raw_offset": "-03:00",
+      "id": "Etc/GMT+3",
+      "name": "Etc/GMT+3"
+    },
+    {
+      "timezone": "Etc/GMT+4",
+      "timezone_offset": "-04:00",
+      "name": "Etc/GMT+4",
+      "timezone_name": "GMT-04:00",
+      "id": "Etc/GMT+4",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "name": "Etc/GMT+5",
+      "timezone_offset": "-05:00",
+      "id": "Etc/GMT+5",
+      "timezone_name": "GMT-05:00",
+      "timezone": "Etc/GMT+5",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "timezone_name": "GMT-06:00",
+      "timezone": "Etc/GMT+6",
+      "name": "Etc/GMT+6",
+      "timezone_raw_offset": "-06:00",
+      "id": "Etc/GMT+6"
+    },
+    {
+      "timezone_name": "GMT-07:00",
+      "timezone_raw_offset": "-07:00",
+      "timezone_offset": "-07:00",
+      "name": "Etc/GMT+7",
+      "timezone": "Etc/GMT+7",
+      "id": "Etc/GMT+7"
+    },
+    {
+      "timezone": "Etc/GMT+8",
+      "name": "Etc/GMT+8",
+      "timezone_raw_offset": "-08:00",
+      "timezone_name": "GMT-08:00",
+      "id": "Etc/GMT+8",
+      "timezone_offset": "-08:00"
+    },
+    {
+      "timezone_raw_offset": "-09:00",
+      "timezone_offset": "-09:00",
+      "timezone": "Etc/GMT+9",
+      "name": "Etc/GMT+9",
+      "timezone_name": "GMT-09:00",
+      "id": "Etc/GMT+9"
+    },
+    {
+      "timezone": "Etc/GMT0",
+      "timezone_offset": "+00:00",
+      "timezone_raw_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "name": "Etc/GMT0",
+      "id": "Etc/GMT0"
+    },
+    {
+      "name": "Etc/GMT-0",
+      "timezone_raw_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "id": "Etc/GMT-0",
+      "timezone": "Etc/GMT-0",
+      "timezone_offset": "+00:00"
+    },
+    {
+      "timezone": "Etc/GMT-1",
+      "timezone_name": "GMT+01:00",
+      "timezone_raw_offset": "+01:00",
+      "timezone_offset": "+01:00",
+      "name": "Etc/GMT-1",
+      "id": "Etc/GMT-1"
+    },
+    {
+      "timezone_offset": "+10:00",
+      "id": "Etc/GMT-10",
+      "name": "Etc/GMT-10",
+      "timezone_raw_offset": "+10:00",
+      "timezone_name": "GMT+10:00",
+      "timezone": "Etc/GMT-10"
+    },
+    {
+      "timezone_offset": "+11:00",
+      "name": "Etc/GMT-11",
+      "timezone_name": "GMT+11:00",
+      "timezone": "Etc/GMT-11",
+      "id": "Etc/GMT-11",
+      "timezone_raw_offset": "+11:00"
+    },
+    {
+      "name": "Etc/GMT-12",
+      "id": "Etc/GMT-12",
+      "timezone_offset": "+12:00",
+      "timezone": "Etc/GMT-12",
+      "timezone_name": "GMT+12:00",
+      "timezone_raw_offset": "+12:00"
+    },
+    {
+      "timezone_offset": "+13:00",
+      "timezone_name": "GMT+13:00",
+      "name": "Etc/GMT-13",
+      "timezone": "Etc/GMT-13",
+      "timezone_raw_offset": "+13:00",
+      "id": "Etc/GMT-13"
+    },
+    {
+      "id": "Etc/GMT-14",
+      "timezone_offset": "+14:00",
+      "timezone_raw_offset": "+14:00",
+      "timezone_name": "GMT+14:00",
+      "timezone": "Etc/GMT-14",
+      "name": "Etc/GMT-14"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "GMT+02:00",
+      "name": "Etc/GMT-2",
+      "timezone": "Etc/GMT-2",
+      "timezone_offset": "+02:00",
+      "id": "Etc/GMT-2"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "timezone": "Etc/GMT-3",
+      "name": "Etc/GMT-3",
+      "timezone_name": "GMT+03:00",
+      "id": "Etc/GMT-3",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "timezone_name": "GMT+04:00",
+      "name": "Etc/GMT-4",
+      "timezone_offset": "+04:00",
+      "id": "Etc/GMT-4",
+      "timezone_raw_offset": "+04:00",
+      "timezone": "Etc/GMT-4"
+    },
+    {
+      "timezone_offset": "+05:00",
+      "name": "Etc/GMT-5",
+      "timezone": "Etc/GMT-5",
+      "timezone_name": "GMT+05:00",
+      "timezone_raw_offset": "+05:00",
+      "id": "Etc/GMT-5"
+    },
+    {
+      "name": "Etc/GMT-6",
+      "timezone_raw_offset": "+06:00",
+      "id": "Etc/GMT-6",
+      "timezone_name": "GMT+06:00",
+      "timezone_offset": "+06:00",
+      "timezone": "Etc/GMT-6"
+    },
+    {
+      "timezone_offset": "+07:00",
+      "timezone_name": "GMT+07:00",
+      "timezone": "Etc/GMT-7",
+      "name": "Etc/GMT-7",
+      "id": "Etc/GMT-7",
+      "timezone_raw_offset": "+07:00"
+    },
+    {
+      "timezone_offset": "+08:00",
+      "timezone_raw_offset": "+08:00",
+      "timezone_name": "GMT+08:00",
+      "name": "Etc/GMT-8",
+      "timezone": "Etc/GMT-8",
+      "id": "Etc/GMT-8"
+    },
+    {
+      "timezone_name": "GMT+09:00",
+      "timezone_raw_offset": "+09:00",
+      "id": "Etc/GMT-9",
+      "timezone": "Etc/GMT-9",
+      "name": "Etc/GMT-9",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "timezone_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "name": "Etc/Greenwich",
+      "timezone": "Etc/Greenwich",
+      "timezone_raw_offset": "+00:00",
+      "id": "Etc/Greenwich"
+    },
+    {
+      "id": "Etc/UCT",
+      "timezone_offset": "+00:00",
+      "timezone": "Etc/UCT",
+      "timezone_name": "Koordinierte Universalzeit",
+      "timezone_raw_offset": "+00:00",
+      "name": "Etc/UCT"
+    },
+    {
+      "name": "Etc/Universal",
+      "timezone": "Etc/Universal",
+      "id": "Etc/Universal",
+      "timezone_name": "Koordinierte Universalzeit",
+      "timezone_offset": "+00:00",
+      "timezone_raw_offset": "+00:00"
+    },
+    {
+      "name": "Etc/Zulu",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Etc/Zulu",
+      "timezone_offset": "+00:00",
+      "id": "Etc/Zulu",
+      "timezone_name": "Koordinierte Universalzeit"
+    },
+    {
+      "timezone_raw_offset": "+01:00",
+      "name": "Europe/Amsterdam",
+      "timezone": "Europe/Amsterdam",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Europe/Amsterdam",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "name": "Europe/Andorra",
+      "timezone_offset": "+02:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Europe/Andorra",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Europe/Andorra"
+    },
+    {
+      "timezone_offset": "+04:00",
+      "timezone": "Europe/Astrakhan",
+      "id": "Europe/Astrakhan",
+      "timezone_name": "GMT+04:00",
+      "timezone_raw_offset": "+04:00",
+      "name": "Europe/Astrakhan"
+    },
+    {
+      "timezone": "Europe/Athens",
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Europe/Athens",
+      "timezone_raw_offset": "+02:00",
+      "name": "Europe/Athens",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "timezone": "Europe/Belfast",
+      "timezone_offset": "+01:00",
+      "name": "Europe/Belfast",
+      "id": "Europe/Belfast",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00"
+    },
+    {
+      "name": "Europe/Belgrade",
+      "timezone": "Europe/Belgrade",
+      "timezone_raw_offset": "+01:00",
+      "timezone_offset": "+02:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Europe/Belgrade"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "name": "Europe/Bratislava",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Europe/Bratislava",
+      "id": "Europe/Bratislava",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone": "Europe/Brussels",
+      "timezone_offset": "+02:00",
+      "name": "Europe/Brussels",
+      "id": "Europe/Brussels",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "name": "Europe/Bucharest",
+      "timezone": "Europe/Bucharest",
+      "timezone_offset": "+03:00",
+      "id": "Europe/Bucharest"
+    },
+    {
+      "timezone_raw_offset": "+01:00",
+      "timezone_offset": "+02:00",
+      "name": "Europe/Budapest",
+      "id": "Europe/Budapest",
+      "timezone": "Europe/Budapest",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "name": "Europe/Busingen",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone": "Europe/Busingen",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00",
+      "id": "Europe/Busingen"
+    },
+    {
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Europe/Chisinau",
+      "timezone_raw_offset": "+02:00",
+      "timezone": "Europe/Chisinau",
+      "timezone_offset": "+03:00",
+      "name": "Europe/Chisinau"
+    },
+    {
+      "timezone": "Europe/Copenhagen",
+      "name": "Europe/Copenhagen",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_offset": "+02:00",
+      "id": "Europe/Copenhagen"
+    },
+    {
+      "timezone": "Europe/Dublin",
+      "timezone_offset": "+01:00",
+      "timezone_raw_offset": "+00:00",
+      "id": "Europe/Dublin",
+      "name": "Europe/Dublin",
+      "timezone_name": "Greenwich Zeit"
+    },
+    {
+      "timezone_raw_offset": "+01:00",
+      "id": "Europe/Gibraltar",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone": "Europe/Gibraltar",
+      "timezone_offset": "+02:00",
+      "name": "Europe/Gibraltar"
+    },
+    {
+      "id": "Europe/Guernsey",
+      "timezone_name": "Greenwich Zeit",
+      "name": "Europe/Guernsey",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Europe/Guernsey",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "timezone": "Europe/Helsinki",
+      "name": "Europe/Helsinki",
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Europe/Helsinki",
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "id": "Europe/Isle_of_Man",
+      "timezone": "Europe/Isle_of_Man",
+      "name": "Europe/Isle_of_Man",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "timezone": "Europe/Istanbul",
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Europe/Istanbul",
+      "name": "Europe/Istanbul",
+      "timezone_offset": "+03:00",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "timezone": "Europe/Jersey",
+      "timezone_offset": "+01:00",
+      "timezone_raw_offset": "+00:00",
+      "id": "Europe/Jersey",
+      "timezone_name": "Greenwich Zeit",
+      "name": "Europe/Jersey"
+    },
+    {
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone": "Europe/Kaliningrad",
+      "timezone_offset": "+02:00",
+      "id": "Europe/Kaliningrad",
+      "timezone_raw_offset": "+02:00",
+      "name": "Europe/Kaliningrad"
+    },
+    {
+      "id": "Europe/Kiev",
+      "timezone": "Europe/Kiev",
+      "name": "Europe/Kiev",
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "id": "Europe/Kirov",
+      "timezone_raw_offset": "+03:00",
+      "name": "Europe/Kirov",
+      "timezone": "Europe/Kirov",
+      "timezone_name": "GMT+03:00"
+    },
+    {
+      "timezone_name": "Westeuropäische Zeit",
+      "timezone_offset": "+01:00",
+      "id": "Europe/Lisbon",
+      "timezone_raw_offset": "+00:00",
+      "name": "Europe/Lisbon",
+      "timezone": "Europe/Lisbon"
+    },
+    {
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_raw_offset": "+01:00",
+      "id": "Europe/Ljubljana",
+      "name": "Europe/Ljubljana",
+      "timezone": "Europe/Ljubljana",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "timezone": "Europe/Luxembourg",
+      "timezone_offset": "+02:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "name": "Europe/Luxembourg",
+      "timezone_raw_offset": "+01:00",
+      "id": "Europe/Luxembourg"
+    },
+    {
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00",
+      "name": "Europe/Madrid",
+      "timezone": "Europe/Madrid",
+      "id": "Europe/Madrid"
+    },
+    {
+      "name": "Europe/Malta",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Europe/Malta",
+      "timezone": "Europe/Malta",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Europe/Mariehamn",
+      "timezone_offset": "+03:00",
+      "name": "Europe/Mariehamn",
+      "timezone": "Europe/Mariehamn"
+    },
+    {
+      "name": "Europe/Minsk",
+      "timezone_name": "Moskauer Normalzeit",
+      "id": "Europe/Minsk",
+      "timezone_offset": "+03:00",
+      "timezone": "Europe/Minsk",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00",
+      "id": "Europe/Monaco",
+      "timezone": "Europe/Monaco",
+      "name": "Europe/Monaco",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "name": "Europe/Moscow",
+      "timezone_offset": "+03:00",
+      "id": "Europe/Moscow",
+      "timezone_raw_offset": "+03:00",
+      "timezone": "Europe/Moscow",
+      "timezone_name": "Moskauer Normalzeit"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone": "Europe/Nicosia",
+      "id": "Europe/Nicosia",
+      "timezone_offset": "+03:00",
+      "name": "Europe/Nicosia",
+      "timezone_name": "Osteuropäische Zeit"
+    },
+    {
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Europe/Oslo",
+      "id": "Europe/Oslo",
+      "timezone_offset": "+02:00",
+      "name": "Europe/Oslo",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone": "Europe/Podgorica",
+      "id": "Europe/Podgorica",
+      "timezone_raw_offset": "+01:00",
+      "name": "Europe/Podgorica",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone": "Europe/Prague",
+      "name": "Europe/Prague",
+      "id": "Europe/Prague",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone_offset": "+03:00",
+      "id": "Europe/Riga",
+      "timezone": "Europe/Riga",
+      "timezone_name": "Osteuropäische Zeit",
+      "name": "Europe/Riga"
+    },
+    {
+      "timezone_raw_offset": "+04:00",
+      "id": "Europe/Samara",
+      "timezone": "Europe/Samara",
+      "name": "Europe/Samara",
+      "timezone_name": "Samarische Zeit",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "id": "Europe/San_Marino",
+      "name": "Europe/San_Marino",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Europe/San_Marino",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone": "Europe/Sarajevo",
+      "id": "Europe/Sarajevo",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "name": "Europe/Sarajevo",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "timezone": "Europe/Saratov",
+      "timezone_offset": "+04:00",
+      "name": "Europe/Saratov",
+      "timezone_raw_offset": "+04:00",
+      "id": "Europe/Saratov",
+      "timezone_name": "GMT+04:00"
+    },
+    {
+      "name": "Europe/Simferopol",
+      "id": "Europe/Simferopol",
+      "timezone_name": "Moskauer Normalzeit",
+      "timezone_raw_offset": "+03:00",
+      "timezone": "Europe/Simferopol",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone": "Europe/Skopje",
+      "id": "Europe/Skopje",
+      "name": "Europe/Skopje",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit"
+    },
+    {
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Europe/Sofia",
+      "name": "Europe/Sofia",
+      "timezone_raw_offset": "+02:00",
+      "timezone_offset": "+03:00",
+      "timezone": "Europe/Sofia"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "name": "Europe/Stockholm",
+      "id": "Europe/Stockholm",
+      "timezone": "Europe/Stockholm",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "timezone_raw_offset": "+02:00",
+      "timezone": "Europe/Tallinn",
+      "id": "Europe/Tallinn",
+      "name": "Europe/Tallinn",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Osteuropäische Zeit"
+    },
+    {
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00",
+      "name": "Europe/Tirane",
+      "id": "Europe/Tirane",
+      "timezone": "Europe/Tirane"
+    },
+    {
+      "id": "Europe/Tiraspol",
+      "timezone": "Europe/Tiraspol",
+      "timezone_offset": "+03:00",
+      "name": "Europe/Tiraspol",
+      "timezone_raw_offset": "+02:00",
+      "timezone_name": "Osteuropäische Zeit"
+    },
+    {
+      "timezone": "Europe/Ulyanovsk",
+      "id": "Europe/Ulyanovsk",
+      "timezone_raw_offset": "+04:00",
+      "timezone_offset": "+04:00",
+      "timezone_name": "GMT+04:00",
+      "name": "Europe/Ulyanovsk"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "name": "Europe/Uzhgorod",
+      "timezone_name": "Osteuropäische Zeit",
+      "id": "Europe/Uzhgorod",
+      "timezone_raw_offset": "+02:00",
+      "timezone": "Europe/Uzhgorod"
+    },
+    {
+      "id": "Europe/Vaduz",
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "name": "Europe/Vaduz",
+      "timezone": "Europe/Vaduz"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone": "Europe/Vatican",
+      "name": "Europe/Vatican",
+      "id": "Europe/Vatican",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "id": "Europe/Vilnius",
+      "timezone_raw_offset": "+02:00",
+      "timezone": "Europe/Vilnius",
+      "name": "Europe/Vilnius",
+      "timezone_offset": "+03:00",
+      "timezone_name": "Osteuropäische Zeit"
+    },
+    {
+      "name": "Europe/Volgograd",
+      "id": "Europe/Volgograd",
+      "timezone": "Europe/Volgograd",
+      "timezone_name": "Moskauer Normalzeit",
+      "timezone_raw_offset": "+04:00",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone": "Europe/Warsaw",
+      "id": "Europe/Warsaw",
+      "name": "Europe/Warsaw",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_raw_offset": "+01:00"
+    },
+    {
+      "timezone_offset": "+02:00",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Europe/Zagreb",
+      "timezone": "Europe/Zagreb",
+      "name": "Europe/Zagreb"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "timezone_name": "Osteuropäische Zeit",
+      "name": "Europe/Zaporozhye",
+      "timezone": "Europe/Zaporozhye",
+      "timezone_raw_offset": "+02:00",
+      "id": "Europe/Zaporozhye"
+    },
+    {
+      "id": "Europe/Zurich",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "timezone_raw_offset": "+01:00",
+      "timezone": "Europe/Zurich",
+      "name": "Europe/Zurich",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "timezone": "GB",
+      "id": "GB",
+      "timezone_offset": "+01:00",
+      "timezone_raw_offset": "+00:00",
+      "name": "GB",
+      "timezone_name": "Greenwich Zeit"
+    },
+    {
+      "timezone_name": "Greenwich Zeit",
+      "timezone": "GB-Eire",
+      "name": "GB-Eire",
+      "timezone_raw_offset": "+00:00",
+      "timezone_offset": "+01:00",
+      "id": "GB-Eire"
+    },
+    {
+      "timezone": "GMT",
+      "name": "GMT",
+      "timezone_offset": "+00:00",
+      "id": "GMT",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00"
+    },
+    {
+      "timezone_raw_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "timezone": "GMT0",
+      "name": "GMT0",
+      "timezone_offset": "+00:00",
+      "id": "GMT0"
+    },
+    {
+      "name": "Greenwich",
+      "id": "Greenwich",
+      "timezone_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "Greenwich"
+    },
+    {
+      "id": "Hongkong",
+      "timezone_name": "Hongkong Zeit",
+      "name": "Hongkong",
+      "timezone_raw_offset": "+08:00",
+      "timezone": "Hongkong",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "name": "HST",
+      "timezone_offset": "-10:00",
+      "timezone_name": "Hawaii Normalzeit",
+      "timezone": "HST",
+      "timezone_raw_offset": "-10:00",
+      "id": "HST"
+    },
+    {
+      "timezone_offset": "+00:00",
+      "timezone_name": "Greenwich Zeit",
+      "id": "Iceland",
+      "timezone": "Iceland",
+      "timezone_raw_offset": "+00:00",
+      "name": "Iceland"
+    },
+    {
+      "id": "IET",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "IET",
+      "name": "IET",
+      "timezone_name": "Östliche Normalzeit"
+    },
+    {
+      "timezone_offset": "+03:00",
+      "id": "Indian/Antananarivo",
+      "name": "Indian/Antananarivo",
+      "timezone_name": "Ostafrikanische Zeit",
+      "timezone": "Indian/Antananarivo",
+      "timezone_raw_offset": "+03:00"
+    },
+    {
+      "id": "Indian/Chagos",
+      "timezone_name": "Indischer Ozean Territorium Zeit",
+      "timezone": "Indian/Chagos",
+      "timezone_offset": "+06:00",
+      "timezone_raw_offset": "+06:00",
+      "name": "Indian/Chagos"
+    },
+    {
+      "timezone_raw_offset": "+07:00",
+      "timezone_offset": "+07:00",
+      "name": "Indian/Christmas",
+      "timezone": "Indian/Christmas",
+      "timezone_name": "Christmas Island Zeit",
+      "id": "Indian/Christmas"
+    },
+    {
+      "id": "Indian/Cocos",
+      "timezone": "Indian/Cocos",
+      "timezone_offset": "+06:30",
+      "timezone_name": "Cocos Islands Zeit",
+      "timezone_raw_offset": "+06:30",
+      "name": "Indian/Cocos"
+    },
+    {
+      "name": "Indian/Comoro",
+      "timezone": "Indian/Comoro",
+      "timezone_name": "Ostafrikanische Zeit",
+      "id": "Indian/Comoro",
+      "timezone_raw_offset": "+03:00",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "timezone_offset": "+05:00",
+      "timezone_raw_offset": "+05:00",
+      "timezone": "Indian/Kerguelen",
+      "name": "Indian/Kerguelen",
+      "timezone_name": "Französisch Süd- u. Antarktische Landzeit",
+      "id": "Indian/Kerguelen"
+    },
+    {
+      "timezone": "Indian/Mahe",
+      "timezone_raw_offset": "+04:00",
+      "name": "Indian/Mahe",
+      "timezone_offset": "+04:00",
+      "id": "Indian/Mahe",
+      "timezone_name": "Seychellen Zeit"
+    },
+    {
+      "timezone_name": "Maledivische Zeit",
+      "id": "Indian/Maldives",
+      "timezone_raw_offset": "+05:00",
+      "timezone_offset": "+05:00",
+      "name": "Indian/Maldives",
+      "timezone": "Indian/Maldives"
+    },
+    {
+      "timezone": "Indian/Mauritius",
+      "name": "Indian/Mauritius",
+      "timezone_raw_offset": "+04:00",
+      "timezone_name": "Mauritius Zeit",
+      "id": "Indian/Mauritius",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "timezone": "Indian/Mayotte",
+      "timezone_raw_offset": "+03:00",
+      "timezone_name": "Ostafrikanische Zeit",
+      "id": "Indian/Mayotte",
+      "timezone_offset": "+03:00",
+      "name": "Indian/Mayotte"
+    },
+    {
+      "timezone_raw_offset": "+04:00",
+      "name": "Indian/Reunion",
+      "timezone": "Indian/Reunion",
+      "id": "Indian/Reunion",
+      "timezone_offset": "+04:00",
+      "timezone_name": "Reunion Zeit"
+    },
+    {
+      "timezone": "Iran",
+      "timezone_name": "Iranische Normalzeit",
+      "timezone_raw_offset": "+03:30",
+      "name": "Iran",
+      "id": "Iran",
+      "timezone_offset": "+04:30"
+    },
+    {
+      "timezone_name": "Israelische Normalzeit",
+      "id": "Israel",
+      "timezone": "Israel",
+      "timezone_offset": "+03:00",
+      "name": "Israel",
+      "timezone_raw_offset": "+02:00"
+    },
+    {
+      "name": "IST",
+      "timezone": "IST",
+      "timezone_raw_offset": "+05:30",
+      "timezone_offset": "+05:30",
+      "timezone_name": "Indische Normalzeit",
+      "id": "IST"
+    },
+    {
+      "timezone": "Jamaica",
+      "id": "Jamaica",
+      "name": "Jamaica",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_offset": "-05:00",
+      "timezone_raw_offset": "-05:00"
+    },
+    {
+      "name": "Japan",
+      "timezone": "Japan",
+      "timezone_name": "Japanische Normalzeit",
+      "id": "Japan",
+      "timezone_offset": "+09:00",
+      "timezone_raw_offset": "+09:00"
+    },
+    {
+      "timezone_offset": "+09:00",
+      "id": "JST",
+      "timezone_name": "Japanische Normalzeit",
+      "timezone": "JST",
+      "name": "JST",
+      "timezone_raw_offset": "+09:00"
+    },
+    {
+      "timezone": "Kwajalein",
+      "timezone_raw_offset": "+12:00",
+      "timezone_offset": "+12:00",
+      "id": "Kwajalein",
+      "timezone_name": "Marshallinseln Zeit",
+      "name": "Kwajalein"
+    },
+    {
+      "id": "Libya",
+      "timezone_name": "Osteuropäische Zeit",
+      "name": "Libya",
+      "timezone_raw_offset": "+02:00",
+      "timezone_offset": "+02:00",
+      "timezone": "Libya"
+    },
+    {
+      "timezone": "MET",
+      "timezone_raw_offset": "+01:00",
+      "id": "MET",
+      "timezone_name": "Zentraleuropäische Zeit",
+      "name": "MET",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "timezone_raw_offset": "-08:00",
+      "timezone": "Mexico/BajaNorte",
+      "name": "Mexico/BajaNorte",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_offset": "-07:00",
+      "id": "Mexico/BajaNorte"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "name": "Mexico/BajaSur",
+      "timezone_raw_offset": "-07:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone": "Mexico/BajaSur",
+      "id": "Mexico/BajaSur"
+    },
+    {
+      "timezone_raw_offset": "-06:00",
+      "name": "Mexico/General",
+      "id": "Mexico/General",
+      "timezone": "Mexico/General",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "id": "MIT",
+      "name": "MIT",
+      "timezone_offset": "+13:00",
+      "timezone_raw_offset": "+13:00",
+      "timezone": "MIT",
+      "timezone_name": "West Samoa Zeit"
+    },
+    {
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_offset": "-07:00",
+      "timezone": "MST",
+      "id": "MST",
+      "name": "MST",
+      "timezone_raw_offset": "-07:00"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "name": "MST7MDT",
+      "timezone": "MST7MDT",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "timezone_raw_offset": "-07:00",
+      "id": "MST7MDT"
+    },
+    {
+      "timezone": "Navajo",
+      "timezone_raw_offset": "-07:00",
+      "id": "Navajo",
+      "timezone_offset": "-06:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "name": "Navajo"
+    },
+    {
+      "timezone_offset": "+04:00",
+      "timezone_name": "Armenische Zeit",
+      "timezone_raw_offset": "+04:00",
+      "timezone": "NET",
+      "id": "NET",
+      "name": "NET"
+    },
+    {
+      "timezone": "NST",
+      "timezone_raw_offset": "+12:00",
+      "id": "NST",
+      "timezone_offset": "+12:00",
+      "timezone_name": "Neuseeland Normalzeit",
+      "name": "NST"
+    },
+    {
+      "id": "NZ",
+      "timezone": "NZ",
+      "name": "NZ",
+      "timezone_offset": "+12:00",
+      "timezone_raw_offset": "+12:00",
+      "timezone_name": "Neuseeland Normalzeit"
+    },
+    {
+      "timezone_name": "Chatham Normalzeit",
+      "timezone_offset": "+12:45",
+      "id": "NZ-CHAT",
+      "timezone": "NZ-CHAT",
+      "name": "NZ-CHAT",
+      "timezone_raw_offset": "+12:45"
+    },
+    {
+      "timezone_raw_offset": "+13:00",
+      "id": "Pacific/Apia",
+      "timezone_name": "West Samoa Zeit",
+      "timezone_offset": "+13:00",
+      "name": "Pacific/Apia",
+      "timezone": "Pacific/Apia"
+    },
+    {
+      "name": "Pacific/Auckland",
+      "timezone_raw_offset": "+12:00",
+      "timezone_name": "Neuseeland Normalzeit",
+      "id": "Pacific/Auckland",
+      "timezone": "Pacific/Auckland",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "id": "Pacific/Bougainville",
+      "timezone_name": "Bougainville Standard Time",
+      "timezone": "Pacific/Bougainville",
+      "timezone_raw_offset": "+11:00",
+      "timezone_offset": "+11:00",
+      "name": "Pacific/Bougainville"
+    },
+    {
+      "timezone": "Pacific/Chatham",
+      "timezone_offset": "+12:45",
+      "name": "Pacific/Chatham",
+      "timezone_raw_offset": "+12:45",
+      "id": "Pacific/Chatham",
+      "timezone_name": "Chatham Normalzeit"
+    },
+    {
+      "id": "Pacific/Chuuk",
+      "timezone_name": "Chuuk Zeit",
+      "timezone": "Pacific/Chuuk",
+      "name": "Pacific/Chuuk",
+      "timezone_offset": "+10:00",
+      "timezone_raw_offset": "+10:00"
+    },
+    {
+      "id": "Pacific/Easter",
+      "timezone_offset": "-06:00",
+      "timezone_raw_offset": "-06:00",
+      "timezone": "Pacific/Easter",
+      "name": "Pacific/Easter",
+      "timezone_name": "Osterinseln Zeit"
+    },
+    {
+      "timezone_name": "Vanuatu Zeit",
+      "id": "Pacific/Efate",
+      "timezone_offset": "+11:00",
+      "timezone": "Pacific/Efate",
+      "name": "Pacific/Efate",
+      "timezone_raw_offset": "+11:00"
+    },
+    {
+      "timezone_raw_offset": "+13:00",
+      "timezone": "Pacific/Enderbury",
+      "timezone_offset": "+13:00",
+      "timezone_name": "Phoenix Inseln Zeit",
+      "name": "Pacific/Enderbury",
+      "id": "Pacific/Enderbury"
+    },
+    {
+      "timezone": "Pacific/Fakaofo",
+      "id": "Pacific/Fakaofo",
+      "timezone_raw_offset": "+13:00",
+      "timezone_name": "Tokelau Zeit",
+      "name": "Pacific/Fakaofo",
+      "timezone_offset": "+13:00"
+    },
+    {
+      "timezone_raw_offset": "+12:00",
+      "timezone_name": "Fidschi Zeit",
+      "name": "Pacific/Fiji",
+      "timezone": "Pacific/Fiji",
+      "timezone_offset": "+12:00",
+      "id": "Pacific/Fiji"
+    },
+    {
+      "timezone_name": "Tuvalu Zeit",
+      "timezone_raw_offset": "+12:00",
+      "timezone_offset": "+12:00",
+      "name": "Pacific/Funafuti",
+      "id": "Pacific/Funafuti",
+      "timezone": "Pacific/Funafuti"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "timezone": "Pacific/Galapagos",
+      "timezone_raw_offset": "-06:00",
+      "name": "Pacific/Galapagos",
+      "id": "Pacific/Galapagos",
+      "timezone_name": "Galapagos Zeit"
+    },
+    {
+      "timezone_offset": "-09:00",
+      "name": "Pacific/Gambier",
+      "timezone_raw_offset": "-09:00",
+      "timezone_name": "Gambier Zeit",
+      "id": "Pacific/Gambier",
+      "timezone": "Pacific/Gambier"
+    },
+    {
+      "timezone_name": "Salomoninseln Zeit",
+      "timezone_raw_offset": "+11:00",
+      "timezone": "Pacific/Guadalcanal",
+      "timezone_offset": "+11:00",
+      "name": "Pacific/Guadalcanal",
+      "id": "Pacific/Guadalcanal"
+    },
+    {
+      "timezone_name": "Chamorro Normalzeit",
+      "timezone_raw_offset": "+10:00",
+      "timezone_offset": "+10:00",
+      "id": "Pacific/Guam",
+      "name": "Pacific/Guam",
+      "timezone": "Pacific/Guam"
+    },
+    {
+      "name": "Pacific/Honolulu",
+      "timezone_raw_offset": "-10:00",
+      "id": "Pacific/Honolulu",
+      "timezone_name": "Hawaii Normalzeit",
+      "timezone": "Pacific/Honolulu",
+      "timezone_offset": "-10:00"
+    },
+    {
+      "timezone_offset": "-10:00",
+      "name": "Pacific/Johnston",
+      "timezone_raw_offset": "-10:00",
+      "timezone_name": "Hawaii Normalzeit",
+      "id": "Pacific/Johnston",
+      "timezone": "Pacific/Johnston"
+    },
+    {
+      "id": "Pacific/Kiritimati",
+      "timezone": "Pacific/Kiritimati",
+      "timezone_offset": "+14:00",
+      "name": "Pacific/Kiritimati",
+      "timezone_raw_offset": "+14:00",
+      "timezone_name": "Line Inseln Zeit"
+    },
+    {
+      "timezone": "Pacific/Kosrae",
+      "timezone_name": "Kosrae Zeit",
+      "id": "Pacific/Kosrae",
+      "name": "Pacific/Kosrae",
+      "timezone_raw_offset": "+11:00",
+      "timezone_offset": "+11:00"
+    },
+    {
+      "timezone": "Pacific/Kwajalein",
+      "id": "Pacific/Kwajalein",
+      "timezone_offset": "+12:00",
+      "name": "Pacific/Kwajalein",
+      "timezone_name": "Marshallinseln Zeit",
+      "timezone_raw_offset": "+12:00"
+    },
+    {
+      "name": "Pacific/Majuro",
+      "timezone_raw_offset": "+12:00",
+      "timezone_offset": "+12:00",
+      "timezone_name": "Marshallinseln Zeit",
+      "id": "Pacific/Majuro",
+      "timezone": "Pacific/Majuro"
+    },
+    {
+      "timezone_offset": "-09:30",
+      "timezone_name": "Marquesas Zeit",
+      "id": "Pacific/Marquesas",
+      "name": "Pacific/Marquesas",
+      "timezone": "Pacific/Marquesas",
+      "timezone_raw_offset": "-09:30"
+    },
+    {
+      "timezone_name": "Samoa Normalzeit",
+      "id": "Pacific/Midway",
+      "name": "Pacific/Midway",
+      "timezone": "Pacific/Midway",
+      "timezone_offset": "-11:00",
+      "timezone_raw_offset": "-11:00"
+    },
+    {
+      "id": "Pacific/Nauru",
+      "timezone": "Pacific/Nauru",
+      "timezone_raw_offset": "+12:00",
+      "name": "Pacific/Nauru",
+      "timezone_name": "Nauru Zeit",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "timezone_offset": "-11:00",
+      "timezone_name": "Niue Zeit",
+      "timezone_raw_offset": "-11:00",
+      "timezone": "Pacific/Niue",
+      "name": "Pacific/Niue",
+      "id": "Pacific/Niue"
+    },
+    {
+      "name": "Pacific/Norfolk",
+      "timezone_name": "Norfolk Zeit",
+      "id": "Pacific/Norfolk",
+      "timezone_offset": "+11:00",
+      "timezone_raw_offset": "+11:00",
+      "timezone": "Pacific/Norfolk"
+    },
+    {
+      "id": "Pacific/Noumea",
+      "timezone": "Pacific/Noumea",
+      "name": "Pacific/Noumea",
+      "timezone_name": "Neukaledonische Zeit",
+      "timezone_raw_offset": "+11:00",
+      "timezone_offset": "+11:00"
+    },
+    {
+      "id": "Pacific/Pago_Pago",
+      "timezone_name": "Samoa Normalzeit",
+      "timezone_offset": "-11:00",
+      "timezone_raw_offset": "-11:00",
+      "name": "Pacific/Pago_Pago",
+      "timezone": "Pacific/Pago_Pago"
+    },
+    {
+      "name": "Pacific/Palau",
+      "id": "Pacific/Palau",
+      "timezone_name": "Palau Zeit",
+      "timezone": "Pacific/Palau",
+      "timezone_raw_offset": "+09:00",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "id": "Pacific/Pitcairn",
+      "name": "Pacific/Pitcairn",
+      "timezone_raw_offset": "-08:00",
+      "timezone_name": "Pitcairn Normalzeit",
+      "timezone_offset": "-08:00",
+      "timezone": "Pacific/Pitcairn"
+    },
+    {
+      "timezone_name": "Pohnpei Zeit",
+      "timezone_raw_offset": "+11:00",
+      "timezone": "Pacific/Pohnpei",
+      "timezone_offset": "+11:00",
+      "id": "Pacific/Pohnpei",
+      "name": "Pacific/Pohnpei"
+    },
+    {
+      "name": "Pacific/Ponape",
+      "timezone_name": "Pohnpei Zeit",
+      "timezone_raw_offset": "+11:00",
+      "timezone_offset": "+11:00",
+      "id": "Pacific/Ponape",
+      "timezone": "Pacific/Ponape"
+    },
+    {
+      "id": "Pacific/Port_Moresby",
+      "name": "Pacific/Port_Moresby",
+      "timezone": "Pacific/Port_Moresby",
+      "timezone_raw_offset": "+10:00",
+      "timezone_offset": "+10:00",
+      "timezone_name": "Papua-Neuguinea Zeit"
+    },
+    {
+      "name": "Pacific/Rarotonga",
+      "timezone_name": "Cook-Inseln Zeit",
+      "timezone_offset": "-10:00",
+      "timezone": "Pacific/Rarotonga",
+      "id": "Pacific/Rarotonga",
+      "timezone_raw_offset": "-10:00"
+    },
+    {
+      "timezone": "Pacific/Saipan",
+      "id": "Pacific/Saipan",
+      "timezone_raw_offset": "+10:00",
+      "timezone_offset": "+10:00",
+      "timezone_name": "Chamorro Normalzeit",
+      "name": "Pacific/Saipan"
+    },
+    {
+      "id": "Pacific/Samoa",
+      "timezone_offset": "-11:00",
+      "timezone": "Pacific/Samoa",
+      "name": "Pacific/Samoa",
+      "timezone_name": "Samoa Normalzeit",
+      "timezone_raw_offset": "-11:00"
+    },
+    {
+      "name": "Pacific/Tahiti",
+      "id": "Pacific/Tahiti",
+      "timezone_name": "Tahiti Zeit",
+      "timezone": "Pacific/Tahiti",
+      "timezone_offset": "-10:00",
+      "timezone_raw_offset": "-10:00"
+    },
+    {
+      "timezone_name": "Gilbert-Inseln Zeit",
+      "timezone_raw_offset": "+12:00",
+      "name": "Pacific/Tarawa",
+      "id": "Pacific/Tarawa",
+      "timezone_offset": "+12:00",
+      "timezone": "Pacific/Tarawa"
+    },
+    {
+      "name": "Pacific/Tongatapu",
+      "timezone_raw_offset": "+13:00",
+      "timezone": "Pacific/Tongatapu",
+      "timezone_name": "Tonga Zeit",
+      "id": "Pacific/Tongatapu",
+      "timezone_offset": "+13:00"
+    },
+    {
+      "id": "Pacific/Truk",
+      "name": "Pacific/Truk",
+      "timezone_raw_offset": "+10:00",
+      "timezone": "Pacific/Truk",
+      "timezone_offset": "+10:00",
+      "timezone_name": "Chuuk Zeit"
+    },
+    {
+      "timezone": "Pacific/Wake",
+      "timezone_name": "Wake Zeit",
+      "name": "Pacific/Wake",
+      "id": "Pacific/Wake",
+      "timezone_raw_offset": "+12:00",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "id": "Pacific/Wallis",
+      "timezone_raw_offset": "+12:00",
+      "timezone": "Pacific/Wallis",
+      "timezone_offset": "+12:00",
+      "name": "Pacific/Wallis",
+      "timezone_name": "Wallis u. Futuna Zeit"
+    },
+    {
+      "timezone_offset": "+10:00",
+      "name": "Pacific/Yap",
+      "timezone": "Pacific/Yap",
+      "timezone_raw_offset": "+10:00",
+      "id": "Pacific/Yap",
+      "timezone_name": "Chuuk Zeit"
+    },
+    {
+      "timezone": "PLT",
+      "timezone_name": "Pakistanische Zeit",
+      "id": "PLT",
+      "timezone_raw_offset": "+05:00",
+      "name": "PLT",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "name": "PNT",
+      "timezone_raw_offset": "-07:00",
+      "timezone": "PNT",
+      "id": "PNT",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "name": "Poland",
+      "timezone_raw_offset": "+01:00",
+      "timezone_name": "Mitteleuropäische Zeit",
+      "id": "Poland",
+      "timezone": "Poland",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "timezone_offset": "+01:00",
+      "timezone_name": "Westeuropäische Zeit",
+      "timezone": "Portugal",
+      "timezone_raw_offset": "+00:00",
+      "id": "Portugal",
+      "name": "Portugal"
+    },
+    {
+      "name": "PRC",
+      "timezone": "PRC",
+      "timezone_raw_offset": "+08:00",
+      "timezone_offset": "+08:00",
+      "id": "PRC",
+      "timezone_name": "Chinesische Normalzeit"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "id": "PRT",
+      "timezone_raw_offset": "-04:00",
+      "timezone": "PRT",
+      "timezone_name": "Atlantik Normalzeit",
+      "name": "PRT"
+    },
+    {
+      "timezone": "PST",
+      "timezone_offset": "-07:00",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_raw_offset": "-08:00",
+      "id": "PST",
+      "name": "PST"
+    },
+    {
+      "id": "PST8PDT",
+      "timezone_raw_offset": "-08:00",
+      "name": "PST8PDT",
+      "timezone": "PST8PDT",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "name": "ROK",
+      "timezone_name": "Koreanische Normalzeit",
+      "timezone_offset": "+09:00",
+      "timezone_raw_offset": "+09:00",
+      "id": "ROK",
+      "timezone": "ROK"
+    },
+    {
+      "id": "Singapore",
+      "timezone_offset": "+08:00",
+      "timezone": "Singapore",
+      "timezone_raw_offset": "+08:00",
+      "timezone_name": "Singapur Zeit",
+      "name": "Singapore"
+    },
+    {
+      "timezone_raw_offset": "+11:00",
+      "name": "SST",
+      "timezone": "SST",
+      "timezone_name": "Salomoninseln Zeit",
+      "id": "SST",
+      "timezone_offset": "+11:00"
+    },
+    {
+      "timezone": "SystemV/AST4",
+      "timezone_name": "Atlantik Normalzeit",
+      "id": "SystemV/AST4",
+      "name": "SystemV/AST4",
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-04:00"
+    },
+    {
+      "id": "SystemV/AST4ADT",
+      "timezone_name": "Atlantik Normalzeit",
+      "timezone_raw_offset": "-04:00",
+      "name": "SystemV/AST4ADT",
+      "timezone_offset": "-03:00",
+      "timezone": "SystemV/AST4ADT"
+    },
+    {
+      "name": "SystemV/CST6",
+      "timezone_name": "Zentrale Normalzeit",
+      "id": "SystemV/CST6",
+      "timezone_raw_offset": "-06:00",
+      "timezone_offset": "-06:00",
+      "timezone": "SystemV/CST6"
+    },
+    {
+      "name": "SystemV/CST6CDT",
+      "timezone": "SystemV/CST6CDT",
+      "timezone_raw_offset": "-06:00",
+      "timezone_offset": "-05:00",
+      "timezone_name": "Zentrale Normalzeit",
+      "id": "SystemV/CST6CDT"
+    },
+    {
+      "name": "SystemV/EST5",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "timezone_offset": "-05:00",
+      "timezone": "SystemV/EST5",
+      "id": "SystemV/EST5"
+    },
+    {
+      "timezone": "SystemV/EST5EDT",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone_raw_offset": "-05:00",
+      "name": "SystemV/EST5EDT",
+      "id": "SystemV/EST5EDT"
+    },
+    {
+      "timezone_offset": "-10:00",
+      "name": "SystemV/HST10",
+      "timezone_name": "Hawaii Normalzeit",
+      "id": "SystemV/HST10",
+      "timezone_raw_offset": "-10:00",
+      "timezone": "SystemV/HST10"
+    },
+    {
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "name": "SystemV/MST7",
+      "timezone_raw_offset": "-07:00",
+      "timezone": "SystemV/MST7",
+      "id": "SystemV/MST7",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "timezone_offset": "-06:00",
+      "timezone": "SystemV/MST7MDT",
+      "name": "SystemV/MST7MDT",
+      "id": "SystemV/MST7MDT",
+      "timezone_raw_offset": "-07:00",
+      "timezone_name": "Rocky Mountains Normalzeit"
+    },
+    {
+      "timezone_raw_offset": "-08:00",
+      "timezone_offset": "-08:00",
+      "id": "SystemV/PST8",
+      "name": "SystemV/PST8",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone": "SystemV/PST8"
+    },
+    {
+      "name": "SystemV/PST8PDT",
+      "id": "SystemV/PST8PDT",
+      "timezone": "SystemV/PST8PDT",
+      "timezone_name": "Pazifische Normalzeit",
+      "timezone_raw_offset": "-08:00",
+      "timezone_offset": "-07:00"
+    },
+    {
+      "name": "SystemV/YST9",
+      "timezone_raw_offset": "-09:00",
+      "id": "SystemV/YST9",
+      "timezone_offset": "-09:00",
+      "timezone_name": "Alaska Normalzeit",
+      "timezone": "SystemV/YST9"
+    },
+    {
+      "timezone": "SystemV/YST9YDT",
+      "timezone_raw_offset": "-09:00",
+      "timezone_name": "Alaska Normalzeit",
+      "timezone_offset": "-08:00",
+      "name": "SystemV/YST9YDT",
+      "id": "SystemV/YST9YDT"
+    },
+    {
+      "timezone_name": "Osteuropäische Zeit",
+      "timezone": "Turkey",
+      "timezone_raw_offset": "+03:00",
+      "name": "Turkey",
+      "timezone_offset": "+03:00",
+      "id": "Turkey"
+    },
+    {
+      "id": "UCT",
+      "timezone_name": "Koordinierte Universalzeit",
+      "name": "UCT",
+      "timezone_raw_offset": "+00:00",
+      "timezone": "UCT",
+      "timezone_offset": "+00:00"
+    },
+    {
+      "id": "Universal",
+      "timezone_name": "Koordinierte Universalzeit",
+      "timezone_raw_offset": "+00:00",
+      "name": "Universal",
+      "timezone_offset": "+00:00",
+      "timezone": "Universal"
+    },
+    {
+      "name": "US/Alaska",
+      "timezone_name": "Alaska Normalzeit",
+      "id": "US/Alaska",
+      "timezone_offset": "-08:00",
+      "timezone": "US/Alaska",
+      "timezone_raw_offset": "-09:00"
+    },
+    {
+      "timezone_name": "Hawaii Normalzeit",
+      "timezone_raw_offset": "-10:00",
+      "name": "US/Aleutian",
+      "id": "US/Aleutian",
+      "timezone_offset": "-09:00",
+      "timezone": "US/Aleutian"
+    },
+    {
+      "timezone": "US/Arizona",
+      "timezone_raw_offset": "-07:00",
+      "timezone_offset": "-07:00",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "name": "US/Arizona",
+      "id": "US/Arizona"
+    },
+    {
+      "timezone_offset": "-05:00",
+      "id": "US/Central",
+      "timezone_raw_offset": "-06:00",
+      "name": "US/Central",
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone": "US/Central"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "id": "US/Eastern",
+      "timezone_raw_offset": "-05:00",
+      "name": "US/Eastern",
+      "timezone_name": "Östliche Normalzeit",
+      "timezone": "US/Eastern"
+    },
+    {
+      "timezone_offset": "-04:00",
+      "timezone_raw_offset": "-05:00",
+      "timezone_name": "Östliche Normalzeit",
+      "name": "US/East-Indiana",
+      "id": "US/East-Indiana",
+      "timezone": "US/East-Indiana"
+    },
+    {
+      "timezone_offset": "-10:00",
+      "timezone_raw_offset": "-10:00",
+      "timezone": "US/Hawaii",
+      "name": "US/Hawaii",
+      "timezone_name": "Hawaii Normalzeit",
+      "id": "US/Hawaii"
+    },
+    {
+      "timezone_name": "Zentrale Normalzeit",
+      "timezone_offset": "-05:00",
+      "name": "US/Indiana-Starke",
+      "timezone_raw_offset": "-06:00",
+      "id": "US/Indiana-Starke",
+      "timezone": "US/Indiana-Starke"
+    },
+    {
+      "id": "US/Michigan",
+      "timezone_raw_offset": "-05:00",
+      "timezone": "US/Michigan",
+      "timezone_offset": "-04:00",
+      "timezone_name": "Östliche Normalzeit",
+      "name": "US/Michigan"
+    },
+    {
+      "timezone_raw_offset": "-07:00",
+      "name": "US/Mountain",
+      "timezone_name": "Rocky Mountains Normalzeit",
+      "id": "US/Mountain",
+      "timezone_offset": "-06:00",
+      "timezone": "US/Mountain"
+    },
+    {
+      "timezone_offset": "-07:00",
+      "timezone_raw_offset": "-08:00",
+      "timezone": "US/Pacific",
+      "id": "US/Pacific",
+      "timezone_name": "Pazifische Normalzeit",
+      "name": "US/Pacific"
+    },
+    {
+      "name": "US/Pacific-New",
+      "id": "US/Pacific-New",
+      "timezone": "US/Pacific-New",
+      "timezone_raw_offset": "-08:00",
+      "timezone_offset": "-07:00",
+      "timezone_name": "Pazifische Normalzeit"
+    },
+    {
+      "timezone_raw_offset": "-11:00",
+      "timezone_name": "Samoa Normalzeit",
+      "id": "US/Samoa",
+      "timezone_offset": "-11:00",
+      "name": "US/Samoa",
+      "timezone": "US/Samoa"
+    },
+    {
+      "timezone": "UTC",
+      "id": "UTC",
+      "timezone_name": "Koordinierte Universalzeit",
+      "name": "UTC",
+      "timezone_raw_offset": "+00:00",
+      "timezone_offset": "+00:00"
+    },
+    {
+      "id": "VST",
+      "timezone": "VST",
+      "timezone_offset": "+07:00",
+      "name": "VST",
+      "timezone_raw_offset": "+07:00",
+      "timezone_name": "Indochina Zeit"
+    },
+    {
+      "timezone_offset": "+01:00",
+      "timezone": "WET",
+      "name": "WET",
+      "timezone_name": "Westeuropäische Zeit",
+      "timezone_raw_offset": "+00:00",
+      "id": "WET"
+    },
+    {
+      "timezone": "W-SU",
+      "id": "W-SU",
+      "timezone_raw_offset": "+03:00",
+      "timezone_offset": "+03:00",
+      "name": "W-SU",
+      "timezone_name": "Moskauer Normalzeit"
+    },
+    {
+      "timezone_name": "Koordinierte Universalzeit",
+      "timezone": "Zulu",
+      "timezone_raw_offset": "+00:00",
+      "id": "Zulu",
+      "timezone_offset": "+00:00",
+      "name": "Zulu"
+    }
+  ],
+  "enum_name": "TimeZoneEnum"
+}

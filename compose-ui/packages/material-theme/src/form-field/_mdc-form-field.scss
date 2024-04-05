@@ -1,0 +1,14 @@
+// some overrides for mdc form fields
+.mat-mdc-form-field {
+  .mat-mdc-form-field-icon-prefix, .mat-mdc-form-field-icon-suffix {
+    > .mat-icon, > .mui-icon {
+      padding: 8px;
+    }
+
+    .mat-mdc-icon-button.mat-mdc-button-base {
+      width: 38px;
+      height: 38px;
+      padding: 8px;
+    }
+  }
+}

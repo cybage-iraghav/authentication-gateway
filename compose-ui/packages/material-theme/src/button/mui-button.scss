@@ -1,0 +1,50 @@
+@use "../core/theming/unify-colors" as c;
+@use "../core/theming/theme" as t;
+@use "sass:map";
+
+$primary: map.get(c.$main, "primary");
+$disblue: map.get(c.$on_primary, "disblue");
+
+.mat-mdc-icon-button.mui-square-icon-button {
+  border-radius: 2px;
+  border: 1px solid $primary;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  color: $primary;
+  background-color: #ffffff;
+
+  &[disabled] {
+    border: 1px solid $disblue;
+    color: $disblue;
+  }
+
+  .mat-mdc-button-touch-target {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mat-mdc-button-persistent-ripple {
+    border-radius: 2px;
+  }
+}
+
+.mat-mdc-unelevated-button, .mat-mdc-raised-button, .mat-mdc-outlined-button {
+  .mui-icon, .mui-icon.mui-icon-inline {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    font-size: 1.125rem;
+    height: 1.125rem;
+    width: 1.125rem;
+    margin-left: -4px;
+    margin-right: 8px;
+  }
+}
+
+.mat-mdc-icon-button.with-text {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  font-family: t.$global-font-family;
+}

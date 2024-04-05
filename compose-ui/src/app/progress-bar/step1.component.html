@@ -1,0 +1,28 @@
+<div [formGroup]="form">
+  <div class="mui-form-row">
+    <mui-form-field labelSize="large">
+      <mui-label>First Name</mui-label>
+      <input formControlName="firstName"
+          muiInput
+          placeholder="Your first name"
+          required>
+      <mui-form-field-info type="error">
+        Field is required.
+      </mui-form-field-info>
+
+    </mui-form-field>
+  </div>
+  <div class="mui-form-row">
+    <mui-form-field labelSize="large">
+      <mui-label>Last Name</mui-label>
+      <input formControlName="lastName"
+          muiInput
+          placeholder="Your last name"
+          required>
+      <mui-form-field-info type="error">
+        Field is required.
+      </mui-form-field-info>
+
+    </mui-form-field>
+  </div>
+</div>

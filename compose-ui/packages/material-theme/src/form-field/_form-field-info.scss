@@ -1,0 +1,37 @@
+@use "sass:map";
+@use "../core/theming/unify-colors" as c;
+
+.mui-form-field-info {
+  display: inline-flex;
+  position: relative;
+  min-height: 40px;
+  margin-left: 16px;
+  align-self: center;
+
+  align-items: center;
+  column-gap: 8px;
+
+  &.mui-state-error {
+    color: map.get(c.$info, "error");
+  }
+
+  &.mui-state-warning {
+    color: map.get(c.$info, "warning");
+  }
+
+  &.mui-state-info {
+    color: map.get(c.$info, "info");
+  }
+
+  &.mui-state-success {
+    color: map.get(c.$info, "success");
+  }
+
+  .mui-form-field-info-message {
+    max-width: 304px;
+  }
+}
+
+.mat-tooltip.mui-form-field-info-tooltip {
+  font-size: 14px;
+}

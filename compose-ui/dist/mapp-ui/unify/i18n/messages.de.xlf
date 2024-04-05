@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="de">
+  <file id="ngi18n" original="ng.template">
+    <unit id="3683987907719228878">
+      <notes>
+        <note category="location">../src/lib/form-field/mui-form-field.component.html:15</note>
+        <note category="description">form field optional label</note>
+      </notes>
+      <segment>
+        <source>(optional)</source>
+        <target>(optional)</target>
+      </segment>
+    </unit>
+    <unit id="paginator_items">
+      <notes>
+        <note category="location">../src/lib/table/paginator/paginator.component.html:52</note>
+      </notes>
+      <segment>
+        <source>Items per page</source>
+        <target>Elemente pro Seite</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

@@ -1,0 +1,95 @@
+@use "sass:map";
+@use "unify-colors" as c;
+@use "material-palettes" as p;
+@use "@angular/material" as mat;
+
+// Define a theme.
+$primary: mat.define-palette(p.$mui-primary, 500, 200, 700);
+$accent: mat.define-palette(p.$mui-secondary, 500, 200, 700);
+$warn: mat.define-palette(p.$mui-red, 500, 200, 700);
+$global-font-family: "Open Sans", sans-serif;
+
+$_theme: mat.define-light-theme((
+    color: (
+        primary: $primary,
+        accent: $accent,
+        warn: $warn
+    )
+));
+
+// custom foreground settings
+$_main-text: map.get(c.$text, "main");
+$mui-theme-fg: (
+  //base: black,
+  //divider: $dark-dividers,
+  //dividers: $dark-dividers,
+  //disabled: $dark-disabled-text,
+  //disabled-button: rgba(black, 0.26),
+  //disabled-text: $dark-disabled-text,
+  //elevation: black,
+    hint-text: rgba($_main-text, 0.38),
+    secondary-text: rgba($_main-text, 0.54),
+  //icon: rgba(black, 0.54),
+  //icons: rgba(black, 0.54),
+    text: rgba($_main-text, 0.87),
+  //slider-min: rgba(black, 0.87),
+  //slider-off: rgba(black, 0.26),
+  //slider-off-active: rgba(black, 0.38),
+);
+
+$mui-theme-bg: (
+    //status-bar: map.get($grey-palette, 300),
+    //app-bar: map.get($grey-palette, 100),
+    //background: map.get($grey-palette, 50),
+    hover: #ccd3df,
+    //card: white,
+    //dialog: white,
+    //disabled-button: rgba(black, 0.12),
+    //raised-button: white,
+    //focused-button: $dark-focused,
+    //selected-button: map.get($grey-palette, 300),
+    //selected-disabled-button: map.get($grey-palette, 400),
+    //disabled-button-toggle: map.get($grey-palette, 200),
+    //unselected-chip: map.get($grey-palette, 300),
+    //disabled-list-option: map.get($grey-palette, 200),
+    //tooltip: map.get($grey-palette, 700),
+);
+
+$theme: map-merge($_theme, "color", "foreground", map-merge(map-get($_theme, "color", "foreground"), $mui-theme-fg));
+$theme: map-merge($_theme, "color", "background", map-merge(map-get($_theme, "color", "background"), $mui-theme-bg));
+
+// typography config
+$mui-typography: mat.define-typography-config(
+    $font-family: $global-font-family,
+    $headline-4: mat.define-typography-level(34px, 40px, 400, $global-font-family),
+    $headline-5: mat.define-typography-level(24px, 32px, 600, $global-font-family),
+    $headline-6: mat.define-typography-level(20px, 27px, 600, $global-font-family),
+    $subtitle-1: mat.define-typography-level(16px, 28px, 600, $global-font-family),
+    $subtitle-2: mat.define-typography-level(15px, 24px, 600, $global-font-family),
+    $body-1: mat.define-typography-level(14px, 24px, 600, $global-font-family),
+    $body-2: mat.define-typography-level(14px, 20px, 400, $global-font-family),
+    $caption: mat.define-typography-level(12px, 20px, 400, $global-font-family),
+    $button: mat.define-typography-level(14px, 18px, 600, $global-font-family)
+);
+
+$theme_typography: map-merge($theme, ("typography": $mui-typography));
+
+// create small dark theme for top nav component
+$mui-nav-theme-foreground: (
+    base: map.get(c.$text, "white"),
+    divider: mat.get-color-from-palette($primary, 400),
+    hint-text: map.get(c.$text, "white"),
+    secondary-text: map.get(c.$text, "white"),
+);
+
+$mui-dark-theme: mat.define-dark-theme((
+    color: (
+        primary: $primary,
+        accent: $accent
+    )
+));
+
+$mui-nav-dark-theme: map-merge($mui-dark-theme, "color", "foreground",
+    map-merge(
+            map-get($mui-dark-theme, "color", "foreground"), $mui-nav-theme-foreground));
+

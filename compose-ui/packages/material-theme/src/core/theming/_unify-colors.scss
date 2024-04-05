@@ -1,0 +1,90 @@
+/* Colors for Unify Design System */
+@use "sass:map";
+
+// main colors
+$main: (
+    "primary": #3c5583,
+    "primary-hover": #1046a7,
+    "primary-active": #0d3886,
+    "primary-focused": #4788C7,
+    "primary-bg": #f5f8fa,
+    "secondary": #2d8fa7,
+    "secondary-bg": #fcfdfe,
+    "bg-white": #ffffff
+);
+
+// main text colors
+$text: (
+    "main": #223860,
+    "light": #fafafa,
+    "headings": #4e6080,
+    "highlighted": #03060a,
+    "lowlighted": #8a99b5,
+    "disabled": #b9bbc0,
+    "white": #ffffff,
+    "primary-disblue": #8696B2
+);
+
+$on_primary: (
+    "main": #3c5583,
+    "lightgray": #fafafa,
+    "lightblue": #ccd3df,
+    "disblue": #8696b2
+);
+
+$on_surface: (
+    "high": #fafafa,
+    "high-emphasis": #223860,
+    "medium-emphasis": #78859d,
+    "disabled": #f1f1f1
+);
+
+// Informational
+$info: (
+    "success": #70bab2,
+    "success-bg": #e4f8f6,
+    "error": #cb3d44,
+    "error-bg": #fdedee,
+    "warning": #d8a54d,
+    "warning-bg": #fef8f0,
+    "info": #65569a,
+    "info-bg": #f3f0fc,
+    "tip": #797979,
+    "tip-bg": #fafafa,
+);
+
+// Top navigation -- Outdated
+$top_nav: (
+    "background": #1a2a53,
+    "hover": #4973a7,
+    "active": #3c5583
+);
+
+// Legacy Left navigation
+$left_nav: (
+    "background": #051431,
+    "sub_bg": #051431,
+    "sub_hover": #60708d
+);
+
+// Other
+$other: (
+    "border-main": #78859d,
+);
+
+$all-colors: (
+    "main": $main,
+    "text": $text,
+    "info": $info,
+    "top_nav": $top_nav,
+    "left_nav": $left_nav,
+    "other": $other
+);
+
+@function configureColors($colors) {
+  @if $colors {
+    @return map.deep-merge($all-colors, $colors);
+  } @else {
+    @return $all-colors;
+  }
+}

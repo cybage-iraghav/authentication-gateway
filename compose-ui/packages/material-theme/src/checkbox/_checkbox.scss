@@ -1,0 +1,38 @@
+@use "sass:map";
+@use "../core/theming/unify-colors" as c;
+
+$primary: map.get(c.$main, "primary");
+$accent: map.get(c.$main, "secondary");
+$warn: map.get(c.$info, "error");
+$disabled: map.get(c.$on_primary, "disblue");
+
+// override some colors for mdc checkboxes to be better aligned with UnifyUI
+.mat-mdc-checkbox {
+  &.mat-primary {
+    --mdc-checkbox-unselected-focus-icon-color: #{$primary};
+    --mdc-checkbox-unselected-hover-icon-color: #{$primary};
+    --mdc-checkbox-disabled-selected-icon-color: #{$disabled};
+    --mdc-checkbox-disabled-unselected-icon-color: #{$disabled};
+    --mdc-checkbox-unselected-icon-color: #{$primary};
+    --mdc-checkbox-unselected-pressed-icon-color: #{$primary};
+  }
+
+  &.mat-accent {
+    --mdc-checkbox-unselected-focus-icon-color: #{$accent};
+    --mdc-checkbox-unselected-hover-icon-color: #{$accent};
+    --mdc-checkbox-disabled-selected-icon-color: #{$disabled};
+    --mdc-checkbox-disabled-unselected-icon-color: #{$disabled};
+    --mdc-checkbox-unselected-icon-color: #{$accent};
+    --mdc-checkbox-unselected-pressed-icon-color: #{$accent};
+  }
+
+  &.mat-warn {
+    --mdc-checkbox-unselected-focus-icon-color: #{$warn};
+    --mdc-checkbox-unselected-hover-icon-color: #{$warn};
+    --mdc-checkbox-disabled-selected-icon-color: #{$disabled};
+    --mdc-checkbox-disabled-unselected-icon-color: #{$disabled};
+    --mdc-checkbox-unselected-icon-color: #{$warn};
+    --mdc-checkbox-unselected-pressed-icon-color: #{$warn};
+  }
+
+}

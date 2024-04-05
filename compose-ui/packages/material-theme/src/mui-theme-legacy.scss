@@ -1,0 +1,59 @@
+@use "core/theming/unify-colors" as c;
+@use "core/theming/legacy/theme";
+@use "mui-components" as comp;
+@use "@angular/material" as mat;
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+/* Material core styles */
+@include mat.typography-hierarchy(theme.$theme);
+@include mat.core();
+
+// Include all theme styles for the components.
+/* Material theme rules */
+@include mat.all-component-themes(theme.$theme);
+
+$color-overrides: (
+    "main": (
+        "primary": #03a9f4,
+        "primary-bg": #eeeeee
+    ),
+    "text": (
+        "main": #616161
+    ),
+    "info": (
+        "warning": #ff9902,
+        "error": #e85000,
+        "success": #00bcd4,
+        "info": #03a9f4
+    ),
+    "top_nav": (
+        "background":#236192,
+        "hover": #404553,
+        "active": #03a9f4
+    ),
+    "left_nav": (
+        "background": #30333e,
+        "sub_bg": #404553,
+        "sub_hover": #282828
+    )
+);
+
+$legacy-colors: c.configureColors($color-overrides);
+
+$mui-components-theme: (
+    "colors": $legacy-colors,
+    "font-family": 'Roboto, "Helvetica Neue", sans-serif',
+);
+
+/* mapp custom component styles and overrides */
+@import "badge/mui-nc-badge";
+@import "button/mui-button";
+@import "table-filter/mui-table-filter";
+@include comp.mui-general-styles($mui-components-theme, true);
+@include comp.mui-app-header-theme($mui-components-theme);
+@include comp.mui-page-header-theme($mui-components-theme, true);
+@include comp.mui-stepper-theme($mui-components-theme);
+@include comp.mui-left-nav-theme($mui-components-theme, true);
+@include comp.mui-notifications-theme($mui-components-theme, theme.$theme, true);

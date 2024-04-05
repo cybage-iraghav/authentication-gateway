@@ -1,0 +1,81 @@
+@use "sass:map";
+@use "@angular/material" as mat;
+@use "../core/theming/unify-colors" as c;
+@use "../core/theming/material-palettes" as p;
+
+/* Info message component theme */
+@mixin mui-info-message-theme($theme) {
+  $palette: p.$mui-primary;
+  $typo: mat.get-typography-config($theme);
+
+  mui-info-message {
+    border-radius: 4px;
+
+    &:not([type]), &[type="info"] {
+      background-color: map.get(c.$info, "info-bg");
+      border: 1px solid map.get(c.$info, "info");
+
+      .mui-info-message-icon {
+        background-color: map.get(c.$info, "info-bg");
+        color: 1px solid map.get(c.$info, "info");
+      }
+    }
+
+    &[type="success"] {
+      background-color: map.get(c.$info, "success-bg");
+      border: 1px solid map.get(c.$info, "success");
+
+      .mui-info-message-icon {
+        background-color: map.get(c.$info, "success-bg");
+        color: 1px solid map.get(c.$info, "success");
+      }
+
+    }
+
+    &[type="warning"] {
+      background-color: map.get(c.$info, "warning-bg");
+      border: 1px solid map.get(c.$info, "warning");
+
+      .mui-info-message-icon {
+        background-color: map.get(c.$info, "warning-bg");
+        color: 1px solid map.get(c.$info, "warning");
+      }
+
+    }
+
+    &[type="error"] {
+      background-color: map.get(c.$info, "error-bg");
+      border: 1px solid map.get(c.$info, "error");
+
+      .mui-info-message-title {
+        color: map.get(c.$info, "error");
+      }
+
+      .mui-info-message-icon {
+        background-color: map.get(c.$info, "error-bg");
+        color: 1px solid map.get(c.$info, "error");
+      }
+
+    }
+
+    &[type][withicon] {
+      background-color: #ffffff;
+    }
+
+    .mui-info-message-title {
+      color: mat.get-color-from-palette($palette, 600);
+      line-height: 24px;
+    }
+
+    .mui-info-message-body {
+      color: mat.get-color-from-palette($palette, 800);
+      font-family: mat.font-family($typo, "body-2");
+      font-weight: mat.font-weight($typo, "body-2");
+      font-size: mat.font-size($typo, "body-2");
+    }
+
+    .mui-dismiss-message-btn {
+      color: mat.get-color-from-palette($palette, 500);
+    }
+  }
+}

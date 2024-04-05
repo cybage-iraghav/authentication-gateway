@@ -1,0 +1,61 @@
+@use "sass:map";
+@use "./unify-colors" as c;
+
+/* Material palettes for primary, secondary and warn based on Unify Colors */
+
+$mui-primary: (
+    50: #65b2e5,
+    100: #5ea5df,
+    200: #5897d0,
+    300: #5084bc,
+    400: #4973a7,
+    500: map.get(c.$main, "primary"),
+    600: #364e7b,
+    700: #2e4470,
+    800: #273b66,
+    900: #1a2a53,
+    contrast: (
+        50: map.get(c.$text, "main"),
+        100: map.get(c.$text, "main"),
+        200: map.get(c.$text, "light"),
+        300: map.get(c.$text, "light"),
+        400: map.get(c.$text, "light"),
+        500: map.get(c.$text, "light"),
+        700: map.get(c.$text, "light"),
+        800: map.get(c.$text, "light"),
+        900: map.get(c.$text, "light")
+    )
+);
+
+$mui-secondary: (
+    50: #61d1eb,
+    100: #4ac8e4,
+    200: #42bedd,
+    300: #3ab3d5,
+    400: #35a3c1,
+    500: map.get(c.$main, "secondary"),
+    600: #277b8e,
+    700: #1c5963,
+    800: #1c728c,
+    900: #091c21,
+    contrast: (
+        50: map.get(c.$text, "main"),
+        100: map.get(c.$text, "main"),
+        200: map.get(c.$text, "light"),
+        300: map.get(c.$text, "light"),
+        400: map.get(c.$text, "light"),
+        500: map.get(c.$text, "light"),
+        700: map.get(c.$text, "light"),
+        800: map.get(c.$text, "light"),
+        900: map.get(c.$text, "light")
+    )
+);
+
+$mui-red: (
+    200: #e59ea2,
+    500: map.get(c.$info, "error"),
+    700: #be2f35,
+    contrast: (
+        500: map.get(c.$text, "light")
+    )
+);

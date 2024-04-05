@@ -1,0 +1,21 @@
+{
+  "name": "@mapp-ui/fonts",
+  "version": "1.0.0",
+  "description": "Common Web fonts used in Mapp UI Apps",
+  "keywords": [
+    "font",
+    "web font"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab01.muc.ecircle.de/ui-components/component-library.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.internal.mapp.tools/repository/npm-internal"
+  },
+  "scripts": {
+    "build": ""
+  }
+}

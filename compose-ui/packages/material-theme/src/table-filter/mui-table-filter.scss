@@ -1,0 +1,91 @@
+/* Rules for table filter headers -- legacy version */
+
+.mui-filter-header {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+mat-header-cell.mui-filter-header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mui-filter-header > {
+  [mat-sort-header],
+  .mui-filter-header-title,
+  mat-form-field {
+      width: 100%;
+  }
+
+  mat-form-field {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+}
+
+.mui-filter-header .mat-datepicker-toggle {
+  font-size: 18px;
+}
+
+.mui-filter-clear-icon, .mui-filter-clear-button {
+  font-size: 20px;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 28px;
+}
+
+.mui-filter-clear-button {
+  margin-top: 5px;
+}
+
+mat-table.mui-overview-table .mat-header-row {
+  align-items: flex-start;
+}
+
+/* Styles for native table version of mat-table */
+table.mui-overview-table {
+  table-layout: fixed;
+  width: 100%;
+
+  th.mat-mdc-header-cell.mui-filter-header {
+    padding: 10px 10px 0 0;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.54);
+
+    &:first-of-type {
+      padding-left: 24px;
+    }
+
+    &:last-of-type {
+      padding-right: 24px; // default material styling
+    }
+  }
+
+  td.mat-mdc-cell {
+    padding: 0 10px 0 0;
+
+    &:first-of-type {
+      padding-left: 24px;
+    }
+
+    &:last-of-type {
+      padding-right: 24px;
+    }
+  }
+
+  tr.mat-mdc-header-row.progress-bar-row {
+    height: 0;
+  }
+
+  th.mat-mdc-header-cell.progress-bar-container {
+    &:first-of-type, &:last-of-type {
+      padding: 0;
+      border-bottom: none;
+    }
+  }
+
+}

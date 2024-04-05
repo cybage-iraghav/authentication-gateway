@@ -1,0 +1,163 @@
+@use "sass:string";
+@use "sass:map";
+@use "../theming/unify-colors" as c;
+
+/* General MUI specific styles */
+@mixin mui-general-styles($theme, $legacy: false) {
+  @if $legacy {
+    @include _styles-legacy($theme);
+  } @else {
+    @include _styles-new($theme);
+  }
+
+}
+
+@mixin _styles-legacy($theme) {
+  $colors: map.get($theme, "colors");
+
+  body {
+    background-color: map-get($colors, "main", "primary-bg");
+    font-family: string.unquote(map-get($theme, "font-family"));
+    margin: 0;
+  }
+
+  a {
+    color: map-get($colors, "main", "primary");
+  }
+
+  /* Page content and header */
+
+  .mui-page-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  mui-page-header {
+    flex: 0 0 auto;
+    z-index: 2;
+    position: relative;
+    display: block;
+  }
+
+  .mui-page-content {
+    padding: 24px 24px 0 24px;
+    flex: 1 1 auto;
+    position: relative;
+    overflow-y: auto;
+  }
+
+  .mui-page-content:after {
+    content: " ";
+    height: 24px;
+    display: block;
+  }
+
+  .mui-full-width {
+    width: 100%;
+  }
+
+}
+
+@mixin _styles-new($theme) {
+  $colors: map.get($theme, "colors");
+
+  body {
+    background-color: map-get($colors, "main", "primary-bg");
+    font-family: string.unquote(map-get($theme, "font-family"));
+    font-size: 14px;
+    margin: 0;
+  }
+
+  a {
+    color: map-get($colors, "main", "primary");
+  }
+
+  /* Page content and header */
+
+  .mui-page-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  mui-page-header {
+    flex: 0 0 auto;
+    z-index: 2;
+    position: relative;
+    display: block;
+  }
+
+  .mui-page-content {
+    flex: 1 1 auto;
+    padding: 24px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: auto;
+
+    > .mat-mdc-card {
+      @include card_styles;
+    }
+
+    &.unify {
+      scrollbar-gutter: stable;
+      // 33px right as of 15px scrollbar gutter - needed to keep padding aligned with action bar at bottom of page
+      padding: 24px 33px 24px 48px;
+    }
+
+  }
+
+  .mui-full-width {
+    width: 100%;
+  }
+
+  .mui-app-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .mui-header-container {
+  }
+
+  .mui-main-app-outlet {
+    flex: 1;
+    overflow: auto;
+  }
+
+  .mui-max-text-width {
+    max-width: 760px;
+  }
+
+  .mat-mdc-card.mui-default-card {
+    @include card_styles;
+  }
+
+}
+
+@mixin card_styles {
+    border: 1px solid map.get(c.$on_primary, "lightblue");
+    border-radius: 8px;
+    box-shadow: none;
+    transition: none;
+    padding: 40px 40px 24px 40px;
+
+    > .mat-mdc-card-content {
+      padding: 0;
+
+      > :first-child {
+        margin-top: 0;
+      }
+    }
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > .mat-mdc-card-header {
+      padding: 0;
+    }
+  }

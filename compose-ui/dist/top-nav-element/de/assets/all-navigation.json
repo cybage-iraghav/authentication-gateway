@@ -1,0 +1,802 @@
+{
+  "mainNav": [
+    {
+      "id": "nav-mapp-icon",
+      "icon": "mapp_m",
+      "href": "#"
+    },
+    {
+      "id": "nav-dashboard",
+      "name": "Dashboard",
+      "menu": [
+        {
+          "id": "nav-startpage",
+          "name": "Start",
+          "href": "#"
+        },
+        {
+          "id": "nav-reports",
+          "name": "Reports",
+          "href": "#"
+        },
+        {
+          "id": "nav-processes",
+          "name": "Processes",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "nav-create-new",
+      "name": "Create New",
+      "menu": [
+        {
+          "id": "nav-create-msg",
+          "name": "Message",
+          "href": "#"
+        },
+        {
+          "id": "nav-create-grp",
+          "name": "Group",
+          "href": "#"
+        },
+        {
+          "id": "nav-whiteboard",
+          "name": "Whiteboard",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "nav-messages",
+      "name": "Messages",
+      "menu": [
+        {
+          "id": "nav-msg-outbox",
+          "name": "Outbox",
+          "menu": [
+            {
+              "id": "nav-msg-email",
+              "name": "E-Mail",
+              "href": "#"
+
+            },
+            {
+              "id": "nav-msg-sms",
+              "name": "SMS",
+              "href": "#"
+
+            }
+          ]
+        },
+        {
+          "id": "nav-msg-prepared",
+          "name": "Prepared Messages",
+          "menu": [
+            {
+              "id": "nav-msg-email",
+              "name": "E-Mail",
+              "href": "#"
+
+            },
+            {
+              "id": "nav-msg-email",
+              "name": "SMS",
+              "href": "#"
+
+            }
+          ]
+        },
+        {
+          "id": "nav-msg-draft",
+          "name": "Draft",
+          "menu": [
+            {
+              "id": "nav-msg-email",
+              "name": "E-Mail",
+              "href": "#"
+            },
+            {
+              "id": "nav-msg-sms",
+              "name": "SMS",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-msg-inboxrendering",
+          "name": "Inbox Rendering",
+          "href": "#"
+        },
+        {
+          "id": "nav-msg-amp",
+          "name": "AMP Email",
+          "href": "#"
+        },
+        {
+          "id": "nav-msg-directmail",
+          "name": "Direct Mail",
+          "href": "#"
+        },
+        {
+          "id": "nav-msg-push",
+          "name": "Push Notifications",
+          "href": "#"
+        },
+        {
+          "id": "nav-msg-inapp",
+          "name": "In-App Messages",
+          "href": "#"
+        },
+        {
+          "id": "nav-msg-system",
+          "name": "System Messages",
+          "menu": [
+            {
+              "id": "nav-msg-system-syswide",
+              "name": "System wide",
+              "href": "#"
+
+            },
+            {
+              "id": "nav-msg-system-group",
+              "name": "Group General",
+              "href": "#"
+
+            },
+            {
+              "id": "nav-msg-system-groupspec",
+              "name": "Group Specific",
+              "href": "#"
+
+            }
+          ]
+        },
+        {
+          "id": "nav-msg-limitations",
+          "name": "Limitations",
+          "href": "#"
+        },
+        {
+          "id": "nav-msg-calendar",
+          "name": "Calendar",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "nav-audience",
+      "name": "Audience",
+      "menu": [
+        {
+          "id": "nav-audience-admin",
+          "name": "Administration",
+          "href": "#"
+        },
+        {
+          "id": "nav-audience-admin",
+          "name": "Administration",
+          "href": "#"
+        },
+        {
+          "id": "nav-audience-admin",
+          "name": "Administration",
+          "href": "#"
+        },
+        {
+          "id": "nav-audience-blacklist-grp",
+          "name": "Blacklist",
+          "menu": [
+            {
+              "id": "nav-audience-blacklist",
+              "name": "Group Blacklist",
+              "href": "#"
+            },
+            {
+              "id": "nav-audience-blacklist-cust",
+              "name": "System specific",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-audience-segment",
+          "name": "Segmentation",
+          "menu": [
+            {
+              "id": "nav-segment-builder",
+              "name": "Segmentation Builder",
+              "href": "#"
+            },
+            {
+              "id": "nav-segment-selection",
+              "name": "Selection",
+              "href": "#"
+            },
+            {
+              "id": "nav-segment-pers",
+              "name": "Personalization",
+              "href": "#"
+            },
+            {
+              "id": "nav-segment-ci",
+              "name": "CI Segments",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-audience-deactivated",
+          "name": "Deactivated",
+          "href": "#"
+        },
+        {
+          "id": "nav-audience-groups",
+          "name": "Groups",
+          "href": "#"
+        },
+        {
+          "id": "nav-audience-geolocations",
+          "name": "Location Management",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "nav-content",
+      "name": "Content",
+      "menu": [
+        {
+          "id": "nav-content-email",
+          "name": "E-Mail",
+          "menu": [
+            {
+              "id": "nav-content-email-msg",
+              "name": "Messages",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-email-tpl",
+              "name": "Templates",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-email-block",
+              "name": "Blocks",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-email-frmw",
+              "name": "Frameworks",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-content-store",
+          "name": "Content Store",
+          "menu": [
+            {
+              "id": "nav-content-store-images",
+              "name": "Images",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-store-text",
+              "name": "Text",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-store-media",
+              "name": "Media",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-store-other",
+              "name": "Other",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-store-all",
+              "name": "All files",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-content-voucher",
+          "name": "Voucher Manager",
+          "menu": [
+            {
+              "id": "nav-content-voucher-coupon",
+              "name": "Coupon",
+              "href": "#"
+            },
+            {
+              "id": "nav-content-voucher-barcode",
+              "name": "Barcode",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-content-landing",
+          "name": "Landing Page",
+          "href": "#"
+        },
+        {
+          "id": "nav-content-oldcms",
+          "name": "CMS Messages",
+          "href": "#"
+        },
+        {
+          "id": "nav-content-microsites",
+          "name": "Microsites",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "nav-statistics",
+      "name": "Statistics",
+      "menu": [
+        {
+          "id": "nav-stats-grp",
+          "name": "Group Messages",
+          "menu": [
+            {
+              "id": "nav-msg-email",
+              "name": "E-Mail",
+              "href": "#"
+            },
+            {
+              "id": "nav-msg-amp",
+              "name": "AMP E-Mail",
+              "href": "#"
+            },
+            {
+              "id": "nav-msg-sms",
+              "name": "SMS",
+              "href": "#"
+            },
+            {
+              "id": "nav-msg-push",
+              "name": "Mobile Push",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-stats-single",
+          "name": "Single Message",
+          "menu": [
+            {
+              "id": "nav-msg-email",
+              "name": "E-Mail",
+              "href": "#"
+            },
+            {
+              "id": "nav-msg-sms",
+              "name": "SMS",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-stats-contacts",
+          "name": "Contact",
+          "href": "#"
+        },
+        {
+          "id": "nav-stats-sources",
+          "name": "Sources",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "nav-automations",
+      "name": "Automations",
+      "menu": [
+        {
+          "id": "nav-automations-whiteboard",
+          "name": "Whiteboard",
+          "href": "#"
+        },
+        {
+          "id": "nav-automations-whiteboard-beta",
+          "name": "Whiteboard Beta",
+          "href": "#"
+        },
+        {
+          "id": "nav-automations-whiteboard-beta",
+          "name": "Whiteboard Beta",
+          "href": "#"
+        },
+        {
+          "id": "nav-automations-automations",
+          "name": "Automations",
+          "menu": [
+            {
+              "id": "nav-automations-time",
+              "name": "Time Based",
+              "href": "#"
+            },
+            {
+              "id": "nav-automations-event",
+              "name": "Event Based",
+              "href": "#"
+            },
+            {
+              "id": "nav-automations-profile",
+              "name": "Profile Based",
+              "href": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nav-user-mgmt",
+      "name": "User Management",
+      "menu": [
+        {
+          "id": "nav-user-system",
+          "name": "System Users",
+          "menu": [
+            {
+              "id": "nav-user-system",
+              "name": "System Users",
+              "href": "#"
+            },
+            {
+              "id": "nav-user-approval",
+              "name": "Approvers Lists",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-user-permissions",
+          "name": "Permissions",
+          "menu": [
+            {
+              "id": "nav-user-perm-groupgeneral",
+              "name": "Group (General)",
+              "href": "#"
+            },
+            {
+              "id": "nav-user-perm-groupgspec",
+              "name": "Group (Specific)",
+              "href": "#"
+            },
+            {
+              "id": "nav-user-perm-groupoverrd",
+              "name": "Group (Override)",
+              "href": "#"
+            },
+            {
+              "id": "nav-user-perm-system",
+              "name": "System Wide",
+              "href": "#"
+            },
+            {
+              "id": "nav-user-perm-guest",
+              "name": "Contact & Guest",
+              "href": "#"
+            },
+            {
+              "id": "mm-admin-authorization",
+              "name": "Credentials",
+              "href": "#"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nav-data-mgmt",
+      "name": "Data Management",
+      "menu": [
+        {
+          "id": "nav-data-mappconnect",
+          "name": "Mapp Connect",
+          "href": "#"
+        },
+        {
+          "id": "nav-data-exports",
+          "name": "Exports",
+          "menu": [
+            {
+              "id": "nav-data-exports",
+              "name": "Exports",
+              "href": "#"
+            },
+            {
+              "id": "nav-data-exports-stylesheets",
+              "name": "Stylesheets",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-data-rd",
+          "name": "Related Data",
+          "href": "#"
+        },
+        {
+          "id": "nav-data-attributes",
+          "name": "Attributes",
+          "href": "#"
+        },
+        {
+          "id": "nav-data-member-attributes",
+          "name": "Member Attributes",
+          "href": "#"
+        },
+        {
+          "id": "nav-data-address-attributes",
+          "name": "Address Attributes",
+          "href": "#"
+        }
+
+      ]
+    },
+    {
+      "id": "nav-admin",
+      "name": "Administration",
+      "menu": [
+        {
+          "id": "nav-admin-categories",
+          "name": "Categories",
+          "menu": [
+            {
+              "id": "nav-admin-categories-link",
+              "name": "Link",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-categories-msg",
+              "name": "Message",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-categories-group",
+              "name": "Group",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-categories-link",
+              "name": "Conversion Tracking",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-categories-cse",
+              "name": "CSE",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-categories-sources",
+              "name": "Sources",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-admin-log",
+          "name": "Log Tracker",
+          "href": "#"
+        },
+        {
+          "id": "nav-admin-channels",
+          "name": "Channels",
+          "href": "#"
+        },
+        {
+          "id": "nav-admin-channels",
+          "name": "Channels",
+          "href": "#"
+        },
+
+        {
+          "id": "nav-admin-systemsettings",
+          "name": "System Settings",
+          "menu": [
+            {
+              "id": "nav-admin-systemsettings-insights",
+              "name": "Insights",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-systemsettings-settings",
+              "name": "Settings",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-systemsettings-features",
+              "name": "Features",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-systemsettings-profiles",
+              "name": "Sender Profiles",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-systemsettings-domain",
+              "name": "Domain Whitelist",
+              "href": "#"
+            }
+          ]
+        },
+
+        {
+          "id": "nav-admin-account",
+          "name": "Accounts",
+          "href": "#"
+        },
+        {
+          "id": "nav-admin-accounts",
+          "name": "Account",
+          "href": "#"
+        },
+        {
+          "id": "nav-admin-ecommerce",
+          "name": "E-Commerce",
+          "menu": [
+            {
+              "id": "nav-admin-ecommerce-prodcat",
+              "name": "Product Catalog",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-ecommerce-triggers",
+              "name": "Triggers",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-ecommerce-transaction",
+              "name": "System Transactions",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-ecommerce-wishlist",
+              "name": "Wishlist",
+              "href": "#"
+            },
+            {
+              "id": "nav-admin-ecommerce-abandoned",
+              "name": "Abandoned Cart",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "id": "nav-admin-usagestatistics",
+          "name": "Usage Statistics",
+          "href": "#"
+        }
+      ]
+    }
+
+  ],
+  "auxNav": [
+    {
+      "id": "aux-search",
+      "icon": "search",
+      "href": "#"
+    },
+    {
+      "id": "aux-notification",
+      "icon": "bell"
+    },
+    {
+      "id": "aux-appswitcher",
+      "icon": "app_switcher",
+      "menu": [
+        {
+          "id": "aux-appswitcher-dmp",
+          "name": "Acquire",
+          "icon": "app_acquire",
+          "href": "#"
+        },
+        {
+          "id": "aux-appswitcher-dashboards",
+          "name": "Dashboards",
+          "icon": "app_intelligence",
+          "href": "#",
+          "properties": {
+            "blank": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "aux-help",
+      "icon": "help",
+      "menu": [
+        {
+          "id": "aux-help-onlinehelp",
+          "name": "Help",
+          "href": "https://supportlink.mapp.com/redirect?lable=Engage_default&language=en",
+          "properties": {
+            "blank": true
+          }
+        },
+        {
+          "id": "aux-help-supportlink",
+          "name": "Support",
+          "href": "#",
+          "properties": {
+            "blank": true
+          }
+        },
+        {
+          "id": "aux-help-privacynotice",
+          "name": "Privacy Notice",
+          "href": "#",
+          "properties": {
+            "blank": true
+          }
+        },
+        {
+          "id": "aux-help-developerapi",
+          "name": "Developers API",
+          "href": "#",
+          "properties": {
+            "blank": true
+          }
+        },
+        {
+          "id": "aux-help-about",
+          "name": "About",
+          "href": "./assets/nav/about-cep.html",
+          "properties": {
+            "modal": true,
+            "title": "About Engage"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aux-user",
+      "icon": "profile",
+      "properties": {
+        "userName": "John Doe"
+      },
+      "menu": [
+        {
+          "id": "aux-user-settings",
+          "name": "Account Settings",
+          "properties": {
+            "profileDataUrl": "/assets/nav/userData.json",
+            "languageDataUrl": "/assets/nav/locales.json",
+            "timeZoneDataUrl": "/assets/nav/time-zones.json",
+            "profileSaveUrl": "/",
+            "passwordSaveUrl": "/",
+            "oldPasswordRequired": false
+          }
+        },
+        {
+          "id": "aux-timer",
+          "href": "/assets/nav/session-refresh.json",
+          "name": "Inactivity Timeout",
+          "properties": {
+            "timeout": 1800000,
+            "keepAlive": false,
+            "idleMode": false,
+            "expiredHref": "/"
+          }
+        },
+        {
+          "id": "aux-user-logout",
+          "name": "Logout",
+          "href": "#"
+        }
+      ]
+    }
+  ]
+
+
+}

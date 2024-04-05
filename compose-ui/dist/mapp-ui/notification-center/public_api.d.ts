@@ -1,0 +1,10 @@
+export { NotificationCenterModule } from './lib/notification-center.module';
+export { NotificationCenterComponent } from './lib/center/notification-center.component';
+export { NotificationService } from './lib/shared/services/notification.service';
+export { BackendService } from './lib/shared/services/backend.service';
+export { MockBackendService } from './lib/shared/services/backend-mock.service';
+export * from './lib/shared/models/message';
+export * from './lib/shared/models/notification';
+export * from './lib/shared/models/configurations';
+export * from './lib/shared/models/volatile-notification';
+export * from './lib/shared/models/api-config';

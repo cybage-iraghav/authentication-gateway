@@ -1,0 +1,41 @@
+<div class="mui-page-container">
+  <div class="mui-page-content">
+    <mat-card appearance="outlined">
+      <mat-card-content>
+        <section>
+          <h1 class="mat-headline-5">Content Store</h1>
+			<form name="edit_form" id="edit_form" enctype="multipart/form-data">
+			  <div class="option-row">
+				 <label class="custom-label">Name</label>
+				 <input type="text" name="contentName" id="content_name" value="" [(ngModel)]="contentName" class="content-input">
+			  </div>
+			  <div class="option-row">
+				 <label class="custom-label">Description</label>
+				 <textarea name="content_desc" rows="3" class="content-input" [(ngModel)]="contentDescription"></textarea>
+			  </div>
+			  <div class="option-row" id="uploadFile-row">
+				 <label class="custom-label">Upload File</label>
+				 <mat-form-field class="content-input">
+					<mat-label>Select an image</mat-label>
+					<ngx-mat-file-input [formControl]="fileControl" [accept]="accept" [color]="color" (change)="onFileSelected($event)">
+					</ngx-mat-file-input>
+					<mat-icon matSuffix>folder</mat-icon>
+					<mat-error *ngIf="formDoc.get('requiredfile').hasError('required')">
+						Please select a file
+					</mat-error>
+					<mat-error *ngIf="formDoc.get('requiredfile').hasError('maxContentSize')">
+						The total size must not exceed {{formDoc.get('requiredfile')?.getError('maxContentSize').maxSize | byteFormat}} ({{formDoc.get('requiredfile')?.getError('maxContentSize').actualSize
+						| byteFormat}}).
+					</mat-error>
+				</mat-form-field>
+			  </div>
+			  <div class="submit-row">
+				 <button type="button" class="btn btn-secondary" (click)="clearForm()">Clear</button>
+				 <button mat-raised-button class="btn btn-primary" (click)="onUpload()" [disabled]="disabled">Upload</button>
+			  </div>
+		   </form>
+        </section>
+	  </mat-card-content>
+    </mat-card>
+  </div>
+</div>

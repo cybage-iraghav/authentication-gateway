@@ -1,0 +1,9 @@
+@use "sass:map";
+@use "../core/theming/unify-colors" as c;
+
+$lightblue: map.get(c.$on_primary, "lightblue");
+
+.mat-mdc-tab-header {
+  border-bottom: 1px solid $lightblue;
+  padding: 0 8px;
+}

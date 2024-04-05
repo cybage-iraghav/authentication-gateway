@@ -1,0 +1,14 @@
+{
+  "systemUser.Email": "master@engmail.muc.ecircle.de",
+  "systemUser.LastName": "Admin",
+  "systemUser.PK": "1",
+  "systemUser.EmergencyCommunication": "true",
+  "systemUser.CustomerRole": "administrator",
+  "systemUser.Type": "h",
+  "systemUser.TimeZone": "Europe/London",
+  "systemUser.FirstName": "Master",
+  "systemUser.CanEdit": "true",
+  "systemUser.Locale": "en_GB",
+  "systemUser.CanViewMFA": "true",
+  "systemUser.MFA": "false"
+}

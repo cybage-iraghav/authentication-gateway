@@ -1,0 +1,11 @@
+/**
+ * Helper function to generate a "Ghost data set" containing empty objects of the given type, which can be used
+ * to display the ghost-bar component rows while the real table data is loading.
+ * @param length Number of elements to create. Defaults to 10.
+ */
+export function createGhostDataSet(length = 10) {
+    return [...Array(length)].map(() => {
+        return {};
+    });
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXRpbHMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9tYXBwLXVpL3VuaWZ5L3NyYy9saWIvdGFibGUvZ2hvc3QtYmFyL3V0aWxzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7O0dBSUc7QUFDSCxNQUFNLFVBQVUsa0JBQWtCLENBQUksTUFBTSxHQUFHLEVBQUU7SUFDL0MsT0FBTyxDQUFDLEdBQUcsS0FBSyxDQUFDLE1BQU0sQ0FBQyxDQUFDLENBQUMsR0FBRyxDQUFDLEdBQUcsRUFBRTtRQUNqQyxPQUFPLEVBQU8sQ0FBQztJQUNqQixDQUFDLENBQUMsQ0FBQztBQUNMLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcclxuICogSGVscGVyIGZ1bmN0aW9uIHRvIGdlbmVyYXRlIGEgXCJHaG9zdCBkYXRhIHNldFwiIGNvbnRhaW5pbmcgZW1wdHkgb2JqZWN0cyBvZiB0aGUgZ2l2ZW4gdHlwZSwgd2hpY2ggY2FuIGJlIHVzZWRcclxuICogdG8gZGlzcGxheSB0aGUgZ2hvc3QtYmFyIGNvbXBvbmVudCByb3dzIHdoaWxlIHRoZSByZWFsIHRhYmxlIGRhdGEgaXMgbG9hZGluZy5cclxuICogQHBhcmFtIGxlbmd0aCBOdW1iZXIgb2YgZWxlbWVudHMgdG8gY3JlYXRlLiBEZWZhdWx0cyB0byAxMC5cclxuICovXHJcbmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVHaG9zdERhdGFTZXQ8VD4obGVuZ3RoID0gMTApOiBUW10ge1xyXG4gIHJldHVybiBbLi4uQXJyYXkobGVuZ3RoKV0ubWFwKCgpID0+IHtcclxuICAgIHJldHVybiB7fSBhcyBUO1xyXG4gIH0pO1xyXG59XHJcbiJdfQ==

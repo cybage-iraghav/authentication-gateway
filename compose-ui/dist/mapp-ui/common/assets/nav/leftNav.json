@@ -1,0 +1,62 @@
+{
+  "mainNav": [
+    {
+      "id": "mm-home",
+      "matIcon": "home",
+      "name":  "Home",
+      "href": "/home"
+    },
+    {
+      "id": "mm-examples",
+      "matIcon": "build",
+      "name": "Examples",
+      "menu": [
+        {
+          "id": "mm-examples-theme",
+          "name": "Theme & Basic Markup",
+          "href": "/theme"
+        },
+        {
+          "id": "mm-examples-nav",
+          "name": "App Header & Navigation",
+          "href": "/appnav"
+        },
+        {
+          "id": "mm-examples-pageheader",
+          "name": "Page Header",
+          "href": "/pageheader"
+        },
+        {
+          "id": "mm-examples-stepper",
+          "name": "Stepper",
+          "href": "/stepper"
+        },
+        {
+          "id": "mm-examples-datepicker",
+          "name": "Date & Time",
+          "href": "/datepicker"
+        },
+        {
+          "id": "mm-examples-drawer",
+          "name": "Drawer",
+          "href": "/drawer"
+        },
+        {
+          "id": "mm-examples-thirdparty",
+          "name": "Third Party Libs",
+          "href": "/thirdparty"
+        },
+        {
+          "id": "mm-examples-demo",
+          "name": "Material Components",
+          "href": "/material-demo"
+        },
+        {
+          "id": "mm-examples-icon",
+          "name": "Icons",
+          "href": "/icons"
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="de">
+  <file id="ngi18n" original="ng.template">
+    <unit id="topnav_setpasswd_title">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:2,4</note>
+      </notes>
+      <segment>
+        <source>Set a new password</source>
+      <target>Neues Passwort festlegen</target></segment>
+    </unit>
+    <unit id="topnav_oldpasswd">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:12</note>
+      </notes>
+      <segment>
+        <source>Old Password</source>
+      <target>Altes Passwort</target></segment>
+    </unit>
+    <unit id="topnav_field_required">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:17</note>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:29</note>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:44</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:93</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:101</note>
+      </notes>
+      <segment>
+        <source>This field is required</source>
+      <target>Dieses Feld ist erforderlich.</target></segment>
+    </unit>
+    <unit id="topnav_newpasswd">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:23</note>
+      </notes>
+      <segment>
+        <source>New Password</source>
+      <target>Neues Passwort</target></segment>
+    </unit>
+    <unit id="topnav_confirmpasswd">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:35</note>
+      </notes>
+      <segment>
+        <source>Confirm Password</source>
+      <target>Passwort bestätigen</target></segment>
+    </unit>
+    <unit id="topnav_passwordnomatch">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:41,42</note>
+      </notes>
+      <segment>
+        <source>Passwords do not match</source>
+      <target>Passwörter stimmen nicht überein</target></segment>
+    </unit>
+    <unit id="topnav_savebtn">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-password/edit-password.component.html:61,62</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:134,135</note>
+      </notes>
+      <segment>
+        <source>Save</source>
+      <target>Speichern</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_accounttype">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:6</note>
+      </notes>
+      <segment>
+        <source>Type</source>
+      <target>Typ</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_uiuser">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:9,11</note>
+      </notes>
+      <segment>
+        <source>UI User</source>
+      <target>UI-Anwender</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_apiuser">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:13,15</note>
+      </notes>
+      <segment>
+        <source>API User</source>
+      <target>API-Benutzer</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_hybriduser">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:17,19</note>
+      </notes>
+      <segment>
+        <source>Hybrid User</source>
+      <target>Hybrid-Anwender</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_role">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:23</note>
+      </notes>
+      <segment>
+        <source>Role</source>
+      <target>Rolle</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_admin">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:26,28</note>
+      </notes>
+      <segment>
+        <source>Administrator</source>
+      <target>Administrator</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_pm">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:30,32</note>
+      </notes>
+      <segment>
+        <source>Project Manager</source>
+      <target>Projektmanager</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_clientadmin">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:34,36</note>
+      </notes>
+      <segment>
+        <source>Client Administrator</source>
+      <target>Kundenadministrator</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_superuser">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:38,40</note>
+      </notes>
+      <segment>
+        <source>Superuser</source>
+      <target>Verteilermanager</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_normaluser">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:42,44</note>
+      </notes>
+      <segment>
+        <source>Normal User</source>
+      <target>Normaler Anwender</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_customuser">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:46</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:49</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:52</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:55</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:58</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:61</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:64</note>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:67</note>
+      </notes>
+      <segment>
+        <source>Custom User</source>
+      <target>Spezialbenutzer</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_role_none">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:70,72</note>
+      </notes>
+      <segment>
+        <source>None</source>
+      <target>Keine</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_email">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:80</note>
+      </notes>
+      <segment>
+        <source>Email</source>
+      <target>E-Mail</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_firstname">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:89</note>
+      </notes>
+      <segment>
+        <source>First Name</source>
+      <target>Vorname</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_lastname">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:97</note>
+      </notes>
+      <segment>
+        <source>Last Name</source>
+      <target>Nachname</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_language">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:106</note>
+      </notes>
+      <segment>
+        <source>Language</source>
+      <target>Sprache</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_timezone">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:114</note>
+      </notes>
+      <segment>
+        <source>Time Zone</source>
+      <target>Zeitzone</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_receive_emergency">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/edit-profile/edit-profile.component.html:124,126</note>
+      </notes>
+      <segment>
+        <source>Receive emergency communication</source>
+      <target>Notfallkommunikation erhalten</target></segment>
+    </unit>
+    <unit id="topnav_langchange_title">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/lang-change-dialog/lang-change-dialog.component.html:10</note>
+      </notes>
+      <segment>
+        <source>The language will be changed</source>
+      <target>Die Sprache wird geändert.</target></segment>
+    </unit>
+    <unit id="topnav_langchange_text1">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/lang-change-dialog/lang-change-dialog.component.html:13,14</note>
+      </notes>
+      <segment>
+        <source>Engage needs to be reloaded to apply the language change. You will be redirected to the start page.</source>
+      <target>Engage muss neu geladen werden, damit die Änderung der Sprache übernommen werden kann.Du wirst zur Startseite geleitet.</target></segment>
+    </unit>
+    <unit id="topnav_langchange_text2">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/lang-change-dialog/lang-change-dialog.component.html:15</note>
+      </notes>
+      <segment>
+        <source>Any unsaved work will be lost.</source>
+      <target>Alle nicht gespeicherte Arbeit geht verloren.</target></segment>
+    </unit>
+    <unit id="topnav_cancelbtn">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/lang-change-dialog/lang-change-dialog.component.html:22,23</note>
+      </notes>
+      <segment>
+        <source>Cancel</source>
+      <target>Abbrechen</target></segment>
+    </unit>
+    <unit id="topnav_langchange_changebtn">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/lang-change-dialog/lang-change-dialog.component.html:28,29</note>
+      </notes>
+      <segment>
+        <source>Change</source>
+      <target>Ändern</target></segment>
+    </unit>
+    <unit id="topnav_search_placeholder">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/search/search.component.html:27</note>
+        <note category="description">placeholder on search input</note>
+      </notes>
+      <segment>
+        <source>Search</source>
+      <target>Suche</target></segment>
+    </unit>
+    <unit id="topnav_sessiontimeout_title">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/timeout-dialog/timeout-dialog.component.html:4</note>
+      </notes>
+      <segment>
+        <source>Session Timeout Alert</source>
+      <target>Warnung zu Sitzungs-Zeitlimit</target></segment>
+    </unit>
+    <unit id="topnav_sessiontimeout_text1">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/timeout-dialog/timeout-dialog.component.html:8</note>
+      </notes>
+      <segment>
+        <source>Your session will end in 5 minutes.</source>
+      <target>Deine Sitzung endet in 5 Minuten.</target></segment>
+    </unit>
+    <unit id="topnav_sessiontimeout_text2">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/timeout-dialog/timeout-dialog.component.html:9,11</note>
+      </notes>
+      <segment>
+        <source>You've been timed out due to inactivity. You may <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;bold&quot;&gt;" dispEnd="&lt;/span&gt;">stop the timer</pc> or <pc id="1" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;bold&quot;&gt;" dispEnd="&lt;/span&gt;">resume working normally.</pc></source>
+      <target>Deine Sitzung ist aufgrund von Inaktivität abgelaufen.Du kannst den <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;bold&quot;&gt;" dispEnd="&lt;/span&gt;">Zeitzähler stoppen</pc> oder <pc id="1" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;bold&quot;&gt;" dispEnd="&lt;/span&gt;">die Arbeit normal fortsetzen.</pc></target></segment>
+    </unit>
+    <unit id="topnav_sessiontimeout_text3">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/timeout-dialog/timeout-dialog.component.html:12,13</note>
+      </notes>
+      <segment>
+        <source>You will be logged out automatically when the session expires.</source>
+      <target>Du wirst automatisch abgemeldet, sobald die Sitzung abläuft.</target></segment>
+    </unit>
+    <unit id="topnav_sessiontimeout_text4">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/timeout-dialog/timeout-dialog.component.html:15</note>
+      </notes>
+      <segment>
+        <source>You can restart the timer from the User Menu.</source>
+      <target>Du kannst den Zeitzähler im Anwendermenü neu starten.</target></segment>
+    </unit>
+    <unit id="topnav_sessiontimeout_resume">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/timeout-dialog/timeout-dialog.component.html:22,23</note>
+      </notes>
+      <segment>
+        <source>Resume</source>
+      <target>Fortsetzen</target></segment>
+    </unit>
+    <unit id="topnav_sessiontimeout_stop">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/timeout-dialog/timeout-dialog.component.html:28,29</note>
+      </notes>
+      <segment>
+        <source>Stop Timeout</source>
+      <target>Zeitablauf stoppen</target></segment>
+    </unit>
+    <unit id="topnav_account_tab">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/top-nav-dialog/top-nav-dialog.component.html:4</note>
+      </notes>
+      <segment>
+        <source>Account Settings</source>
+      <target>Kontoeinstellungen</target></segment>
+    </unit>
+    <unit id="topnav_editprofile_tab">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/top-nav-dialog/top-nav-dialog.component.html:12</note>
+      </notes>
+      <segment>
+        <source>Edit Profile</source>
+      <target>Profil bearbeiten</target></segment>
+    </unit>
+    <unit id="topnav_newpasswd_tab">
+      <notes>
+        <note category="location">../src/lib/top-navigation/components/top-nav-dialog/top-nav-dialog.component.html:22</note>
+      </notes>
+      <segment>
+        <source>New Password</source>
+      <target>Neues Passwort</target></segment>
+    </unit>
+    <unit id="topnav_session_expired">
+      <notes>
+        <note category="location">../src/lib/top-navigation/services/session-timer.service.ts:122</note>
+      </notes>
+      <segment>
+        <source>Your session expired. You will be redirected to the login page.</source>
+      <target>Deine Sitzung ist abgelaufen.Du wirst zur Anmeldeseite geleitet.</target></segment>
+    </unit>
+    <unit id="topnav_system_restart">
+      <notes>
+        <note category="location">../src/lib/top-navigation/services/session-timer.service.ts:134</note>
+      </notes>
+      <segment>
+        <source>Your Engage system will restart shortly due to a server reboot. Please save your work and log out. You can log back in immediately.</source>
+      <target>Dein Engage-System wird in Kürze aufgrund eines Server-Neustarts neu gestartet.Speichere deine Arbeit, und melde dich ab.Du kannst dich nach der Abmeldung sofort wieder anmelden.</target></segment>
+    </unit>
+  </file>
+</xliff>

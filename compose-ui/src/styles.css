@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@mapp-ui/fonts/opensans/opensans.css";
+@import "@mapp-ui/fonts/material-icons/material-icons.css";
+@import '@mapp-ui/material-theme/dist/mui-theme.css';
+/*@import '~@mapp-ui/material-theme/dist/mui-theme-legacy.css';*/
+@import "@mapp-ui/engage-iconfont/dist/iconfont/engage-icons.css";
+
+/*
+html, body, app-root {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-size: 14px;
+}
+*/
+
+.code-snippet {
+  border: 1px solid #cccccc;
+  background: #efefef;
+  padding: 10px;
+}
+
+.component-list > li {
+  margin-bottom: 10px;
+}

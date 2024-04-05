@@ -1,0 +1,46 @@
+.btn.btn-primary{
+    font-weight: bold;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn.btn-secondary{
+	font-weight: bold;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.option-row {
+    height: 50px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.submit-row {
+    margin-top: 65px;
+}
+
+.content-input {
+    float: right;
+    width: 250px;
+	padding:5px;
+}
+
+input.mat-input-element {
+    padding: 5px;
+    height: 30px;
+    border: 0;
+}
+
+.content-input  div.mdc-text-field {
+    background: none;
+}

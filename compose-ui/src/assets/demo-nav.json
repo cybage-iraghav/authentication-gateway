@@ -1,0 +1,92 @@
+{
+  "mainNav": [
+    {
+      "id": "nav-mapp-icon",
+      "icon": "mapp_m",
+      "href": "/home"
+    },
+	{
+      "id": "nav-menu-user",
+      "name": "User",
+      "menu": [
+        {
+          "id": "nav-user-details",
+          "name": "User Details",
+          "href": "/user-details"
+        }
+      ]
+    },
+    {
+      "id": "nav-menu-email",
+      "name": "Email Builder",
+      "menu": [
+        {
+          "id": "nav-easymail",
+          "name": "Drag & Drop Email Builder",
+          "href": "/progress-bar"
+        },
+		{
+          "id": "nav-email-builder",
+          "name": "Code View Email Builder",
+          "href": "/progress-bar"
+        }
+      ]
+    },
+	{
+      "id": "nav-menu-message",
+      "name": "Messsages",
+      "menu": [
+        {
+          "id": "nav-draft",
+          "name": "Drafts",
+          "href": "/progress-bar"
+        },
+		{
+          "id": "nav-scheduled",
+          "name": "Scheduled",
+          "href": "/progress-bar"
+        },
+		{
+          "id": "nav-templates",
+          "name": "Templates",
+          "href": "/progress-bar"
+        }
+      ]
+    },
+	{
+      "id": "nav-menu-content",
+      "name": "Content",
+      "menu": [
+        {
+          "id": "nav-content-store",
+          "name": "Content Store",
+          "href": "/content-store"
+        }
+      ]
+    }
+  ],
+  "auxNav": [
+    {
+      "id": "aux-search",
+      "icon": "search",
+      "href": "#"
+    },
+    {
+      "id": "user",
+      "icon": "profile",
+      "properties": {
+        "userName": "John Doe"
+      },
+      "menu": [
+        {
+          "id": "aux-user-logout",
+          "name": "Logout",
+          "href": "#",
+          "properties": {
+            "click": "authService.logout()"
+          }
+        }
+      ]
+    }
+  ]
+}

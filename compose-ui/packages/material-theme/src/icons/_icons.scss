@@ -1,0 +1,28 @@
+@use "sass:map";
+@use "../core/theming/unify-colors" as c;
+
+.mui-icon {
+  &.mui-icon-info {
+    color: map.get(c.$info, "info");
+  }
+
+  &.mui-icon-warning {
+    color: map.get(c.$info, "warning");
+  }
+
+  &.mui-icon-error {
+    color: map.get(c.$info, "error");
+  }
+
+  &.mui-icon-success {
+    color: map.get(c.$info, "success");
+  }
+
+  &.mui-icon-tip {
+    color: map.get(c.$info, "tip");
+  }
+}
+
+.mat-mdc-menu-item .mui-icon {
+  margin-right: 16px;
+}

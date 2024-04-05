@@ -1,0 +1,21 @@
+import { NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MuiDrawerAddonsDirective, MuiDrawerComponent, MuiDrawerContentDirective, MuiDrawerControlsDirective, MuiDrawerTitleDirective } from './mui-drawer.component';
+import * as i0 from "@angular/core";
+export class MuiDrawerModule {
+}
+MuiDrawerModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: MuiDrawerModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+MuiDrawerModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "15.2.10", ngImport: i0, type: MuiDrawerModule, declarations: [MuiDrawerComponent, MuiDrawerTitleDirective, MuiDrawerContentDirective, MuiDrawerAddonsDirective,
+        MuiDrawerControlsDirective], imports: [MatButtonModule, MatIconModule], exports: [MuiDrawerComponent, MuiDrawerTitleDirective, MuiDrawerContentDirective, MuiDrawerAddonsDirective, MuiDrawerControlsDirective] });
+MuiDrawerModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: MuiDrawerModule, imports: [MatButtonModule, MatIconModule] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: MuiDrawerModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    imports: [MatButtonModule, MatIconModule],
+                    exports: [MuiDrawerComponent, MuiDrawerTitleDirective, MuiDrawerContentDirective, MuiDrawerAddonsDirective, MuiDrawerControlsDirective],
+                    declarations: [MuiDrawerComponent, MuiDrawerTitleDirective, MuiDrawerContentDirective, MuiDrawerAddonsDirective,
+                        MuiDrawerControlsDirective]
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibXVpLWRyYXdlci5tb2R1bGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9tYXBwLXVpL2NvbW1vbi9zcmMvbGliL2RyYXdlci9tdWktZHJhd2VyLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxlQUFlLEVBQUUsTUFBTSwwQkFBMEIsQ0FBQztBQUMzRCxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sd0JBQXdCLENBQUM7QUFFdkQsT0FBTyxFQUNMLHdCQUF3QixFQUN4QixrQkFBa0IsRUFDbEIseUJBQXlCLEVBQ3pCLDBCQUEwQixFQUMxQix1QkFBdUIsRUFDeEIsTUFBTSx3QkFBd0IsQ0FBQzs7QUFRaEMsTUFBTSxPQUFPLGVBQWU7OzZHQUFmLGVBQWU7OEdBQWYsZUFBZSxpQkFIWCxrQkFBa0IsRUFBRSx1QkFBdUIsRUFBRSx5QkFBeUIsRUFBRSx3QkFBd0I7UUFDN0csMEJBQTBCLGFBSGxCLGVBQWUsRUFBRSxhQUFhLGFBQzlCLGtCQUFrQixFQUFFLHVCQUF1QixFQUFFLHlCQUF5QixFQUFFLHdCQUF3QixFQUFFLDBCQUEwQjs4R0FJM0gsZUFBZSxZQUxoQixlQUFlLEVBQUUsYUFBYTs0RkFLN0IsZUFBZTtrQkFOM0IsUUFBUTttQkFBQztvQkFDUixPQUFPLEVBQUUsQ0FBQyxlQUFlLEVBQUUsYUFBYSxDQUFDO29CQUN6QyxPQUFPLEVBQUUsQ0FBQyxrQkFBa0IsRUFBRSx1QkFBdUIsRUFBRSx5QkFBeUIsRUFBRSx3QkFBd0IsRUFBRSwwQkFBMEIsQ0FBQztvQkFDdkksWUFBWSxFQUFFLENBQUMsa0JBQWtCLEVBQUUsdUJBQXVCLEVBQUUseUJBQXlCLEVBQUUsd0JBQXdCO3dCQUM3RywwQkFBMEIsQ0FBQztpQkFDOUIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xyXG5pbXBvcnQgeyBNYXRCdXR0b25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9tYXRlcmlhbC9idXR0b24nO1xyXG5pbXBvcnQgeyBNYXRJY29uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvbWF0ZXJpYWwvaWNvbic7XHJcblxyXG5pbXBvcnQge1xyXG4gIE11aURyYXdlckFkZG9uc0RpcmVjdGl2ZSxcclxuICBNdWlEcmF3ZXJDb21wb25lbnQsXHJcbiAgTXVpRHJhd2VyQ29udGVudERpcmVjdGl2ZSxcclxuICBNdWlEcmF3ZXJDb250cm9sc0RpcmVjdGl2ZSxcclxuICBNdWlEcmF3ZXJUaXRsZURpcmVjdGl2ZVxyXG59IGZyb20gJy4vbXVpLWRyYXdlci5jb21wb25lbnQnO1xyXG5cclxuQE5nTW9kdWxlKHtcclxuICBpbXBvcnRzOiBbTWF0QnV0dG9uTW9kdWxlLCBNYXRJY29uTW9kdWxlXSxcclxuICBleHBvcnRzOiBbTXVpRHJhd2VyQ29tcG9uZW50LCBNdWlEcmF3ZXJUaXRsZURpcmVjdGl2ZSwgTXVpRHJhd2VyQ29udGVudERpcmVjdGl2ZSwgTXVpRHJhd2VyQWRkb25zRGlyZWN0aXZlLCBNdWlEcmF3ZXJDb250cm9sc0RpcmVjdGl2ZV0sXHJcbiAgZGVjbGFyYXRpb25zOiBbTXVpRHJhd2VyQ29tcG9uZW50LCBNdWlEcmF3ZXJUaXRsZURpcmVjdGl2ZSwgTXVpRHJhd2VyQ29udGVudERpcmVjdGl2ZSwgTXVpRHJhd2VyQWRkb25zRGlyZWN0aXZlLFxyXG4gICAgTXVpRHJhd2VyQ29udHJvbHNEaXJlY3RpdmVdXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBNdWlEcmF3ZXJNb2R1bGUge1xyXG59XHJcbiJdfQ==

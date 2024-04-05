@@ -1,0 +1,22 @@
+{
+  "name": "@mapp-ui/material-theme",
+  "version": "15.8.2",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "description": "Theme for Angular Material customized with Mapp branded styling",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab01.muc.ecircle.de/ui-components/component-library"
+  },
+  "files": [
+    "dist",
+    "src",
+    "assets"
+  ],
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "sass": "^1.53.0"
+  }
+}

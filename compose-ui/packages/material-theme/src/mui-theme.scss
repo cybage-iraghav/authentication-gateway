@@ -1,0 +1,45 @@
+@use "core/theming/unify-colors" as c;
+@use "core/theming/theme";
+@use "mui-components" as comp;
+@use "@angular/material" as mat;
+@use "form-field/input-theme";
+@use "core/theming/component-themes" as ct;
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+/* Material core styles */
+@include mat.typography-hierarchy(theme.$theme_typography);
+@include mat.core();
+
+// Include all theme styles for the components.
+/* Material theme rules */
+@include ct.all-component-themes(theme.$theme_typography);
+
+/* Mapp custom component styles and overrides */
+$mui-components-theme: (
+    "colors": c.$all-colors,
+    "font-family": '"Open Sans", sans-serif',
+);
+
+@import "badge/mui-nc-badge";
+@import "button/mui-button";
+@import "table-filter/mui-table-filter";
+@include comp.mui-general-styles($mui-components-theme);
+@include comp.mui-app-header-theme($mui-components-theme);
+@include comp.mui-page-header-theme($mui-components-theme);
+@include comp.mui-stepper-theme($mui-components-theme);
+@include comp.mui-left-nav-theme($mui-components-theme);
+@include comp.mui-notifications-theme($mui-components-theme, theme.$theme);
+@import "top-nav/top-nav-theme";
+@import "dialog/mui-dialogs";
+@import "icons/icons";
+@import "form-field/mui-form-field";
+@include comp.mui-progress-bar-theme($mui-components-theme);
+@include input-theme.theme(theme.$theme_typography);
+@include comp.mui-sort-header-theme(theme.$theme_typography);
+@import "checkbox/checkbox";
+@import "table/table";
+@import "table/paginator";
+@import "tabs/tabs";
+@include comp.mui-info-message-theme(theme.$theme_typography);

@@ -1,0 +1,26 @@
+@use "@angular/material" as mat;
+@use "../core/theming/material-palettes" as p;
+@use "../core/theming/unify-colors" as c;
+@use "sass:map";
+
+@mixin mui-sort-header-theme($theme) {
+  $config: mat.get-typography-config($theme);
+
+  .mui-overview-table-v2 {
+    .mat-mdc-header-cell {
+      font-size: mat.font-size($config, body-2);
+      font-weight: mat.font-weight($config, body-2);
+      color: mat.get-color-from-palette(p.$mui-primary, 800);
+    }
+  }
+
+  .mui-sort-header {
+  }
+
+  .mat-mdc-header-row.mui-sort-header-row {
+    background-color: map.get(c.$on_primary, "lightgray");
+    height: 40px;
+  }
+
+
+}

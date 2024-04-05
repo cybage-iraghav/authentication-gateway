@@ -1,0 +1,30 @@
+import * as i0 from "@angular/core";
+import * as i1 from "./components/top-nav/mui-top-navigation.component";
+import * as i2 from "./components/top-nav-menu/top-nav-menu.component";
+import * as i3 from "./components/notification-bell/notification-bell.component";
+import * as i4 from "./components/search/search.component";
+import * as i5 from "./components/profile-menu/profile-menu.component";
+import * as i6 from "./components/top-nav-dialog/top-nav-dialog.component";
+import * as i7 from "./components/timeout-dialog/timeout-dialog.component";
+import * as i8 from "./components/edit-profile/edit-profile.component";
+import * as i9 from "./components/edit-password/edit-password.component";
+import * as i10 from "./components/lang-change-dialog/lang-change-dialog.component";
+import * as i11 from "@angular/common";
+import * as i12 from "@angular/material/menu";
+import * as i13 from "@angular/material/button";
+import * as i14 from "@angular/material/badge";
+import * as i15 from "@angular/material/input";
+import * as i16 from "@angular/material/form-field";
+import * as i17 from "@angular/cdk/overlay";
+import * as i18 from "@angular/material/slide-toggle";
+import * as i19 from "@angular/material/tabs";
+import * as i20 from "@angular/material/dialog";
+import * as i21 from "@angular/material/select";
+import * as i22 from "@angular/forms";
+import * as i23 from "@angular/cdk/a11y";
+import * as i24 from "../icon/mui-icon.module";
+export declare class MuiTopNavigationModule {
+    static ɵfac: i0.ɵɵFactoryDeclaration<MuiTopNavigationModule, never>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<MuiTopNavigationModule, [typeof i1.MuiTopNavigationComponent, typeof i2.TopNavMenuComponent, typeof i3.NotificationBellComponent, typeof i4.SearchComponent, typeof i5.ProfileMenuComponent, typeof i6.TopNavDialogComponent, typeof i7.TimeoutDialogComponent, typeof i8.EditProfileComponent, typeof i9.EditPasswordComponent, typeof i10.LangChangeDialogComponent], [typeof i11.CommonModule, typeof i12.MatMenuModule, typeof i13.MatButtonModule, typeof i14.MatBadgeModule, typeof i15.MatInputModule, typeof i16.MatFormFieldModule, typeof i17.OverlayModule, typeof i18.MatSlideToggleModule, typeof i19.MatTabsModule, typeof i20.MatDialogModule, typeof i21.MatSelectModule, typeof i22.ReactiveFormsModule, typeof i23.A11yModule, typeof i24.MuiIconModule], [typeof i1.MuiTopNavigationComponent]>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<MuiTopNavigationModule>;
+}

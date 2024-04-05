@@ -1,0 +1,79 @@
+@use 'sass:map';
+@use 'sass:math';
+@use '@angular/material' as mat;
+@use 'vendor-prefixes';
+@use "../core/theming/unify-colors" as c;
+
+@function control-placeholder-color($config) {
+  $foreground: map.get($config, foreground);
+  $is-dark-theme: map.get($config, is-dark);
+  @return mat.get-color-from-palette($foreground, secondary-text,
+      if($is-dark-theme, 0.5, 0.42));
+}
+
+@function coerce-unitless-to-em($value) {
+  @return if(math.is-unitless($value), 1em * $value, $value);
+}
+
+@mixin color($config-or-theme) {
+  $config: mat.get-color-config($config-or-theme);
+  $primary: map.get($config, primary);
+  $accent: map.get($config, accent);
+  $warn: map.get($config, warn);
+  $foreground: map.get($config, foreground);
+
+  .mui-input-element:disabled {
+    color: mat.get-color-from-palette($foreground, disabled-text);
+  }
+
+  .mui-input-element {
+    caret-color: mat.get-color-from-palette($primary, text);
+
+    @include vendor-prefixes.input-placeholder {
+      //color: control-placeholder-color($config);
+      color: map.get(c.$on_surface, "medium-emphasis");
+    }
+
+    // On dark themes we set the native `select` color to some shade of white,
+    // however the color propagates to all of the `option` elements, which are
+    // always on a white background inside the dropdown, causing them to blend in.
+    // Since we can't change background of the dropdown, we need to explicitly
+    // reset the color of the options to something dark.
+    //@if (map.get($config, is-dark)) {
+    //  &:not(.mat-native-select-inline) {
+    //    option {
+    //      color: mat.get-color-from-palette($primary, text);
+    //    }
+    //
+    //    option:disabled {
+    //      color: mat.get-color-from-palette($foreground, disabled-text);
+    //    }
+    //  }
+    //}
+  }
+
+  .mui-form-field-invalid .mui-input-element {
+    caret-color: mat.get-color-from-palette($warn, text);
+  }
+
+}
+
+@mixin typography($config-or-theme) {
+  $config: mat.private-typography-to-2014-config(
+          mat.get-typography-config($config-or-theme));
+  // The unit-less line-height from the font config.
+  $line-height: mat.line-height($config, input);
+
+  // The amount of space between the top of the line and the top of the actual text
+  // (as a fraction of the font-size).
+  $line-spacing: math.div($line-height - 1, 2);
+
+}
+
+@mixin theme($theme) {
+  $color: mat.get-color-config($theme);
+  $typography: mat.get-typography-config($theme);
+
+  @include color($color);
+  @include typography($typography);
+}

@@ -1,0 +1,27 @@
+{
+  "mainNav": [
+    {
+      "id": "nav-mapp-icon",
+      "icon": "mapp_m",
+      "href": "/home"
+    },
+    {
+      "id": "nav-menu",
+      "name": "Menu",
+      "menu": [
+        {
+          "id": "nav-easymail",
+          "name": "Create Easy Mail",
+          "href": "/progress-bar"
+        }
+      ]
+    }
+  ],
+  "auxNav": [
+    {
+      "id": "aux-search",
+      "icon": "search",
+      "href": "#"
+    }
+  ]
+}

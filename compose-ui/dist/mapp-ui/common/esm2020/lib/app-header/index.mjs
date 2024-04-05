@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of ui-app-header
+ */
+export * from './mui-app-header.module';
+export * from './mui-app-header.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9tYXBwLXVpL2NvbW1vbi9zcmMvbGliL2FwcC1oZWFkZXIvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLHlCQUF5QixDQUFDO0FBQ3hDLGNBQWMsNEJBQTRCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgdWktYXBwLWhlYWRlclxyXG4gKi9cclxuXHJcbmV4cG9ydCAqIGZyb20gJy4vbXVpLWFwcC1oZWFkZXIubW9kdWxlJztcclxuZXhwb3J0ICogZnJvbSAnLi9tdWktYXBwLWhlYWRlci5jb21wb25lbnQnO1xyXG4iXX0=

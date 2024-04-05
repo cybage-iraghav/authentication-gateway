@@ -1,0 +1,160 @@
+// this file includes general styles for overview tables and related components
+
+@use "sass:map";
+@use "@angular/material" as mat;
+@use "../core/theming/unify-colors" as c;
+@use "../core/theming/material-palettes" as p;
+
+$lightblue: map.get(c.$on_primary, "lightblue");
+$dark: mat.get-color-from-palette(p.$mui-primary, 800);
+
+.mui-overview-table-v2.mat-mdc-table {
+  table-layout: fixed;
+  width: 100%;
+
+  --mdc-checkbox-state-layer-size: 18px;
+
+  .mdc-data-table__row {
+    height: 56px;
+  }
+
+  .mat-mdc-row:hover {
+    background-color: $lightblue;
+  }
+
+  .mdc-data-table__cell, .mdc-data-table__header-cell {
+    padding: 0 12px 0 12px;
+    border-bottom-color: $lightblue;
+    color: $dark;
+
+    --mdc-theme-text-primary-on-background: #{$dark};
+
+    &:first-child {
+      padding-left: 24px;
+    }
+
+    &.mat-column-select, &.mat-column-loader {
+      padding-left: 16px;
+    }
+
+    &:last-child {
+      padding-right: 24px;
+    }
+
+    &.mat-column-actions, &.mat-column-loader {
+      padding-right: 16px;
+    }
+  }
+
+  .mui-actions-header, .mat-column-actions {
+    box-sizing: content-box;
+    width: 144px;
+  }
+
+  .mui-select-header, .mat-column-select {
+    box-sizing: content-box;
+    width: 75px;
+  }
+
+  .two-line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .mui-expandable-row {
+    &.expanded {
+      background-color: $lightblue;
+    }
+
+    td {
+      border-bottom-width: 0;
+    }
+
+  }
+
+  .mui-expand-details-row {
+    height: 0;
+
+    &:hover {
+      background-color: transparent;
+    }
+
+    .mui-expand-details-container {
+      overflow: hidden;
+    }
+
+    .mui-expand-details {
+      padding: 24px 0;
+    }
+  }
+
+  .mat-mdc-no-data-row td:first-child {
+    padding: 0 24px;
+  }
+
+  .mui-ghost-row:hover {
+    background-color: transparent;
+  }
+
+}
+
+.mat-mdc-card.mui-overview-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.mui-table-filter-bar {
+  background-color: map.get(c.$main, "primary-bg");
+  border-bottom: 1px solid $lightblue;
+  box-sizing: border-box;
+  height: 56px;
+  padding: 8px 24px;
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+
+  // container for controls in filter bar which should be shifted to right side
+  .mui-table-filter-rs {
+    margin-left: auto;
+    margin-right: -12px;
+  }
+
+}
+
+.mui-overview-tab-content {
+  margin-top: 16px;
+
+  .mui-table-filter-bar {
+    border-top: 1px solid $lightblue;
+  }
+}
+
+.mui-table-bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mui-table-elements-count {
+  color: $dark;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+// default height for virtual scroll container, based on height of 10 rows + header
+.mui-table-scroll-wrapper {
+  height: 610px;
+}
+
+// styling for a mat-menu panel used with an overview table
+.mui-table-context-menu {
+  color: $dark;
+
+  .mat-mdc-menu-content .mat-mdc-menu-item .mdc-list-item__primary-text {
+    color: $dark;
+    font-weight: normal;
+  }
+}
+

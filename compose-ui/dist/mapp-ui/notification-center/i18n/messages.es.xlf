@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="nc_dismiss_all">
+      <notes>
+        <note category="location">../src/lib/center/notification-alerts.component.html:12</note>
+      </notes>
+      <segment>
+        <source>Dismiss All</source>
+        <target>Descartar todo</target>
+      </segment>
+    </unit>
+    <unit id="nc_closebtn">
+      <notes>
+        <note category="location">../src/lib/center/notification-alerts.component.html:13,15</note>
+        <note category="location">../src/lib/center/notification-news.component.html:8,10</note>
+      </notes>
+      <segment>
+        <source> Close </source>
+        <target> Cerrar </target>
+      </segment>
+    </unit>
+    <unit id="nc_notification_center">
+      <notes>
+        <note category="location">../src/lib/center/notification-center.component.html:8</note>
+      </notes>
+      <segment>
+        <source>Notification Center</source>
+        <target>Centro de notificaciones</target>
+      </segment>
+    </unit>
+    <unit id="nc_alerts">
+      <notes>
+        <note category="location">../src/lib/center/notification-center.component.html:15</note>
+      </notes>
+      <segment>
+        <source>Alerts</source>
+        <target>Alertas</target>
+      </segment>
+    </unit>
+    <unit id="nc_news">
+      <notes>
+        <note category="location">../src/lib/center/notification-center.component.html:22</note>
+      </notes>
+      <segment>
+        <source>News &amp; Updates</source>
+        <target>Noticias y actualizaciones</target>
+      </segment>
+    </unit>
+    <unit id="nc_dismiss_btn">
+      <notes>
+        <note category="location">../src/lib/messages/alert/message.component.html:28,29</note>
+      </notes>
+      <segment>
+        <source>Dismiss </source>
+        <target>Descartar </target>
+      </segment>
+    </unit>
+    <unit id="nc_snackbar_details_btn">
+      <notes>
+        <note category="location">../src/lib/messages/notification-snackbar/notification-snackbar.component.html:9</note>
+      </notes>
+      <segment>
+        <source>Details</source>
+        <target>Detalles</target>
+      </segment>
+    </unit>
+    <unit id="nc_more_details">
+      <notes>
+        <note category="location">../src/lib/messages/sticky/message-sticky.component.html:22</note>
+      </notes>
+      <segment>
+        <source>More Details</source>
+        <target>Más detalles</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

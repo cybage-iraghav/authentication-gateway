@@ -1,0 +1,14 @@
+@use "../core/theming/theme";
+
+// overrides for notification bell badge
+.nc-notification-icon {
+  // remove margin when badge is hidden
+  &.mat-badge-medium.mat-badge-overlap.mat-badge-after.mat-badge-hidden {
+    margin-right: 0;
+  }
+}
+
+// fix wrong font-family as of material 15
+.mat-badge-content {
+  font-family: theme.$global-font-family;
+}

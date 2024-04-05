@@ -1,0 +1,8445 @@
+[
+  {
+    "id": "Email^false^STRING",
+    "internalName": "user.Email",
+    "name": "Email",
+    "displayName": null,
+    "text": "Email",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['Email']}",
+    "dateOnly": false
+  },
+  {
+    "id": "MobileNumber^false^STRING",
+    "internalName": "user.MobileNumber",
+    "name": "MobileNumber",
+    "displayName": null,
+    "text": "Mobile Number",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['MobileNumber']}",
+    "dateOnly": false
+  },
+  {
+    "id": "LastName^false^STRING",
+    "internalName": "user.LastName",
+    "name": "LastName",
+    "displayName": null,
+    "text": "Last Name",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['LastName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "FirstName^false^STRING",
+    "internalName": "user.FirstName",
+    "name": "FirstName",
+    "displayName": null,
+    "text": "First name",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['FirstName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Nickname^false^STRING",
+    "internalName": "user.Nickname",
+    "name": "Nickname",
+    "displayName": null,
+    "text": "Preferred Name",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['Nickname']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ZipCode^false^STRING",
+    "internalName": "user.ZipCode",
+    "name": "ZipCode",
+    "displayName": null,
+    "text": "Zip Code",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['ZipCode']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ISOCountryCode^false^STRING",
+    "internalName": "user.ISOCountryCode",
+    "name": "ISOCountryCode",
+    "displayName": null,
+    "text": "ISO Country Code",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": true,
+    "values": [
+      {
+        "id": "AC",
+        "value": "Ascension Island"
+      },
+      {
+        "id": "AD",
+        "value": "Andorra"
+      },
+      {
+        "id": "AE",
+        "value": "United Arab Emirates"
+      },
+      {
+        "id": "AF",
+        "value": "Afghanistan"
+      },
+      {
+        "id": "AG",
+        "value": "Antigua & Barbuda"
+      },
+      {
+        "id": "AI",
+        "value": "Anguilla"
+      },
+      {
+        "id": "AL",
+        "value": "Albania"
+      },
+      {
+        "id": "AM",
+        "value": "Armenia"
+      },
+      {
+        "id": "AO",
+        "value": "Angola"
+      },
+      {
+        "id": "AQ",
+        "value": "Antarctica"
+      },
+      {
+        "id": "AR",
+        "value": "Argentina"
+      },
+      {
+        "id": "AS",
+        "value": "American Samoa"
+      },
+      {
+        "id": "AT",
+        "value": "Austria"
+      },
+      {
+        "id": "AU",
+        "value": "Australia"
+      },
+      {
+        "id": "AW",
+        "value": "Aruba"
+      },
+      {
+        "id": "AX",
+        "value": "Åland Islands"
+      },
+      {
+        "id": "AZ",
+        "value": "Azerbaijan"
+      },
+      {
+        "id": "BA",
+        "value": "Bosnia & Herzegovina"
+      },
+      {
+        "id": "BB",
+        "value": "Barbados"
+      },
+      {
+        "id": "BD",
+        "value": "Bangladesh"
+      },
+      {
+        "id": "BE",
+        "value": "Belgium"
+      },
+      {
+        "id": "BF",
+        "value": "Burkina Faso"
+      },
+      {
+        "id": "BG",
+        "value": "Bulgaria"
+      },
+      {
+        "id": "BH",
+        "value": "Bahrain"
+      },
+      {
+        "id": "BI",
+        "value": "Burundi"
+      },
+      {
+        "id": "BJ",
+        "value": "Benin"
+      },
+      {
+        "id": "BL",
+        "value": "St. Barthélemy"
+      },
+      {
+        "id": "BM",
+        "value": "Bermuda"
+      },
+      {
+        "id": "BN",
+        "value": "Brunei"
+      },
+      {
+        "id": "BO",
+        "value": "Bolivia"
+      },
+      {
+        "id": "BQ",
+        "value": "Caribbean Netherlands"
+      },
+      {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      {
+        "id": "BS",
+        "value": "Bahamas"
+      },
+      {
+        "id": "BT",
+        "value": "Bhutan"
+      },
+      {
+        "id": "BV",
+        "value": "Bouvet Island"
+      },
+      {
+        "id": "BW",
+        "value": "Botswana"
+      },
+      {
+        "id": "BY",
+        "value": "Belarus"
+      },
+      {
+        "id": "BZ",
+        "value": "Belize"
+      },
+      {
+        "id": "CA",
+        "value": "Canada"
+      },
+      {
+        "id": "CC",
+        "value": "Cocos (Keeling) Islands"
+      },
+      {
+        "id": "CD",
+        "value": "Congo - Kinshasa"
+      },
+      {
+        "id": "CF",
+        "value": "Central African Republic"
+      },
+      {
+        "id": "CG",
+        "value": "Congo - Brazzaville"
+      },
+      {
+        "id": "CH",
+        "value": "Switzerland"
+      },
+      {
+        "id": "CI",
+        "value": "Côte d’Ivoire"
+      },
+      {
+        "id": "CK",
+        "value": "Cook Islands"
+      },
+      {
+        "id": "CL",
+        "value": "Chile"
+      },
+      {
+        "id": "CM",
+        "value": "Cameroon"
+      },
+      {
+        "id": "CN",
+        "value": "China"
+      },
+      {
+        "id": "CO",
+        "value": "Colombia"
+      },
+      {
+        "id": "CR",
+        "value": "Costa Rica"
+      },
+      {
+        "id": "CU",
+        "value": "Cuba"
+      },
+      {
+        "id": "CV",
+        "value": "Cape Verde"
+      },
+      {
+        "id": "CW",
+        "value": "Curaçao"
+      },
+      {
+        "id": "CX",
+        "value": "Christmas Island"
+      },
+      {
+        "id": "CY",
+        "value": "Cyprus"
+      },
+      {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      {
+        "id": "DE",
+        "value": "Germany"
+      },
+      {
+        "id": "DJ",
+        "value": "Djibouti"
+      },
+      {
+        "id": "DK",
+        "value": "Denmark"
+      },
+      {
+        "id": "DM",
+        "value": "Dominica"
+      },
+      {
+        "id": "DO",
+        "value": "Dominican Republic"
+      },
+      {
+        "id": "DZ",
+        "value": "Algeria"
+      },
+      {
+        "id": "EC",
+        "value": "Ecuador"
+      },
+      {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      {
+        "id": "EG",
+        "value": "Egypt"
+      },
+      {
+        "id": "EH",
+        "value": "Western Sahara"
+      },
+      {
+        "id": "ER",
+        "value": "Eritrea"
+      },
+      {
+        "id": "ES",
+        "value": "Spain"
+      },
+      {
+        "id": "ET",
+        "value": "Ethiopia"
+      },
+      {
+        "id": "FI",
+        "value": "Finland"
+      },
+      {
+        "id": "FJ",
+        "value": "Fiji"
+      },
+      {
+        "id": "FK",
+        "value": "Falkland Islands"
+      },
+      {
+        "id": "FM",
+        "value": "Micronesia"
+      },
+      {
+        "id": "FO",
+        "value": "Faroe Islands"
+      },
+      {
+        "id": "FR",
+        "value": "France"
+      },
+      {
+        "id": "GA",
+        "value": "Gabon"
+      },
+      {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      {
+        "id": "GD",
+        "value": "Grenada"
+      },
+      {
+        "id": "GE",
+        "value": "Georgia"
+      },
+      {
+        "id": "GF",
+        "value": "French Guiana"
+      },
+      {
+        "id": "GG",
+        "value": "Guernsey"
+      },
+      {
+        "id": "GH",
+        "value": "Ghana"
+      },
+      {
+        "id": "GI",
+        "value": "Gibraltar"
+      },
+      {
+        "id": "GL",
+        "value": "Greenland"
+      },
+      {
+        "id": "GM",
+        "value": "Gambia"
+      },
+      {
+        "id": "GN",
+        "value": "Guinea"
+      },
+      {
+        "id": "GP",
+        "value": "Guadeloupe"
+      },
+      {
+        "id": "GQ",
+        "value": "Equatorial Guinea"
+      },
+      {
+        "id": "GR",
+        "value": "Greece"
+      },
+      {
+        "id": "GS",
+        "value": "South Georgia & South Sandwich Islands"
+      },
+      {
+        "id": "GT",
+        "value": "Guatemala"
+      },
+      {
+        "id": "GU",
+        "value": "Guam"
+      },
+      {
+        "id": "GW",
+        "value": "Guinea-Bissau"
+      },
+      {
+        "id": "GY",
+        "value": "Guyana"
+      },
+      {
+        "id": "HK",
+        "value": "Hong Kong SAR China"
+      },
+      {
+        "id": "HM",
+        "value": "Heard & McDonald Islands"
+      },
+      {
+        "id": "HN",
+        "value": "Honduras"
+      },
+      {
+        "id": "HR",
+        "value": "Croatia"
+      },
+      {
+        "id": "HT",
+        "value": "Haiti"
+      },
+      {
+        "id": "HU",
+        "value": "Hungary"
+      },
+      {
+        "id": "ID",
+        "value": "Indonesia"
+      },
+      {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      {
+        "id": "IL",
+        "value": "Israel"
+      },
+      {
+        "id": "IM",
+        "value": "Isle of Man"
+      },
+      {
+        "id": "IN",
+        "value": "India"
+      },
+      {
+        "id": "IO",
+        "value": "British Indian Ocean Territory"
+      },
+      {
+        "id": "IQ",
+        "value": "Iraq"
+      },
+      {
+        "id": "IR",
+        "value": "Iran"
+      },
+      {
+        "id": "IS",
+        "value": "Iceland"
+      },
+      {
+        "id": "IT",
+        "value": "Italy"
+      },
+      {
+        "id": "JE",
+        "value": "Jersey"
+      },
+      {
+        "id": "JM",
+        "value": "Jamaica"
+      },
+      {
+        "id": "JO",
+        "value": "Jordan"
+      },
+      {
+        "id": "JP",
+        "value": "Japan"
+      },
+      {
+        "id": "KE",
+        "value": "Kenya"
+      },
+      {
+        "id": "KG",
+        "value": "Kyrgyzstan"
+      },
+      {
+        "id": "KH",
+        "value": "Cambodia"
+      },
+      {
+        "id": "KI",
+        "value": "Kiribati"
+      },
+      {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      {
+        "id": "KN",
+        "value": "St. Kitts & Nevis"
+      },
+      {
+        "id": "KP",
+        "value": "North Korea"
+      },
+      {
+        "id": "KR",
+        "value": "South Korea"
+      },
+      {
+        "id": "KW",
+        "value": "Kuwait"
+      },
+      {
+        "id": "KY",
+        "value": "Cayman Islands"
+      },
+      {
+        "id": "KZ",
+        "value": "Kazakhstan"
+      },
+      {
+        "id": "LA",
+        "value": "Laos"
+      },
+      {
+        "id": "LB",
+        "value": "Lebanon"
+      },
+      {
+        "id": "LC",
+        "value": "St. Lucia"
+      },
+      {
+        "id": "LI",
+        "value": "Liechtenstein"
+      },
+      {
+        "id": "LK",
+        "value": "Sri Lanka"
+      },
+      {
+        "id": "LR",
+        "value": "Liberia"
+      },
+      {
+        "id": "LS",
+        "value": "Lesotho"
+      },
+      {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      {
+        "id": "LU",
+        "value": "Luxembourg"
+      },
+      {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      {
+        "id": "LY",
+        "value": "Libya"
+      },
+      {
+        "id": "MA",
+        "value": "Morocco"
+      },
+      {
+        "id": "MC",
+        "value": "Monaco"
+      },
+      {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      {
+        "id": "ME",
+        "value": "Montenegro"
+      },
+      {
+        "id": "MF",
+        "value": "St. Martin"
+      },
+      {
+        "id": "MG",
+        "value": "Madagascar"
+      },
+      {
+        "id": "MH",
+        "value": "Marshall Islands"
+      },
+      {
+        "id": "MK",
+        "value": "North Macedonia"
+      },
+      {
+        "id": "ML",
+        "value": "Mali"
+      },
+      {
+        "id": "MM",
+        "value": "Myanmar (Burma)"
+      },
+      {
+        "id": "MN",
+        "value": "Mongolia"
+      },
+      {
+        "id": "MO",
+        "value": "Macao SAR China"
+      },
+      {
+        "id": "MP",
+        "value": "Northern Mariana Islands"
+      },
+      {
+        "id": "MQ",
+        "value": "Martinique"
+      },
+      {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      {
+        "id": "MS",
+        "value": "Montserrat"
+      },
+      {
+        "id": "MT",
+        "value": "Malta"
+      },
+      {
+        "id": "MU",
+        "value": "Mauritius"
+      },
+      {
+        "id": "MV",
+        "value": "Maldives"
+      },
+      {
+        "id": "MW",
+        "value": "Malawi"
+      },
+      {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      {
+        "id": "MY",
+        "value": "Malaysia"
+      },
+      {
+        "id": "MZ",
+        "value": "Mozambique"
+      },
+      {
+        "id": "NA",
+        "value": "Namibia"
+      },
+      {
+        "id": "NC",
+        "value": "New Caledonia"
+      },
+      {
+        "id": "NE",
+        "value": "Niger"
+      },
+      {
+        "id": "NF",
+        "value": "Norfolk Island"
+      },
+      {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      {
+        "id": "NI",
+        "value": "Nicaragua"
+      },
+      {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      {
+        "id": "NO",
+        "value": "Norway"
+      },
+      {
+        "id": "NP",
+        "value": "Nepal"
+      },
+      {
+        "id": "NR",
+        "value": "Nauru"
+      },
+      {
+        "id": "NU",
+        "value": "Niue"
+      },
+      {
+        "id": "NZ",
+        "value": "New Zealand"
+      },
+      {
+        "id": "OM",
+        "value": "Oman"
+      },
+      {
+        "id": "PA",
+        "value": "Panama"
+      },
+      {
+        "id": "PE",
+        "value": "Peru"
+      },
+      {
+        "id": "PF",
+        "value": "French Polynesia"
+      },
+      {
+        "id": "PG",
+        "value": "Papua New Guinea"
+      },
+      {
+        "id": "PH",
+        "value": "Philippines"
+      },
+      {
+        "id": "PK",
+        "value": "Pakistan"
+      },
+      {
+        "id": "PL",
+        "value": "Poland"
+      },
+      {
+        "id": "PM",
+        "value": "St. Pierre & Miquelon"
+      },
+      {
+        "id": "PN",
+        "value": "Pitcairn Islands"
+      },
+      {
+        "id": "PR",
+        "value": "Puerto Rico"
+      },
+      {
+        "id": "PS",
+        "value": "Palestinian Territories"
+      },
+      {
+        "id": "PT",
+        "value": "Portugal"
+      },
+      {
+        "id": "PW",
+        "value": "Palau"
+      },
+      {
+        "id": "PY",
+        "value": "Paraguay"
+      },
+      {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      {
+        "id": "RE",
+        "value": "Réunion"
+      },
+      {
+        "id": "RO",
+        "value": "Romania"
+      },
+      {
+        "id": "RS",
+        "value": "Serbia"
+      },
+      {
+        "id": "RU",
+        "value": "Russia"
+      },
+      {
+        "id": "RW",
+        "value": "Rwanda"
+      },
+      {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      {
+        "id": "SB",
+        "value": "Solomon Islands"
+      },
+      {
+        "id": "SC",
+        "value": "Seychelles"
+      },
+      {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      {
+        "id": "SG",
+        "value": "Singapore"
+      },
+      {
+        "id": "SH",
+        "value": "St. Helena"
+      },
+      {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      {
+        "id": "SJ",
+        "value": "Svalbard & Jan Mayen"
+      },
+      {
+        "id": "SK",
+        "value": "Slovakia"
+      },
+      {
+        "id": "SL",
+        "value": "Sierra Leone"
+      },
+      {
+        "id": "SM",
+        "value": "San Marino"
+      },
+      {
+        "id": "SN",
+        "value": "Senegal"
+      },
+      {
+        "id": "SO",
+        "value": "Somalia"
+      },
+      {
+        "id": "SR",
+        "value": "Suriname"
+      },
+      {
+        "id": "SS",
+        "value": "South Sudan"
+      },
+      {
+        "id": "ST",
+        "value": "São Tomé & Príncipe"
+      },
+      {
+        "id": "SV",
+        "value": "El Salvador"
+      },
+      {
+        "id": "SX",
+        "value": "Sint Maarten"
+      },
+      {
+        "id": "SY",
+        "value": "Syria"
+      },
+      {
+        "id": "SZ",
+        "value": "Eswatini"
+      },
+      {
+        "id": "TC",
+        "value": "Turks & Caicos Islands"
+      },
+      {
+        "id": "TD",
+        "value": "Chad"
+      },
+      {
+        "id": "TF",
+        "value": "French Southern Territories"
+      },
+      {
+        "id": "TG",
+        "value": "Togo"
+      },
+      {
+        "id": "TH",
+        "value": "Thailand"
+      },
+      {
+        "id": "TJ",
+        "value": "Tajikistan"
+      },
+      {
+        "id": "TK",
+        "value": "Tokelau"
+      },
+      {
+        "id": "TL",
+        "value": "Timor-Leste"
+      },
+      {
+        "id": "TM",
+        "value": "Turkmenistan"
+      },
+      {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      {
+        "id": "TO",
+        "value": "Tonga"
+      },
+      {
+        "id": "TR",
+        "value": "Turkey"
+      },
+      {
+        "id": "TT",
+        "value": "Trinidad & Tobago"
+      },
+      {
+        "id": "TV",
+        "value": "Tuvalu"
+      },
+      {
+        "id": "TW",
+        "value": "Taiwan"
+      },
+      {
+        "id": "TZ",
+        "value": "Tanzania"
+      },
+      {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      {
+        "id": "UG",
+        "value": "Uganda"
+      },
+      {
+        "id": "UM",
+        "value": "U.S. Outlying Islands"
+      },
+      {
+        "id": "US",
+        "value": "United States"
+      },
+      {
+        "id": "UY",
+        "value": "Uruguay"
+      },
+      {
+        "id": "UZ",
+        "value": "Uzbekistan"
+      },
+      {
+        "id": "VA",
+        "value": "Vatican City"
+      },
+      {
+        "id": "VC",
+        "value": "St. Vincent & Grenadines"
+      },
+      {
+        "id": "VE",
+        "value": "Venezuela"
+      },
+      {
+        "id": "VG",
+        "value": "British Virgin Islands"
+      },
+      {
+        "id": "VI",
+        "value": "U.S. Virgin Islands"
+      },
+      {
+        "id": "VN",
+        "value": "Vietnam"
+      },
+      {
+        "id": "VU",
+        "value": "Vanuatu"
+      },
+      {
+        "id": "WF",
+        "value": "Wallis & Futuna"
+      },
+      {
+        "id": "WS",
+        "value": "Samoa"
+      },
+      {
+        "id": "XI",
+        "value": "Northern Ireland"
+      },
+      {
+        "id": "YE",
+        "value": "Yemen"
+      },
+      {
+        "id": "YT",
+        "value": "Mayotte"
+      },
+      {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      {
+        "id": "ZM",
+        "value": "Zambia"
+      },
+      {
+        "id": "ZW",
+        "value": "Zimbabwe"
+      }
+    ],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['ISOCountryCode']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ISOLanguageCode^false^STRING",
+    "internalName": "user.ISOLanguageCode",
+    "name": "ISOLanguageCode",
+    "displayName": null,
+    "text": "ISO Language Code",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": true,
+    "values": [
+      {
+        "id": "aa",
+        "value": "Afar"
+      },
+      {
+        "id": "ab",
+        "value": "Abkhazian"
+      },
+      {
+        "id": "ae",
+        "value": "Avestan"
+      },
+      {
+        "id": "af",
+        "value": "Afrikaans"
+      },
+      {
+        "id": "ak",
+        "value": "Akan"
+      },
+      {
+        "id": "am",
+        "value": "Amharic"
+      },
+      {
+        "id": "an",
+        "value": "Aragonese"
+      },
+      {
+        "id": "ar",
+        "value": "Arabic"
+      },
+      {
+        "id": "as",
+        "value": "Assamese"
+      },
+      {
+        "id": "av",
+        "value": "Avaric"
+      },
+      {
+        "id": "ay",
+        "value": "Aymara"
+      },
+      {
+        "id": "az",
+        "value": "Azerbaijani"
+      },
+      {
+        "id": "ba",
+        "value": "Bashkir"
+      },
+      {
+        "id": "be",
+        "value": "Belarusian"
+      },
+      {
+        "id": "bg",
+        "value": "Bulgarian"
+      },
+      {
+        "id": "bh",
+        "value": "Bihari"
+      },
+      {
+        "id": "bi",
+        "value": "Bislama"
+      },
+      {
+        "id": "bm",
+        "value": "Bambara"
+      },
+      {
+        "id": "bn",
+        "value": "Bangla"
+      },
+      {
+        "id": "bo",
+        "value": "Tibetan"
+      },
+      {
+        "id": "br",
+        "value": "Breton"
+      },
+      {
+        "id": "bs",
+        "value": "Bosnian"
+      },
+      {
+        "id": "ca",
+        "value": "Catalan"
+      },
+      {
+        "id": "ce",
+        "value": "Chechen"
+      },
+      {
+        "id": "ch",
+        "value": "Chamorro"
+      },
+      {
+        "id": "co",
+        "value": "Corsican"
+      },
+      {
+        "id": "cr",
+        "value": "Cree"
+      },
+      {
+        "id": "cs",
+        "value": "Czech"
+      },
+      {
+        "id": "cu",
+        "value": "Church Slavic"
+      },
+      {
+        "id": "cv",
+        "value": "Chuvash"
+      },
+      {
+        "id": "cy",
+        "value": "Welsh"
+      },
+      {
+        "id": "da",
+        "value": "Danish"
+      },
+      {
+        "id": "de",
+        "value": "German"
+      },
+      {
+        "id": "dv",
+        "value": "Divehi"
+      },
+      {
+        "id": "dz",
+        "value": "Dzongkha"
+      },
+      {
+        "id": "ee",
+        "value": "Ewe"
+      },
+      {
+        "id": "el",
+        "value": "Greek"
+      },
+      {
+        "id": "en",
+        "value": "English"
+      },
+      {
+        "id": "eo",
+        "value": "Esperanto"
+      },
+      {
+        "id": "es",
+        "value": "Spanish"
+      },
+      {
+        "id": "et",
+        "value": "Estonian"
+      },
+      {
+        "id": "eu",
+        "value": "Basque"
+      },
+      {
+        "id": "fa",
+        "value": "Persian"
+      },
+      {
+        "id": "ff",
+        "value": "Fulah"
+      },
+      {
+        "id": "fi",
+        "value": "Finnish"
+      },
+      {
+        "id": "fj",
+        "value": "Fijian"
+      },
+      {
+        "id": "fo",
+        "value": "Faroese"
+      },
+      {
+        "id": "fr",
+        "value": "French"
+      },
+      {
+        "id": "fy",
+        "value": "Western Frisian"
+      },
+      {
+        "id": "ga",
+        "value": "Irish"
+      },
+      {
+        "id": "gd",
+        "value": "Scottish Gaelic"
+      },
+      {
+        "id": "gl",
+        "value": "Galician"
+      },
+      {
+        "id": "gn",
+        "value": "Guarani"
+      },
+      {
+        "id": "gu",
+        "value": "Gujarati"
+      },
+      {
+        "id": "gv",
+        "value": "Manx"
+      },
+      {
+        "id": "ha",
+        "value": "Hausa"
+      },
+      {
+        "id": "hi",
+        "value": "Hindi"
+      },
+      {
+        "id": "ho",
+        "value": "Hiri Motu"
+      },
+      {
+        "id": "hr",
+        "value": "Croatian"
+      },
+      {
+        "id": "ht",
+        "value": "Haitian Creole"
+      },
+      {
+        "id": "hu",
+        "value": "Hungarian"
+      },
+      {
+        "id": "hy",
+        "value": "Armenian"
+      },
+      {
+        "id": "hz",
+        "value": "Herero"
+      },
+      {
+        "id": "ia",
+        "value": "Interlingua"
+      },
+      {
+        "id": "ie",
+        "value": "Interlingue"
+      },
+      {
+        "id": "ig",
+        "value": "Igbo"
+      },
+      {
+        "id": "ii",
+        "value": "Sichuan Yi"
+      },
+      {
+        "id": "ik",
+        "value": "Inupiaq"
+      },
+      {
+        "id": "in",
+        "value": "Indonesian"
+      },
+      {
+        "id": "io",
+        "value": "Ido"
+      },
+      {
+        "id": "is",
+        "value": "Icelandic"
+      },
+      {
+        "id": "it",
+        "value": "Italian"
+      },
+      {
+        "id": "iu",
+        "value": "Inuktitut"
+      },
+      {
+        "id": "iw",
+        "value": "Hebrew"
+      },
+      {
+        "id": "ja",
+        "value": "Japanese"
+      },
+      {
+        "id": "ji",
+        "value": "Yiddish"
+      },
+      {
+        "id": "jv",
+        "value": "Javanese"
+      },
+      {
+        "id": "ka",
+        "value": "Georgian"
+      },
+      {
+        "id": "kg",
+        "value": "Kongo"
+      },
+      {
+        "id": "ki",
+        "value": "Kikuyu"
+      },
+      {
+        "id": "kj",
+        "value": "Kuanyama"
+      },
+      {
+        "id": "kk",
+        "value": "Kazakh"
+      },
+      {
+        "id": "kl",
+        "value": "Kalaallisut"
+      },
+      {
+        "id": "km",
+        "value": "Khmer"
+      },
+      {
+        "id": "kn",
+        "value": "Kannada"
+      },
+      {
+        "id": "ko",
+        "value": "Korean"
+      },
+      {
+        "id": "kr",
+        "value": "Kanuri"
+      },
+      {
+        "id": "ks",
+        "value": "Kashmiri"
+      },
+      {
+        "id": "ku",
+        "value": "Kurdish"
+      },
+      {
+        "id": "kv",
+        "value": "Komi"
+      },
+      {
+        "id": "kw",
+        "value": "Cornish"
+      },
+      {
+        "id": "ky",
+        "value": "Kyrgyz"
+      },
+      {
+        "id": "la",
+        "value": "Latin"
+      },
+      {
+        "id": "lb",
+        "value": "Luxembourgish"
+      },
+      {
+        "id": "lg",
+        "value": "Ganda"
+      },
+      {
+        "id": "li",
+        "value": "Limburgish"
+      },
+      {
+        "id": "ln",
+        "value": "Lingala"
+      },
+      {
+        "id": "lo",
+        "value": "Lao"
+      },
+      {
+        "id": "lt",
+        "value": "Lithuanian"
+      },
+      {
+        "id": "lu",
+        "value": "Luba-Katanga"
+      },
+      {
+        "id": "lv",
+        "value": "Latvian"
+      },
+      {
+        "id": "mg",
+        "value": "Malagasy"
+      },
+      {
+        "id": "mh",
+        "value": "Marshallese"
+      },
+      {
+        "id": "mi",
+        "value": "Maori"
+      },
+      {
+        "id": "mk",
+        "value": "Macedonian"
+      },
+      {
+        "id": "ml",
+        "value": "Malayalam"
+      },
+      {
+        "id": "mn",
+        "value": "Mongolian"
+      },
+      {
+        "id": "mo",
+        "value": "Moldavian"
+      },
+      {
+        "id": "mr",
+        "value": "Marathi"
+      },
+      {
+        "id": "ms",
+        "value": "Malay"
+      },
+      {
+        "id": "mt",
+        "value": "Maltese"
+      },
+      {
+        "id": "my",
+        "value": "Burmese"
+      },
+      {
+        "id": "na",
+        "value": "Nauru"
+      },
+      {
+        "id": "nb",
+        "value": "Norwegian Bokmål"
+      },
+      {
+        "id": "nd",
+        "value": "North Ndebele"
+      },
+      {
+        "id": "ne",
+        "value": "Nepali"
+      },
+      {
+        "id": "ng",
+        "value": "Ndonga"
+      },
+      {
+        "id": "nl",
+        "value": "Dutch"
+      },
+      {
+        "id": "nn",
+        "value": "Norwegian Nynorsk"
+      },
+      {
+        "id": "no",
+        "value": "Norwegian"
+      },
+      {
+        "id": "nr",
+        "value": "South Ndebele"
+      },
+      {
+        "id": "nv",
+        "value": "Navajo"
+      },
+      {
+        "id": "ny",
+        "value": "Nyanja"
+      },
+      {
+        "id": "oc",
+        "value": "Occitan"
+      },
+      {
+        "id": "oj",
+        "value": "Ojibwa"
+      },
+      {
+        "id": "om",
+        "value": "Oromo"
+      },
+      {
+        "id": "or",
+        "value": "Odia"
+      },
+      {
+        "id": "os",
+        "value": "Ossetic"
+      },
+      {
+        "id": "pa",
+        "value": "Punjabi"
+      },
+      {
+        "id": "pi",
+        "value": "Pali"
+      },
+      {
+        "id": "pl",
+        "value": "Polish"
+      },
+      {
+        "id": "ps",
+        "value": "Pashto"
+      },
+      {
+        "id": "pt",
+        "value": "Portuguese"
+      },
+      {
+        "id": "qu",
+        "value": "Quechua"
+      },
+      {
+        "id": "rm",
+        "value": "Romansh"
+      },
+      {
+        "id": "rn",
+        "value": "Rundi"
+      },
+      {
+        "id": "ro",
+        "value": "Romanian"
+      },
+      {
+        "id": "ru",
+        "value": "Russian"
+      },
+      {
+        "id": "rw",
+        "value": "Kinyarwanda"
+      },
+      {
+        "id": "sa",
+        "value": "Sanskrit"
+      },
+      {
+        "id": "sc",
+        "value": "Sardinian"
+      },
+      {
+        "id": "sd",
+        "value": "Sindhi"
+      },
+      {
+        "id": "se",
+        "value": "Northern Sami"
+      },
+      {
+        "id": "sg",
+        "value": "Sango"
+      },
+      {
+        "id": "si",
+        "value": "Sinhala"
+      },
+      {
+        "id": "sk",
+        "value": "Slovak"
+      },
+      {
+        "id": "sl",
+        "value": "Slovenian"
+      },
+      {
+        "id": "sm",
+        "value": "Samoan"
+      },
+      {
+        "id": "sn",
+        "value": "Shona"
+      },
+      {
+        "id": "so",
+        "value": "Somali"
+      },
+      {
+        "id": "sq",
+        "value": "Albanian"
+      },
+      {
+        "id": "sr",
+        "value": "Serbian"
+      },
+      {
+        "id": "ss",
+        "value": "Swati"
+      },
+      {
+        "id": "st",
+        "value": "Southern Sotho"
+      },
+      {
+        "id": "su",
+        "value": "Sundanese"
+      },
+      {
+        "id": "sv",
+        "value": "Swedish"
+      },
+      {
+        "id": "sw",
+        "value": "Swahili"
+      },
+      {
+        "id": "ta",
+        "value": "Tamil"
+      },
+      {
+        "id": "te",
+        "value": "Telugu"
+      },
+      {
+        "id": "tg",
+        "value": "Tajik"
+      },
+      {
+        "id": "th",
+        "value": "Thai"
+      },
+      {
+        "id": "ti",
+        "value": "Tigrinya"
+      },
+      {
+        "id": "tk",
+        "value": "Turkmen"
+      },
+      {
+        "id": "tl",
+        "value": "Tagalog"
+      },
+      {
+        "id": "tn",
+        "value": "Tswana"
+      },
+      {
+        "id": "to",
+        "value": "Tongan"
+      },
+      {
+        "id": "tr",
+        "value": "Turkish"
+      },
+      {
+        "id": "ts",
+        "value": "Tsonga"
+      },
+      {
+        "id": "tt",
+        "value": "Tatar"
+      },
+      {
+        "id": "tw",
+        "value": "Twi"
+      },
+      {
+        "id": "ty",
+        "value": "Tahitian"
+      },
+      {
+        "id": "ug",
+        "value": "Uyghur"
+      },
+      {
+        "id": "uk",
+        "value": "Ukrainian"
+      },
+      {
+        "id": "ur",
+        "value": "Urdu"
+      },
+      {
+        "id": "uz",
+        "value": "Uzbek"
+      },
+      {
+        "id": "ve",
+        "value": "Venda"
+      },
+      {
+        "id": "vi",
+        "value": "Vietnamese"
+      },
+      {
+        "id": "vo",
+        "value": "Volapük"
+      },
+      {
+        "id": "wa",
+        "value": "Walloon"
+      },
+      {
+        "id": "wo",
+        "value": "Wolof"
+      },
+      {
+        "id": "xh",
+        "value": "Xhosa"
+      },
+      {
+        "id": "yo",
+        "value": "Yoruba"
+      },
+      {
+        "id": "za",
+        "value": "Zhuang"
+      },
+      {
+        "id": "zh",
+        "value": "Chinese"
+      },
+      {
+        "id": "zu",
+        "value": "Zulu"
+      }
+    ],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['ISOLanguageCode']}",
+    "dateOnly": false
+  },
+  {
+    "id": "TimeZone^false^STRING",
+    "internalName": "user.TimeZone",
+    "name": "TimeZone",
+    "displayName": null,
+    "text": "Time Zone",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [
+      {
+        "id": "Asia/Aden",
+        "value": "Asia/Aden"
+      },
+      {
+        "id": "America/Cuiaba",
+        "value": "America/Cuiaba"
+      },
+      {
+        "id": "Etc/GMT+9",
+        "value": "Etc/GMT+9"
+      },
+      {
+        "id": "Etc/GMT+8",
+        "value": "Etc/GMT+8"
+      },
+      {
+        "id": "Africa/Nairobi",
+        "value": "Africa/Nairobi"
+      },
+      {
+        "id": "America/Marigot",
+        "value": "America/Marigot"
+      },
+      {
+        "id": "Asia/Aqtau",
+        "value": "Asia/Aqtau"
+      },
+      {
+        "id": "Pacific/Kwajalein",
+        "value": "Pacific/Kwajalein"
+      },
+      {
+        "id": "America/El_Salvador",
+        "value": "America/El_Salvador"
+      },
+      {
+        "id": "Asia/Pontianak",
+        "value": "Asia/Pontianak"
+      },
+      {
+        "id": "Africa/Cairo",
+        "value": "Africa/Cairo"
+      },
+      {
+        "id": "Pacific/Pago_Pago",
+        "value": "Pacific/Pago_Pago"
+      },
+      {
+        "id": "Africa/Mbabane",
+        "value": "Africa/Mbabane"
+      },
+      {
+        "id": "Asia/Kuching",
+        "value": "Asia/Kuching"
+      },
+      {
+        "id": "Pacific/Rarotonga",
+        "value": "Pacific/Rarotonga"
+      },
+      {
+        "id": "Pacific/Honolulu",
+        "value": "Pacific/Honolulu"
+      },
+      {
+        "id": "America/Guatemala",
+        "value": "America/Guatemala"
+      },
+      {
+        "id": "Australia/Hobart",
+        "value": "Australia/Hobart"
+      },
+      {
+        "id": "Europe/London",
+        "value": "Europe/London"
+      },
+      {
+        "id": "America/Panama",
+        "value": "America/Panama"
+      },
+      {
+        "id": "America/Belize",
+        "value": "America/Belize"
+      },
+      {
+        "id": "Asia/Chungking",
+        "value": "Asia/Chungking"
+      },
+      {
+        "id": "America/Managua",
+        "value": "America/Managua"
+      },
+      {
+        "id": "America/Indiana/Petersburg",
+        "value": "America/Indiana/Petersburg"
+      },
+      {
+        "id": "Europe/Brussels",
+        "value": "Europe/Brussels"
+      },
+      {
+        "id": "Asia/Yerevan",
+        "value": "Asia/Yerevan"
+      },
+      {
+        "id": "JST",
+        "value": "JST"
+      },
+      {
+        "id": "GMT",
+        "value": "GMT"
+      },
+      {
+        "id": "Europe/Warsaw",
+        "value": "Europe/Warsaw"
+      },
+      {
+        "id": "America/Chicago",
+        "value": "America/Chicago"
+      },
+      {
+        "id": "Chile/Continental",
+        "value": "Chile/Continental"
+      },
+      {
+        "id": "Asia/Kashgar",
+        "value": "Asia/Kashgar"
+      },
+      {
+        "id": "Pacific/Yap",
+        "value": "Pacific/Yap"
+      },
+      {
+        "id": "CET",
+        "value": "CET"
+      },
+      {
+        "id": "Etc/GMT-1",
+        "value": "Etc/GMT-1"
+      },
+      {
+        "id": "Europe/Jersey",
+        "value": "Europe/Jersey"
+      },
+      {
+        "id": "Etc/GMT-0",
+        "value": "Etc/GMT-0"
+      },
+      {
+        "id": "Europe/Istanbul",
+        "value": "Europe/Istanbul"
+      },
+      {
+        "id": "Etc/GMT-5",
+        "value": "Etc/GMT-5"
+      },
+      {
+        "id": "America/Tegucigalpa",
+        "value": "America/Tegucigalpa"
+      },
+      {
+        "id": "Etc/GMT-4",
+        "value": "Etc/GMT-4"
+      },
+      {
+        "id": "America/Eirunepe",
+        "value": "America/Eirunepe"
+      },
+      {
+        "id": "Europe/Luxembourg",
+        "value": "Europe/Luxembourg"
+      },
+      {
+        "id": "Etc/GMT-3",
+        "value": "Etc/GMT-3"
+      },
+      {
+        "id": "America/Miquelon",
+        "value": "America/Miquelon"
+      },
+      {
+        "id": "Etc/GMT-2",
+        "value": "Etc/GMT-2"
+      },
+      {
+        "id": "Etc/GMT-9",
+        "value": "Etc/GMT-9"
+      },
+      {
+        "id": "America/Argentina/Catamarca",
+        "value": "America/Argentina/Catamarca"
+      },
+      {
+        "id": "Etc/GMT-8",
+        "value": "Etc/GMT-8"
+      },
+      {
+        "id": "Etc/GMT-7",
+        "value": "Etc/GMT-7"
+      },
+      {
+        "id": "Etc/GMT-6",
+        "value": "Etc/GMT-6"
+      },
+      {
+        "id": "Europe/Zaporozhye",
+        "value": "Europe/Zaporozhye"
+      },
+      {
+        "id": "Canada/Yukon",
+        "value": "Canada/Yukon"
+      },
+      {
+        "id": "Canada/Atlantic",
+        "value": "Canada/Atlantic"
+      },
+      {
+        "id": "Atlantic/St_Helena",
+        "value": "Atlantic/St_Helena"
+      },
+      {
+        "id": "Australia/Tasmania",
+        "value": "Australia/Tasmania"
+      },
+      {
+        "id": "Libya",
+        "value": "Libya"
+      },
+      {
+        "id": "Europe/Guernsey",
+        "value": "Europe/Guernsey"
+      },
+      {
+        "id": "America/Grand_Turk",
+        "value": "America/Grand_Turk"
+      },
+      {
+        "id": "Asia/Samarkand",
+        "value": "Asia/Samarkand"
+      },
+      {
+        "id": "America/Argentina/Cordoba",
+        "value": "America/Argentina/Cordoba"
+      },
+      {
+        "id": "Asia/Phnom_Penh",
+        "value": "Asia/Phnom_Penh"
+      },
+      {
+        "id": "IST",
+        "value": "IST"
+      },
+      {
+        "id": "Africa/Kigali",
+        "value": "Africa/Kigali"
+      },
+      {
+        "id": "US/Alaska",
+        "value": "US/Alaska"
+      },
+      {
+        "id": "Asia/Almaty",
+        "value": "Asia/Almaty"
+      },
+      {
+        "id": "BET",
+        "value": "BET"
+      },
+      {
+        "id": "Europe/Isle_of_Man",
+        "value": "Europe/Isle_of_Man"
+      },
+      {
+        "id": "Asia/Dubai",
+        "value": "Asia/Dubai"
+      },
+      {
+        "id": "Cuba",
+        "value": "Cuba"
+      },
+      {
+        "id": "America/Araguaina",
+        "value": "America/Araguaina"
+      },
+      {
+        "id": "ACT",
+        "value": "ACT"
+      },
+      {
+        "id": "Asia/Novosibirsk",
+        "value": "Asia/Novosibirsk"
+      },
+      {
+        "id": "America/Argentina/Salta",
+        "value": "America/Argentina/Salta"
+      },
+      {
+        "id": "Etc/GMT+3",
+        "value": "Etc/GMT+3"
+      },
+      {
+        "id": "Africa/Tunis",
+        "value": "Africa/Tunis"
+      },
+      {
+        "id": "Etc/GMT+2",
+        "value": "Etc/GMT+2"
+      },
+      {
+        "id": "Etc/GMT+1",
+        "value": "Etc/GMT+1"
+      },
+      {
+        "id": "Pacific/Fakaofo",
+        "value": "Pacific/Fakaofo"
+      },
+      {
+        "id": "Africa/Tripoli",
+        "value": "Africa/Tripoli"
+      },
+      {
+        "id": "Etc/GMT+0",
+        "value": "Etc/GMT+0"
+      },
+      {
+        "id": "Israel",
+        "value": "Israel"
+      },
+      {
+        "id": "Africa/Banjul",
+        "value": "Africa/Banjul"
+      },
+      {
+        "id": "Etc/GMT+7",
+        "value": "Etc/GMT+7"
+      },
+      {
+        "id": "Indian/Comoro",
+        "value": "Indian/Comoro"
+      },
+      {
+        "id": "Etc/GMT+6",
+        "value": "Etc/GMT+6"
+      },
+      {
+        "id": "Etc/GMT+5",
+        "value": "Etc/GMT+5"
+      },
+      {
+        "id": "Etc/GMT+4",
+        "value": "Etc/GMT+4"
+      },
+      {
+        "id": "Pacific/Port_Moresby",
+        "value": "Pacific/Port_Moresby"
+      },
+      {
+        "id": "US/Arizona",
+        "value": "US/Arizona"
+      },
+      {
+        "id": "Indian/Reunion",
+        "value": "Indian/Reunion"
+      },
+      {
+        "id": "Antarctica/Syowa",
+        "value": "Antarctica/Syowa"
+      },
+      {
+        "id": "Pacific/Palau",
+        "value": "Pacific/Palau"
+      },
+      {
+        "id": "Europe/Kaliningrad",
+        "value": "Europe/Kaliningrad"
+      },
+      {
+        "id": "America/Montevideo",
+        "value": "America/Montevideo"
+      },
+      {
+        "id": "Africa/Windhoek",
+        "value": "Africa/Windhoek"
+      },
+      {
+        "id": "Asia/Karachi",
+        "value": "Asia/Karachi"
+      },
+      {
+        "id": "Africa/Mogadishu",
+        "value": "Africa/Mogadishu"
+      },
+      {
+        "id": "Brazil/East",
+        "value": "Brazil/East"
+      },
+      {
+        "id": "Australia/Perth",
+        "value": "Australia/Perth"
+      },
+      {
+        "id": "Etc/GMT",
+        "value": "Etc/GMT"
+      },
+      {
+        "id": "Asia/Chita",
+        "value": "Asia/Chita"
+      },
+      {
+        "id": "Pacific/Easter",
+        "value": "Pacific/Easter"
+      },
+      {
+        "id": "Antarctica/Davis",
+        "value": "Antarctica/Davis"
+      },
+      {
+        "id": "Antarctica/McMurdo",
+        "value": "Antarctica/McMurdo"
+      },
+      {
+        "id": "Asia/Macao",
+        "value": "Asia/Macao"
+      },
+      {
+        "id": "America/Manaus",
+        "value": "America/Manaus"
+      },
+      {
+        "id": "Africa/Freetown",
+        "value": "Africa/Freetown"
+      },
+      {
+        "id": "Europe/Bucharest",
+        "value": "Europe/Bucharest"
+      },
+      {
+        "id": "Asia/Tomsk",
+        "value": "Asia/Tomsk"
+      },
+      {
+        "id": "America/Argentina/Mendoza",
+        "value": "America/Argentina/Mendoza"
+      },
+      {
+        "id": "Europe/Malta",
+        "value": "Europe/Malta"
+      },
+      {
+        "id": "Asia/Macau",
+        "value": "Asia/Macau"
+      },
+      {
+        "id": "HST",
+        "value": "HST"
+      },
+      {
+        "id": "Pacific/Tahiti",
+        "value": "Pacific/Tahiti"
+      },
+      {
+        "id": "Mexico/BajaSur",
+        "value": "Mexico/BajaSur"
+      },
+      {
+        "id": "Africa/Asmera",
+        "value": "Africa/Asmera"
+      },
+      {
+        "id": "Europe/Busingen",
+        "value": "Europe/Busingen"
+      },
+      {
+        "id": "AET",
+        "value": "AET"
+      },
+      {
+        "id": "America/Argentina/Rio_Gallegos",
+        "value": "America/Argentina/Rio_Gallegos"
+      },
+      {
+        "id": "Africa/Malabo",
+        "value": "Africa/Malabo"
+      },
+      {
+        "id": "Europe/Skopje",
+        "value": "Europe/Skopje"
+      },
+      {
+        "id": "America/Godthab",
+        "value": "America/Godthab"
+      },
+      {
+        "id": "America/Catamarca",
+        "value": "America/Catamarca"
+      },
+      {
+        "id": "Europe/Sarajevo",
+        "value": "Europe/Sarajevo"
+      },
+      {
+        "id": "GB-Eire",
+        "value": "GB-Eire"
+      },
+      {
+        "id": "Australia/ACT",
+        "value": "Australia/ACT"
+      },
+      {
+        "id": "Africa/Lagos",
+        "value": "Africa/Lagos"
+      },
+      {
+        "id": "Europe/Rome",
+        "value": "Europe/Rome"
+      },
+      {
+        "id": "America/Cordoba",
+        "value": "America/Cordoba"
+      },
+      {
+        "id": "Indian/Mauritius",
+        "value": "Indian/Mauritius"
+      },
+      {
+        "id": "Asia/Dacca",
+        "value": "Asia/Dacca"
+      },
+      {
+        "id": "Pacific/Samoa",
+        "value": "Pacific/Samoa"
+      },
+      {
+        "id": "America/Regina",
+        "value": "America/Regina"
+      },
+      {
+        "id": "America/Fort_Wayne",
+        "value": "America/Fort_Wayne"
+      },
+      {
+        "id": "America/Dawson_Creek",
+        "value": "America/Dawson_Creek"
+      },
+      {
+        "id": "Africa/Algiers",
+        "value": "Africa/Algiers"
+      },
+      {
+        "id": "Europe/Mariehamn",
+        "value": "Europe/Mariehamn"
+      },
+      {
+        "id": "America/St_Johns",
+        "value": "America/St_Johns"
+      },
+      {
+        "id": "America/St_Thomas",
+        "value": "America/St_Thomas"
+      },
+      {
+        "id": "Europe/Zurich",
+        "value": "Europe/Zurich"
+      },
+      {
+        "id": "America/Anguilla",
+        "value": "America/Anguilla"
+      },
+      {
+        "id": "Asia/Dili",
+        "value": "Asia/Dili"
+      },
+      {
+        "id": "America/Denver",
+        "value": "America/Denver"
+      },
+      {
+        "id": "Europe/Saratov",
+        "value": "Europe/Saratov"
+      },
+      {
+        "id": "Africa/Bamako",
+        "value": "Africa/Bamako"
+      },
+      {
+        "id": "Mexico/General",
+        "value": "Mexico/General"
+      },
+      {
+        "id": "GB",
+        "value": "GB"
+      },
+      {
+        "id": "Pacific/Wallis",
+        "value": "Pacific/Wallis"
+      },
+      {
+        "id": "Europe/Gibraltar",
+        "value": "Europe/Gibraltar"
+      },
+      {
+        "id": "Africa/Conakry",
+        "value": "Africa/Conakry"
+      },
+      {
+        "id": "Africa/Lubumbashi",
+        "value": "Africa/Lubumbashi"
+      },
+      {
+        "id": "Asia/Istanbul",
+        "value": "Asia/Istanbul"
+      },
+      {
+        "id": "America/Havana",
+        "value": "America/Havana"
+      },
+      {
+        "id": "NZ-CHAT",
+        "value": "NZ-CHAT"
+      },
+      {
+        "id": "Asia/Choibalsan",
+        "value": "Asia/Choibalsan"
+      },
+      {
+        "id": "America/Porto_Acre",
+        "value": "America/Porto_Acre"
+      },
+      {
+        "id": "Asia/Omsk",
+        "value": "Asia/Omsk"
+      },
+      {
+        "id": "AGT",
+        "value": "AGT"
+      },
+      {
+        "id": "Europe/Vaduz",
+        "value": "Europe/Vaduz"
+      },
+      {
+        "id": "US/Michigan",
+        "value": "US/Michigan"
+      },
+      {
+        "id": "Asia/Dhaka",
+        "value": "Asia/Dhaka"
+      },
+      {
+        "id": "America/Barbados",
+        "value": "America/Barbados"
+      },
+      {
+        "id": "Europe/Tiraspol",
+        "value": "Europe/Tiraspol"
+      },
+      {
+        "id": "Atlantic/Cape_Verde",
+        "value": "Atlantic/Cape_Verde"
+      },
+      {
+        "id": "Asia/Yekaterinburg",
+        "value": "Asia/Yekaterinburg"
+      },
+      {
+        "id": "America/Louisville",
+        "value": "America/Louisville"
+      },
+      {
+        "id": "Pacific/Johnston",
+        "value": "Pacific/Johnston"
+      },
+      {
+        "id": "Pacific/Chatham",
+        "value": "Pacific/Chatham"
+      },
+      {
+        "id": "Europe/Ljubljana",
+        "value": "Europe/Ljubljana"
+      },
+      {
+        "id": "America/Sao_Paulo",
+        "value": "America/Sao_Paulo"
+      },
+      {
+        "id": "Asia/Jayapura",
+        "value": "Asia/Jayapura"
+      },
+      {
+        "id": "America/Curacao",
+        "value": "America/Curacao"
+      },
+      {
+        "id": "Asia/Dushanbe",
+        "value": "Asia/Dushanbe"
+      },
+      {
+        "id": "America/Guyana",
+        "value": "America/Guyana"
+      },
+      {
+        "id": "Portugal",
+        "value": "Portugal"
+      },
+      {
+        "id": "America/Martinique",
+        "value": "America/Martinique"
+      },
+      {
+        "id": "America/Guayaquil",
+        "value": "America/Guayaquil"
+      },
+      {
+        "id": "Europe/Berlin",
+        "value": "Europe/Berlin"
+      },
+      {
+        "id": "Europe/Moscow",
+        "value": "Europe/Moscow"
+      },
+      {
+        "id": "Europe/Chisinau",
+        "value": "Europe/Chisinau"
+      },
+      {
+        "id": "America/Rankin_Inlet",
+        "value": "America/Rankin_Inlet"
+      },
+      {
+        "id": "Pacific/Ponape",
+        "value": "Pacific/Ponape"
+      },
+      {
+        "id": "America/Puerto_Rico",
+        "value": "America/Puerto_Rico"
+      },
+      {
+        "id": "Europe/Stockholm",
+        "value": "Europe/Stockholm"
+      },
+      {
+        "id": "Europe/Budapest",
+        "value": "Europe/Budapest"
+      },
+      {
+        "id": "America/Argentina/Jujuy",
+        "value": "America/Argentina/Jujuy"
+      },
+      {
+        "id": "Australia/Eucla",
+        "value": "Australia/Eucla"
+      },
+      {
+        "id": "Asia/Shanghai",
+        "value": "Asia/Shanghai"
+      },
+      {
+        "id": "Universal",
+        "value": "Universal"
+      },
+      {
+        "id": "Europe/Zagreb",
+        "value": "Europe/Zagreb"
+      },
+      {
+        "id": "America/Port_of_Spain",
+        "value": "America/Port_of_Spain"
+      },
+      {
+        "id": "Europe/Helsinki",
+        "value": "Europe/Helsinki"
+      },
+      {
+        "id": "Asia/Beirut",
+        "value": "Asia/Beirut"
+      },
+      {
+        "id": "Asia/Tel_Aviv",
+        "value": "Asia/Tel_Aviv"
+      },
+      {
+        "id": "Pacific/Bougainville",
+        "value": "Pacific/Bougainville"
+      },
+      {
+        "id": "US/Central",
+        "value": "US/Central"
+      },
+      {
+        "id": "Africa/Sao_Tome",
+        "value": "Africa/Sao_Tome"
+      },
+      {
+        "id": "Indian/Chagos",
+        "value": "Indian/Chagos"
+      },
+      {
+        "id": "America/Cayenne",
+        "value": "America/Cayenne"
+      },
+      {
+        "id": "Asia/Yakutsk",
+        "value": "Asia/Yakutsk"
+      },
+      {
+        "id": "Pacific/Galapagos",
+        "value": "Pacific/Galapagos"
+      },
+      {
+        "id": "Australia/North",
+        "value": "Australia/North"
+      },
+      {
+        "id": "VST",
+        "value": "VST"
+      },
+      {
+        "id": "Europe/Paris",
+        "value": "Europe/Paris"
+      },
+      {
+        "id": "Africa/Ndjamena",
+        "value": "Africa/Ndjamena"
+      },
+      {
+        "id": "Pacific/Fiji",
+        "value": "Pacific/Fiji"
+      },
+      {
+        "id": "Indian/Maldives",
+        "value": "Indian/Maldives"
+      },
+      {
+        "id": "America/Rainy_River",
+        "value": "America/Rainy_River"
+      },
+      {
+        "id": "SystemV/AST4",
+        "value": "SystemV/AST4"
+      },
+      {
+        "id": "Australia/Yancowinna",
+        "value": "Australia/Yancowinna"
+      },
+      {
+        "id": "Asia/Oral",
+        "value": "Asia/Oral"
+      },
+      {
+        "id": "America/Yellowknife",
+        "value": "America/Yellowknife"
+      },
+      {
+        "id": "Pacific/Enderbury",
+        "value": "Pacific/Enderbury"
+      },
+      {
+        "id": "Australia/Victoria",
+        "value": "Australia/Victoria"
+      },
+      {
+        "id": "CNT",
+        "value": "CNT"
+      },
+      {
+        "id": "America/Juneau",
+        "value": "America/Juneau"
+      },
+      {
+        "id": "America/Indiana/Vevay",
+        "value": "America/Indiana/Vevay"
+      },
+      {
+        "id": "Asia/Tashkent",
+        "value": "Asia/Tashkent"
+      },
+      {
+        "id": "Asia/Jakarta",
+        "value": "Asia/Jakarta"
+      },
+      {
+        "id": "Africa/Ceuta",
+        "value": "Africa/Ceuta"
+      },
+      {
+        "id": "Asia/Barnaul",
+        "value": "Asia/Barnaul"
+      },
+      {
+        "id": "America/Recife",
+        "value": "America/Recife"
+      },
+      {
+        "id": "America/Buenos_Aires",
+        "value": "America/Buenos_Aires"
+      },
+      {
+        "id": "America/Noronha",
+        "value": "America/Noronha"
+      },
+      {
+        "id": "America/Swift_Current",
+        "value": "America/Swift_Current"
+      },
+      {
+        "id": "Australia/Adelaide",
+        "value": "Australia/Adelaide"
+      },
+      {
+        "id": "America/Metlakatla",
+        "value": "America/Metlakatla"
+      },
+      {
+        "id": "Africa/Djibouti",
+        "value": "Africa/Djibouti"
+      },
+      {
+        "id": "America/Paramaribo",
+        "value": "America/Paramaribo"
+      },
+      {
+        "id": "EST",
+        "value": "EST"
+      },
+      {
+        "id": "Asia/Qostanay",
+        "value": "Asia/Qostanay"
+      },
+      {
+        "id": "Europe/Simferopol",
+        "value": "Europe/Simferopol"
+      },
+      {
+        "id": "Europe/Sofia",
+        "value": "Europe/Sofia"
+      },
+      {
+        "id": "Africa/Nouakchott",
+        "value": "Africa/Nouakchott"
+      },
+      {
+        "id": "Europe/Prague",
+        "value": "Europe/Prague"
+      },
+      {
+        "id": "America/Indiana/Vincennes",
+        "value": "America/Indiana/Vincennes"
+      },
+      {
+        "id": "Antarctica/Mawson",
+        "value": "Antarctica/Mawson"
+      },
+      {
+        "id": "America/Kralendijk",
+        "value": "America/Kralendijk"
+      },
+      {
+        "id": "Antarctica/Troll",
+        "value": "Antarctica/Troll"
+      },
+      {
+        "id": "Europe/Samara",
+        "value": "Europe/Samara"
+      },
+      {
+        "id": "Indian/Christmas",
+        "value": "Indian/Christmas"
+      },
+      {
+        "id": "America/Antigua",
+        "value": "America/Antigua"
+      },
+      {
+        "id": "NET",
+        "value": "NET"
+      },
+      {
+        "id": "Pacific/Gambier",
+        "value": "Pacific/Gambier"
+      },
+      {
+        "id": "America/Indianapolis",
+        "value": "America/Indianapolis"
+      },
+      {
+        "id": "America/Inuvik",
+        "value": "America/Inuvik"
+      },
+      {
+        "id": "Pacific/Funafuti",
+        "value": "Pacific/Funafuti"
+      },
+      {
+        "id": "America/Iqaluit",
+        "value": "America/Iqaluit"
+      },
+      {
+        "id": "UTC",
+        "value": "UTC"
+      },
+      {
+        "id": "Antarctica/Macquarie",
+        "value": "Antarctica/Macquarie"
+      },
+      {
+        "id": "Canada/Pacific",
+        "value": "Canada/Pacific"
+      },
+      {
+        "id": "America/Moncton",
+        "value": "America/Moncton"
+      },
+      {
+        "id": "Africa/Gaborone",
+        "value": "Africa/Gaborone"
+      },
+      {
+        "id": "Pacific/Chuuk",
+        "value": "Pacific/Chuuk"
+      },
+      {
+        "id": "Asia/Pyongyang",
+        "value": "Asia/Pyongyang"
+      },
+      {
+        "id": "America/St_Vincent",
+        "value": "America/St_Vincent"
+      },
+      {
+        "id": "Etc/Universal",
+        "value": "Etc/Universal"
+      },
+      {
+        "id": "Asia/Gaza",
+        "value": "Asia/Gaza"
+      },
+      {
+        "id": "PST8PDT",
+        "value": "PST8PDT"
+      },
+      {
+        "id": "Atlantic/Faeroe",
+        "value": "Atlantic/Faeroe"
+      },
+      {
+        "id": "Canada/Newfoundland",
+        "value": "Canada/Newfoundland"
+      },
+      {
+        "id": "Asia/Qyzylorda",
+        "value": "Asia/Qyzylorda"
+      },
+      {
+        "id": "America/Yakutat",
+        "value": "America/Yakutat"
+      },
+      {
+        "id": "America/Kentucky/Louisville",
+        "value": "America/Kentucky/Louisville"
+      },
+      {
+        "id": "Asia/Ho_Chi_Minh",
+        "value": "Asia/Ho_Chi_Minh"
+      },
+      {
+        "id": "Antarctica/Casey",
+        "value": "Antarctica/Casey"
+      },
+      {
+        "id": "Europe/Copenhagen",
+        "value": "Europe/Copenhagen"
+      },
+      {
+        "id": "Europe/Vienna",
+        "value": "Europe/Vienna"
+      },
+      {
+        "id": "Africa/Asmara",
+        "value": "Africa/Asmara"
+      },
+      {
+        "id": "Atlantic/Azores",
+        "value": "Atlantic/Azores"
+      },
+      {
+        "id": "ROK",
+        "value": "ROK"
+      },
+      {
+        "id": "Pacific/Pitcairn",
+        "value": "Pacific/Pitcairn"
+      },
+      {
+        "id": "Australia/Queensland",
+        "value": "Australia/Queensland"
+      },
+      {
+        "id": "America/Mazatlan",
+        "value": "America/Mazatlan"
+      },
+      {
+        "id": "Pacific/Nauru",
+        "value": "Pacific/Nauru"
+      },
+      {
+        "id": "Europe/Tirane",
+        "value": "Europe/Tirane"
+      },
+      {
+        "id": "SystemV/MST7",
+        "value": "SystemV/MST7"
+      },
+      {
+        "id": "Asia/Kolkata",
+        "value": "Asia/Kolkata"
+      },
+      {
+        "id": "Australia/Canberra",
+        "value": "Australia/Canberra"
+      },
+      {
+        "id": "MET",
+        "value": "MET"
+      },
+      {
+        "id": "Australia/Broken_Hill",
+        "value": "Australia/Broken_Hill"
+      },
+      {
+        "id": "Europe/Riga",
+        "value": "Europe/Riga"
+      },
+      {
+        "id": "America/Dominica",
+        "value": "America/Dominica"
+      },
+      {
+        "id": "Africa/Abidjan",
+        "value": "Africa/Abidjan"
+      },
+      {
+        "id": "America/Mendoza",
+        "value": "America/Mendoza"
+      },
+      {
+        "id": "Kwajalein",
+        "value": "Kwajalein"
+      },
+      {
+        "id": "America/Santarem",
+        "value": "America/Santarem"
+      },
+      {
+        "id": "Asia/Ulan_Bator",
+        "value": "Asia/Ulan_Bator"
+      },
+      {
+        "id": "NZ",
+        "value": "NZ"
+      },
+      {
+        "id": "America/Asuncion",
+        "value": "America/Asuncion"
+      },
+      {
+        "id": "Australia/Currie",
+        "value": "Australia/Currie"
+      },
+      {
+        "id": "America/Boise",
+        "value": "America/Boise"
+      },
+      {
+        "id": "EST5EDT",
+        "value": "EST5EDT"
+      },
+      {
+        "id": "Pacific/Guam",
+        "value": "Pacific/Guam"
+      },
+      {
+        "id": "Pacific/Wake",
+        "value": "Pacific/Wake"
+      },
+      {
+        "id": "Atlantic/Bermuda",
+        "value": "Atlantic/Bermuda"
+      },
+      {
+        "id": "America/Costa_Rica",
+        "value": "America/Costa_Rica"
+      },
+      {
+        "id": "America/Dawson",
+        "value": "America/Dawson"
+      },
+      {
+        "id": "Asia/Chongqing",
+        "value": "Asia/Chongqing"
+      },
+      {
+        "id": "Europe/Amsterdam",
+        "value": "Europe/Amsterdam"
+      },
+      {
+        "id": "Eire",
+        "value": "Eire"
+      },
+      {
+        "id": "America/Indiana/Knox",
+        "value": "America/Indiana/Knox"
+      },
+      {
+        "id": "PLT",
+        "value": "PLT"
+      },
+      {
+        "id": "America/North_Dakota/Beulah",
+        "value": "America/North_Dakota/Beulah"
+      },
+      {
+        "id": "Africa/Accra",
+        "value": "Africa/Accra"
+      },
+      {
+        "id": "Atlantic/Faroe",
+        "value": "Atlantic/Faroe"
+      },
+      {
+        "id": "Mexico/BajaNorte",
+        "value": "Mexico/BajaNorte"
+      },
+      {
+        "id": "Etc/UCT",
+        "value": "Etc/UCT"
+      },
+      {
+        "id": "America/Maceio",
+        "value": "America/Maceio"
+      },
+      {
+        "id": "Pacific/Apia",
+        "value": "Pacific/Apia"
+      },
+      {
+        "id": "GMT0",
+        "value": "GMT0"
+      },
+      {
+        "id": "Pacific/Niue",
+        "value": "Pacific/Niue"
+      },
+      {
+        "id": "America/Atka",
+        "value": "America/Atka"
+      },
+      {
+        "id": "CST",
+        "value": "CST"
+      },
+      {
+        "id": "Australia/Lord_Howe",
+        "value": "Australia/Lord_Howe"
+      },
+      {
+        "id": "Europe/Dublin",
+        "value": "Europe/Dublin"
+      },
+      {
+        "id": "Pacific/Truk",
+        "value": "Pacific/Truk"
+      },
+      {
+        "id": "MST7MDT",
+        "value": "MST7MDT"
+      },
+      {
+        "id": "America/Monterrey",
+        "value": "America/Monterrey"
+      },
+      {
+        "id": "America/Nassau",
+        "value": "America/Nassau"
+      },
+      {
+        "id": "SST",
+        "value": "SST"
+      },
+      {
+        "id": "America/Jamaica",
+        "value": "America/Jamaica"
+      },
+      {
+        "id": "Asia/Bishkek",
+        "value": "Asia/Bishkek"
+      },
+      {
+        "id": "Atlantic/Stanley",
+        "value": "Atlantic/Stanley"
+      },
+      {
+        "id": "America/Atikokan",
+        "value": "America/Atikokan"
+      },
+      {
+        "id": "Australia/NSW",
+        "value": "Australia/NSW"
+      },
+      {
+        "id": "US/Hawaii",
+        "value": "US/Hawaii"
+      },
+      {
+        "id": "SystemV/CST6",
+        "value": "SystemV/CST6"
+      },
+      {
+        "id": "Indian/Mahe",
+        "value": "Indian/Mahe"
+      },
+      {
+        "id": "CTT",
+        "value": "CTT"
+      },
+      {
+        "id": "Asia/Aqtobe",
+        "value": "Asia/Aqtobe"
+      },
+      {
+        "id": "America/Sitka",
+        "value": "America/Sitka"
+      },
+      {
+        "id": "Asia/Vladivostok",
+        "value": "Asia/Vladivostok"
+      },
+      {
+        "id": "Africa/Libreville",
+        "value": "Africa/Libreville"
+      },
+      {
+        "id": "Africa/Maputo",
+        "value": "Africa/Maputo"
+      },
+      {
+        "id": "Zulu",
+        "value": "Zulu"
+      },
+      {
+        "id": "America/Kentucky/Monticello",
+        "value": "America/Kentucky/Monticello"
+      },
+      {
+        "id": "Africa/El_Aaiun",
+        "value": "Africa/El_Aaiun"
+      },
+      {
+        "id": "Africa/Ouagadougou",
+        "value": "Africa/Ouagadougou"
+      },
+      {
+        "id": "America/Coral_Harbour",
+        "value": "America/Coral_Harbour"
+      },
+      {
+        "id": "Pacific/Marquesas",
+        "value": "Pacific/Marquesas"
+      },
+      {
+        "id": "Brazil/West",
+        "value": "Brazil/West"
+      },
+      {
+        "id": "America/Aruba",
+        "value": "America/Aruba"
+      },
+      {
+        "id": "America/North_Dakota/Center",
+        "value": "America/North_Dakota/Center"
+      },
+      {
+        "id": "PNT",
+        "value": "PNT"
+      },
+      {
+        "id": "America/Cayman",
+        "value": "America/Cayman"
+      },
+      {
+        "id": "Asia/Ulaanbaatar",
+        "value": "Asia/Ulaanbaatar"
+      },
+      {
+        "id": "Asia/Baghdad",
+        "value": "Asia/Baghdad"
+      },
+      {
+        "id": "Europe/San_Marino",
+        "value": "Europe/San_Marino"
+      },
+      {
+        "id": "America/Indiana/Tell_City",
+        "value": "America/Indiana/Tell_City"
+      },
+      {
+        "id": "BST",
+        "value": "BST"
+      },
+      {
+        "id": "America/Tijuana",
+        "value": "America/Tijuana"
+      },
+      {
+        "id": "Pacific/Saipan",
+        "value": "Pacific/Saipan"
+      },
+      {
+        "id": "SystemV/YST9",
+        "value": "SystemV/YST9"
+      },
+      {
+        "id": "Africa/Douala",
+        "value": "Africa/Douala"
+      },
+      {
+        "id": "America/Ojinaga",
+        "value": "America/Ojinaga"
+      },
+      {
+        "id": "Asia/Hovd",
+        "value": "Asia/Hovd"
+      },
+      {
+        "id": "America/Chihuahua",
+        "value": "America/Chihuahua"
+      },
+      {
+        "id": "America/Anchorage",
+        "value": "America/Anchorage"
+      },
+      {
+        "id": "Chile/EasterIsland",
+        "value": "Chile/EasterIsland"
+      },
+      {
+        "id": "America/Halifax",
+        "value": "America/Halifax"
+      },
+      {
+        "id": "Antarctica/Rothera",
+        "value": "Antarctica/Rothera"
+      },
+      {
+        "id": "US/Mountain",
+        "value": "US/Mountain"
+      },
+      {
+        "id": "America/Indiana/Indianapolis",
+        "value": "America/Indiana/Indianapolis"
+      },
+      {
+        "id": "Asia/Damascus",
+        "value": "Asia/Damascus"
+      },
+      {
+        "id": "MIT",
+        "value": "MIT"
+      },
+      {
+        "id": "America/Argentina/San_Luis",
+        "value": "America/Argentina/San_Luis"
+      },
+      {
+        "id": "America/Santiago",
+        "value": "America/Santiago"
+      },
+      {
+        "id": "Asia/Baku",
+        "value": "Asia/Baku"
+      },
+      {
+        "id": "ART",
+        "value": "ART"
+      },
+      {
+        "id": "America/Argentina/Ushuaia",
+        "value": "America/Argentina/Ushuaia"
+      },
+      {
+        "id": "Atlantic/Reykjavik",
+        "value": "Atlantic/Reykjavik"
+      },
+      {
+        "id": "Africa/Brazzaville",
+        "value": "Africa/Brazzaville"
+      },
+      {
+        "id": "America/La_Paz",
+        "value": "America/La_Paz"
+      },
+      {
+        "id": "Africa/Porto-Novo",
+        "value": "Africa/Porto-Novo"
+      },
+      {
+        "id": "Antarctica/DumontDUrville",
+        "value": "Antarctica/DumontDUrville"
+      },
+      {
+        "id": "Asia/Taipei",
+        "value": "Asia/Taipei"
+      },
+      {
+        "id": "Asia/Manila",
+        "value": "Asia/Manila"
+      },
+      {
+        "id": "Antarctica/South_Pole",
+        "value": "Antarctica/South_Pole"
+      },
+      {
+        "id": "Asia/Bangkok",
+        "value": "Asia/Bangkok"
+      },
+      {
+        "id": "Poland",
+        "value": "Poland"
+      },
+      {
+        "id": "Africa/Dar_es_Salaam",
+        "value": "Africa/Dar_es_Salaam"
+      },
+      {
+        "id": "Atlantic/Madeira",
+        "value": "Atlantic/Madeira"
+      },
+      {
+        "id": "Antarctica/Palmer",
+        "value": "Antarctica/Palmer"
+      },
+      {
+        "id": "America/Thunder_Bay",
+        "value": "America/Thunder_Bay"
+      },
+      {
+        "id": "Africa/Addis_Ababa",
+        "value": "Africa/Addis_Ababa"
+      },
+      {
+        "id": "AST",
+        "value": "AST"
+      },
+      {
+        "id": "Asia/Yangon",
+        "value": "Asia/Yangon"
+      },
+      {
+        "id": "Europe/Uzhgorod",
+        "value": "Europe/Uzhgorod"
+      },
+      {
+        "id": "Brazil/DeNoronha",
+        "value": "Brazil/DeNoronha"
+      },
+      {
+        "id": "Asia/Ashkhabad",
+        "value": "Asia/Ashkhabad"
+      },
+      {
+        "id": "Etc/Zulu",
+        "value": "Etc/Zulu"
+      },
+      {
+        "id": "America/Indiana/Marengo",
+        "value": "America/Indiana/Marengo"
+      },
+      {
+        "id": "America/Punta_Arenas",
+        "value": "America/Punta_Arenas"
+      },
+      {
+        "id": "America/Creston",
+        "value": "America/Creston"
+      },
+      {
+        "id": "America/Mexico_City",
+        "value": "America/Mexico_City"
+      },
+      {
+        "id": "Antarctica/Vostok",
+        "value": "Antarctica/Vostok"
+      },
+      {
+        "id": "Asia/Jerusalem",
+        "value": "Asia/Jerusalem"
+      },
+      {
+        "id": "Europe/Andorra",
+        "value": "Europe/Andorra"
+      },
+      {
+        "id": "US/Samoa",
+        "value": "US/Samoa"
+      },
+      {
+        "id": "PRC",
+        "value": "PRC"
+      },
+      {
+        "id": "Asia/Vientiane",
+        "value": "Asia/Vientiane"
+      },
+      {
+        "id": "Pacific/Kiritimati",
+        "value": "Pacific/Kiritimati"
+      },
+      {
+        "id": "America/Matamoros",
+        "value": "America/Matamoros"
+      },
+      {
+        "id": "America/Blanc-Sablon",
+        "value": "America/Blanc-Sablon"
+      },
+      {
+        "id": "Asia/Riyadh",
+        "value": "Asia/Riyadh"
+      },
+      {
+        "id": "Iceland",
+        "value": "Iceland"
+      },
+      {
+        "id": "Pacific/Pohnpei",
+        "value": "Pacific/Pohnpei"
+      },
+      {
+        "id": "Atlantic/South_Georgia",
+        "value": "Atlantic/South_Georgia"
+      },
+      {
+        "id": "Europe/Lisbon",
+        "value": "Europe/Lisbon"
+      },
+      {
+        "id": "Asia/Ujung_Pandang",
+        "value": "Asia/Ujung_Pandang"
+      },
+      {
+        "id": "Asia/Harbin",
+        "value": "Asia/Harbin"
+      },
+      {
+        "id": "PRT",
+        "value": "PRT"
+      },
+      {
+        "id": "Europe/Oslo",
+        "value": "Europe/Oslo"
+      },
+      {
+        "id": "Asia/Novokuznetsk",
+        "value": "Asia/Novokuznetsk"
+      },
+      {
+        "id": "CST6CDT",
+        "value": "CST6CDT"
+      },
+      {
+        "id": "Atlantic/Canary",
+        "value": "Atlantic/Canary"
+      },
+      {
+        "id": "SystemV/HST10",
+        "value": "SystemV/HST10"
+      },
+      {
+        "id": "Asia/Kuwait",
+        "value": "Asia/Kuwait"
+      },
+      {
+        "id": "America/Knox_IN",
+        "value": "America/Knox_IN"
+      },
+      {
+        "id": "Pacific/Efate",
+        "value": "Pacific/Efate"
+      },
+      {
+        "id": "America/Bogota",
+        "value": "America/Bogota"
+      },
+      {
+        "id": "America/Menominee",
+        "value": "America/Menominee"
+      },
+      {
+        "id": "Africa/Lome",
+        "value": "Africa/Lome"
+      },
+      {
+        "id": "America/Adak",
+        "value": "America/Adak"
+      },
+      {
+        "id": "Pacific/Norfolk",
+        "value": "Pacific/Norfolk"
+      },
+      {
+        "id": "Europe/Kirov",
+        "value": "Europe/Kirov"
+      },
+      {
+        "id": "Pacific/Tarawa",
+        "value": "Pacific/Tarawa"
+      },
+      {
+        "id": "America/Resolute",
+        "value": "America/Resolute"
+      },
+      {
+        "id": "Pacific/Kanton",
+        "value": "Pacific/Kanton"
+      },
+      {
+        "id": "Africa/Kampala",
+        "value": "Africa/Kampala"
+      },
+      {
+        "id": "Greenwich",
+        "value": "Greenwich"
+      },
+      {
+        "id": "Asia/Krasnoyarsk",
+        "value": "Asia/Krasnoyarsk"
+      },
+      {
+        "id": "PST",
+        "value": "PST"
+      },
+      {
+        "id": "SystemV/EST5",
+        "value": "SystemV/EST5"
+      },
+      {
+        "id": "Europe/Podgorica",
+        "value": "Europe/Podgorica"
+      },
+      {
+        "id": "America/Edmonton",
+        "value": "America/Edmonton"
+      },
+      {
+        "id": "Canada/Central",
+        "value": "Canada/Central"
+      },
+      {
+        "id": "Australia/South",
+        "value": "Australia/South"
+      },
+      {
+        "id": "Africa/Bujumbura",
+        "value": "Africa/Bujumbura"
+      },
+      {
+        "id": "America/Santo_Domingo",
+        "value": "America/Santo_Domingo"
+      },
+      {
+        "id": "IET",
+        "value": "IET"
+      },
+      {
+        "id": "US/Eastern",
+        "value": "US/Eastern"
+      },
+      {
+        "id": "Pacific/Auckland",
+        "value": "Pacific/Auckland"
+      },
+      {
+        "id": "Europe/Minsk",
+        "value": "Europe/Minsk"
+      },
+      {
+        "id": "America/Glace_Bay",
+        "value": "America/Glace_Bay"
+      },
+      {
+        "id": "Africa/Casablanca",
+        "value": "Africa/Casablanca"
+      },
+      {
+        "id": "Canada/Eastern",
+        "value": "Canada/Eastern"
+      },
+      {
+        "id": "Asia/Qatar",
+        "value": "Asia/Qatar"
+      },
+      {
+        "id": "Europe/Kiev",
+        "value": "Europe/Kiev"
+      },
+      {
+        "id": "Singapore",
+        "value": "Singapore"
+      },
+      {
+        "id": "SystemV/PST8",
+        "value": "SystemV/PST8"
+      },
+      {
+        "id": "Asia/Magadan",
+        "value": "Asia/Magadan"
+      },
+      {
+        "id": "America/Port-au-Prince",
+        "value": "America/Port-au-Prince"
+      },
+      {
+        "id": "Europe/Belfast",
+        "value": "Europe/Belfast"
+      },
+      {
+        "id": "America/St_Barthelemy",
+        "value": "America/St_Barthelemy"
+      },
+      {
+        "id": "Asia/Ashgabat",
+        "value": "Asia/Ashgabat"
+      },
+      {
+        "id": "America/Nipigon",
+        "value": "America/Nipigon"
+      },
+      {
+        "id": "Africa/Luanda",
+        "value": "Africa/Luanda"
+      },
+      {
+        "id": "Atlantic/Jan_Mayen",
+        "value": "Atlantic/Jan_Mayen"
+      },
+      {
+        "id": "Brazil/Acre",
+        "value": "Brazil/Acre"
+      },
+      {
+        "id": "Asia/Muscat",
+        "value": "Asia/Muscat"
+      },
+      {
+        "id": "Asia/Bahrain",
+        "value": "Asia/Bahrain"
+      },
+      {
+        "id": "Europe/Vilnius",
+        "value": "Europe/Vilnius"
+      },
+      {
+        "id": "America/Fortaleza",
+        "value": "America/Fortaleza"
+      },
+      {
+        "id": "Etc/GMT0",
+        "value": "Etc/GMT0"
+      },
+      {
+        "id": "US/East-Indiana",
+        "value": "US/East-Indiana"
+      },
+      {
+        "id": "America/Hermosillo",
+        "value": "America/Hermosillo"
+      },
+      {
+        "id": "America/Cancun",
+        "value": "America/Cancun"
+      },
+      {
+        "id": "Africa/Maseru",
+        "value": "Africa/Maseru"
+      },
+      {
+        "id": "Pacific/Kosrae",
+        "value": "Pacific/Kosrae"
+      },
+      {
+        "id": "Asia/Seoul",
+        "value": "Asia/Seoul"
+      },
+      {
+        "id": "Africa/Kinshasa",
+        "value": "Africa/Kinshasa"
+      },
+      {
+        "id": "Asia/Kathmandu",
+        "value": "Asia/Kathmandu"
+      },
+      {
+        "id": "Australia/Sydney",
+        "value": "Australia/Sydney"
+      },
+      {
+        "id": "America/Lima",
+        "value": "America/Lima"
+      },
+      {
+        "id": "Australia/LHI",
+        "value": "Australia/LHI"
+      },
+      {
+        "id": "Europe/Madrid",
+        "value": "Europe/Madrid"
+      },
+      {
+        "id": "America/St_Lucia",
+        "value": "America/St_Lucia"
+      },
+      {
+        "id": "America/Bahia_Banderas",
+        "value": "America/Bahia_Banderas"
+      },
+      {
+        "id": "Asia/Brunei",
+        "value": "Asia/Brunei"
+      },
+      {
+        "id": "America/Montserrat",
+        "value": "America/Montserrat"
+      },
+      {
+        "id": "America/Santa_Isabel",
+        "value": "America/Santa_Isabel"
+      },
+      {
+        "id": "Canada/Mountain",
+        "value": "Canada/Mountain"
+      },
+      {
+        "id": "America/Cambridge_Bay",
+        "value": "America/Cambridge_Bay"
+      },
+      {
+        "id": "Australia/West",
+        "value": "Australia/West"
+      },
+      {
+        "id": "Asia/Colombo",
+        "value": "Asia/Colombo"
+      },
+      {
+        "id": "Indian/Antananarivo",
+        "value": "Indian/Antananarivo"
+      },
+      {
+        "id": "Australia/Brisbane",
+        "value": "Australia/Brisbane"
+      },
+      {
+        "id": "US/Indiana-Starke",
+        "value": "US/Indiana-Starke"
+      },
+      {
+        "id": "Indian/Mayotte",
+        "value": "Indian/Mayotte"
+      },
+      {
+        "id": "Asia/Urumqi",
+        "value": "Asia/Urumqi"
+      },
+      {
+        "id": "US/Aleutian",
+        "value": "US/Aleutian"
+      },
+      {
+        "id": "Europe/Volgograd",
+        "value": "Europe/Volgograd"
+      },
+      {
+        "id": "America/Vancouver",
+        "value": "America/Vancouver"
+      },
+      {
+        "id": "America/Lower_Princes",
+        "value": "America/Lower_Princes"
+      },
+      {
+        "id": "America/Rio_Branco",
+        "value": "America/Rio_Branco"
+      },
+      {
+        "id": "Africa/Blantyre",
+        "value": "Africa/Blantyre"
+      },
+      {
+        "id": "America/Danmarkshavn",
+        "value": "America/Danmarkshavn"
+      },
+      {
+        "id": "America/Detroit",
+        "value": "America/Detroit"
+      },
+      {
+        "id": "America/Thule",
+        "value": "America/Thule"
+      },
+      {
+        "id": "Africa/Lusaka",
+        "value": "Africa/Lusaka"
+      },
+      {
+        "id": "Asia/Hong_Kong",
+        "value": "Asia/Hong_Kong"
+      },
+      {
+        "id": "Iran",
+        "value": "Iran"
+      },
+      {
+        "id": "America/Argentina/La_Rioja",
+        "value": "America/Argentina/La_Rioja"
+      },
+      {
+        "id": "SystemV/CST6CDT",
+        "value": "SystemV/CST6CDT"
+      },
+      {
+        "id": "Africa/Dakar",
+        "value": "Africa/Dakar"
+      },
+      {
+        "id": "America/Tortola",
+        "value": "America/Tortola"
+      },
+      {
+        "id": "Asia/Sakhalin",
+        "value": "Asia/Sakhalin"
+      },
+      {
+        "id": "America/Porto_Velho",
+        "value": "America/Porto_Velho"
+      },
+      {
+        "id": "Etc/GMT+10",
+        "value": "Etc/GMT+10"
+      },
+      {
+        "id": "America/Scoresbysund",
+        "value": "America/Scoresbysund"
+      },
+      {
+        "id": "Asia/Kamchatka",
+        "value": "Asia/Kamchatka"
+      },
+      {
+        "id": "Asia/Thimbu",
+        "value": "Asia/Thimbu"
+      },
+      {
+        "id": "Etc/GMT+12",
+        "value": "Etc/GMT+12"
+      },
+      {
+        "id": "Africa/Harare",
+        "value": "Africa/Harare"
+      },
+      {
+        "id": "Navajo",
+        "value": "Navajo"
+      },
+      {
+        "id": "Etc/GMT+11",
+        "value": "Etc/GMT+11"
+      },
+      {
+        "id": "America/Nome",
+        "value": "America/Nome"
+      },
+      {
+        "id": "NST",
+        "value": "NST"
+      },
+      {
+        "id": "Europe/Tallinn",
+        "value": "Europe/Tallinn"
+      },
+      {
+        "id": "Turkey",
+        "value": "Turkey"
+      },
+      {
+        "id": "Africa/Khartoum",
+        "value": "Africa/Khartoum"
+      },
+      {
+        "id": "Africa/Johannesburg",
+        "value": "Africa/Johannesburg"
+      },
+      {
+        "id": "EAT",
+        "value": "EAT"
+      },
+      {
+        "id": "Africa/Bangui",
+        "value": "Africa/Bangui"
+      },
+      {
+        "id": "Jamaica",
+        "value": "Jamaica"
+      },
+      {
+        "id": "Europe/Belgrade",
+        "value": "Europe/Belgrade"
+      },
+      {
+        "id": "Africa/Bissau",
+        "value": "Africa/Bissau"
+      },
+      {
+        "id": "Asia/Tehran",
+        "value": "Asia/Tehran"
+      },
+      {
+        "id": "WET",
+        "value": "WET"
+      },
+      {
+        "id": "Europe/Astrakhan",
+        "value": "Europe/Astrakhan"
+      },
+      {
+        "id": "America/Campo_Grande",
+        "value": "America/Campo_Grande"
+      },
+      {
+        "id": "Africa/Juba",
+        "value": "Africa/Juba"
+      },
+      {
+        "id": "America/Belem",
+        "value": "America/Belem"
+      },
+      {
+        "id": "Etc/Greenwich",
+        "value": "Etc/Greenwich"
+      },
+      {
+        "id": "Asia/Saigon",
+        "value": "Asia/Saigon"
+      },
+      {
+        "id": "America/Ensenada",
+        "value": "America/Ensenada"
+      },
+      {
+        "id": "Pacific/Midway",
+        "value": "Pacific/Midway"
+      },
+      {
+        "id": "America/Jujuy",
+        "value": "America/Jujuy"
+      },
+      {
+        "id": "Africa/Timbuktu",
+        "value": "Africa/Timbuktu"
+      },
+      {
+        "id": "America/Goose_Bay",
+        "value": "America/Goose_Bay"
+      },
+      {
+        "id": "America/Bahia",
+        "value": "America/Bahia"
+      },
+      {
+        "id": "America/Virgin",
+        "value": "America/Virgin"
+      },
+      {
+        "id": "America/Pangnirtung",
+        "value": "America/Pangnirtung"
+      },
+      {
+        "id": "Asia/Katmandu",
+        "value": "Asia/Katmandu"
+      },
+      {
+        "id": "MST",
+        "value": "MST"
+      },
+      {
+        "id": "America/Phoenix",
+        "value": "America/Phoenix"
+      },
+      {
+        "id": "Africa/Niamey",
+        "value": "Africa/Niamey"
+      },
+      {
+        "id": "America/Whitehorse",
+        "value": "America/Whitehorse"
+      },
+      {
+        "id": "Pacific/Noumea",
+        "value": "Pacific/Noumea"
+      },
+      {
+        "id": "Asia/Tbilisi",
+        "value": "Asia/Tbilisi"
+      },
+      {
+        "id": "ECT",
+        "value": "ECT"
+      },
+      {
+        "id": "America/Montreal",
+        "value": "America/Montreal"
+      },
+      {
+        "id": "Asia/Makassar",
+        "value": "Asia/Makassar"
+      },
+      {
+        "id": "America/Argentina/San_Juan",
+        "value": "America/Argentina/San_Juan"
+      },
+      {
+        "id": "Hongkong",
+        "value": "Hongkong"
+      },
+      {
+        "id": "UCT",
+        "value": "UCT"
+      },
+      {
+        "id": "Asia/Nicosia",
+        "value": "Asia/Nicosia"
+      },
+      {
+        "id": "America/Indiana/Winamac",
+        "value": "America/Indiana/Winamac"
+      },
+      {
+        "id": "SystemV/MST7MDT",
+        "value": "SystemV/MST7MDT"
+      },
+      {
+        "id": "America/Argentina/ComodRivadavia",
+        "value": "America/Argentina/ComodRivadavia"
+      },
+      {
+        "id": "America/Boa_Vista",
+        "value": "America/Boa_Vista"
+      },
+      {
+        "id": "Australia/Darwin",
+        "value": "Australia/Darwin"
+      },
+      {
+        "id": "Asia/Atyrau",
+        "value": "Asia/Atyrau"
+      },
+      {
+        "id": "America/Grenada",
+        "value": "America/Grenada"
+      },
+      {
+        "id": "Asia/Kuala_Lumpur",
+        "value": "Asia/Kuala_Lumpur"
+      },
+      {
+        "id": "Asia/Khandyga",
+        "value": "Asia/Khandyga"
+      },
+      {
+        "id": "Asia/Thimphu",
+        "value": "Asia/Thimphu"
+      },
+      {
+        "id": "Asia/Famagusta",
+        "value": "Asia/Famagusta"
+      },
+      {
+        "id": "Asia/Rangoon",
+        "value": "Asia/Rangoon"
+      },
+      {
+        "id": "Europe/Bratislava",
+        "value": "Europe/Bratislava"
+      },
+      {
+        "id": "Asia/Calcutta",
+        "value": "Asia/Calcutta"
+      },
+      {
+        "id": "Asia/Kabul",
+        "value": "Asia/Kabul"
+      },
+      {
+        "id": "America/Argentina/Tucuman",
+        "value": "America/Argentina/Tucuman"
+      },
+      {
+        "id": "Indian/Cocos",
+        "value": "Indian/Cocos"
+      },
+      {
+        "id": "Japan",
+        "value": "Japan"
+      },
+      {
+        "id": "Pacific/Tongatapu",
+        "value": "Pacific/Tongatapu"
+      },
+      {
+        "id": "Etc/GMT-12",
+        "value": "Etc/GMT-12"
+      },
+      {
+        "id": "America/New_York",
+        "value": "America/New_York"
+      },
+      {
+        "id": "Etc/GMT-11",
+        "value": "Etc/GMT-11"
+      },
+      {
+        "id": "Etc/GMT-10",
+        "value": "Etc/GMT-10"
+      },
+      {
+        "id": "America/Nuuk",
+        "value": "America/Nuuk"
+      },
+      {
+        "id": "SystemV/YST9YDT",
+        "value": "SystemV/YST9YDT"
+      },
+      {
+        "id": "Europe/Ulyanovsk",
+        "value": "Europe/Ulyanovsk"
+      },
+      {
+        "id": "Etc/GMT-14",
+        "value": "Etc/GMT-14"
+      },
+      {
+        "id": "Etc/GMT-13",
+        "value": "Etc/GMT-13"
+      },
+      {
+        "id": "W-SU",
+        "value": "W-SU"
+      },
+      {
+        "id": "America/Merida",
+        "value": "America/Merida"
+      },
+      {
+        "id": "EET",
+        "value": "EET"
+      },
+      {
+        "id": "CAT",
+        "value": "CAT"
+      },
+      {
+        "id": "Canada/Saskatchewan",
+        "value": "Canada/Saskatchewan"
+      },
+      {
+        "id": "America/Rosario",
+        "value": "America/Rosario"
+      },
+      {
+        "id": "America/St_Kitts",
+        "value": "America/St_Kitts"
+      },
+      {
+        "id": "Arctic/Longyearbyen",
+        "value": "Arctic/Longyearbyen"
+      },
+      {
+        "id": "America/Fort_Nelson",
+        "value": "America/Fort_Nelson"
+      },
+      {
+        "id": "America/Caracas",
+        "value": "America/Caracas"
+      },
+      {
+        "id": "America/Guadeloupe",
+        "value": "America/Guadeloupe"
+      },
+      {
+        "id": "Asia/Hebron",
+        "value": "Asia/Hebron"
+      },
+      {
+        "id": "Indian/Kerguelen",
+        "value": "Indian/Kerguelen"
+      },
+      {
+        "id": "SystemV/PST8PDT",
+        "value": "SystemV/PST8PDT"
+      },
+      {
+        "id": "Egypt",
+        "value": "Egypt"
+      },
+      {
+        "id": "Asia/Ust-Nera",
+        "value": "Asia/Ust-Nera"
+      },
+      {
+        "id": "Africa/Monrovia",
+        "value": "Africa/Monrovia"
+      },
+      {
+        "id": "Asia/Srednekolymsk",
+        "value": "Asia/Srednekolymsk"
+      },
+      {
+        "id": "America/North_Dakota/New_Salem",
+        "value": "America/North_Dakota/New_Salem"
+      },
+      {
+        "id": "Asia/Anadyr",
+        "value": "Asia/Anadyr"
+      },
+      {
+        "id": "Australia/Melbourne",
+        "value": "Australia/Melbourne"
+      },
+      {
+        "id": "Asia/Irkutsk",
+        "value": "Asia/Irkutsk"
+      },
+      {
+        "id": "America/Shiprock",
+        "value": "America/Shiprock"
+      },
+      {
+        "id": "America/Winnipeg",
+        "value": "America/Winnipeg"
+      },
+      {
+        "id": "Europe/Vatican",
+        "value": "Europe/Vatican"
+      },
+      {
+        "id": "Asia/Amman",
+        "value": "Asia/Amman"
+      },
+      {
+        "id": "Etc/UTC",
+        "value": "Etc/UTC"
+      },
+      {
+        "id": "SystemV/AST4ADT",
+        "value": "SystemV/AST4ADT"
+      },
+      {
+        "id": "Asia/Tokyo",
+        "value": "Asia/Tokyo"
+      },
+      {
+        "id": "America/Toronto",
+        "value": "America/Toronto"
+      },
+      {
+        "id": "Asia/Singapore",
+        "value": "Asia/Singapore"
+      },
+      {
+        "id": "Australia/Lindeman",
+        "value": "Australia/Lindeman"
+      },
+      {
+        "id": "America/Los_Angeles",
+        "value": "America/Los_Angeles"
+      },
+      {
+        "id": "SystemV/EST5EDT",
+        "value": "SystemV/EST5EDT"
+      },
+      {
+        "id": "Pacific/Majuro",
+        "value": "Pacific/Majuro"
+      },
+      {
+        "id": "America/Argentina/Buenos_Aires",
+        "value": "America/Argentina/Buenos_Aires"
+      },
+      {
+        "id": "Europe/Nicosia",
+        "value": "Europe/Nicosia"
+      },
+      {
+        "id": "Pacific/Guadalcanal",
+        "value": "Pacific/Guadalcanal"
+      },
+      {
+        "id": "Europe/Athens",
+        "value": "Europe/Athens"
+      },
+      {
+        "id": "US/Pacific",
+        "value": "US/Pacific"
+      },
+      {
+        "id": "Europe/Monaco",
+        "value": "Europe/Monaco"
+      }
+    ],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['TimeZone']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Title^false^NUMBER",
+    "internalName": "user.Title",
+    "name": "Title",
+    "displayName": null,
+    "text": "Title",
+    "type": "number",
+    "archived": false,
+    "enumerated": true,
+    "standard": true,
+    "values": [
+      {
+        "id": "1",
+        "value": "Mr"
+      },
+      {
+        "id": "2",
+        "value": "Mrs"
+      },
+      {
+        "id": "-1",
+        "value": "Unset"
+      }
+    ],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['Title']}",
+    "dateOnly": false
+  },
+  {
+    "id": "DateOfBirth^false^DATE",
+    "internalName": "user.DateOfBirth",
+    "name": "DateOfBirth",
+    "displayName": null,
+    "text": "Date of Birth",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['DateOfBirth']}",
+    "dateOnly": true
+  },
+  {
+    "id": "PartnerId^false^NUMBER",
+    "internalName": "user.PartnerId",
+    "name": "PartnerId",
+    "displayName": null,
+    "text": "Source ID",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['PartnerId']}",
+    "dateOnly": true
+  },
+  {
+    "id": "Identifier^false^STRING",
+    "internalName": "user.Identifier",
+    "name": "Identifier",
+    "displayName": null,
+    "text": "Identifier",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['Identifier']}",
+    "dateOnly": true
+  },
+  {
+    "id": "Photo^false^STRING",
+    "internalName": "user.Photo",
+    "name": "Photo",
+    "displayName": null,
+    "text": "Photo",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": true,
+    "values": [],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['Photo']}",
+    "dateOnly": true
+  },
+  {
+    "id": "Gender^false^NUMBER",
+    "internalName": "user.Gender",
+    "name": "Gender",
+    "displayName": null,
+    "text": "Gender",
+    "type": "number",
+    "archived": false,
+    "enumerated": true,
+    "standard": true,
+    "values": [
+      {
+        "id": "0",
+        "value": "Unset"
+      },
+      {
+        "id": "1",
+        "value": "Male"
+      },
+      {
+        "id": "2",
+        "value": "Female"
+      },
+      {
+        "id": "3",
+        "value": "Undisclosed"
+      }
+    ],
+    "creationDate": 0,
+    "creator": null,
+    "function": "${user['Gender']}",
+    "dateOnly": true
+  },
+  {
+    "id": "customattribute2^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute2",
+    "name": "customattribute2",
+    "displayName": null,
+    "text": "customattribute2",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1307",
+        "value": "two"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute2']}",
+    "dateOnly": false
+  },
+  {
+    "id": "birthDate^true^STRING",
+    "internalName": "user.CustomAttribute.birthDate",
+    "name": "birthDate",
+    "displayName": "birthDate",
+    "text": "birthDate",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471431000,
+    "creator": null,
+    "function": "${user.CustomAttribute['birthDate']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Education^true^STRING",
+    "internalName": "user.CustomAttribute.Education",
+    "name": "Education",
+    "displayName": null,
+    "text": "Education",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1068",
+        "value": "Secondary"
+      },
+      {
+        "id": "1069",
+        "value": "Bachelor's"
+      },
+      {
+        "id": "1070",
+        "value": "Some College"
+      },
+      {
+        "id": "1071",
+        "value": "Primary"
+      },
+      {
+        "id": "1072",
+        "value": "Master's"
+      },
+      {
+        "id": "1073",
+        "value": "Δoctorate"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['Education']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Occupation^true^STRING",
+    "internalName": "user.CustomAttribute.Occupation",
+    "name": "Occupation",
+    "displayName": null,
+    "text": "Occupation",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1074",
+        "value": "Engineering"
+      },
+      {
+        "id": "1075",
+        "value": "Administration"
+      },
+      {
+        "id": "1076",
+        "value": "Customer Support"
+      },
+      {
+        "id": "1077",
+        "value": "Sales"
+      },
+      {
+        "id": "1078",
+        "value": "Accounting"
+      },
+      {
+        "id": "1079",
+        "value": "Homemaking"
+      },
+      {
+        "id": "1080",
+        "value": "Development"
+      },
+      {
+        "id": "1081",
+        "value": "Management"
+      },
+      {
+        "id": "1082",
+        "value": "Student"
+      },
+      {
+        "id": "1083",
+        "value": "Human Resources"
+      },
+      {
+        "id": "1084",
+        "value": "Marketing"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['Occupation']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute1^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute1",
+    "name": "customattribute1",
+    "displayName": null,
+    "text": "customattribute1",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1308",
+        "value": "one"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute1']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressCountryCode^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressCountryCode",
+    "name": "billingAddressCountryCode",
+    "displayName": "billingAddressCountryCode",
+    "text": "billingAddressCountryCode",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800880000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressCountryCode']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressCity^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressCity",
+    "name": "shippingAddressCity",
+    "displayName": "shippingAddressCity",
+    "text": "shippingAddressCity",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800982000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressCity']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute8^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute8",
+    "name": "customattribute8",
+    "displayName": null,
+    "text": "customattribute8",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1309",
+        "value": "eight"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute8']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute7^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute7",
+    "name": "customattribute7",
+    "displayName": null,
+    "text": "customattribute7",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1310",
+        "value": "seven"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute7']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute9^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute9",
+    "name": "customattribute9",
+    "displayName": null,
+    "text": "customattribute9",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1311",
+        "value": "nine"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute9']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute4^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute4",
+    "name": "customattribute4",
+    "displayName": null,
+    "text": "customattribute4",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1312",
+        "value": "four"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute4']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Corel_Country^true^STRING",
+    "internalName": "user.CustomAttribute.Corel_Country",
+    "name": "Corel_Country",
+    "displayName": null,
+    "text": "Corel_Country",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1335",
+        "value": "RS"
+      },
+      {
+        "id": "1349",
+        "value": "Tanzania"
+      },
+      {
+        "id": "1340",
+        "value": "MX"
+      },
+      {
+        "id": "1343",
+        "value": "GR"
+      },
+      {
+        "id": "1338",
+        "value": "FR"
+      },
+      {
+        "id": "1339",
+        "value": "RUS"
+      },
+      {
+        "id": "1334",
+        "value": "AU"
+      },
+      {
+        "id": "1341",
+        "value": "GER"
+      },
+      {
+        "id": "1348",
+        "value": "Zimbabwe"
+      },
+      {
+        "id": "1337",
+        "value": "GB"
+      },
+      {
+        "id": "1332",
+        "value": "PL"
+      },
+      {
+        "id": "1333",
+        "value": "US"
+      },
+      {
+        "id": "1336",
+        "value": "AUS"
+      }
+    ],
+    "creationDate": 1662646180000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['Corel_Country']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute3^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute3",
+    "name": "customattribute3",
+    "displayName": null,
+    "text": "customattribute3",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1314",
+        "value": "three"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute3']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute6^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute6",
+    "name": "customattribute6",
+    "displayName": null,
+    "text": "customattribute6",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1315",
+        "value": "six"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute6']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressFirstName^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressFirstName",
+    "name": "billingAddressFirstName",
+    "displayName": "billingAddressFirstName",
+    "text": "billingAddressFirstName",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800682000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressFirstName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute5^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute5",
+    "name": "customattribute5",
+    "displayName": null,
+    "text": "customattribute5",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1316",
+        "value": "five"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute5']}",
+    "dateOnly": false
+  },
+  {
+    "id": "firstn_encrip^true^STRING",
+    "internalName": "user.CustomAttribute.firstn_encrip",
+    "name": "firstn_encrip",
+    "displayName": null,
+    "text": "firstn_encrip",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1645453720000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['firstn_encrip']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dt_last_access_appmailox^true^DATE",
+    "internalName": "user.CustomAttribute.dt_last_access_appmailox",
+    "name": "dt_last_access_appmailox",
+    "displayName": null,
+    "text": "dt_last_access_appmailox",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1662376063000,
+    "creator": "Stanojevic, Ana",
+    "function": "${user.CustomAttribute['dt_last_access_appmailox']}",
+    "dateOnly": false
+  },
+  {
+    "id": "CRM_Layer_Segment^true^STRING",
+    "internalName": "user.CustomAttribute.CRM_Layer_Segment",
+    "name": "CRM_Layer_Segment",
+    "displayName": null,
+    "text": "CRM_Layer_Segment",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1328",
+        "value": "A"
+      },
+      {
+        "id": "1329",
+        "value": "B"
+      },
+      {
+        "id": "1354",
+        "value": "EMAIL + CEL"
+      },
+      {
+        "id": "1330",
+        "value": "C"
+      }
+    ],
+    "creationDate": 1656420493000,
+    "creator": null,
+    "function": "${user.CustomAttribute['CRM_Layer_Segment']}",
+    "dateOnly": false
+  },
+  {
+    "id": "email extension^true^STRING",
+    "internalName": "user.CustomAttribute.email extension",
+    "name": "email extension",
+    "displayName": null,
+    "text": "email extension",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1642488047000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['email extension']}",
+    "dateOnly": false
+  },
+  {
+    "id": "regis_prsnaid^true^STRING",
+    "internalName": "user.CustomAttribute.regis_prsnaid",
+    "name": "regis_prsnaid",
+    "displayName": null,
+    "text": "regis_prsnaid",
+    "type": "string",
+    "archived": true,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1585150820000,
+    "creator": null,
+    "function": "${user.CustomAttribute['regis_prsnaid']}",
+    "dateOnly": false
+  },
+  {
+    "id": "balance^true^STRING",
+    "internalName": "user.CustomAttribute.balance",
+    "name": "balance",
+    "displayName": null,
+    "text": "balance",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['balance']}",
+    "dateOnly": false
+  },
+  {
+    "id": "LastPurchase^true^DATE",
+    "internalName": "user.CustomAttribute.LastPurchase",
+    "name": "LastPurchase",
+    "displayName": null,
+    "text": "LastPurchase",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1647850836000,
+    "creator": "Gurak-Brzozowski, Arturo",
+    "function": "${user.CustomAttribute['LastPurchase']}",
+    "dateOnly": false
+  },
+  {
+    "id": "custom_test_string^true^STRING",
+    "internalName": "user.CustomAttribute.custom_test_string",
+    "name": "custom_test_string",
+    "displayName": null,
+    "text": "custom_test_string",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1245",
+        "value": "value11111"
+      },
+      {
+        "id": "1246",
+        "value": "value12222"
+      },
+      {
+        "id": "1247",
+        "value": "value2"
+      },
+      {
+        "id": "1248",
+        "value": "value13333"
+      },
+      {
+        "id": "1249",
+        "value": "value14444"
+      },
+      {
+        "id": "1250",
+        "value": "value1"
+      },
+      {
+        "id": "1251",
+        "value": "value16666"
+      },
+      {
+        "id": "1252",
+        "value": "value17777"
+      },
+      {
+        "id": "1253",
+        "value": "value19999"
+      },
+      {
+        "id": "1254",
+        "value": "value100"
+      },
+      {
+        "id": "1255",
+        "value": "value122"
+      },
+      {
+        "id": "1256",
+        "value": "value144"
+      },
+      {
+        "id": "1257",
+        "value": "value166"
+      },
+      {
+        "id": "1258",
+        "value": "value188"
+      },
+      {
+        "id": "1259",
+        "value": "value19"
+      },
+      {
+        "id": "1260",
+        "value": "value18"
+      },
+      {
+        "id": "1261",
+        "value": "value15"
+      },
+      {
+        "id": "1262",
+        "value": "value14"
+      },
+      {
+        "id": "1263",
+        "value": "value1123"
+      },
+      {
+        "id": "1264",
+        "value": "value17"
+      },
+      {
+        "id": "1265",
+        "value": "value16"
+      },
+      {
+        "id": "1266",
+        "value": "value13"
+      },
+      {
+        "id": "1267",
+        "value": "value123123"
+      },
+      {
+        "id": "1268",
+        "value": "value188888"
+      },
+      {
+        "id": "1269",
+        "value": "value111"
+      },
+      {
+        "id": "1270",
+        "value": "value133"
+      },
+      {
+        "id": "1271",
+        "value": "value155"
+      },
+      {
+        "id": "1272",
+        "value": "value177"
+      },
+      {
+        "id": "1273",
+        "value": "value199"
+      },
+      {
+        "id": "1274",
+        "value": "value1555"
+      }
+    ],
+    "creationDate": 1638451195000,
+    "creator": null,
+    "function": "${user.CustomAttribute['custom_test_string']}",
+    "dateOnly": false
+  },
+  {
+    "id": "weather^true^STRING",
+    "internalName": "user.CustomAttribute.weather",
+    "name": "weather",
+    "displayName": null,
+    "text": "weather",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1200",
+        "value": "'test08mapp0810'"
+      },
+      {
+        "id": "1199",
+        "value": "cold"
+      }
+    ],
+    "creationDate": 1633680970000,
+    "creator": null,
+    "function": "${user.CustomAttribute['weather']}",
+    "dateOnly": false
+  },
+  {
+    "id": "rank^true^STRING",
+    "internalName": "user.CustomAttribute.rank",
+    "name": "rank",
+    "displayName": null,
+    "text": "rank",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "696",
+        "value": "normal"
+      },
+      {
+        "id": "697",
+        "value": "high"
+      },
+      {
+        "id": "698",
+        "value": "low"
+      },
+      {
+        "id": "699",
+        "value": "very high"
+      },
+      {
+        "id": "700",
+        "value": "very low"
+      }
+    ],
+    "creationDate": 1552404388000,
+    "creator": null,
+    "function": "${user.CustomAttribute['rank']}",
+    "dateOnly": false
+  },
+  {
+    "id": "action^true^STRING",
+    "internalName": "user.CustomAttribute.action",
+    "name": "action",
+    "displayName": null,
+    "text": "action",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1614249183000,
+    "creator": "Szczepanek, Piotr",
+    "function": "${user.CustomAttribute['action']}",
+    "dateOnly": false
+  },
+  {
+    "id": "id^true^STRING",
+    "internalName": "user.CustomAttribute.id",
+    "name": "id",
+    "displayName": null,
+    "text": "id",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1677843009000,
+    "creator": null,
+    "function": "${user.CustomAttribute['id']}",
+    "dateOnly": false
+  },
+  {
+    "id": "SKU^true^STRING",
+    "internalName": "user.CustomAttribute.SKU",
+    "name": "SKU",
+    "displayName": null,
+    "text": "SKU",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['SKU']}",
+    "dateOnly": false
+  },
+  {
+    "id": "pet^true^STRING",
+    "internalName": "user.CustomAttribute.pet",
+    "name": "pet",
+    "displayName": null,
+    "text": "pet",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1600509140000,
+    "creator": null,
+    "function": "${user.CustomAttribute['pet']}",
+    "dateOnly": false
+  },
+  {
+    "id": "custom-test^true^STRING",
+    "internalName": "user.CustomAttribute.custom-test",
+    "name": "custom-test",
+    "displayName": null,
+    "text": "custom-test",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1201",
+        "value": "customvalue1"
+      },
+      {
+        "id": "1202",
+        "value": "customvalue2"
+      }
+    ],
+    "creationDate": 1636368036000,
+    "creator": null,
+    "function": "${user.CustomAttribute['custom-test']}",
+    "dateOnly": false
+  },
+  {
+    "id": "s_e_ie^true^STRING",
+    "internalName": "user.CustomAttribute.s_e_ie",
+    "name": "s_e_ie",
+    "displayName": null,
+    "text": "s_e_ie",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [],
+    "creationDate": 1641387982000,
+    "creator": "test, qa",
+    "function": "${user.CustomAttribute['s_e_ie']}",
+    "dateOnly": false
+  },
+  {
+    "id": "UEEP272^true^STRING",
+    "internalName": "user.CustomAttribute.UEEP272",
+    "name": "UEEP272",
+    "displayName": "UEEP272",
+    "text": "UEEP272",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1637567601000,
+    "creator": "Wasik, Aleksandra",
+    "function": "${user.CustomAttribute['UEEP272']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dateOnlyAttribute^true^DATE",
+    "internalName": "user.CustomAttribute.dateOnlyAttribute",
+    "name": "dateOnlyAttribute",
+    "displayName": null,
+    "text": "dateOnlyAttribute",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1649169758000,
+    "creator": null,
+    "function": "${user.CustomAttribute['dateOnlyAttribute']}",
+    "dateOnly": true
+  },
+  {
+    "id": "testenumerated^true^STRING",
+    "internalName": "user.CustomAttribute.testenumerated",
+    "name": "testenumerated",
+    "displayName": null,
+    "text": "testenumerated",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [],
+    "creationDate": 1636374023000,
+    "creator": null,
+    "function": "${user.CustomAttribute['testenumerated']}",
+    "dateOnly": false
+  },
+  {
+    "id": "test_last_login_redis^true^STRING",
+    "internalName": "user.CustomAttribute.test_last_login_redis",
+    "name": "test_last_login_redis",
+    "displayName": null,
+    "text": "test_last_login_redis",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1352",
+        "value": "1661994000000"
+      },
+      {
+        "id": "1353",
+        "value": "1674146724000"
+      }
+    ],
+    "creationDate": 1674560549000,
+    "creator": null,
+    "function": "${user.CustomAttribute['test_last_login_redis']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customDateOnly^true^DATE",
+    "internalName": "user.CustomAttribute.customDateOnly",
+    "name": "customDateOnly",
+    "displayName": null,
+    "text": "customDateOnly",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1650877192000,
+    "creator": "aaa, Jacenty",
+    "function": "${user.CustomAttribute['customDateOnly']}",
+    "dateOnly": true
+  },
+  {
+    "id": "Atribute Date^true^DATE",
+    "internalName": "user.CustomAttribute.Atribute Date",
+    "name": "Atribute Date",
+    "displayName": "Date",
+    "text": "Date",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1657791513000,
+    "creator": null,
+    "function": "${user.CustomAttribute['Atribute Date']}",
+    "dateOnly": false
+  },
+  {
+    "id": "housenumber^true^STRING",
+    "internalName": "user.CustomAttribute.housenumber",
+    "name": "housenumber",
+    "displayName": "housenumber",
+    "text": "housenumber",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1611675047000,
+    "creator": null,
+    "function": "${user.CustomAttribute['housenumber']}",
+    "dateOnly": false
+  },
+  {
+    "id": "phone^true^STRING",
+    "internalName": "user.CustomAttribute.phone",
+    "name": "phone",
+    "displayName": null,
+    "text": "phone",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "816",
+        "value": "Mobile"
+      }
+    ],
+    "creationDate": 1550153927000,
+    "creator": null,
+    "function": "${user.CustomAttribute['phone']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ampsurvey_comment^true^STRING",
+    "internalName": "user.CustomAttribute.ampsurvey_comment",
+    "name": "ampsurvey_comment",
+    "displayName": null,
+    "text": "ampsurvey_comment",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1580907347000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['ampsurvey_comment']}",
+    "dateOnly": false
+  },
+  {
+    "id": "affid^true^STRING",
+    "internalName": "user.CustomAttribute.affid",
+    "name": "affid",
+    "displayName": null,
+    "text": "affid",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "677",
+        "value": "27"
+      }
+    ],
+    "creationDate": 1550159463000,
+    "creator": null,
+    "function": "${user.CustomAttribute['affid']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressCountry^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressCountry",
+    "name": "billingAddressCountry",
+    "displayName": "billingAddressCountry",
+    "text": "billingAddressCountry",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800818000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressCountry']}",
+    "dateOnly": false
+  },
+  {
+    "id": "marketingprogramnumber^true^STRING",
+    "internalName": "user.CustomAttribute.marketingprogramnumber",
+    "name": "marketingprogramnumber",
+    "displayName": null,
+    "text": "marketingprogramnumber",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1633520664000,
+    "creator": null,
+    "function": "${user.CustomAttribute['marketingprogramnumber']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dt_last_access_newapp2021^true^DATE",
+    "internalName": "user.CustomAttribute.dt_last_access_newapp2021",
+    "name": "dt_last_access_newapp2021",
+    "displayName": null,
+    "text": "dt_last_access_newapp2021",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1662452889000,
+    "creator": "Stanojevic, Ana",
+    "function": "${user.CustomAttribute['dt_last_access_newapp2021']}",
+    "dateOnly": false
+  },
+  {
+    "id": "email_MD5^true^STRING",
+    "internalName": "user.CustomAttribute.email_MD5",
+    "name": "email_MD5",
+    "displayName": null,
+    "text": "email_MD5",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1626334890000,
+    "creator": null,
+    "function": "${user.CustomAttribute['email_MD5']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Male^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.Male",
+    "name": "Male",
+    "displayName": "Male",
+    "text": "Male",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666862164000,
+    "creator": "Gurak-Brzozowski, Arturo",
+    "function": "${user.CustomAttribute['Male']}",
+    "dateOnly": false
+  },
+  {
+    "id": "CompanySize^true^STRING",
+    "internalName": "user.CustomAttribute.CompanySize",
+    "name": "CompanySize",
+    "displayName": null,
+    "text": "CompanySize",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1121",
+        "value": "51-250"
+      },
+      {
+        "id": "1122",
+        "value": "1001-10000"
+      },
+      {
+        "id": "1123",
+        "value": "1-5"
+      },
+      {
+        "id": "1124",
+        "value": "> 10000"
+      },
+      {
+        "id": "1125",
+        "value": "6-20"
+      },
+      {
+        "id": "1126",
+        "value": "251-1000"
+      },
+      {
+        "id": "1127",
+        "value": "21-50"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['CompanySize']}",
+    "dateOnly": false
+  },
+  {
+    "id": "poscustno^true^STRING",
+    "internalName": "user.CustomAttribute.poscustno",
+    "name": "poscustno",
+    "displayName": null,
+    "text": "poscustno",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "819",
+        "value": "poscustni"
+      }
+    ],
+    "creationDate": 1550153927000,
+    "creator": null,
+    "function": "${user.CustomAttribute['poscustno']}",
+    "dateOnly": false
+  },
+  {
+    "id": "d_e_ie^true^DATE",
+    "internalName": "user.CustomAttribute.d_e_ie",
+    "name": "d_e_ie",
+    "displayName": null,
+    "text": "d_e_ie",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1641388208000,
+    "creator": "test, qa",
+    "function": "${user.CustomAttribute['d_e_ie']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Hobby^true^STRING",
+    "internalName": "user.CustomAttribute.Hobby",
+    "name": "Hobby",
+    "displayName": "hobby",
+    "text": "hobby",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1627472971000,
+    "creator": "Vacic, Jelena",
+    "function": "${user.CustomAttribute['Hobby']}",
+    "dateOnly": false
+  },
+  {
+    "id": "gender^true^STRING",
+    "internalName": "user.CustomAttribute.gender",
+    "name": "gender",
+    "displayName": null,
+    "text": "gender",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1600263886000,
+    "creator": null,
+    "function": "${user.CustomAttribute['gender']}",
+    "dateOnly": false
+  },
+  {
+    "id": "City^true^STRING",
+    "internalName": "user.CustomAttribute.City",
+    "name": "City",
+    "displayName": null,
+    "text": "City",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1611565501000,
+    "creator": null,
+    "function": "${user.CustomAttribute['City']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressCity^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressCity",
+    "name": "billingAddressCity",
+    "displayName": "billingAddressCity",
+    "text": "billingAddressCity",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800779000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressCity']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Optin^true^STRING",
+    "internalName": "user.CustomAttribute.Optin",
+    "name": "Optin",
+    "displayName": null,
+    "text": "Optin",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1628676851000,
+    "creator": null,
+    "function": "${user.CustomAttribute['Optin']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dt_last_access_myapp^true^DATE",
+    "internalName": "user.CustomAttribute.dt_last_access_myapp",
+    "name": "dt_last_access_myapp",
+    "displayName": null,
+    "text": "dt_last_access_myapp",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1662452815000,
+    "creator": "Stanojevic, Ana",
+    "function": "${user.CustomAttribute['dt_last_access_myapp']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Industry^true^STRING",
+    "internalName": "user.CustomAttribute.Industry",
+    "name": "Industry",
+    "displayName": null,
+    "text": "Industry",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1085",
+        "value": "Government"
+      },
+      {
+        "id": "1086",
+        "value": "Transportation"
+      },
+      {
+        "id": "1087",
+        "value": "Legal"
+      },
+      {
+        "id": "1088",
+        "value": "Religion"
+      },
+      {
+        "id": "1089",
+        "value": "Financial"
+      },
+      {
+        "id": "1090",
+        "value": "Media"
+      },
+      {
+        "id": "1091",
+        "value": "Anthropology"
+      },
+      {
+        "id": "1092",
+        "value": "Biology"
+      },
+      {
+        "id": "1093",
+        "value": "Telecommunications"
+      },
+      {
+        "id": "1094",
+        "value": "Pharmaceutical"
+      },
+      {
+        "id": "1095",
+        "value": "Automotive"
+      },
+      {
+        "id": "1096",
+        "value": "Tourism"
+      },
+      {
+        "id": "1097",
+        "value": "Medicine"
+      },
+      {
+        "id": "1098",
+        "value": "Retail"
+      },
+      {
+        "id": "1099",
+        "value": "Chemical"
+      },
+      {
+        "id": "1100",
+        "value": "Energy"
+      },
+      {
+        "id": "1101",
+        "value": "Education"
+      },
+      {
+        "id": "1102",
+        "value": "Consulting"
+      },
+      {
+        "id": "1103",
+        "value": "Agriculture"
+      },
+      {
+        "id": "1104",
+        "value": "Internet"
+      },
+      {
+        "id": "1105",
+        "value": "Military"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['Industry']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Route-ID^true^STRING",
+    "internalName": "user.CustomAttribute.Route-ID",
+    "name": "Route-ID",
+    "displayName": null,
+    "text": "Route-ID",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1326",
+        "value": "RYNRwdS1MwIIUbRFBw6h"
+      },
+      {
+        "id": "1327",
+        "value": "5w7vyKZzTWTcVWOzbAhb"
+      }
+    ],
+    "creationDate": 1656363336000,
+    "creator": null,
+    "function": "${user.CustomAttribute['Route-ID']}",
+    "dateOnly": false
+  },
+  {
+    "id": "last_email_campaign_all_MP^true^STRING",
+    "internalName": "user.CustomAttribute.last_email_campaign_all_MP",
+    "name": "last_email_campaign_all_MP",
+    "displayName": null,
+    "text": "last_email_campaign_all_MP",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "926",
+        "value": "2020-08-05"
+      },
+      {
+        "id": "927",
+        "value": "2020-08-04"
+      },
+      {
+        "id": "928",
+        "value": "2020-08-09"
+      },
+      {
+        "id": "929",
+        "value": "2020-06-29"
+      },
+      {
+        "id": "930",
+        "value": "2020-09-11"
+      },
+      {
+        "id": "931",
+        "value": "2020-06-30"
+      },
+      {
+        "id": "932",
+        "value": "2020-08-02"
+      }
+    ],
+    "creationDate": 1600503610000,
+    "creator": null,
+    "function": "${user.CustomAttribute['last_email_campaign_all_MP']}",
+    "dateOnly": false
+  },
+  {
+    "id": "foreign^true^STRING",
+    "internalName": "user.CustomAttribute.foreign",
+    "name": "foreign",
+    "displayName": null,
+    "text": "foreign",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1106",
+        "value": "true"
+      },
+      {
+        "id": "1107",
+        "value": "false"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['foreign']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressCountry^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressCountry",
+    "name": "shippingAddressCountry",
+    "displayName": "shippingAddressCountry",
+    "text": "shippingAddressCountry",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800997000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressCountry']}",
+    "dateOnly": false
+  },
+  {
+    "id": "addressPhone^true^NUMBER",
+    "internalName": "user.CustomAttribute.addressPhone",
+    "name": "addressPhone",
+    "displayName": "addressPhone",
+    "text": "addressPhone",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666341397000,
+    "creator": null,
+    "function": "${user.CustomAttribute['addressPhone']}",
+    "dateOnly": false
+  },
+  {
+    "id": "GEN^true^STRING",
+    "internalName": "user.CustomAttribute.GEN",
+    "name": "GEN",
+    "displayName": null,
+    "text": "GEN",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1172",
+        "value": "N/A"
+      },
+      {
+        "id": "1177",
+        "value": "I’d prefer not to say"
+      },
+      {
+        "id": "1176",
+        "value": "I\"d prefer not to say"
+      },
+      {
+        "id": "1174",
+        "value": "I'd prefer not to say"
+      },
+      {
+        "id": "1175",
+        "value": "ćńóśź äöü"
+      },
+      {
+        "id": "1179",
+        "value": "ἡ ἀπόστροφος"
+      },
+      {
+        "id": "1173",
+        "value": "Other"
+      },
+      {
+        "id": "1178",
+        "value": "'I’d prefer not to say\""
+      }
+    ],
+    "creationDate": 1623144709000,
+    "creator": null,
+    "function": "${user.CustomAttribute['GEN']}",
+    "dateOnly": false
+  },
+  {
+    "id": "b_e_ie^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.b_e_ie",
+    "name": "b_e_ie",
+    "displayName": null,
+    "text": "b_e_ie",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1641388041000,
+    "creator": "test, qa",
+    "function": "${user.CustomAttribute['b_e_ie']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Favorite city^true^STRING",
+    "internalName": "user.CustomAttribute.Favorite city",
+    "name": "Favorite city",
+    "displayName": null,
+    "text": "Favorite city",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1604416004000,
+    "creator": null,
+    "function": "${user.CustomAttribute['Favorite city']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressCountryCode^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressCountryCode",
+    "name": "shippingAddressCountryCode",
+    "displayName": "shippingAddressCountryCode",
+    "text": "shippingAddressCountryCode",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666801038000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressCountryCode']}",
+    "dateOnly": false
+  },
+  {
+    "id": "itemsTotal^true^NUMBER",
+    "internalName": "user.CustomAttribute.itemsTotal",
+    "name": "itemsTotal",
+    "displayName": "itemsTotal",
+    "text": "itemsTotal",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800630000,
+    "creator": null,
+    "function": "${user.CustomAttribute['itemsTotal']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ueep-398^true^STRING",
+    "internalName": "user.CustomAttribute.ueep-398",
+    "name": "ueep-398",
+    "displayName": "ueep-398",
+    "text": "ueep-398",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1643216686000,
+    "creator": "aaa, Oliver",
+    "function": "${user.CustomAttribute['ueep-398']}",
+    "dateOnly": false
+  },
+  {
+    "id": "lastOpened^true^DATE",
+    "internalName": "user.CustomAttribute.lastOpened",
+    "name": "lastOpened",
+    "displayName": null,
+    "text": "lastOpened",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1633620065000,
+    "creator": null,
+    "function": "${user.CustomAttribute['lastOpened']}",
+    "dateOnly": false
+  },
+  {
+    "id": "currency^true^STRING",
+    "internalName": "user.CustomAttribute.currency",
+    "name": "currency",
+    "displayName": "currency",
+    "text": "currency",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666341479000,
+    "creator": null,
+    "function": "${user.CustomAttribute['currency']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customDate^true^DATE",
+    "internalName": "user.CustomAttribute.customDate",
+    "name": "customDate",
+    "displayName": null,
+    "text": "customDate",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1650877335000,
+    "creator": "aaa, Jacenty",
+    "function": "${user.CustomAttribute['customDate']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressFirstName^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressFirstName",
+    "name": "shippingAddressFirstName",
+    "displayName": "shippingAddressFirstName",
+    "text": "shippingAddressFirstName",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800907000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressFirstName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "sourceId^true^STRING",
+    "internalName": "user.CustomAttribute.sourceId",
+    "name": "sourceId",
+    "displayName": null,
+    "text": "sourceId",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1608226116000,
+    "creator": null,
+    "function": "${user.CustomAttribute['sourceId']}",
+    "dateOnly": false
+  },
+  {
+    "id": "number_custom^true^NUMBER",
+    "internalName": "user.CustomAttribute.number_custom",
+    "name": "number_custom",
+    "displayName": null,
+    "text": "number_custom",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1602061343000,
+    "creator": null,
+    "function": "${user.CustomAttribute['number_custom']}",
+    "dateOnly": false
+  },
+  {
+    "id": "segmentUserId^true^STRING",
+    "internalName": "user.CustomAttribute.segmentUserId",
+    "name": "segmentUserId",
+    "displayName": null,
+    "text": "segmentUserId",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1600268237000,
+    "creator": null,
+    "function": "${user.CustomAttribute['segmentUserId']}",
+    "dateOnly": false
+  },
+  {
+    "id": "importDate^true^STRING",
+    "internalName": "user.CustomAttribute.importDate",
+    "name": "importDate",
+    "displayName": null,
+    "text": "importDate",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1305",
+        "value": "2022-05-01T00:00:00.000+06:00"
+      },
+      {
+        "id": "1306",
+        "value": "2022-05-01T00:00:00.000"
+      }
+    ],
+    "creationDate": 1652340343000,
+    "creator": null,
+    "function": "${user.CustomAttribute['importDate']}",
+    "dateOnly": false
+  },
+  {
+    "id": "TotalPurchases^true^STRING",
+    "internalName": "user.CustomAttribute.TotalPurchases",
+    "name": "TotalPurchases",
+    "displayName": null,
+    "text": "TotalPurchases",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1304",
+        "value": "944.76"
+      }
+    ],
+    "creationDate": 1647850836000,
+    "creator": "Gurak-Brzozowski, Arturo",
+    "function": "${user.CustomAttribute['TotalPurchases']}",
+    "dateOnly": false
+  },
+  {
+    "id": "delete_identifier^true^STRING",
+    "internalName": "user.CustomAttribute.delete_identifier",
+    "name": "delete_identifier",
+    "displayName": null,
+    "text": "delete_identifier",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1679311808000,
+    "creator": null,
+    "function": "${user.CustomAttribute['delete_identifier']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressZip^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressZip",
+    "name": "billingAddressZip",
+    "displayName": "billingAddressZip",
+    "text": "billingAddressZip",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800850000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressZip']}",
+    "dateOnly": false
+  },
+  {
+    "id": "wunderbaumcolor^true^STRING",
+    "internalName": "user.CustomAttribute.wunderbaumcolor",
+    "name": "wunderbaumcolor",
+    "displayName": null,
+    "text": "wunderbaumcolor",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1654838406000,
+    "creator": "Szczepanek, Piotr",
+    "function": "${user.CustomAttribute['wunderbaumcolor']}",
+    "dateOnly": false
+  },
+  {
+    "id": "attr-test^true^STRING",
+    "internalName": "user.CustomAttribute.attr-test",
+    "name": "attr-test",
+    "displayName": null,
+    "text": "attr-test",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1636374670000,
+    "creator": null,
+    "function": "${user.CustomAttribute['attr-test']}",
+    "dateOnly": false
+  },
+  {
+    "id": "orderStatusLink^true^STRING",
+    "internalName": "user.CustomAttribute.orderStatusLink",
+    "name": "orderStatusLink",
+    "displayName": null,
+    "text": "orderStatusLink",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800189000,
+    "creator": null,
+    "function": "${user.CustomAttribute['orderStatusLink']}",
+    "dateOnly": false
+  },
+  {
+    "id": "mct403^true^STRING",
+    "internalName": "user.CustomAttribute.mct403",
+    "name": "mct403",
+    "displayName": "mct403",
+    "text": "mct403",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1632145029000,
+    "creator": "aaa, Oliver",
+    "function": "${user.CustomAttribute['mct403']}",
+    "dateOnly": false
+  },
+  {
+    "id": "coprorateName^true^STRING",
+    "internalName": "user.CustomAttribute.coprorateName",
+    "name": "coprorateName",
+    "displayName": "corporateName",
+    "text": "corporateName",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471385000,
+    "creator": null,
+    "function": "${user.CustomAttribute['coprorateName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "HouseholdSize^true^NUMBER",
+    "internalName": "user.CustomAttribute.HouseholdSize",
+    "name": "HouseholdSize",
+    "displayName": null,
+    "text": "HouseholdSize",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1647850836000,
+    "creator": "Gurak-Brzozowski, Arturo",
+    "function": "${user.CustomAttribute['HouseholdSize']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Hobbies^true^STRING",
+    "internalName": "user.CustomAttribute.Hobbies",
+    "name": "Hobbies",
+    "displayName": null,
+    "text": "Hobbies",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1647850836000,
+    "creator": "Gurak-Brzozowski, Arturo",
+    "function": "${user.CustomAttribute['Hobbies']}",
+    "dateOnly": false
+  },
+  {
+    "id": "n_e_ie^true^NUMBER",
+    "internalName": "user.CustomAttribute.n_e_ie",
+    "name": "n_e_ie",
+    "displayName": null,
+    "text": "n_e_ie",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1641388153000,
+    "creator": "test, qa",
+    "function": "${user.CustomAttribute['n_e_ie']}",
+    "dateOnly": false
+  },
+  {
+    "id": "'-confirm`1`-'[whomai]^true^STRING",
+    "internalName": "user.CustomAttribute.'-confirm`1`-'[whomai]",
+    "name": "'-confirm`1`-'[whomai]",
+    "displayName": "'-confirm`1`-'[whomai]",
+    "text": "'-confirm`1`-'[whomai]",
+    "type": "string",
+    "archived": true,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1629357458000,
+    "creator": null,
+    "function": "${user.CustomAttribute['\\'-confirm`1`-\\'[whomai]']}",
+    "dateOnly": false
+  },
+  {
+    "id": "country^true^STRING",
+    "internalName": "user.CustomAttribute.country",
+    "name": "country",
+    "displayName": null,
+    "text": "country",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1291",
+        "value": "ireland"
+      }
+    ],
+    "creationDate": 1643227734000,
+    "creator": null,
+    "function": "${user.CustomAttribute['country']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressAddressTwo^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressAddressTwo",
+    "name": "shippingAddressAddressTwo",
+    "displayName": "shippingAddressAddressTwo",
+    "text": "shippingAddressAddressTwo",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800964000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressAddressTwo']}",
+    "dateOnly": false
+  },
+  {
+    "id": "alternateEmail^true^STRING",
+    "internalName": "user.CustomAttribute.alternateEmail",
+    "name": "alternateEmail",
+    "displayName": "alternateEmail",
+    "text": "alternateEmail",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1609240020000,
+    "creator": null,
+    "function": "${user.CustomAttribute['alternateEmail']}",
+    "dateOnly": false
+  },
+  {
+    "id": "consumerId^true^STRING",
+    "internalName": "user.CustomAttribute.consumerId",
+    "name": "consumerId",
+    "displayName": null,
+    "text": "consumerId",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1608226089000,
+    "creator": null,
+    "function": "${user.CustomAttribute['consumerId']}",
+    "dateOnly": false
+  },
+  {
+    "id": "magicShortsQuantityTmp^true^STRING",
+    "internalName": "user.CustomAttribute.magicShortsQuantityTmp",
+    "name": "magicShortsQuantityTmp",
+    "displayName": null,
+    "text": "magicShortsQuantityTmp",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1640183406000,
+    "creator": null,
+    "function": "${user.CustomAttribute['magicShortsQuantityTmp']}",
+    "dateOnly": false
+  },
+  {
+    "id": "orderTotal^true^NUMBER",
+    "internalName": "user.CustomAttribute.orderTotal",
+    "name": "orderTotal",
+    "displayName": null,
+    "text": "orderTotal",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800281000,
+    "creator": null,
+    "function": "${user.CustomAttribute['orderTotal']}",
+    "dateOnly": false
+  },
+  {
+    "id": "realdate^true^DATE",
+    "internalName": "user.CustomAttribute.realdate",
+    "name": "realdate",
+    "displayName": null,
+    "text": "realdate",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1552404388000,
+    "creator": null,
+    "function": "${user.CustomAttribute['realdate']}",
+    "dateOnly": false
+  },
+  {
+    "id": "magicShortsSize^true^STRING",
+    "internalName": "user.CustomAttribute.magicShortsSize",
+    "name": "magicShortsSize",
+    "displayName": null,
+    "text": "magicShortsSize",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1640183430000,
+    "creator": null,
+    "function": "${user.CustomAttribute['magicShortsSize']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dt_last_access_client^true^DATE",
+    "internalName": "user.CustomAttribute.dt_last_access_client",
+    "name": "dt_last_access_client",
+    "displayName": null,
+    "text": "dt_last_access_client",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1662452733000,
+    "creator": "Stanojevic, Ana",
+    "function": "${user.CustomAttribute['dt_last_access_client']}",
+    "dateOnly": false
+  },
+  {
+    "id": "em_encrip^true^STRING",
+    "internalName": "user.CustomAttribute.em_encrip",
+    "name": "em_encrip",
+    "displayName": null,
+    "text": "em_encrip",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1645453627000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['em_encrip']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ordersCount^true^NUMBER",
+    "internalName": "user.CustomAttribute.ordersCount",
+    "name": "ordersCount",
+    "displayName": "ordersCount",
+    "text": "ordersCount",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666341531000,
+    "creator": null,
+    "function": "${user.CustomAttribute['ordersCount']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dateTime^true^DATE",
+    "internalName": "user.CustomAttribute.dateTime",
+    "name": "dateTime",
+    "displayName": null,
+    "text": "dateTime",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1647596830000,
+    "creator": null,
+    "function": "${user.CustomAttribute['dateTime']}",
+    "dateOnly": false
+  },
+  {
+    "id": "offlineConsumerId^true^STRING",
+    "internalName": "user.CustomAttribute.offlineConsumerId",
+    "name": "offlineConsumerId",
+    "displayName": null,
+    "text": "offlineConsumerId",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1608226054000,
+    "creator": null,
+    "function": "${user.CustomAttribute['offlineConsumerId']}",
+    "dateOnly": false
+  },
+  {
+    "id": "imdb^true^STRING",
+    "internalName": "user.CustomAttribute.imdb",
+    "name": "imdb",
+    "displayName": null,
+    "text": "imdb",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1582202910000,
+    "creator": null,
+    "function": "${user.CustomAttribute['imdb']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressLastName^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressLastName",
+    "name": "billingAddressLastName",
+    "displayName": "billingAddressLastName",
+    "text": "billingAddressLastName",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800691000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressLastName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "doubleOptIn^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.doubleOptIn",
+    "name": "doubleOptIn",
+    "displayName": "doubleOptIn",
+    "text": "doubleOptIn",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666341660000,
+    "creator": null,
+    "function": "${user.CustomAttribute['doubleOptIn']}",
+    "dateOnly": false
+  },
+  {
+    "id": "PersonsInHouse^true^STRING",
+    "internalName": "user.CustomAttribute.PersonsInHouse",
+    "name": "PersonsInHouse",
+    "displayName": null,
+    "text": "PersonsInHouse",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1115",
+        "value": "1"
+      },
+      {
+        "id": "1116",
+        "value": "2"
+      },
+      {
+        "id": "1117",
+        "value": "3"
+      },
+      {
+        "id": "1118",
+        "value": "> 5"
+      },
+      {
+        "id": "1119",
+        "value": "4"
+      },
+      {
+        "id": "1120",
+        "value": "5"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['PersonsInHouse']}",
+    "dateOnly": false
+  },
+  {
+    "id": "tlf_encrip^true^STRING",
+    "internalName": "user.CustomAttribute.tlf_encrip",
+    "name": "tlf_encrip",
+    "displayName": null,
+    "text": "tlf_encrip",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1645453680000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['tlf_encrip']}",
+    "dateOnly": false
+  },
+  {
+    "id": "birthDateMonth^true^STRING",
+    "internalName": "user.CustomAttribute.birthDateMonth",
+    "name": "birthDateMonth",
+    "displayName": "birthDateMonth",
+    "text": "birthDateMonth",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471461000,
+    "creator": null,
+    "function": "${user.CustomAttribute['birthDateMonth']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressAddressTwo^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressAddressTwo",
+    "name": "billingAddressAddressTwo",
+    "displayName": "billingAddressAddressTwo",
+    "text": "billingAddressAddressTwo",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800767000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressAddressTwo']}",
+    "dateOnly": false
+  },
+  {
+    "id": "discountTotal^true^NUMBER",
+    "internalName": "user.CustomAttribute.discountTotal",
+    "name": "discountTotal",
+    "displayName": "discountTotal",
+    "text": "discountTotal",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800422000,
+    "creator": null,
+    "function": "${user.CustomAttribute['discountTotal']}",
+    "dateOnly": false
+  },
+  {
+    "id": "LinkedAttr^true^STRING",
+    "internalName": "user.CustomAttribute.LinkedAttr",
+    "name": "LinkedAttr",
+    "displayName": "LinkedAttr",
+    "text": "LinkedAttr",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1671528487000,
+    "creator": null,
+    "function": "${user.CustomAttribute['LinkedAttr']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Female^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.Female",
+    "name": "Female",
+    "displayName": "Female",
+    "text": "Female",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666862317000,
+    "creator": "Gurak-Brzozowski, Arturo",
+    "function": "${user.CustomAttribute['Female']}",
+    "dateOnly": false
+  },
+  {
+    "id": "different^true^STRING",
+    "internalName": "user.CustomAttribute.different",
+    "name": "different",
+    "displayName": "customName",
+    "text": "customName",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1660634581000,
+    "creator": null,
+    "function": "${user.CustomAttribute['different']}",
+    "dateOnly": false
+  },
+  {
+    "id": "CustomNumberDJ^true^NUMBER",
+    "internalName": "user.CustomAttribute.CustomNumberDJ",
+    "name": "CustomNumberDJ",
+    "displayName": "CustomNumberDJ",
+    "text": "CustomNumberDJ",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1621495247000,
+    "creator": null,
+    "function": "${user.CustomAttribute['CustomNumberDJ']}",
+    "dateOnly": false
+  },
+  {
+    "id": "isCorporate^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.isCorporate",
+    "name": "isCorporate",
+    "displayName": "isCorporate",
+    "text": "isCorporate",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471180000,
+    "creator": null,
+    "function": "${user.CustomAttribute['isCorporate']}",
+    "dateOnly": false
+  },
+  {
+    "id": "TEST^true^STRING",
+    "internalName": "user.CustomAttribute.TEST",
+    "name": "TEST",
+    "displayName": null,
+    "text": "TEST",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1631780421000,
+    "creator": null,
+    "function": "${user.CustomAttribute['TEST']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressAddressOne^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressAddressOne",
+    "name": "shippingAddressAddressOne",
+    "displayName": "shippingAddressAddressOne",
+    "text": "shippingAddressAddressOne",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800948000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressAddressOne']}",
+    "dateOnly": false
+  },
+  {
+    "id": "creditCardCompany^true^STRING",
+    "internalName": "user.CustomAttribute.creditCardCompany",
+    "name": "creditCardCompany",
+    "displayName": "creditCardCompany",
+    "text": "creditCardCompany",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666801072000,
+    "creator": null,
+    "function": "${user.CustomAttribute['creditCardCompany']}",
+    "dateOnly": false
+  },
+  {
+    "id": "hobbynew^true^STRING",
+    "internalName": "user.CustomAttribute.hobbynew",
+    "name": "hobbynew",
+    "displayName": null,
+    "text": "hobbynew",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1238",
+        "value": "basketball"
+      },
+      {
+        "id": "1239",
+        "value": "handball"
+      },
+      {
+        "id": "1240",
+        "value": "football"
+      }
+    ],
+    "creationDate": 1637841501000,
+    "creator": "Zivic, Slobodan",
+    "function": "${user.CustomAttribute['hobbynew']}",
+    "dateOnly": false
+  },
+  {
+    "id": "FavoriteColor^true^STRING",
+    "internalName": "user.CustomAttribute.FavoriteColor",
+    "name": "FavoriteColor",
+    "displayName": "Favorite Color",
+    "text": "Favorite Color",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1627472773000,
+    "creator": "Stanojevic, Ana",
+    "function": "${user.CustomAttribute['FavoriteColor']}",
+    "dateOnly": false
+  },
+  {
+    "id": "CustomBoolen^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.CustomBoolen",
+    "name": "CustomBoolen",
+    "displayName": "CustomBoolen",
+    "text": "CustomBoolen",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1628497541000,
+    "creator": null,
+    "function": "${user.CustomAttribute['CustomBoolen']}",
+    "dateOnly": false
+  },
+  {
+    "id": "test_custom3845^true^STRING",
+    "internalName": "user.CustomAttribute.test_custom3845",
+    "name": "test_custom3845",
+    "displayName": null,
+    "text": "test_custom3845",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1317",
+        "value": "custom_test1"
+      },
+      {
+        "id": "1318",
+        "value": "custom_test3"
+      },
+      {
+        "id": "1319",
+        "value": "custom_test2"
+      },
+      {
+        "id": "1320",
+        "value": "custom_test4"
+      }
+    ],
+    "creationDate": 1654682673000,
+    "creator": null,
+    "function": "${user.CustomAttribute['test_custom3845']}",
+    "dateOnly": false
+  },
+  {
+    "id": "custom_test^true^STRING",
+    "internalName": "user.CustomAttribute.custom_test",
+    "name": "custom_test",
+    "displayName": null,
+    "text": "custom_test",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1321",
+        "value": "custom3"
+      },
+      {
+        "id": "1322",
+        "value": "custom4"
+      },
+      {
+        "id": "1323",
+        "value": "custom1"
+      },
+      {
+        "id": "1324",
+        "value": "custom2"
+      },
+      {
+        "id": "1325",
+        "value": "custom5"
+      }
+    ],
+    "creationDate": 1655121567000,
+    "creator": null,
+    "function": "${user.CustomAttribute['custom_test']}",
+    "dateOnly": false
+  },
+  {
+    "id": "string_attr^true^STRING",
+    "internalName": "user.CustomAttribute.string_attr",
+    "name": "string_attr",
+    "displayName": "string_attr",
+    "text": "string_attr",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1055",
+        "value": "valu1"
+      },
+      {
+        "id": "1056",
+        "value": "value2"
+      }
+    ],
+    "creationDate": 1613634865000,
+    "creator": null,
+    "function": "${user.CustomAttribute['string_attr']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressZip^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressZip",
+    "name": "shippingAddressZip",
+    "displayName": "shippingAddressZip",
+    "text": "shippingAddressZip",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666801025000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressZip']}",
+    "dateOnly": false
+  },
+  {
+    "id": "sport_activity^true^STRING",
+    "internalName": "user.CustomAttribute.sport_activity",
+    "name": "sport_activity",
+    "displayName": null,
+    "text": "sport_activity",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1235",
+        "value": "basketball"
+      },
+      {
+        "id": "1236",
+        "value": "handball"
+      },
+      {
+        "id": "1237",
+        "value": "football"
+      }
+    ],
+    "creationDate": 1637840380000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['sport_activity']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dt_last_access_webmail^true^DATE",
+    "internalName": "user.CustomAttribute.dt_last_access_webmail",
+    "name": "dt_last_access_webmail",
+    "displayName": null,
+    "text": "dt_last_access_webmail",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1662452953000,
+    "creator": "Stanojevic, Ana",
+    "function": "${user.CustomAttribute['dt_last_access_webmail']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ampsurvey_rating^true^STRING",
+    "internalName": "user.CustomAttribute.ampsurvey_rating",
+    "name": "ampsurvey_rating",
+    "displayName": null,
+    "text": "ampsurvey_rating",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1603185986000,
+    "creator": null,
+    "function": "${user.CustomAttribute['ampsurvey_rating']}",
+    "dateOnly": false
+  },
+  {
+    "id": "region^true^STRING",
+    "internalName": "user.CustomAttribute.region",
+    "name": "region",
+    "displayName": null,
+    "text": "region",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1620636492000,
+    "creator": null,
+    "function": "${user.CustomAttribute['region']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dateOnly^true^DATE",
+    "internalName": "user.CustomAttribute.dateOnly",
+    "name": "dateOnly",
+    "displayName": null,
+    "text": "dateOnly",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1647596795000,
+    "creator": null,
+    "function": "${user.CustomAttribute['dateOnly']}",
+    "dateOnly": true
+  },
+  {
+    "id": "custom-test1^true^STRING",
+    "internalName": "user.CustomAttribute.custom-test1",
+    "name": "custom-test1",
+    "displayName": null,
+    "text": "custom-test1",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1203",
+        "value": "milanvalue"
+      }
+    ],
+    "creationDate": 1636373070000,
+    "creator": null,
+    "function": "${user.CustomAttribute['custom-test1']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Income^true^STRING",
+    "internalName": "user.CustomAttribute.Income",
+    "name": "Income",
+    "displayName": null,
+    "text": "Income",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1061",
+        "value": "50.000€-70.000€"
+      },
+      {
+        "id": "1062",
+        "value": "&lt; 20.000€"
+      },
+      {
+        "id": "1063",
+        "value": "70.000€-100.000€"
+      },
+      {
+        "id": "1064",
+        "value": "30.000€-40.000€"
+      },
+      {
+        "id": "1065",
+        "value": "> 100.000€"
+      },
+      {
+        "id": "1066",
+        "value": "40.000€-50.000€"
+      },
+      {
+        "id": "1067",
+        "value": "20.000€-30.000€"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['Income']}",
+    "dateOnly": false
+  },
+  {
+    "id": "homePhone^true^STRING",
+    "internalName": "user.CustomAttribute.homePhone",
+    "name": "homePhone",
+    "displayName": "homePhone",
+    "text": "homePhone",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471071000,
+    "creator": null,
+    "function": "${user.CustomAttribute['homePhone']}",
+    "dateOnly": false
+  },
+  {
+    "id": "color^true^STRING",
+    "internalName": "user.CustomAttribute.color",
+    "name": "color",
+    "displayName": null,
+    "text": "color",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1626724046000,
+    "creator": null,
+    "function": "${user.CustomAttribute['color']}",
+    "dateOnly": false
+  },
+  {
+    "id": "CustomStringDj^true^STRING",
+    "internalName": "user.CustomAttribute.CustomStringDj",
+    "name": "CustomStringDj",
+    "displayName": "CustomStringDj",
+    "text": "CustomStringDj",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1204",
+        "value": "newAttr2810_v2"
+      },
+      {
+        "id": "1205",
+        "value": "test1"
+      },
+      {
+        "id": "1206",
+        "value": "test17051506"
+      },
+      {
+        "id": "1207",
+        "value": "testcustom"
+      },
+      {
+        "id": "1208",
+        "value": "newAtre"
+      },
+      {
+        "id": "1209",
+        "value": "testQA"
+      },
+      {
+        "id": "1210",
+        "value": "memberattrv1"
+      },
+      {
+        "id": "1211",
+        "value": "customvalue1"
+      },
+      {
+        "id": "1212",
+        "value": "noChange_MemberAttr"
+      },
+      {
+        "id": "1213",
+        "value": "customvalue2"
+      },
+      {
+        "id": "1214",
+        "value": "Walu zmienia klimat"
+      },
+      {
+        "id": "1215",
+        "value": "OlaTest"
+      },
+      {
+        "id": "1216",
+        "value": "limitationselev2"
+      },
+      {
+        "id": "1217",
+        "value": "newAtrev4"
+      },
+      {
+        "id": "1218",
+        "value": "newAtrev5"
+      },
+      {
+        "id": "1219",
+        "value": "test"
+      },
+      {
+        "id": "1220",
+        "value": "newAtrev3"
+      },
+      {
+        "id": "1221",
+        "value": "djtest"
+      },
+      {
+        "id": "1222",
+        "value": "Here Must be new atr"
+      },
+      {
+        "id": "1223",
+        "value": "TrYtYtKa_2"
+      },
+      {
+        "id": "1224",
+        "value": ":)"
+      },
+      {
+        "id": "1225",
+        "value": "next version"
+      },
+      {
+        "id": "1226",
+        "value": "o lol"
+      },
+      {
+        "id": "1227",
+        "value": "Damian"
+      },
+      {
+        "id": "1228",
+        "value": "Jolka"
+      },
+      {
+        "id": "1229",
+        "value": "DJTest"
+      },
+      {
+        "id": "1230",
+        "value": "it's good!!!"
+      }
+    ],
+    "creationDate": 1615292007000,
+    "creator": null,
+    "function": "${user.CustomAttribute['CustomStringDj']}",
+    "dateOnly": false
+  },
+  {
+    "id": "origin^true^STRING",
+    "internalName": "user.CustomAttribute.origin",
+    "name": "origin",
+    "displayName": null,
+    "text": "origin",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "815",
+        "value": "Origin"
+      }
+    ],
+    "creationDate": 1550153927000,
+    "creator": null,
+    "function": "${user.CustomAttribute['origin']}",
+    "dateOnly": false
+  },
+  {
+    "id": "dt_last_login_redis^true^DATE",
+    "internalName": "user.CustomAttribute.dt_last_login_redis",
+    "name": "dt_last_login_redis",
+    "displayName": null,
+    "text": "dt_last_login_redis",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1655193209000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['dt_last_login_redis']}",
+    "dateOnly": false
+  },
+  {
+    "id": "IsRealNewsletterSubscriber^true^STRING",
+    "internalName": "user.CustomAttribute.IsRealNewsletterSubscriber",
+    "name": "IsRealNewsletterSubscriber",
+    "displayName": null,
+    "text": "IsRealNewsletterSubscriber",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1057",
+        "value": "false"
+      },
+      {
+        "id": "1058",
+        "value": "true"
+      }
+    ],
+    "creationDate": 1614249183000,
+    "creator": "Szczepanek, Piotr",
+    "function": "${user.CustomAttribute['IsRealNewsletterSubscriber']}",
+    "dateOnly": false
+  },
+  {
+    "id": "locale^true^STRING",
+    "internalName": "user.CustomAttribute.locale",
+    "name": "locale",
+    "displayName": "locale",
+    "text": "locale",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800133000,
+    "creator": null,
+    "function": "${user.CustomAttribute['locale']}",
+    "dateOnly": false
+  },
+  {
+    "id": "customattribute10^true^STRING",
+    "internalName": "user.CustomAttribute.customattribute10",
+    "name": "customattribute10",
+    "displayName": null,
+    "text": "customattribute10",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1313",
+        "value": "ten"
+      }
+    ],
+    "creationDate": 1652346118000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['customattribute10']}",
+    "dateOnly": false
+  },
+  {
+    "id": "testCustom^true^STRING",
+    "internalName": "user.CustomAttribute.testCustom",
+    "name": "testCustom",
+    "displayName": null,
+    "text": "testCustom",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1283",
+        "value": "Helloo"
+      },
+      {
+        "id": "1275",
+        "value": "test"
+      },
+      {
+        "id": "1281",
+        "value": "Marlboro123"
+      },
+      {
+        "id": "1276",
+        "value": "custom"
+      },
+      {
+        "id": "1277",
+        "value": "test_update"
+      },
+      {
+        "id": "1285",
+        "value": "Hello_update"
+      },
+      {
+        "id": "1351",
+        "value": "erwerwerw"
+      },
+      {
+        "id": "1350",
+        "value": "testesttest"
+      },
+      {
+        "id": "1278",
+        "value": "custom_update"
+      },
+      {
+        "id": "1280",
+        "value": "Marlboro1"
+      },
+      {
+        "id": "1282",
+        "value": "Cigarette"
+      },
+      {
+        "id": "1284",
+        "value": "Hello"
+      },
+      {
+        "id": "1286",
+        "value": "ö"
+      },
+      {
+        "id": "1279",
+        "value": "marlboro"
+      }
+    ],
+    "creationDate": 1638866035000,
+    "creator": null,
+    "function": "${user.CustomAttribute['testCustom']}",
+    "dateOnly": false
+  },
+  {
+    "id": "nbrtesttaki^true^NUMBER",
+    "internalName": "user.CustomAttribute.nbrtesttaki",
+    "name": "nbrtesttaki",
+    "displayName": null,
+    "text": "nbrtesttaki",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1650951321000,
+    "creator": "Szczepanek, Piotr",
+    "function": "${user.CustomAttribute['nbrtesttaki']}",
+    "dateOnly": false
+  },
+  {
+    "id": "DawAttribute1^true^STRING",
+    "internalName": "user.CustomAttribute.DawAttribute1",
+    "name": "DawAttribute1",
+    "displayName": "DawAttribute1",
+    "text": "DawAttribute1",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1635159355000,
+    "creator": "Besaraba, Dawid",
+    "function": "${user.CustomAttribute['DawAttribute1']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Street^true^STRING",
+    "internalName": "user.CustomAttribute.Street",
+    "name": "Street",
+    "displayName": null,
+    "text": "Street",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1611581226000,
+    "creator": null,
+    "function": "${user.CustomAttribute['Street']}",
+    "dateOnly": false
+  },
+  {
+    "id": "businessPhone^true^STRING",
+    "internalName": "user.CustomAttribute.businessPhone",
+    "name": "businessPhone",
+    "displayName": "businessPhone",
+    "text": "businessPhone",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674470895000,
+    "creator": null,
+    "function": "${user.CustomAttribute['businessPhone']}",
+    "dateOnly": false
+  },
+  {
+    "id": "taxTotal^true^NUMBER",
+    "internalName": "user.CustomAttribute.taxTotal",
+    "name": "taxTotal",
+    "displayName": "taxTotal",
+    "text": "taxTotal",
+    "type": "number",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1355",
+        "value": "1"
+      },
+      {
+        "id": "1356",
+        "value": "2"
+      }
+    ],
+    "creationDate": 1666800501000,
+    "creator": null,
+    "function": "${user.CustomAttribute['taxTotal']}",
+    "dateOnly": false
+  },
+  {
+    "id": "magicShortsColor^true^STRING",
+    "internalName": "user.CustomAttribute.magicShortsColor",
+    "name": "magicShortsColor",
+    "displayName": null,
+    "text": "magicShortsColor",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1640183365000,
+    "creator": null,
+    "function": "${user.CustomAttribute['magicShortsColor']}",
+    "dateOnly": false
+  },
+  {
+    "id": "profilePicture^true^STRING",
+    "internalName": "user.CustomAttribute.profilePicture",
+    "name": "profilePicture",
+    "displayName": "profilePicture",
+    "text": "profilePicture",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471261000,
+    "creator": null,
+    "function": "${user.CustomAttribute['profilePicture']}",
+    "dateOnly": false
+  },
+  {
+    "id": "test_custom^true^STRING",
+    "internalName": "user.CustomAttribute.test_custom",
+    "name": "test_custom",
+    "displayName": "test_custom",
+    "text": "test_custom",
+    "type": "string",
+    "archived": true,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1609759120000,
+    "creator": null,
+    "function": "${user.CustomAttribute['test_custom']}",
+    "dateOnly": false
+  },
+  {
+    "id": "date_mig^true^DATE",
+    "internalName": "user.CustomAttribute.date_mig",
+    "name": "date_mig",
+    "displayName": null,
+    "text": "date_mig",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1630657355000,
+    "creator": "sss, mikelsk",
+    "function": "${user.CustomAttribute['date_mig']}",
+    "dateOnly": false
+  },
+  {
+    "id": "favcolor^true^STRING",
+    "internalName": "user.CustomAttribute.favcolor",
+    "name": "favcolor",
+    "displayName": null,
+    "text": "favcolor",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1128",
+        "value": "gold"
+      },
+      {
+        "id": "1129",
+        "value": "red"
+      },
+      {
+        "id": "1130",
+        "value": "orange"
+      },
+      {
+        "id": "1131",
+        "value": "green"
+      },
+      {
+        "id": "1132",
+        "value": "blue"
+      },
+      {
+        "id": "1133",
+        "value": "white"
+      },
+      {
+        "id": "1134",
+        "value": "yellow"
+      },
+      {
+        "id": "1135",
+        "value": "purple"
+      },
+      {
+        "id": "1136",
+        "value": "silver"
+      },
+      {
+        "id": "1137",
+        "value": "maroon"
+      },
+      {
+        "id": "1138",
+        "value": "grey"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['favcolor']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingTotal^true^NUMBER",
+    "internalName": "user.CustomAttribute.shippingTotal",
+    "name": "shippingTotal",
+    "displayName": "shippingTotal",
+    "text": "shippingTotal",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800555000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingTotal']}",
+    "dateOnly": false
+  },
+  {
+    "id": "LastClickDate^true^DATE",
+    "internalName": "user.CustomAttribute.LastClickDate",
+    "name": "LastClickDate",
+    "displayName": null,
+    "text": "LastClickDate",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1656412717000,
+    "creator": null,
+    "function": "${user.CustomAttribute['LastClickDate']}",
+    "dateOnly": false
+  },
+  {
+    "id": "sport_preference^true^STRING",
+    "internalName": "user.CustomAttribute.sport_preference",
+    "name": "sport_preference",
+    "displayName": null,
+    "text": "sport_preference",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1241",
+        "value": "basketball"
+      },
+      {
+        "id": "1242",
+        "value": "handball"
+      },
+      {
+        "id": "1243",
+        "value": "volleyball"
+      },
+      {
+        "id": "1244",
+        "value": "football"
+      }
+    ],
+    "creationDate": 1637843613000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['sport_preference']}",
+    "dateOnly": false
+  },
+  {
+    "id": "rdattribute^true^STRING",
+    "internalName": "user.CustomAttribute.rdattribute",
+    "name": "rdattribute",
+    "displayName": null,
+    "text": "rdattribute",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666187415000,
+    "creator": "Szczepanek, Piotr",
+    "function": "${user.CustomAttribute['rdattribute']}",
+    "dateOnly": false
+  },
+  {
+    "id": "import_test_interest_ie^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.import_test_interest_ie",
+    "name": "import_test_interest_ie",
+    "displayName": null,
+    "text": "import_test_interest_ie",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1641388097000,
+    "creator": "test, qa",
+    "function": "${user.CustomAttribute['import_test_interest_ie']}",
+    "dateOnly": false
+  },
+  {
+    "id": "onlydate^true^DATE",
+    "internalName": "user.CustomAttribute.onlydate",
+    "name": "onlydate",
+    "displayName": null,
+    "text": "onlydate",
+    "type": "date",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1642425616000,
+    "creator": "Orzozmiana, ChangeTheDateab",
+    "function": "${user.CustomAttribute['onlydate']}",
+    "dateOnly": true
+  },
+  {
+    "id": "connect_name_test_v15^true^STRING",
+    "internalName": "user.CustomAttribute.connect_name_test_v15",
+    "name": "connect_name_test_v15",
+    "displayName": null,
+    "text": "connect_name_test_v15",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1044",
+        "value": "whateveryouwant_v15"
+      }
+    ],
+    "creationDate": 1605875496000,
+    "creator": "aaa, Rafał",
+    "function": "${user.CustomAttribute['connect_name_test_v15']}",
+    "dateOnly": false
+  },
+  {
+    "id": "obfuscatedEmailAddress^true^STRING",
+    "internalName": "user.CustomAttribute.obfuscatedEmailAddress",
+    "name": "obfuscatedEmailAddress",
+    "displayName": null,
+    "text": "obfuscatedEmailAddress",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1643726983000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['obfuscatedEmailAddress']}",
+    "dateOnly": false
+  },
+  {
+    "id": "billingAddressAddressOne^true^STRING",
+    "internalName": "user.CustomAttribute.billingAddressAddressOne",
+    "name": "billingAddressAddressOne",
+    "displayName": "billingAddressAddressOne",
+    "text": "billingAddressAddressOne",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800743000,
+    "creator": null,
+    "function": "${user.CustomAttribute['billingAddressAddressOne']}",
+    "dateOnly": false
+  },
+  {
+    "id": "middle_name^true^STRING",
+    "internalName": "user.CustomAttribute.middle_name",
+    "name": "middle_name",
+    "displayName": null,
+    "text": "middle_name",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1603100859000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['middle_name']}",
+    "dateOnly": false
+  },
+  {
+    "id": "connect_name_test_v12^true^STRING",
+    "internalName": "user.CustomAttribute.connect_name_test_v12",
+    "name": "connect_name_test_v12",
+    "displayName": null,
+    "text": "connect_name_test_v12",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1048",
+        "value": "whateveryouwant_v12"
+      }
+    ],
+    "creationDate": 1605875496000,
+    "creator": "aaa, Rafał",
+    "function": "${user.CustomAttribute['connect_name_test_v12']}",
+    "dateOnly": false
+  },
+  {
+    "id": "connect_name_test_v11^true^STRING",
+    "internalName": "user.CustomAttribute.connect_name_test_v11",
+    "name": "connect_name_test_v11",
+    "displayName": null,
+    "text": "connect_name_test_v11",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1050",
+        "value": "whateveryouwant_v11"
+      }
+    ],
+    "creationDate": 1605875496000,
+    "creator": "aaa, Rafał",
+    "function": "${user.CustomAttribute['connect_name_test_v11']}",
+    "dateOnly": false
+  },
+  {
+    "id": "shippingAddressLastName^true^STRING",
+    "internalName": "user.CustomAttribute.shippingAddressLastName",
+    "name": "shippingAddressLastName",
+    "displayName": "shippingAddressLastName",
+    "text": "shippingAddressLastName",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666800922000,
+    "creator": null,
+    "function": "${user.CustomAttribute['shippingAddressLastName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "connect_name_test_v14^true^STRING",
+    "internalName": "user.CustomAttribute.connect_name_test_v14",
+    "name": "connect_name_test_v14",
+    "displayName": null,
+    "text": "connect_name_test_v14",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1052",
+        "value": "whateveryouwant_v14"
+      }
+    ],
+    "creationDate": 1605875496000,
+    "creator": "aaa, Rafał",
+    "function": "${user.CustomAttribute['connect_name_test_v14']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Storeview^true^STRING",
+    "internalName": "user.CustomAttribute.Storeview",
+    "name": "Storeview",
+    "displayName": null,
+    "text": "Storeview",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1060",
+        "value": "it"
+      }
+    ],
+    "creationDate": 1614249183000,
+    "creator": "Szczepanek, Piotr",
+    "function": "${user.CustomAttribute['Storeview']}",
+    "dateOnly": false
+  },
+  {
+    "id": "magicShortsQuantity^true^STRING",
+    "internalName": "user.CustomAttribute.magicShortsQuantity",
+    "name": "magicShortsQuantity",
+    "displayName": null,
+    "text": "magicShortsQuantity",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1640183385000,
+    "creator": null,
+    "function": "${user.CustomAttribute['magicShortsQuantity']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Manage^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.Manage",
+    "name": "Manage",
+    "displayName": "Manage",
+    "text": "Manage",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1667374683000,
+    "creator": "Gurak-Brzozowski, Arturo",
+    "function": "${user.CustomAttribute['Manage']}",
+    "dateOnly": false
+  },
+  {
+    "id": "connect_name_test_v13^true^STRING",
+    "internalName": "user.CustomAttribute.connect_name_test_v13",
+    "name": "connect_name_test_v13",
+    "displayName": null,
+    "text": "connect_name_test_v13",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1054",
+        "value": "whateveryouwant_v13"
+      }
+    ],
+    "creationDate": 1605875496000,
+    "creator": "aaa, Rafał",
+    "function": "${user.CustomAttribute['connect_name_test_v13']}",
+    "dateOnly": false
+  },
+  {
+    "id": "hair_type^true^STRING",
+    "internalName": "user.CustomAttribute.hair_type",
+    "name": "hair_type",
+    "displayName": null,
+    "text": "hair_type",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [],
+    "creationDate": 1600503610000,
+    "creator": null,
+    "function": "${user.CustomAttribute['hair_type']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Marital^true^STRING",
+    "internalName": "user.CustomAttribute.Marital",
+    "name": "Marital",
+    "displayName": null,
+    "text": "Marital",
+    "type": "string",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1108",
+        "value": "Single Parent"
+      },
+      {
+        "id": "1109",
+        "value": "Partnership"
+      },
+      {
+        "id": "1110",
+        "value": "Married"
+      },
+      {
+        "id": "1111",
+        "value": "Single"
+      },
+      {
+        "id": "1112",
+        "value": "Divorced"
+      },
+      {
+        "id": "1113",
+        "value": "Widowed"
+      },
+      {
+        "id": "1114",
+        "value": "Engaged"
+      }
+    ],
+    "creationDate": 1620215615000,
+    "creator": "Kraus, Michael",
+    "function": "${user.CustomAttribute['Marital']}",
+    "dateOnly": false
+  },
+  {
+    "id": "stateRegistration^true^STRING",
+    "internalName": "user.CustomAttribute.stateRegistration",
+    "name": "stateRegistration",
+    "displayName": "stateRegistration",
+    "text": "stateRegistration",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471277000,
+    "creator": null,
+    "function": "${user.CustomAttribute['stateRegistration']}",
+    "dateOnly": false
+  },
+  {
+    "id": "isSubscriber^true^BOOLEAN",
+    "internalName": "user.CustomAttribute.isSubscriber",
+    "name": "isSubscriber",
+    "displayName": "isSubscriber",
+    "text": "isSubscriber",
+    "type": "boolean",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1666341607000,
+    "creator": null,
+    "function": "${user.CustomAttribute['isSubscriber']}",
+    "dateOnly": false
+  },
+  {
+    "id": "qa_test^true^NUMBER",
+    "internalName": "user.CustomAttribute.qa_test",
+    "name": "qa_test",
+    "displayName": null,
+    "text": "qa_test",
+    "type": "number",
+    "archived": false,
+    "enumerated": true,
+    "standard": false,
+    "values": [
+      {
+        "id": "1231",
+        "value": "1"
+      },
+      {
+        "id": "1232",
+        "value": "2"
+      },
+      {
+        "id": "1233",
+        "value": "3"
+      },
+      {
+        "id": "1234",
+        "value": "4"
+      }
+    ],
+    "creationDate": 1636472180000,
+    "creator": null,
+    "function": "${user.CustomAttribute['qa_test']}",
+    "dateOnly": false
+  },
+  {
+    "id": "localeDefault^true^STRING",
+    "internalName": "user.CustomAttribute.localeDefault",
+    "name": "localeDefault",
+    "displayName": "localeDefault",
+    "text": "localeDefault",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471338000,
+    "creator": null,
+    "function": "${user.CustomAttribute['localeDefault']}",
+    "dateOnly": false
+  },
+  {
+    "id": "ModalitàDiConsegna^true^STRING",
+    "internalName": "user.CustomAttribute.ModalitàDiConsegna",
+    "name": "ModalitàDiConsegna",
+    "displayName": null,
+    "text": "ModalitàDiConsegna",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1656327773000,
+    "creator": "Szczepanek, Piotr",
+    "function": "${user.CustomAttribute['ModalitàDiConsegna']}",
+    "dateOnly": false
+  },
+  {
+    "id": "Sport^true^STRING",
+    "internalName": "user.CustomAttribute.Sport",
+    "name": "Sport",
+    "displayName": null,
+    "text": "Sport",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1637837514000,
+    "creator": "Zivic, Slobodan",
+    "function": "${user.CustomAttribute['Sport']}",
+    "dateOnly": false
+  },
+  {
+    "id": "age^true^NUMBER",
+    "internalName": "user.CustomAttribute.age",
+    "name": "age",
+    "displayName": null,
+    "text": "age",
+    "type": "number",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1600264644000,
+    "creator": null,
+    "function": "${user.CustomAttribute['age']}",
+    "dateOnly": false
+  },
+  {
+    "id": "corporateName^true^STRING",
+    "internalName": "user.CustomAttribute.corporateName",
+    "name": "corporateName",
+    "displayName": "corporateName",
+    "text": "corporateName",
+    "type": "string",
+    "archived": false,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1674471973000,
+    "creator": null,
+    "function": "${user.CustomAttribute['corporateName']}",
+    "dateOnly": false
+  },
+  {
+    "id": "msg_bestSendoutTime^true^STRING",
+    "internalName": "user.CustomAttribute.msg_bestSendoutTime",
+    "name": "msg_bestSendoutTime",
+    "displayName": null,
+    "text": "msg_bestSendoutTime",
+    "type": "string",
+    "archived": true,
+    "enumerated": false,
+    "standard": false,
+    "values": [],
+    "creationDate": 1645432665000,
+    "creator": "Djordjevic, Igor",
+    "function": "${user.CustomAttribute['msg_bestSendoutTime']}",
+    "dateOnly": false
+  }
+]

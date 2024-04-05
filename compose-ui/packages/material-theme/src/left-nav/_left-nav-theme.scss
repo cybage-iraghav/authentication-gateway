@@ -1,0 +1,50 @@
+@use "sass:map";
+
+@mixin mui-left-nav-theme($theme, $legacy: false) {
+  $nav-colors: map.get($theme, "colors", "top_nav");
+  $left_nav-colors: map.get($theme, "colors", "left_nav");
+
+  .leftnav-main {
+    background-color: map.get($left_nav-colors, "background");
+  }
+
+  .leftnav-sub {
+    background-color: map.get($left_nav-colors, "sub_bg");
+  }
+
+  .nav-item.main:hover, .nav-item.main.active {
+    @if $legacy {
+      background-color: map.get($nav-colors, "hover");
+      box-shadow: inset 4px 0 0 0 map.get($nav-colors, "active");
+    } @else {
+      background-color: map-get($nav-colors, "hover");
+      //box-shadow: inset 4px 0 0 0 map-get($nav-colors, "hover");
+    }
+  }
+
+  .nav-item.main.highlight {
+    background-color: map.get($nav-colors, "active");
+    box-shadow: none;
+  }
+  .nav-item.sub:hover {
+    @if $legacy {
+      background-color: map.get($left_nav-colors, "sub_hover");
+      box-shadow: inset -4px 0 0 0 map.get($nav-colors, "active");
+
+    } @else {
+      background-color: map.get($left_nav-colors, "sub_hover");
+      box-shadow: inset -4px 0 0 0 map.get($nav-colors, "hover");
+    }
+  }
+
+  .nav-item.sub.highlight {
+    @if $legacy {
+      color: map.get($nav-colors, "active");
+      background-color: map.get($left_nav-colors, "sub_bg");
+    } @else {
+      color: rgba(white, 0.83);
+      background-color: map.get($nav-colors, "active");
+    }
+  }
+
+}

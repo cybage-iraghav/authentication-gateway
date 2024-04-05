@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head>
+  <meta charset="utf-8">
+  <title>Top Navigation Element</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Make sure to include this font as well, as it's needed by the component -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+  <!-- Also include the stylesheet below -->
+
+<link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
+<body>
+  <div class="mui-app-container">
+    <engage-top-navigation id="topNav" api-url="assets/all-navigation.json" help-link="my-custom-help-key" service-version-info="My service: 1.2.3"></engage-top-navigation>
+  </div>
+
+  <!-- For production, use the concatenated script instead of the single script references below  -->
+  <!-- <script src="engage-top-navigation.js" defer></script>  -->
+
+  <script>
+    // As alternative to using help-link attribute as seen above, programmatic update is also supported.
+    // Just grab the element and assign a value to its attribute 'helpLink'
+    // Properties which are not expressed as element attributes in the DOM might not be available immediately.
+    // In such case, wrap in some DOM ready callback.
+    document.addEventListener('DOMContentLoaded', () => {
+      const topNav = document.getElementById('topNav');
+      topNav.helpLink = 'my-updated-help-topic';
+      // or assign like this alternatively:
+      // topNav.setAttribute('help-link', 'my-updated-help-topic');
+
+      // Adding service info can also be done like below, in addition or as alternative to markup.
+      // Subsequent usages / value changes will each be treated as additional entry, given there is some time
+      // between the invocations. So in this example, the dialog will carry both "My service" and "Some other service"
+      topNav.setAttribute('service-version-info', 'Some other service: 1.0.25');
+
+    });
+  </script>
+<script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script>
+
+</body></html>

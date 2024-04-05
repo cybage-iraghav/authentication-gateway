@@ -1,0 +1,6 @@
+@mixin mui-app-header-theme($theme) {
+  .mui-app-header {
+    background-color: map-get($theme, "colors", "top_nav", "background");
+    color: map-get($theme, "colors", "text", "white");
+  }
+}

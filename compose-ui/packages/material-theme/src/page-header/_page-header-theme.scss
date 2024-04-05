@@ -1,0 +1,43 @@
+@use "sass:map";
+@use "../core/theming/theme";
+@use "@angular/material" as mat;
+
+@mixin mui-page-header-theme($theme, $legacy: false) {
+  $text-color: map.get($theme, "colors", "text", "main");
+
+  .mui-page-header {
+    background-color: map.get($theme, "colors", "main", "bg-white");
+
+    @if $legacy {
+      color: $text-color;
+    } @else {
+      color: rgba($text-color, 0.87);
+    }
+  }
+
+  .mui-page-header-title {
+    @if $legacy {
+      font-size: 24px;
+      letter-spacing: 0.025em;
+      color: $text-color;
+    } @else {
+      font-size: mat.font-size(theme.$mui-typography, headline-5);
+      font-weight: mat.font-weight(theme.$mui-typography, headline-5);
+      color: rgba($text-color, 0.87);
+    }
+
+  }
+
+  .mui-page-header-subtitle [muiPageHeaderSubtitle] {
+    padding-bottom: 18px;
+    @if $legacy {
+      color: #9e9e9e;
+      font-size: 14px;
+    } @else {
+      color: rgba($text-color, 0.70);
+      font-size: mat.font-size(theme.$mui-typography, subtitle-2);
+      font-weight: mat.font-weight(theme.$mui-typography, subtitle-2);
+    }
+  }
+
+}

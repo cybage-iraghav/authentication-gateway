@@ -1,0 +1,73 @@
+@use "sass:map";
+@use "../core/theming/unify-colors" as c;
+@use "../core/theming/material-palettes" as p;
+@use "@angular/material" as mat;
+
+@mixin mui-progress-bar-theme($theme) {
+  $typography: mat.get-typography-config($theme);
+
+  // container for the stepper action buttons
+  .mui-step-actions {
+    display: flex;
+    width: 100%;
+    padding: 12px 24px;
+    justify-content: center;
+    column-gap: 24px;
+    box-sizing: border-box;
+    z-index: 2;
+
+    background-color: map.get(c.$main, "bg-white");
+    box-shadow: 0 0 4px rgba(204, 211, 223, 0.4);
+  }
+
+  .mui-progress-bar-title {
+    color: mat.get-color-from-palette(p.$mui-primary, 600);
+  }
+
+.mui-step-header {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: mat.font-family($typography);
+  line-height: 24px;
+
+  //.mui-step-icon-error {
+  //  color: map.get(c.$info, error);
+  //}
+
+  .mui-step-icon-complete {
+    color: map.get(c.$info, success);
+  }
+
+  .mui-step-label {
+    color: map.get(c.$text, "primary-disblue");
+  }
+
+  .mui-step-label-active {
+    text-decoration: underline;
+    color: mat.get-color-from-palette(p.$mui-primary, 500);
+  }
+
+  .mui-step-label-selected {
+    color: mat.get-color-from-palette(p.$mui-primary, 800);
+  }
+}
+
+  .mui-step-divider {
+    color: map.get(c.$main, "primary");
+  }
+
+  .mui-progress-bar-form {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .mui-progress-bar-content-container {
+    .mat-card, .mat-mdc-card {
+      border: 1px solid map.get(c.$on_primary, "lightblue");
+      border-radius: 8px;
+      box-shadow: none;
+      transition: none;
+    }
+  }
+
+}

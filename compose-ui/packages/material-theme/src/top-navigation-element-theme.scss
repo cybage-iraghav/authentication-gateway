@@ -1,0 +1,66 @@
+/** Styles for standalone top-navigation component - Angular Elements version */
+
+@use "core/theming/unify-colors" as c;
+@use "core/theming/theme";
+@use "mui-components" as comp;
+@use "@angular/material" as mat;
+
+/* Material core styles */
+$theme: theme.$theme_typography;
+@include mat.typography-hierarchy($theme);
+@include mat.core();
+
+// Include theme styles for material components used in top navigation
+@include mat.core-theme($theme);
+@include mat.menu-theme($theme);
+@include mat.button-theme($theme);
+@include mat.icon-button-theme($theme);
+@include mat.badge-theme($theme);
+@include mat.input-theme($theme);
+@include mat.form-field-theme($theme);
+@include mat.slide-toggle-theme($theme);
+@include mat.tabs-theme($theme);
+@include mat.dialog-theme($theme);
+@include mat.select-theme($theme);
+@include mat.icon-theme($theme);
+@include mat.snack-bar-theme($theme);
+
+/* Mapp custom component styles and overrides */
+$mui-components-theme: (
+    "colors": c.$all-colors,
+    "font-family": '"Open Sans", sans-serif',
+);
+@import "badge/mui-nc-badge";
+@include comp.mui-notifications-theme($mui-components-theme, theme.$theme);
+@import "top-nav/top-nav-theme";
+@import "dialog/mui-dialogs";
+@import "icons/icons";
+
+/* Additional styles & fixes */
+mui-edit-profile, mui-edit-password {
+  .form-container {
+    font-size: 14px;
+  }
+}
+
+// counteract some invasive bootstrap styling on start page
+.mui-navitem-button {
+  text-decoration: none;
+
+  .mat-mdc-slide-toggle-label {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .02px;
+    line-height: inherit;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+}
+
+.mat-mdc-menu-panel.mui-navitem-menu {
+  .mat-mdc-menu-item:hover, .mat-mdc-menu-item:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+

@@ -1,0 +1,57 @@
+@use "sass:map";
+
+@mixin mui-stepper-theme($theme) {
+  $primary-bg: map.get($theme, "colors", "main", "primary");
+  $warn-bg: map.get($theme, "colors", "info", "error");
+  $text: map.get($theme, "colors", "text", "main");
+
+  .mui-stepper li.mui-state-active:before {
+    background-color: $primary-bg;
+  }
+
+  .mui-stepper li.mui-state-done:before {
+    background-color: $primary-bg;
+  }
+
+  .mui-stepper li.mui-state-error:before {
+    color: $warn-bg;
+  }
+
+  .mui-stepper li.mui-state-active .mui-step-name {
+    color: $text;
+  }
+
+  .mui-stepper li.mui-state-active .mui-step-info {
+    color: rgba($text, 0.7);
+  }
+
+  .mui-stepper li.mui-state-active.mui-state-error .mui-step-name,
+  .mui-stepper li.mui-state-active.mui-state-error .mui-step-info {
+    color: $warn-bg;
+  }
+
+  .mui-stepper li.mui-clickable:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+
+  .mui-stepper li:before {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.38);
+  }
+
+  .mui-stepper li:after {
+    background-color: #bdbdbd;
+  }
+
+  .mui-stepper .mui-step-name {
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .mui-stepper .mui-step-info {
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 12px;
+  }
+
+}
